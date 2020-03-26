@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -79,81 +79,122 @@ title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 
 
 <small><em>
-This manuscript
-([permalink](https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/))
+This document
+([permalink](https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/))
 was automatically generated
-from [uiuc-cee-eds/syllabus@27ad1c7](https://github.com/uiuc-cee-eds/syllabus/tree/27ad1c779ef261e0d2379de380f45e6b27f6abd5)
+from [uiuc-cee-eds/syllabus@3c89e50](https://github.com/uiuc-cee-eds/syllabus/tree/3c89e5032b642625549f10c5cae9e2a50707b806)
 on March 26, 2020.
 </em></small>
 
-## Authors
 
 
 
 
 
-## Basic Course Information {.page_break_before}
 
-o Department
-o Course title and course number
-o Number of units/credits
-o Semester
-o Meeting time and location
+## Basic Course Information
+
+* Department: Civil and Environmental Engineering
+* Title: CEE 498EDS: Environmental Data Science
+* Credits: 3 for Undergraduates, 4 for Graduate Students
+* Semester: Fall 2020
+* Meeting time and location: TBD
 
 ## Basic Instructor Information
-o Name of instructor (title and rank)
-o Office address and phone number
-o (home phone number)
-o Email address (with some indication of time to allow for response)
-o Office hours
-o Preferred method of contact
-o Names and contact information for teaching assistants: essential if they are graders or
-tutors only, not essential if they do have their own discussion section, for example, since
-the TAs should be instructed to provide that information in their own discussion
-sections
+
+* Instructor: Prof. Christopher Tessum, PhD, he/him/his
+* Office: 3213 Newmark Civil Engineering Laboratory
+* Office hours: TBD
+* Please contact me through Canvas, rather than through email
+* Names and contact information for teaching assistants: TBD
 
 ## Description of the course
-o Introduction to the subject matter, what the course is about
-o How the course fits in the college or department curriculum
-o Why students would want to learn the material
-o Overall course goals or objectives: 3-5 major objectives you expect all students to
-strive for (unit objectives may be included in the syllabus or handed out as a separate
-document)
-o Format of the course
+
+Welcome to Environmental Data Science!
+This semester, you  will learn to leverage data to study environmental problems, identify patterns, and make actionable insights.
+This course combines training in digital and computer tools—including distributed computing, exploratory data analysis, and statistical modeling and deep learning—with application of those tools to environmental issues.
+
+By the end of the semester, you will be able to:
+1. Use software tools for data processing and visualization, machine learning, and deep learning to
+2. Retrieve, manipulate, and analyze environmental data; and
+3. Make inferences and predictions about the environment.
+
+This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of environmental data that is being collected and stored.
+
+* Format of the course
 
 ## Instructor’s Philosophy
-o Conceptual structure used to organize the course, why it is organized the way it is
-o Philosophy of teaching and learning
+* Conceptual structure used to organize the course, why it is organized the way it is
+* Philosophy of teaching and learning
 
 ## Prerequisites
-o Courses that students should have successfully completed
-o Knowledge students are expected to have
+
+CEE 202; CS 101 or equivalent. Familiarity with Python is recommended before the start of the course, for example through the [Google Python class.](https://developers.google.com/edu/python)
 
 ## Course Requirements and Assessment Overview
-o Nature of assignments and exams (details can be in a separate handout)
-o Deadlines and test dates
-o Description of grading procedures
-o Description of how grades will be assigned, components of final grade, weights,
+* Nature of assignments and exams (details can be in a separate handout)
+* Deadlines and test dates
+* Description of grading procedures
+* Description of how grades will be assigned, components of final grade, weights,
 grading scale
 
 ## Learning Resources
-o Textbook and other required materials
-o Supplemental readings, etc.
-o Campus resources—tutoring, writing, counseling, etc.
-o Estimate of student work load
-o Hints for how to study, take note, etc.
-o Availability of past exams, etc.
+* Textbook and other required materials
+* Supplemental readings, etc.
+* Campus resources—tutoring, writing, counseling, etc.
+* Estimate of student work load
+* Hints for how to study, take note, etc.
+* Availability of past exams, etc.
 
 # Course Policies
-o University-based policies—academic integrity
-o Course specific polices—late assignments, make-up exams, attendance,
+* University-based policies—academic integrity
+* Course specific polices—late assignments, make-up exams, attendance,
 participation, etc.
-o Statement on accommodations
-o Important dates such as drop dates, final exam date, etc.
+* Statement on accommodations
+* Important dates such as drop dates, final exam date, etc.
 
 
-## Course Calendar or Schedule {.page_break_before}
+## Course Schedule
 
-o Sequence of course topics with tentative (or firm) dates
-o Due dates for assignments, exams
-o Preparations or readings
+* Sequence of course topics with tentative (or firm) dates
+* Due dates for assignments, exams
+* Preparations or readings
+
+* Week 1: Open Reproduceable Science
+    * FAIR Principles
+    * Git
+    * Jupyter
+    * https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/
+
+* Weeks 2-3: Exploratory data analysis
+    * Pandas
+    * matplotlib
+    * Statistics
+    * visualization
+
+* Week 4-5: Geospatial data
+    * raster vs. vector formats
+    * joins and boolean operations
+    * Spatial statistics
+
+* Weeks 6-7: Big data
+    * Pangeo
+    * Cloud / High-performance computing
+
+* Week 7-9: Supervised learning
+    * Regression and classification
+    * Gradient descent
+    * Random forest
+
+* Week 10: Unsupervised learning
+    * K-means
+    * PCA
+
+* Week 11-13: Deep learning
+    * Neural networks
+    * Convolutional neural networks
+    * Recurrent neural networks
+    * Attention
+    * GANs
+
+* Week 14-16: Projects / make-up time
