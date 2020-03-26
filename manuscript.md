@@ -1,9 +1,6 @@
 ---
-author-meta:
-- John Doe
-- Jane Roe
-bibliography:
-- content/manual-references.json
+author-meta: []
+bibliography: []
 date-meta: '2020-03-26'
 header-includes: '<!--
 
@@ -15,13 +12,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
   <meta name="dc.date" content="2020-03-26" />
 
@@ -39,22 +36,6 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
   <link rel="canonical" href="https://uiuc-cee-eds.github.io/syllabus/" />
 
   <meta property="og:url" content="https://uiuc-cee-eds.github.io/syllabus/" />
@@ -67,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/034be42934ef399c07ab051f41df8b2e2d7593aa/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/034be42934ef399c07ab051f41df8b2e2d7593aa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/034be42934ef399c07ab051f41df8b2e2d7593aa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,16 +65,12 @@ header-includes: '<!--
   <meta name="theme-color" content="#ad1457" />
 
   <!-- end Manubot generated metadata -->'
-keywords:
-- markdown
-- publishing
-- manubot
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 ...
 
 
@@ -103,9 +80,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://uiuc-cee-eds.github.io/syllabus/v/034be42934ef399c07ab051f41df8b2e2d7593aa/))
+([permalink](https://uiuc-cee-eds.github.io/syllabus/v/27ad1c779ef261e0d2379de380f45e6b27f6abd5/))
 was automatically generated
-from [uiuc-cee-eds/syllabus@034be42](https://github.com/uiuc-cee-eds/syllabus/tree/034be42934ef399c07ab051f41df8b2e2d7593aa)
+from [uiuc-cee-eds/syllabus@27ad1c7](https://github.com/uiuc-cee-eds/syllabus/tree/27ad1c779ef261e0d2379de380f45e6b27f6abd5)
 on March 26, 2020.
 </em></small>
 
@@ -113,35 +90,70 @@ on March 26, 2020.
 
 
 
-+ **John Doe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
-  <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
-  </small>
 
 
+## Basic Course Information {.page_break_before}
 
-## Abstract {.page_break_before}
+o Department
+o Course title and course number
+o Number of units/credits
+o Semester
+o Meeting time and location
+
+## Basic Instructor Information
+o Name of instructor (title and rank)
+o Office address and phone number
+o (home phone number)
+o Email address (with some indication of time to allow for response)
+o Office hours
+o Preferred method of contact
+o Names and contact information for teaching assistants: essential if they are graders or
+tutors only, not essential if they do have their own discussion section, for example, since
+the TAs should be instructed to provide that information in their own discussion
+sections
+
+## Description of the course
+o Introduction to the subject matter, what the course is about
+o How the course fits in the college or department curriculum
+o Why students would want to learn the material
+o Overall course goals or objectives: 3-5 major objectives you expect all students to
+strive for (unit objectives may be included in the syllabus or handed out as a separate
+document)
+o Format of the course
+
+## Instructor’s Philosophy
+o Conceptual structure used to organize the course, why it is organized the way it is
+o Philosophy of teaching and learning
+
+## Prerequisites
+o Courses that students should have successfully completed
+o Knowledge students are expected to have
+
+## Course Requirements and Assessment Overview
+o Nature of assignments and exams (details can be in a separate handout)
+o Deadlines and test dates
+o Description of grading procedures
+o Description of how grades will be assigned, components of final grade, weights,
+grading scale
+
+## Learning Resources
+o Textbook and other required materials
+o Supplemental readings, etc.
+o Campus resources—tutoring, writing, counseling, etc.
+o Estimate of student work load
+o Hints for how to study, take note, etc.
+o Availability of past exams, etc.
+
+# Course Policies
+o University-based policies—academic integrity
+o Course specific polices—late assignments, make-up exams, attendance,
+participation, etc.
+o Statement on accommodations
+o Important dates such as drop dates, final exam date, etc.
 
 
+## Course Calendar or Schedule {.page_break_before}
 
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
+o Sequence of course topics with tentative (or firm) dates
+o Due dates for assignments, exams
+o Preparations or readings
