@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-03-26'
+date-meta: '2020-03-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-03-26" />
+  <meta name="dc.date" content="2020-03-27" />
 
-  <meta name="citation_publication_date" content="2020-03-26" />
+  <meta name="citation_publication_date" content="2020-03-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -80,10 +80,10 @@ title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 
 <small><em>
 This document
-([permalink](https://uiuc-cee-eds.github.io/syllabus/v/3c89e5032b642625549f10c5cae9e2a50707b806/))
+([permalink](https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/))
 was automatically generated
-from [uiuc-cee-eds/syllabus@3c89e50](https://github.com/uiuc-cee-eds/syllabus/tree/3c89e5032b642625549f10c5cae9e2a50707b806)
-on March 26, 2020.
+from [uiuc-cee-eds/syllabus@7636e3b](https://github.com/uiuc-cee-eds/syllabus/tree/7636e3b2223fbf11f4f232708f6b8812245710fa)
+on March 27, 2020.
 </em></small>
 
 
@@ -129,7 +129,7 @@ This course will help you to gain the skills and tools necessary to make the mos
 
 ## Prerequisites
 
-CEE 202; CS 101 or equivalent. Familiarity with Python is recommended before the start of the course, for example through the [Google Python class.](https://developers.google.com/edu/python)
+CEE 202; CS 101 or equivalent.
 
 ## Course Requirements and Assessment Overview
 * Nature of assignments and exams (details can be in a separate handout)
@@ -146,6 +146,10 @@ grading scale
 * Hints for how to study, take note, etc.
 * Availability of past exams, etc.
 
+Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
+
+Hands-On Machine Learning with Scikit-Learn & TensorFlow
+
 # Course Policies
 * University-based policies—academic integrity
 * Course specific polices—late assignments, make-up exams, attendance,
@@ -161,40 +165,84 @@ participation, etc.
 * Preparations or readings
 
 * Week 1: Open Reproduceable Science
-    * FAIR Principles
-    * Git
-    * Jupyter
-    * https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/
+    * Reading: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/
+    * In class lecture/tutorial:
+      * FAIR Principles
+      * Git/Github
+      * Jupyter
 
-* Weeks 2-3: Exploratory data analysis
-    * Pandas
-    * matplotlib
-    * Statistics
-    * visualization
+* Week 2: Data science for the environment
+  * Reading:
+    * https://arxiv.org/pdf/1906.05433.pdf
+    * https://pangeo.io/use_cases/index.html
+    * https://www.kaggle.com/
+    * https://earthengine.google.com/case_studies/
+    * Others from specific environmental disciplines
+  * In class:
+    * Students present on potential projects
 
-* Week 4-5: Geospatial data
-    * raster vs. vector formats
-    * joins and boolean operations
-    * Spatial statistics
+* Week 3: Programming review
+    * Reading/Lecture: https://developers.google.com/edu/python
+    * In class:
+      * Python & Jupyter exercises
 
-* Weeks 6-7: Big data
-    * Pangeo
-    * Cloud / High-performance computing
+* Week 4: Big data
+    * In class:
+      * Lecture:
+        * Cloud / High-performance computing
+        * Pangeo
+        * Earth engine
+      * Practice and discussion
+      * Choose project groups and topics
 
-* Week 7-9: Supervised learning
-    * Regression and classification
-    * Gradient descent
-    * Random forest
+* Week 6: Exploratory data analysis (EDA)
+    * Reading/Lecture:
+      * https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/
+      * https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/
+      * https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/
+      * And/or accompanying video lectures
+    * In class:
+      * Statistics review lecture
+      * Students present initial EDA for their projects
 
-* Week 10: Unsupervised learning
-    * K-means
-    * PCA
+* Week 7: Geospatial data
+    * Reading: https://github.com/geopandas/scipy2018-geospatial-data
+    * In class lecture:
+      * raster vs. vector formats
+      * joins and boolean operations
 
-* Week 11-13: Deep learning
-    * Neural networks
-    * Convolutional neural networks
-    * Recurrent neural networks
-    * Attention
-    * GANs
+* Week 8: Spatial statistics
+  * Reading: http://pysal.org/notebooks/intro
+  * In class dicussion:
+    * Applicability of spatial statistics to student projects
 
-* Week 14-16: Projects / make-up time
+* Week 9: Mid-term project presentations
+  * Students should be able to access, characterize, and visualize the data for their projects.
+
+* Week 10: Supervised learning
+  * Reading/lecture:
+    * https://developers.google.com/machine-learning/crash-course/framing/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit
+    * https://developers.google.com/machine-learning/crash-course/generalization/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition
+  * In class:
+    * Application to student projects
+
+* Week 11: Unsupervised learning
+  * Reading/Lecture: https://mlcourse.ai/articles/topic7-unsupervised/
+  * In class:
+    * Application to student projects
+
+* Week 12: Deep learning
+  * Reading/lectures:
+    * https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/training-neural-networks/video-lecture
+    * https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture
+  * In class:
+    * Hyperparameter optimization
+    * Application to student projects
+
+* Week 13-16: Projects
