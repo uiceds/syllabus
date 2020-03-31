@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -78,13 +78,7 @@ title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 
 
 
-<small><em>
-This document
-([permalink](https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/))
-was automatically generated
-from [uiuc-cee-eds/syllabus@e8b1bdd](https://github.com/uiuc-cee-eds/syllabus/tree/e8b1bdd7893032695c55db85eaabfcd941ac5c06)
-on March 31, 2020.
-</em></small>
+
 
 
 
@@ -134,7 +128,7 @@ CEE 202; CS 101 or equivalent.
   * Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade
   * Homework problem sets: 20% of final grade
   * Midterm and final exams: 5% each of final grade
-  * Course project: 45% of final grade
+  * Course project: 50% of final grade: 5% each for each of 5 checkpoints, 10% for midterm presentation, and 15% for final presentation.
 * Grades will be assigned according to the attached rubrics.
 * Letter grades will be assigned according to the following scale:
   * 90%-100%: A
