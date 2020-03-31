@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-03-27'
+date-meta: '2020-03-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-03-27" />
+  <meta name="dc.date" content="2020-03-31" />
 
-  <meta name="citation_publication_date" content="2020-03-27" />
+  <meta name="citation_publication_date" content="2020-03-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -80,10 +80,10 @@ title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 
 <small><em>
 This document
-([permalink](https://uiuc-cee-eds.github.io/syllabus/v/7636e3b2223fbf11f4f232708f6b8812245710fa/))
+([permalink](https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/))
 was automatically generated
-from [uiuc-cee-eds/syllabus@7636e3b](https://github.com/uiuc-cee-eds/syllabus/tree/7636e3b2223fbf11f4f232708f6b8812245710fa)
-on March 27, 2020.
+from [uiuc-cee-eds/syllabus@e8b1bdd](https://github.com/uiuc-cee-eds/syllabus/tree/e8b1bdd7893032695c55db85eaabfcd941ac5c06)
+on March 31, 2020.
 </em></small>
 
 
@@ -102,10 +102,10 @@ on March 27, 2020.
 
 ## Basic Instructor Information
 
-* Instructor: Prof. Christopher Tessum, PhD, he/him/his
+* Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
 * Office hours: TBD
-* Please contact me through Canvas, rather than through email
+* email: ctessum@illinois.edu
 * Names and contact information for teaching assistants: TBD
 
 ## Description of the course
@@ -121,41 +121,33 @@ By the end of the semester, you will be able to:
 
 This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of environmental data that is being collected and stored.
 
-* Format of the course
-
-## Instructor’s Philosophy
-* Conceptual structure used to organize the course, why it is organized the way it is
-* Philosophy of teaching and learning
+Because data science methods are used across a number of different industries and instructional materials are readily available, this course will include readings and video lectures from across the internet.
+We will focus our face-to-face time on learning aspects of environmental data science that differ from data science as used by other fields, and on applying data science concepts to solving environmental problems.
+This course will be structured around semester-long projects; students will choose project topics at the beginning of the semester and will apply the concepts learned in the class to their projects as the semester progresses.
 
 ## Prerequisites
 
 CEE 202; CS 101 or equivalent.
 
 ## Course Requirements and Assessment Overview
-* Nature of assignments and exams (details can be in a separate handout)
-* Deadlines and test dates
-* Description of grading procedures
-* Description of how grades will be assigned, components of final grade, weights,
-grading scale
+* Grades will be assigned based on several types of deliverables:
+  * Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade
+  * Homework problem sets: 20% of final grade
+  * Midterm and final exams: 5% each of final grade
+  * Course project: 45% of final grade
+* Grades will be assigned according to the attached rubrics.
+* Letter grades will be assigned according to the following scale:
+  * 90%-100%: A
+  * 80%-89%: B
+  * 70%-79%: C
+  * 60%-69%: D
+  * <60%: F
 
 ## Learning Resources
-* Textbook and other required materials
-* Supplemental readings, etc.
-* Campus resources—tutoring, writing, counseling, etc.
-* Estimate of student work load
-* Hints for how to study, take note, etc.
-* Availability of past exams, etc.
-
-Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
-
-Hands-On Machine Learning with Scikit-Learn & TensorFlow
-
-# Course Policies
-* University-based policies—academic integrity
-* Course specific polices—late assignments, make-up exams, attendance,
-participation, etc.
-* Statement on accommodations
-* Important dates such as drop dates, final exam date, etc.
+* Students are expected to bring a laptop to class. Laptops can be [loaned from the library](https://www.library.illinois.edu/mc/lt/).
+* There is no required textbook. Some supplmental textbooks which students may find useful are:
+  * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
+  * Hands-On Machine Learning with Scikit-Learn & TensorFlow
 
 
 ## Course Schedule
@@ -164,7 +156,7 @@ participation, etc.
 * Due dates for assignments, exams
 * Preparations or readings
 
-* Week 1: Open Reproduceable Science
+* Week 1: Open Reproducible Science
     * Reading: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/
     * In class lecture/tutorial:
       * FAIR Principles
@@ -196,7 +188,7 @@ participation, etc.
       * Choose project groups and topics
 
 * Week 6: Exploratory data analysis (EDA)
-    * Reading/Lecture:
+    * Reading:
       * https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/
       * https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/
       * https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/
@@ -216,7 +208,7 @@ participation, etc.
   * In class dicussion:
     * Applicability of spatial statistics to student projects
 
-* Week 9: Mid-term project presentations
+* Week 9: Mid-way project presentations
   * Students should be able to access, characterize, and visualize the data for their projects.
 
 * Week 10: Supervised learning
@@ -245,4 +237,6 @@ participation, etc.
     * Hyperparameter optimization
     * Application to student projects
 
-* Week 13-16: Projects
+* Week 13-14: Projects
+
+* Week 15-16: Final exam; final project presentations
