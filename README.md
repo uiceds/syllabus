@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiuc-cee-eds/syllabus/tree/gh-pages) branch hosts the contents of this directory at <https://uiuc-cee-eds.github.io/syllabus/>.
-The permalink for this webpage version is <https://uiuc-cee-eds.github.io/syllabus/v/e8b1bdd7893032695c55db85eaabfcd941ac5c06/>.
+The permalink for this webpage version is <https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiuc-cee-eds.github.io/syllabus/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`e8b1bdd7893032695c55db85eaabfcd941ac5c06`](https://github.com/uiuc-cee-eds/syllabus/commit/e8b1bdd7893032695c55db85eaabfcd941ac5c06).
+[`0109daf1fd8456e01a1e659229a40d99c0c30f7e`](https://github.com/uiuc-cee-eds/syllabus/commit/0109daf1fd8456e01a1e659229a40d99c0c30f7e).
