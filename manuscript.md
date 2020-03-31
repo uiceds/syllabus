@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/55b91e2abe2c785a25b99eadc48f9dd951824454/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/55b91e2abe2c785a25b99eadc48f9dd951824454/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/0109daf1fd8456e01a1e659229a40d99c0c30f7e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/55b91e2abe2c785a25b99eadc48f9dd951824454/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -109,6 +109,7 @@ This semester, you  will learn to leverage data to study environmental problems,
 This course combines training in digital and computer tools—including distributed computing, exploratory data analysis, and statistical modeling and deep learning—with application of those tools to environmental issues.
 
 By the end of the semester, you will be able to:
+
 1. Use software tools for data processing and visualization, machine learning, and deep learning to
 2. Retrieve, manipulate, and analyze environmental data; and
 3. Make inferences and predictions about the environment.
@@ -145,10 +146,6 @@ CEE 202; CS 101 or equivalent.
 
 
 ## Course Schedule
-
-* Sequence of course topics with tentative (or firm) dates
-* Due dates for assignments, exams
-* Preparations or readings
 
 * Week 1: Open Reproducible Science
     * Reading: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/
