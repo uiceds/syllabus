@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-03-31'
+date-meta: '2020-04-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-03-31" />
+  <meta name="dc.date" content="2020-04-14" />
 
-  <meta name="citation_publication_date" content="2020-03-31" />
+  <meta name="citation_publication_date" content="2020-04-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/55b91e2abe2c785a25b99eadc48f9dd951824454/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/1fd3a5ab4ce8a84f2a1a2a44bd4e8761479868df/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/55b91e2abe2c785a25b99eadc48f9dd951824454/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/1fd3a5ab4ce8a84f2a1a2a44bd4e8761479868df/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/55b91e2abe2c785a25b99eadc48f9dd951824454/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/1fd3a5ab4ce8a84f2a1a2a44bd4e8761479868df/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -122,14 +122,16 @@ This course will be structured around semester-long projects; students will choo
 
 ## Prerequisites
 
-CEE 202; CS 101 or equivalent.
+CEE 202; CEE 330; CS 101 or equivalent.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade
   * Homework problem sets: 20% of final grade
-  * Midterm and final exams: 5% each of final grade
-  * Course project: 50% of final grade: 5% each for each of 5 checkpoints, 10% for midterm presentation, and 15% for final presentation.
+  * Midterm exam: 5% of final grade
+  * Final exam: 15% of final grade
+  * Course project: 40% of final grade: 5% each for each of 5 checkpoints, 5% for midterm presentation, and 10% for final presentation.
+* Graduate students are expected to register for 4 credits and undergraduates are expected to register for 3 credits. Correspondingly, course projects for graduate students are expected to include a machine learning component that is more complex than linear regression, whereas for undergraduates this is optional.
 * Grades will be assigned according to the attached rubrics.
 * Letter grades will be assigned according to the following scale:
   * 90%-100%: A
