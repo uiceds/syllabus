@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="dcterms.date" content="2020-04-14" />
+  <meta name="dcterms.date" content="2020-04-24" />
   <title>CEE 498EDS: Environmental Data Science, Fall 2020</title>
   <style>
     code{white-space: pre-wrap;}
@@ -26,8 +26,8 @@
   <meta name="citation_title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
   <meta property="og:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
   <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
-  <meta name="dc.date" content="2020-04-14" />
-  <meta name="citation_publication_date" content="2020-04-14" />
+  <meta name="dc.date" content="2020-04-24" />
+  <meta name="citation_publication_date" content="2020-04-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,9 +40,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiuc-cee-eds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/1fd3a5ab4ce8a84f2a1a2a44bd4e8761479868df/" />
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/1fd3a5ab4ce8a84f2a1a2a44bd4e8761479868df/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/1fd3a5ab4ce8a84f2a1a2a44bd4e8761479868df/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/82abb2e109548984b3f58b78168cbd1a2e8bafc8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/82abb2e109548984b3f58b78168cbd1a2e8bafc8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/82abb2e109548984b3f58b78168cbd1a2e8bafc8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,7 +60,7 @@
 <li>Title: CEE 498EDS: Environmental Data Science</li>
 <li>Credits: 3 for Undergraduates, 4 for Graduate Students</li>
 <li>Semester: Fall 2020</li>
-<li>Meeting time and location: TBD</li>
+<li>Meeting time and location: 12-1:20 on Tuesdays and Thursdays in 2312 Newmark</li>
 </ul>
 <h2 id="basic-instructor-information">Basic Instructor Information</h2>
 <ul>
@@ -74,6 +74,7 @@
 <p>Welcome to Environmental Data Science!
 This semester, you will learn to leverage data to study environmental problems, identify patterns, and make actionable insights.
 This course combines training in digital and computer tools—including distributed computing, exploratory data analysis, and statistical modeling and deep learning—with application of those tools to environmental issues.</p>
+<p>This course differs from other available machine learning and data science courses in that it focuses on environmental problems and the methods used to solve them. In particular, this course emphasizes working with spatial data, which is common in environmental science but less common in data science when applied to other disciplines.</p>
 <p>By the end of the semester, you will be able to:</p>
 <ol type="1">
 <li>Use software tools for data processing and visualization, machine learning, and deep learning to</li>
@@ -91,7 +92,8 @@ This course will be structured around semester-long projects; students will choo
 <li>Grades will be assigned based on several types of deliverables:
 <ul>
 <li>Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade</li>
-<li>Homework problem sets: 20% of final grade</li>
+<li>Quizzes: 5% of final grade</li>
+<li>Homework problem sets: 15% of final grade</li>
 <li>Midterm exam: 5% of final grade</li>
 <li>Final exam: 15% of final grade</li>
 <li>Course project: 40% of final grade: 5% each for each of 5 checkpoints, 5% for midterm presentation, and 10% for final presentation.</li>
@@ -110,7 +112,13 @@ This course will be structured around semester-long projects; students will choo
 <h2 id="learning-resources">Learning Resources</h2>
 <ul>
 <li>Students are expected to bring a laptop to class. Laptops can be <a href="https://www.library.illinois.edu/mc/lt/">loaned from the library</a>.</li>
-<li>There is no required textbook. Some supplmental textbooks which students may find useful are:
+<li>There is no required textbook to purchase, and in my opinion static text is not always the best medium for learning this type of content. Course material will draw from a number of sources across the internet:
+<ul>
+<li><a href="https://www.earthdatascience.org/courses/intro-to-earth-data-science/"><em>The Introduction to Earth Data Science Textbook</em></a>, CU Boulder Earth Lab.</li>
+<li>Video lectures from <a href="https://developers.google.com/machine-learning/crash-course">Google</a>, <a href="https://www.udemy.com/course/deep-learning-prerequisites-the-numpy-stack-in-python/">Udemy</a>, and <a href="https://mlcourse.ai/lectures">mlcourse.ai</a></li>
+<li>Jupyter notebooks from <a href="https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/">mlcourse.ai</a> and <a href="https://github.com/geopandas/scipy2018-geospatial-data">geopandas</a></li>
+</ul></li>
+<li>Some supplemental textbooks (freely available online) which students may find useful are:
 <ul>
 <li>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython</li>
 <li>Hands-On Machine Learning with Scikit-Learn &amp; TensorFlow</li>
@@ -118,44 +126,48 @@ This course will be structured around semester-long projects; students will choo
 </ul>
 <h2 id="course-schedule">Course Schedule</h2>
 <ul>
-<li><p>Week 1: Open Reproducible Science</p>
+<li><p><strong>Week 1: Open Reproducible Science.</strong> Students will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing.</p>
 <ul>
-<li>Reading: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/</li>
-<li>In class lecture/tutorial:
+<li>Before second class: <a href="https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/"><em>The Introduction to Earth Data Science Textbook</em> Section 1</a></li>
+<li>In class: Lecture on data science workflow best practices:
 <ul>
-<li>FAIR Principles</li>
 <li>Git/Github</li>
 <li>Jupyter</li>
+<li>Unit testing</li>
 </ul></li>
 </ul></li>
-<li><p>Week 2: Data science for the environment</p>
+<li><p><strong>Week 2: Data science for the environment.</strong> Students will learn the types of environmental questions that data science and machine learning can help to answer, and begin to think about topics for course projects.</p>
 <ul>
-<li>Reading:
+<li>Before class, read/browse through existing and proposed data science projects and brainstorm ideas for course projects.
 <ul>
-<li>https://arxiv.org/pdf/1906.05433.pdf</li>
-<li>https://pangeo.io/use_cases/index.html</li>
-<li>https://www.kaggle.com/</li>
-<li>https://earthengine.google.com/case_studies/</li>
-<li>Others from specific environmental disciplines</li>
+<li><a href="https://arxiv.org/pdf/1906.05433.pdf">Tackling Climate Change with Machine Learning</a></li>
+<li><a href="https://pangeo.io/use_cases/index.html">PANGEO Geoscience Use Cases</a></li>
+<li><a href="https://www.kaggle.com/">Kaggle data science competitions</a></li>
+<li><a href="https://earthengine.google.com/case_studies/">Earth Engine Case Studies</a></li>
+<li><a href="https://openaq.org/">OpenAQ.org</a></li>
+<li><a href="https://arrayofthings.github.io/">Array of Things</a></li>
+<li><a href="https://www.caces.us/data">CACES air quality data</a></li>
+<li>Others from specific environmental disciplines (TBD)</li>
 </ul></li>
 <li>In class:
 <ul>
-<li>Students present on potential projects</li>
+<li>Students present on potential projects, with class discussion</li>
 </ul></li>
 </ul></li>
-<li><p>Week 3: Programming review</p>
+<li><p><strong>Week 3: Programming review</strong>: Students will refresh their skills in basic Python programming</p>
 <ul>
-<li>Reading/Lecture: https://developers.google.com/edu/python</li>
+<li>Before class, complete the <a href="https://developers.google.com/edu/python">Google python class</a> and complete python assignment on prarielearn.</li>
 <li>In class:
 <ul>
-<li>Python &amp; Jupyter exercises</li>
+<li>Python &amp; Jupyter exercises and troubleshooting</li>
 </ul></li>
 </ul></li>
-<li><p>Week 4: Big data</p>
+<li><p><strong>Week 4: Big data</strong>: Students will explore opportunities and challenges related to large databases</p>
 <ul>
+<li>Before class, view lectures on <a href="https://www.udemy.com/course/deep-learning-prerequisites-the-numpy-stack-in-python/">numerical computing in Python</a> and complete numerical python assignment in prarielearn.</li>
 <li>In class:
 <ul>
-<li>Lecture:
+<li>Lecture and demonstration:
 <ul>
 <li>Cloud / High-performance computing</li>
 <li>Pangeo</li>
@@ -165,83 +177,73 @@ This course will be structured around semester-long projects; students will choo
 <li>Choose project groups and topics</li>
 </ul></li>
 </ul></li>
-<li><p>Week 6: Exploratory data analysis (EDA)</p>
+<li><p><strong>Week 5: Spring break</strong></p></li>
+<li><p><strong>Week 6: Exploratory data analysis (EDA)</strong> Students will learn how to explore and process an unfamiliar dataset.</p>
 <ul>
-<li>Reading:
-<ul>
-<li>https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/</li>
-<li>https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/</li>
-<li>https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/</li>
-<li>And/or accompanying video lectures</li>
-</ul></li>
+<li>Before class: Watch mlcourse.ai video lectures on <a href="https://youtu.be/fwWCw_cE5aI">exploratory data analysis</a> and <a href="https://www.youtube.com/watch?v=WNoQTNOME5g">visualization</a> and work through accompanying notebooks <a href="https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/">1</a>, <a href="https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/">2.1</a> and <a href="https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/">2.2</a></li>
 <li>In class:
 <ul>
-<li>Statistics review lecture</li>
-<li>Students present initial EDA for their projects</li>
+<li>Lecture: Statistics review</li>
+<li>EDA group exercises</li>
 </ul></li>
+<li>Students should begin working on EDA for their projects, which will be due in Week 9.</li>
 </ul></li>
-<li><p>Week 7: Geospatial data</p>
+<li><p><strong>Week 7: Geospatial data</strong>: Students will learn about processing spatial data, which is common in environmental data science</p>
 <ul>
-<li>Reading: https://github.com/geopandas/scipy2018-geospatial-data</li>
+<li>Before class, students should work through the <a href="https://github.com/geopandas/scipy2018-geospatial-data">geopandas tutorial</a> and complete a related assignment on prairielearn.</li>
 <li>In class lecture:
 <ul>
 <li>raster vs. vector formats</li>
 <li>joins and boolean operations</li>
 </ul></li>
+<li>Spatial statistics homework assigned</li>
 </ul></li>
-<li><p>Week 8: Spatial statistics</p>
+<li><p><strong>Week 8: Spatial statistics</strong>: Students will learn how to perform statistical analysis of spatial data.</p>
 <ul>
-<li>Reading: http://pysal.org/notebooks/intro</li>
-<li>In class dicussion:
-<ul>
-<li>Applicability of spatial statistics to student projects</li>
-</ul></li>
-</ul></li>
-<li><p>Week 9: Mid-way project presentations</p>
-<ul>
-<li>Students should be able to access, characterize, and visualize the data for their projects.</li>
-</ul></li>
-<li><p>Week 10: Supervised learning</p>
-<ul>
-<li>Reading/lecture:
-<ul>
-<li>https://developers.google.com/machine-learning/crash-course/framing/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit</li>
-<li>https://developers.google.com/machine-learning/crash-course/generalization/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition</li>
-</ul></li>
+<li>Before class, students should review the <a href="https://pysal.org/">PySAL library</a> and <a href="http://pysal.org/notebooks/intro">notebooks</a> and complete an assignment brainstorming how one or more of these algorithms could be used for their project.</li>
 <li>In class:
 <ul>
-<li>Application to student projects</li>
+<li>Lecture: Spatial statistics (spatial autocorrelation, Modifiable areal unit problem, kriging)</li>
+<li>Discussion: How spatial statistics can be applied to this semester’s student projects</li>
 </ul></li>
 </ul></li>
-<li><p>Week 11: Unsupervised learning</p>
+<li><p><strong>Week 9: Mid-way project presentations</strong>: Students should be able to access, characterize, and visualize the data for their projects by this point.</p>
 <ul>
-<li>Reading/Lecture: https://mlcourse.ai/articles/topic7-unsupervised/</li>
+<li>Written project EDA report due</li>
+<li>Oral presentations of EDA results and plan for remainder of project.</li>
+</ul></li>
+<li><p><strong>Week 10–10.5: Supervised learning</strong>: Students will learn what supervised machine learning is and how it can help answer environmental questions</p>
+<ul>
+<li>Spatial statistics homework due</li>
+<li>Before class, students should complete the Google Machine Learning Crash Course sections on <a href="https://developers.google.com/machine-learning/crash-course/framing/video-lecture">framing machine learning</a>, <a href="https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture">gradient descent</a>, <a href="https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture">optimization</a>, <a href="https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit">tensorflow</a>, <a href="https://developers.google.com/machine-learning/crash-course/generalization/video-lecture">generalization</a>, <a href="https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture">training and testing</a>, and <a href="https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition">validation</a>, and the accompanying quiz on prairielearn.</li>
+<li>In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.</li>
+<li>Machine learning homework assigned.</li>
+</ul></li>
+<li><p><strong>Week 11: Unsupervised learning</strong>: Students will learn about basic unsupervised learning algorithms and how they can be used on environmental applications.</p>
+<ul>
+<li>Before class, view Andrew Ng’s lectures on <a href="https://www.youtube.com/watch?v=jAA2g9ItoAc">unsupervised learning</a> and <a href="https://www.youtube.com/watch?v=Ev8YbxPu_bQ">clustering</a>, work through the <a href="https://mlcourse.ai/articles/topic7-unsupervised/">mlcourse.ai workbook</a>, and complete the quiz on prarielearn.</li>
+<li>In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.</li>
+</ul></li>
+<li><p><strong>Week 12: Deep learning</strong>: Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.</p>
+<ul>
+<li>Before class, students should complete the Google Machine Learning Crash Course sections on <a href="https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture">Introduction to Neural Networks</a>, <a href="https://developers.google.com/machine-learning/crash-course/training-neural-networks/video-lecture">Training Neural Networks</a>, and <a href="https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture">Multi-Class Neural Networks</a> and complete the prairielearn quiz.</li>
 <li>In class:
 <ul>
-<li>Application to student projects</li>
+<li>Lecture on hyperparameter optimization and inductive biases</li>
+<li>Discuss applications to student projects</li>
 </ul></li>
 </ul></li>
-<li><p>Week 12: Deep learning</p>
+<li><p><strong>Week 13–14: Projects</strong>: Students will work on their course projects</p>
 <ul>
-<li>Reading/lectures:
+<li>During class time we will work together to troubleshoot student course projects. Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.</li>
+<li>Machine learning homework due</li>
+</ul></li>
+<li><p><strong>Week 15–16: Final exam; final project</strong>: Students should have completed a project where they access and explore an environmental dataset and use it to answer a scientific question.</p>
 <ul>
-<li>https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/training-neural-networks/video-lecture</li>
-<li>https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture</li>
+<li>Written report due</li>
+<li>Oral presentations to class</li>
+<li>Comprehensive final exam</li>
 </ul></li>
-<li>In class:
-<ul>
-<li>Hyperparameter optimization</li>
-<li>Application to student projects</li>
-</ul></li>
-</ul></li>
-<li><p>Week 13-14: Projects</p></li>
-<li><p>Week 15-16: Final exam; final project presentations</p></li>
 </ul>
 <!-- default theme -->
 
