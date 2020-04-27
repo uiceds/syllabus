@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/f9f6c59af123fee373f241556f65e4a4c0bcde3b/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/f9f6c59af123fee373f241556f65e4a4c0bcde3b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/f9f6c59af123fee373f241556f65e4a4c0bcde3b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -124,9 +124,7 @@ This course will be structured around semester-long projects; students will choo
 
 ## Prerequisites
 
-* CS 101 or equivalent;
-* CEE 202; and
-* one of CEE 300, 330 or 360.
+CEE 202; CEE 330; CS 101 or equivalent.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
