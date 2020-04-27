@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-04-24'
+date-meta: '2020-04-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-04-24" />
+  <meta name="dc.date" content="2020-04-27" />
 
-  <meta name="citation_publication_date" content="2020-04-24" />
+  <meta name="citation_publication_date" content="2020-04-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/82abb2e109548984b3f58b78168cbd1a2e8bafc8/" />
+  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/82abb2e109548984b3f58b78168cbd1a2e8bafc8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/82abb2e109548984b3f58b78168cbd1a2e8bafc8/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -163,6 +163,7 @@ CEE 202; CEE 330; CS 101 or equivalent.
       * Git/Github
       * Jupyter
       * Unit testing
+      * Software 1.0 and 2.0
 
 * __Week 2: Data science for the environment.__ Students will learn the types of environmental questions that data science and machine learning can help to answer, and begin to think about topics for course projects.
   * Before class, read/browse through existing and proposed data science projects and brainstorm ideas for course projects.
