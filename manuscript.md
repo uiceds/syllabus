@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-04-27'
+date-meta: '2020-05-12'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -12,17 +12,17 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
+  <meta name="dc.title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="citation_title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
+  <meta name="citation_title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta property="og:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
+  <meta property="og:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta property="twitter:title" content="CEE 498EDS: Environmental Data Science, Fall 2020" />
+  <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-04-27" />
+  <meta name="dc.date" content="2020-05-12" />
 
-  <meta name="citation_publication_date" content="2020-04-27" />
+  <meta name="citation_publication_date" content="2020-05-12" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -36,23 +36,23 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <link rel="canonical" href="https://uiuc-cee-eds.github.io/syllabus/" />
+  <link rel="canonical" href="https://uiceds.github.io/syllabus/" />
 
-  <meta property="og:url" content="https://uiuc-cee-eds.github.io/syllabus/" />
+  <meta property="og:url" content="https://uiceds.github.io/syllabus/" />
 
-  <meta property="twitter:url" content="https://uiuc-cee-eds.github.io/syllabus/" />
+  <meta property="twitter:url" content="https://uiceds.github.io/syllabus/" />
 
-  <meta name="citation_fulltext_html_url" content="https://uiuc-cee-eds.github.io/syllabus/" />
+  <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
 
-  <meta name="citation_pdf_url" content="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
+  <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="application/pdf" href="https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/c1fa76baef9899593cbef6a377576675c924dee7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/c1fa76baef9899593cbef6a377576675c924dee7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiuc-cee-eds.github.io/syllabus/v/cb9d0c59d2164fb1e30517eff3584b9a06bae025/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/c1fa76baef9899593cbef6a377576675c924dee7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -70,7 +70,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
+title: 'CEE 498DS: Data Science, Fall 2020'
 ...
 
 
@@ -89,7 +89,7 @@ title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 ## Basic Course Information
 
 * Department: Civil and Environmental Engineering
-* Title: CEE 498EDS: Environmental Data Science
+* Title: CEE 498DS: Data Science
 * Credits: 3 for Undergraduates, 4 for Graduate Students
 * Semester: Fall 2020
 * Meeting time and location: 12-1:20 on Tuesdays and Thursdays in 2312 Newmark
@@ -104,27 +104,29 @@ title: 'CEE 498EDS: Environmental Data Science, Fall 2020'
 
 ## Description of the course
 
-Welcome to Environmental Data Science!
-This semester, you  will learn to leverage data to study environmental problems, identify patterns, and make actionable insights.
-This course combines training in digital and computer tools—including distributed computing, exploratory data analysis, and statistical modeling and deep learning—with application of those tools to environmental issues.
+Welcome to CEE Data Science!
+This semester, you  will learn to leverage data to study civil and environmental engineering problems, identify patterns, and make actionable insights.
+This course combines training in digital and computer tools—including distributed computing, exploratory data analysis, and statistical modeling and deep learning—with application of those tools to civil and environmental engineering issues.
 
-This course differs from other available machine learning and data science courses in that it focuses on environmental problems and the methods used to solve them. In particular, this course emphasizes working with spatial data, which is common in environmental science but less common in data science when applied to other disciplines.
+This course differs from other available machine learning and data science courses in that it focuses on civil and environmental engineering problems and the methods used to solve them. In particular, this course emphasizes working with spatial data, which is common in physical science but less common in data science when applied to other disciplines.
 
 By the end of the semester, you will be able to:
 
 1. Use software tools for data processing and visualization, machine learning, and deep learning to
-2. Retrieve, manipulate, and analyze environmental data; and
+2. Retrieve, manipulate, and analyze data; and
 3. Make inferences and predictions about the environment.
 
-This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of environmental data that is being collected and stored.
+This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of data related to civil and environmental engineering that is being collected and stored.
 
 Because data science methods are used across a number of different industries and instructional materials are readily available, this course will include readings and video lectures from across the internet.
-We will focus our face-to-face time on learning aspects of environmental data science that differ from data science as used by other fields, and on applying data science concepts to solving environmental problems.
+We will focus our face-to-face time on learning aspects of civil and environmental data science that differ from data science as used by other fields, and on applying data science concepts to solving physical problems.
 This course will be structured around semester-long projects; students will choose project topics at the beginning of the semester and will apply the concepts learned in the class to their projects as the semester progresses.
 
 ## Prerequisites
 
-CEE 202; CEE 330; CS 101 or equivalent.
+* CEE 202;
+* CEE300, 330 or 360; and
+* CS 101 or equivalent.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
@@ -150,7 +152,7 @@ CEE 202; CEE 330; CS 101 or equivalent.
   * Video lectures from [Google](https://developers.google.com/machine-learning/crash-course), [Udemy](https://www.udemy.com/course/deep-learning-prerequisites-the-numpy-stack-in-python/), and [mlcourse.ai](https://mlcourse.ai/lectures)
   * Jupyter notebooks from [mlcourse.ai](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/) and [geopandas](https://github.com/geopandas/scipy2018-geospatial-data)
 
-* Some supplemental textbooks (freely available online) which students may find useful are:
+* Some supplemental textbooks which students may find useful are:
   * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
   * Hands-On Machine Learning with Scikit-Learn & TensorFlow
 
@@ -165,7 +167,7 @@ CEE 202; CEE 330; CS 101 or equivalent.
       * Unit testing
       * Software 1.0 and 2.0
 
-* __Week 2: Data science for the environment.__ Students will learn the types of environmental questions that data science and machine learning can help to answer, and begin to think about topics for course projects.
+* __Week 2: Data science for the physical environment.__ Students will learn the types of environmental questions that data science and machine learning can help to answer, and begin to think about topics for course projects.
   * Before class, read/browse through existing and proposed data science projects and brainstorm ideas for course projects.
     * [Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)
     * [PANGEO Geoscience Use Cases](https://pangeo.io/use_cases/index.html)
@@ -202,7 +204,7 @@ CEE 202; CEE 330; CS 101 or equivalent.
       * EDA group exercises
     * Students should begin working on EDA for their projects, which will be due in Week 9.
 
-* __Week 7: Geospatial data__: Students will learn about processing spatial data, which is common in environmental data science
+* __Week 7: Geospatial data__: Students will learn about processing spatial data, which is common in physical data science
     * Before class, students should work through the [geopandas tutorial](https://github.com/geopandas/scipy2018-geospatial-data) and complete a related assignment on prairielearn.
     * In class lecture:
       * raster vs. vector formats
@@ -239,7 +241,7 @@ CEE 202; CEE 330; CS 101 or equivalent.
   * During class time we will work together to troubleshoot student course projects. Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.
   * Machine learning homework due
 
-* __Week 15–16: Final exam; final project__: Students should have completed a project where they access and explore an environmental dataset and use it to answer a scientific question.
+* __Week 15–16: Final exam; final project__: Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
   * Written report due
   * Oral presentations to class
   * Comprehensive final exam
