@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-05-12'
+date-meta: '2020-06-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-05-12" />
+  <meta name="dc.date" content="2020-06-01" />
 
-  <meta name="citation_publication_date" content="2020-05-12" />
+  <meta name="citation_publication_date" content="2020-06-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/c1fa76baef9899593cbef6a377576675c924dee7/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d3fb4ef23142cbca2766f691837fa3bd31504e09/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/c1fa76baef9899593cbef6a377576675c924dee7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d3fb4ef23142cbca2766f691837fa3bd31504e09/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/c1fa76baef9899593cbef6a377576675c924dee7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d3fb4ef23142cbca2766f691837fa3bd31504e09/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -147,7 +147,7 @@ This course will be structured around semester-long projects; students will choo
 
 ## Learning Resources
 * Students are expected to bring a laptop to class. Laptops can be [loaned from the library](https://www.library.illinois.edu/mc/lt/).
-* There is no required textbook to purchase, and in my opinion static text is not always the best medium for learning this type of content. Course material will draw from a number of sources across the internet:
+* There is no required textbook to purchase. Course material will draw from a number of sources across the internet:
   * [*The Introduction to Earth Data Science Textbook*](https://www.earthdatascience.org/courses/intro-to-earth-data-science/), CU Boulder Earth Lab.
   * Video lectures from [Google](https://developers.google.com/machine-learning/crash-course), [Udemy](https://www.udemy.com/course/deep-learning-prerequisites-the-numpy-stack-in-python/), and [mlcourse.ai](https://mlcourse.ai/lectures)
   * Jupyter notebooks from [mlcourse.ai](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/) and [geopandas](https://github.com/geopandas/scipy2018-geospatial-data)
