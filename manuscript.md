@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-06-01'
+date-meta: '2020-06-15'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-06-01" />
+  <meta name="dc.date" content="2020-06-15" />
 
-  <meta name="citation_publication_date" content="2020-06-01" />
+  <meta name="citation_publication_date" content="2020-06-15" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d3fb4ef23142cbca2766f691837fa3bd31504e09/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/009194dbe356f2c74b43d5f90ab1efc88d4fbe0a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d3fb4ef23142cbca2766f691837fa3bd31504e09/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/009194dbe356f2c74b43d5f90ab1efc88d4fbe0a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d3fb4ef23142cbca2766f691837fa3bd31504e09/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/009194dbe356f2c74b43d5f90ab1efc88d4fbe0a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -176,7 +176,7 @@ This course will be structured around semester-long projects; students will choo
     * [OpenAQ.org](https://openaq.org/)
     * [Array of Things](https://arrayofthings.github.io/)
     * [CACES air quality data](https://www.caces.us/data)
-    * Others from specific environmental disciplines (TBD)
+    * Others from other CEE disciplines (TBD)
   * In class:
     * Students present on potential projects, with class discussion
 
