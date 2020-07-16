@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-06-15'
+date-meta: '2020-07-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-06-15" />
+  <meta name="dc.date" content="2020-07-16" />
 
-  <meta name="citation_publication_date" content="2020-06-15" />
+  <meta name="citation_publication_date" content="2020-07-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/009194dbe356f2c74b43d5f90ab1efc88d4fbe0a/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/009194dbe356f2c74b43d5f90ab1efc88d4fbe0a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/009194dbe356f2c74b43d5f90ab1efc88d4fbe0a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -114,7 +114,7 @@ By the end of the semester, you will be able to:
 
 1. Use software tools for data processing and visualization, machine learning, and deep learning to
 2. Retrieve, manipulate, and analyze data; and
-3. Make inferences and predictions about the environment.
+3. Make inferences and predictions about the (built) environment.
 
 This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of data related to civil and environmental engineering that is being collected and stored.
 
