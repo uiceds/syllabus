@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-07-16'
+date-meta: '2020-07-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-07-16" />
+  <meta name="dc.date" content="2020-07-31" />
 
-  <meta name="citation_publication_date" content="2020-07-16" />
+  <meta name="citation_publication_date" content="2020-07-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -155,6 +155,25 @@ This course will be structured around semester-long projects; students will choo
 * Some supplemental textbooks which students may find useful are:
   * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
   * Hands-On Machine Learning with Scikit-Learn & TensorFlow
+
+## Inclusive Statement
+
+The effectiveness of this course is dependent upon the creation of an encouraging and safe classroom environment. Exclusionary, offensive or harmful speech (such as racism, sexism, homophobia, transphobia, etc.) will not be tolerated and in some cases subject to University harassment procedures. We are all responsible for creating a positive and safe environment that allows all students equal respect and comfort. I expect each of you to help establish and maintain and environment where you and your peers can contribute without fear of ridicule or intolerant or offensive language.
+
+## Netiquette
+
+In any social interaction, certain rules of etiquette are expected and contribute to more enjoyable and productive communication. The following are tips for interacting online via e-mail or discussion board messages, adapted from guidelines originally compiled by Chuq Von Rospach and Gene Spafford (1995):
+
+* Remember that the person receiving your message is someone like you, deserving and appreciating courtesy and respect
+* Avoid typing whole sentences or phrases in Caps Lock
+* Be brief; succinct, thoughtful messages have the greatest effect
+* Your messages reflect on you personally; take time to make sure that you are proud of their form and content
+* Use descriptive subject headings in your e-mails
+* Think about your audience and the relevance of your messages
+* Be careful when you use humor and sarcasm; absent the voice inflections and body language that aid face-to-face communication, Internet messages are easy to misinterpret
+* When making follow-up comments, summarize the parts of the message to which you are responding
+* Avoid repeating what has already been said; needless repetition is ineffective communication
+* Cite appropriate references whenever using someone else's ideas, thoughts, or words
 
 
 ## Course Schedule
