@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/syllabus/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/syllabus/>.
-The permalink for this webpage version is <https://uiceds.github.io/syllabus/v/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35/>.
+The permalink for this webpage version is <https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/syllabus/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`ecf4dedb8a4a0d310c2754d5d9b8887705d22e35`](https://github.com/uiceds/syllabus/commit/ecf4dedb8a4a0d310c2754d5d9b8887705d22e35).
+[`822f2f74624aae93627d849ee4ba14aea895e331`](https://github.com/uiceds/syllabus/commit/822f2f74624aae93627d849ee4ba14aea895e331).
