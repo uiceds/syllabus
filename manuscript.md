@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-07-31'
+date-meta: '2020-08-03'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-07-31" />
+  <meta name="dc.date" content="2020-08-03" />
 
-  <meta name="citation_publication_date" content="2020-07-31" />
+  <meta name="citation_publication_date" content="2020-08-03" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/73d76ebc326da57ec91ea5429505271da43531d9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/73d76ebc326da57ec91ea5429505271da43531d9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/822f2f74624aae93627d849ee4ba14aea895e331/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/73d76ebc326da57ec91ea5429505271da43531d9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,6 +93,8 @@ title: 'CEE 498DS: Data Science, Fall 2020'
 * Credits: 3 for Undergraduates, 4 for Graduate Students
 * Semester: Fall 2020
 * Meeting time and location: 12-1:20 on Tuesdays and Thursdays in 2312 Newmark
+* First day of instruction: 8/25/2020
+* Last day of instruction: 12/8/2020
 
 ## Basic Instructor Information
 
