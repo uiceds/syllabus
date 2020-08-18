@@ -13,10 +13,9 @@ include-after-body:
 - build/plugins/lightbox.html
 - build/plugins/attributes.html
 - build/plugins/math.html
+- build/plugins/hypothesis.html
 - build/plugins/analytics.html
 variables:
   math: ''
 html-math-method:
   method: mathjax
-
-# - build/plugins/hypothesis.html
