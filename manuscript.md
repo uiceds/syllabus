@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/974ff389055d8f037f94e03c610301a5a8b78f97/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/b386d90ebf10f4cbdb16f2d546f5cafeb65d9d57/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/974ff389055d8f037f94e03c610301a5a8b78f97/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/b386d90ebf10f4cbdb16f2d546f5cafeb65d9d57/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/974ff389055d8f037f94e03c610301a5a8b78f97/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/b386d90ebf10f4cbdb16f2d546f5cafeb65d9d57/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -86,7 +86,7 @@ title: 'CEE 498DS: Data Science, Fall 2020'
 
 
 
-# Basic Course Information
+## Basic Course Information
 
 * Department: Civil and Environmental Engineering
 * Title: CEE 498DS: Data Science
@@ -96,7 +96,7 @@ title: 'CEE 498DS: Data Science, Fall 2020'
 * First day of instruction: 8/25/2020
 * Last day of instruction: 12/8/2020
 
-# Basic Instructor Information
+## Basic Instructor Information
 
 * Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
@@ -105,7 +105,7 @@ title: 'CEE 498DS: Data Science, Fall 2020'
 * Website: https://cee.illinois.edu/directory/profile/ctessum
 * Names and contact information for teaching assistants: TBD
 
-# Description of the course
+## Description of the course
 
 Welcome to CEE Data Science!
 This semester, you  will learn to leverage data to study civil and environmental engineering problems, identify patterns, and make actionable insights.
@@ -125,20 +125,20 @@ Because data science methods are used across a number of different industries an
 We will focus our face-to-face time on learning aspects of civil and environmental data science that differ from data science as used by other fields, and on applying data science concepts to solving physical problems.
 This course will be structured around semester-long projects; students will choose project topics at the beginning of the semester and will apply the concepts learned in the class to their projects as the semester progresses.
 
-# Prerequisites
+## Prerequisites
 
 * CEE 202;
 * CEE300, 330 or 360; and
 * CS 101 or equivalent.
 
-# Course Structure
+## Course Structure
 
 This course is structured as a series of modules, with each module containing recorded lectures, readings, and quizzes to be completed before each class meeting.
 Class meetings will be held on Zoom to go into further depth on the material that was covered in recorded lectures and readings.
 Near the beginning or the semester, students will choose a topic for a group or individual project, which the will work on throughout the semester, applying the concepts that we learn in class.
 Additionally, students will complete homework assignments and a midterm and final exam.
 
-# Course Requirements and Assessment Overview
+## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade
   * Quizzes: 5% of final grade
@@ -162,7 +162,7 @@ Additionally, students will complete homework assignments and a midterm and fina
   * 60-63.5:	D-
   * Below 59.5:	F
 
-# Learning Resources
+## Learning Resources
 * Students are expected to bring have use of a laptop for class.
 * There is no required textbook to purchase. Course material will draw from a number of sources across the internet.
 * Some supplemental textbooks which students may find useful are:
@@ -171,39 +171,39 @@ Additionally, students will complete homework assignments and a midterm and fina
 
 
 
-# Policies
+## Policies
 
-## Inclusive Environment
+### Inclusive Environment
 
 The effectiveness of this course is dependent upon the creation of an encouraging and safe classroom environment. Exclusionary, offensive or harmful speech (such as racism, sexism, homophobia, transphobia, etc.) will not be tolerated and in some cases subject to University harassment procedures. We are all responsible for creating a positive and safe environment that allows all students equal respect and comfort. I expect each of you to help establish and maintain and environment where you and your peers can contribute without fear of ridicule or intolerant or offensive language.
 
-## Accommodations
+### Accommodations
 To obtain disability-related academic adjustments and/or auxiliary aids, students should contact both the instructor and the Disability Resources and Educational Services (DRES) as soon as possible. You can contact DRES at 1207 S. Oak Street, Champaign, (217) 333-1970, or via email at disability@illinois.edu.
 
-## Participation
+### Participation
 Active participation in the online learning environment is vital to your success in this course. Depending on your course, you may be asked to engage in online discussions and other interactive learning environments that invite your active participation and involvement with other students and your instructor.
 
-## Student Commitment
+### Student Commitment
 By registering for this online course, you commit to self-motivated study, participation in online course activities, and timely submission of all assignments. Furthermore, you commit to accessing the course website and checking email at least four days per week (daily for 4-week courses), as well as to devoting at least 6–8 hrs./week (16-week course), 12–16 hrs./week (8-week course), or 24–32 hrs./week (4-week course) to preparing for each module and completing the required assignments and readings.
 
-## Deadlines
+### Deadlines
 If you are unable to meet a particular deadline, it is your responsibility to make prior arrangements with the instructor for that given week. Otherwise, work submitted later than 1 day late will receive 10% penalty, and work submitted later than 2 days late will not be considered for grading unless consent has been given by the instructor.
 
-## Instructor Responses
-### Instructor Feedback Turnaround Time
+### Instructor Responses
+#### Instructor Feedback Turnaround Time
 Questions posted to the Course Help Discussion Forum generally will be answered within 48 hours. If possible, students are encouraged to answer questions posted by other students to the Course Help Discussion Forum, rather than waiting for an instructor's response.
 
 Assignments submitted online will be reviewed and graded by the course instructor within 5 business days. Exams, essays, and term papers will be graded within 10 business days. If your instructor is unable to meet this timeline, students will be notified.
 
-### Contacting the instructor
+#### Contacting the instructor
 For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the Course Help Discussion Forum.
 
 The instructor will not respond to phone calls. The instructor will respond to email messages within 48 hours of receiving them unless the instructor notifies you ahead of time of an inability to do so. When sending email, include a subject line that identifies the course number and nature of your question. The instructor may not respond to questions sent to him or her that should be posted in the Course Help Discussion Forum. Please don't be offended if you are asked to forward your question to this location.
 
-### Responding to the Discussion Forums
+#### Responding to the Discussion Forums
 The role of the instructor within the discussion forums is to help facilitate discussion by providing probing questions, asking for clarification, and helping solve conflicts as necessary. The instructor will not respond to every post. You are encouraged to share your thoughts, experiences, and ideas with each other as well.
 
-## Academic Integrity
+### Academic Integrity
 Academic dishonesty will not be tolerated. Examples of academic dishonesty include the following:
 
 * Cheating
@@ -219,11 +219,11 @@ Academic dishonesty will not be tolerated. Examples of academic dishonesty inclu
 
 Giving and receiving advice on projects and homework assignments is acceptable and encouraged. However, it is expected that help be given in general terms and in the form of natural language sentences (for example, English) rather than in the form of mathematical equations, algorithms, computer code, or anything else that could be copied and pasted into the recipient's answer. Similarly, students are encouraged to consult the Internet, but copying and pasting code from the Internet and submitting it for the class is not acceptable. The work that each student submits is expected to be their own, written with their own hand or typed on their own keyboard.
 
-## Copyright
-### Student Content
+### Copyright
+#### Student Content
 Participants in University of Illinois courses retain copyright of all assignments and posts they complete; however, all materials may be used for educational purposes within the given course. In group projects, only the portion of the work completed by a particular individual is copyrighted by that individual. The University of Illinois may request that students' materials be shared with future courses, but such sharing will only be done with the students' consent. The information that students submit during a course may, however, be used for the purposes of administrative data collection and research. No personal information is retained without the students' consent.
 
-### Non-student Content
+#### Non-student Content
 Everything on this site and within University of Illinois courses is copyrighted. The copyrights of all non-student work are owned by the University of Illinois Board of Trustees, except in approved cases where the original creator retains copyright of the material. Copyrights to external links are owned by or are the responsibility of those external sites. Students are free to view and print material from this site so long as
 
 * The material is used for informational purposes only.
@@ -231,13 +231,13 @@ Everything on this site and within University of Illinois courses is copyrighted
 * Copies of any material include the respective copyright notice.
 * These materials may not be mirrored or reproduced on non-University of Illinois websites without the express written permission of the University of Illinois Board of Trustees. To request permission, please contact the academic unit for the program.
 
-## Student Behavior
-### Student Conduct
+### Student Behavior
+#### Student Conduct
 Students are expected to behave in accordance with the penal and civil statutes of all applicable local, state, and federal governments, with the rules and regulations of the Board of Regents, and with university regulations and administrative rules.
 
 For more information about the student code and handbook, see the CITL course policies page.
 
-### Netiquette
+#### Netiquette
 In any social interaction, certain rules of etiquette are expected and contribute to more enjoyable and productive communication. The following are tips for interacting online via email or discussion board messages, adapted from guidelines originally compiled by Chuq Von Rospach and Gene Spafford (1995):
 
 * Remember that the person receiving your message is someone like you, deserving and appreciating courtesy and respect.
@@ -250,34 +250,34 @@ In any social interaction, certain rules of etiquette are expected and contribut
 * Avoid repeating what has already been said; needless repetition is ineffective communication.
 * Cite appropriate references whenever using someone else's ideas, thoughts, or words.
 
-## Communications
-### Daily Contact
+### Communications
+#### Daily Contact
 Your daily contact should be via the discussion forums in our Learning Management System and via email.
 
-### Course Questions
+#### Course Questions
 Questions pertaining to the course should be posted in our Course Help Discussion Forum. You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the Course Help Discussion Forum. Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
 
-### Personal and Grade-Related Questions
+#### Personal and Grade-Related Questions
 Questions of a personal nature should first be sent to the instructor's email address (listed on the Instructor Information page). When sending email, include a subject that identifies the course number and nature of your question.
 
-### Emergencies
+#### Emergencies
 If you have an emergency that will keep you from participating in the course, please notify your instructor by using the instructor's email address (listed on the Instructor Information page). Provide callback information in your email (if necessary). You should also notify your program director of any emergencies.
 
-### Zoom
+#### Zoom
 Zoom is a tool that allows multiple people to join together simultaneously via a computer to text chat, audio chat, video chat, collaborate on a digital whiteboard, and even share their computer desktops with one another. The instructor's Virtual Office (when available) makes use of Zoom.
 
-## Instructor's Virtual Office
+### Instructor's Virtual Office
 Another way to communicate with the instructor is to make use of the Virtual Office hours through the Zoom Interface. The instructor will be available for office hours via Zoom on the dates and during the times listed on the Virtual Office page in the Syllabus.
 
-## Announcements
+### Announcements
 The Announcements forum serves as a way for your instructor and University of Illinois administrators to make announcements within our online learning environment. Announcements posted here will also be sent to your Illinois email address, so be sure to check your email or the Announcements forum at least once a day to see whether any new announcements have been made.
 
-## Sexual Misconduct Policy and Reporting
+### Sexual Misconduct Policy and Reporting
 The University of Illinois is committed to combating sexual misconduct. Faculty and staff members are required to report any instances of sexual misconduct to the university’s Title IX and Disability Office. In turn, an individual with the Title IX and Disability Office will provide information about rights and options, including accommodations, support services, the campus disciplinary process, and law enforcement options.
 
 A list of the designated university employees who, as counselors, confidential advisors, and medical professionals, do not have this reporting responsibility and can maintain confidentiality, can be found in the Confidential Resources section. Other information about resources and reporting is available at wecare.illinois.edu.
 
-## Student Wellness Resources
+### Student Wellness Resources
 The University of Illinois strives to promote student success through the support of student psychological and emotional well-being. Please take advantage of the resources listed on the Student Affairs website. 
 
 ## Course Schedule
