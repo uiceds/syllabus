@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8b1ff9e5d28ec20ed874a6cf333a0de29dc48970/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3c17ceeeed78d8b1c59e1278f40d64dc3236feb6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8b1ff9e5d28ec20ed874a6cf333a0de29dc48970/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3c17ceeeed78d8b1c59e1278f40d64dc3236feb6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8b1ff9e5d28ec20ed874a6cf333a0de29dc48970/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3c17ceeeed78d8b1c59e1278f40d64dc3236feb6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -85,6 +85,8 @@ title: 'CEE 498DS: Data Science, Fall 2020'
 
 
 
+
+**THIS SYLLABUS IS SUBJECT TO CHANGE!** Please check back throughout the course.
 
 ## Basic Course Information
 
@@ -370,7 +372,44 @@ The University of Illinois strives to promote student success through the suppor
   * Comprehensive final exam
 
 
-## Assessment Rubrics
+## Modules
+
+
+### Module 1: Open Reproducible Science
+
+#### Overview
+This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.
+
+#### Objectives
+You will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing.
+
+#### Readings and Lectures
+Develop your answers to the discussion questions below while completing the readings and lectures.
+* [Introduction to Earth Data Science Chapter 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)
+* [Introduction to Earth Data Science Chapter 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/)
+* [Introduction to Earth Data Science Chapter 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/jupyter-python/)
+* [Andrej Karpathy: Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
+* [NOVA: What Makes Science True?](https://www.youtube.com/watch?v=NGFO0kdbZmk&feature=youtu.be)
+
+
+#### Discussion
+
+This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
+Consider the following questions:
+
+  * What does it mean to practice open and reproducible science, and how could you apply it to your academic or professional life?
+  * Although the readings and NOVA video mainly refer to academic science, how could they be relevant to science practiced in industry?
+  * For the "Software 2.0" essay: What is the author talking about? Instead of trying to understand every detail in the essay (although by the end of the semester you should be able to understand a lot of it), focus on the main message: What is Software 2.0 and what are its implications for how science is carried out?
+Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1) and make one initial post and two responses.
+Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
+**All posts for this module are due by 0001-01-01 00:00:00 +0000 UTC.**
+
+#### Quiz
+The quiz for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
+**The quiz for this module is due by 0001-01-01 00:00:00 +0000 UTC.**
+
+
+## Assessment Instructions and Rubrics
 
 ### Discussion Forum Instructions and Rubric
 
@@ -404,7 +443,6 @@ Your response posts should meet the following requirements:
 
 * Include at least **50 words**, excluding references.
 * Use of appropriate evidence from the readings and lessons to support your claims and judgments.
-
 
 
 #### Submission Directions
