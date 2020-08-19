@@ -31,8 +31,9 @@ jobs:
           key: ci-cache-${{ github.ref }}
           restore-keys: |
             ci-cache-refs/heads/master
-      - name: Run rendering script
+      - name: Install Go
         uses: actions/setup-go@v2
+      - name: Run rendering script
         run: go run content/render.go
       - name: Install Environment
         uses: goanpeca/setup-miniconda@v1
