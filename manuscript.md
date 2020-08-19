@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/b386d90ebf10f4cbdb16f2d546f5cafeb65d9d57/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8b1ff9e5d28ec20ed874a6cf333a0de29dc48970/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/b386d90ebf10f4cbdb16f2d546f5cafeb65d9d57/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8b1ff9e5d28ec20ed874a6cf333a0de29dc48970/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/b386d90ebf10f4cbdb16f2d546f5cafeb65d9d57/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8b1ff9e5d28ec20ed874a6cf333a0de29dc48970/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -368,3 +368,58 @@ The University of Illinois strives to promote student success through the suppor
   * Written report due
   * Oral presentations to class
   * Comprehensive final exam
+
+
+## Assessment Rubrics
+
+### Discussion Forum Instructions and Rubric
+
+This section describes how to participate in the discussion forum, and how your posts will be graded.
+
+#### Initial Post
+
+In the Discussion Forum for the module, compose an initial post that responds to at least one of the questions above. 
+Your initial post is your opportunity to engage with the prompt in a way that is unique to you. Some ways to accomplish that include:
+
+* Connect with the prompt in a personal way by incorporating personal anecdotes.
+* Reflect on any potential biases you may have based on your experiences.
+* Consider any potential biases in the information presented in the prompt itself.
+Be open to different points of view by providing some suggestions of what those might be.
+
+Your initial post must meet the following requirements:
+
+* Include at least **200 words**, excluding any references.
+* Use appropriate evidence from the readings and lessons to support your claims and judgments.
+
+#### Response Posts
+
+Post at least 2 responses in the same thread. Your replies should stimulate more in-depth discussion about the topic. Some ways to accomplish that include:
+
+* Clarify and/or extend your peers' line of thinking.
+* Compare/contrast their views on the topic with your own.
+* Suggest/question what explanation(s) you think your peers might be missing that could strengthen their arguments.
+* End your response with a question to further the dialogue.
+
+Your response posts should meet the following requirements:
+
+* Include at least **50 words**, excluding references.
+* Use of appropriate evidence from the readings and lessons to support your claims and judgments.
+
+
+
+#### Submission Directions
+* Access the discussion board and begin a new thread.
+* Response Post: Select the title of any post to review it and read any replies already submitted. Click Reply next to any post to compose a reply.
+
+#### Evaluation
+This activity is worth 40 points: 20 points for your initial post and 10 points for each response post. Please see the rubric below for detailed information about how your posts will be graded.
+
+##### Discussion Forum Rubric
+
+| Contributions | Description | Initial Post Points Assigned | Response Points Assigned |
+| -- | -- | :--: | :--: |
+Provocative |  Response goes beyond simply answering the prompt; attempts to stimulate further thought &  discussion | 20 | 10 |
+| Substantial | Response provides most of the content required by the prompt, but does not require further analysis of the subject | 15 | 7.5 |
+| Superficial | Response provides obvious information without further analysis of the concept; lacks depth of knowledge or reasoning | 10 | 5 |
+| Incorrect | Response does not accurately address the prompt; rambling and/or without consistency | 5 | 2.5 |
+| None | No response provided to the prompt within the associated timeframe | 0 | 0 |
