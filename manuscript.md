@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/953aacb4afb99a2f892edd82cc75bbfa84b4e5b4/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/29a5c4964a8613c8e50b395e69619ee3279100e9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/953aacb4afb99a2f892edd82cc75bbfa84b4e5b4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/29a5c4964a8613c8e50b395e69619ee3279100e9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/953aacb4afb99a2f892edd82cc75bbfa84b4e5b4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/29a5c4964a8613c8e50b395e69619ee3279100e9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -306,47 +306,47 @@ The University of Illinois strives to promote student success through the suppor
 
 | Module | Title | Start Date |
 | -- | -- | -- |
-| 1 | [Open Reproducible Science](#open-reproducible-science) | 8/24/2020
-| 2 | [Data science topics for Civil and Environmental Engineering](#data-science-topics-for-civil-and-environmental-engineering) | 8/31/2020
-| 3 | [Programming review](#programming-review) | 9/7/2020
-| 4 | [Data](#data) | 9/14/2020
-| 5 | [Exploratory data analysis (EDA)](#exploratory-data-analysis-(eda)) | 9/21/2020
-| 6 | [Spatial data](#spatial-data) | 9/28/2020
-| 7 | [Spatial statistics](#spatial-statistics) | 10/5/2020
-| 8 | [Mid-way project presentations](#mid-way-project-presentations) | 10/12/2020
-| 9 | [Supervised learning](#supervised-learning) | 10/19/2020
-| 10 | [Unsupervised learning](#unsupervised-learning) | 10/26/2020
-| 11 | [Deep learning](#deep-learning) | 11/2/2020
-| 12 | [Project work](#project-work) | 11/9/2020
-| 13 | [Final exam; final project presentations and reports](#final-exam;-final-project-presentations-and-reports) | 11/16/2020
+| 1 | [Open Reproducible Science](#module-1-open-reproducible-science) | 8/24/2020
+| 2 | [Data science topics for Civil and Environmental Engineering](#module-2-data-science-topics-for-civil-and-environmental-engineering) | 8/31/2020
+| 3 | [Programming review](#module-3-programming-review) | 9/7/2020
+| 4 | [Data](#module-4-data) | 9/14/2020
+| 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-(eda)) | 9/21/2020
+| 6 | [Spatial data](#module-6-spatial-data) | 9/28/2020
+| 7 | [Spatial statistics](#module-7-spatial-statistics) | 10/5/2020
+| 8 | [Mid-way project presentations](#module-8-mid-way-project-presentations) | 10/12/2020
+| 9 | [Supervised learning](#module-9-supervised-learning) | 10/19/2020
+| 10 | [Unsupervised learning](#module-10-unsupervised-learning) | 10/26/2020
+| 11 | [Deep learning](#module-11-deep-learning) | 11/2/2020
+| 12 | [Project work](#module-12-project-work) | 11/9/2020
+| 13 | [Final exam; final project presentations and reports](#module-13-final-exam;-final-project-presentations-and-reports) | 11/16/2020
 
 ### Discussions
 
 | Title | Initial Post Due | Response Posts Due |
 | -- | -- | -- |
-| [Open Reproducible Science](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1) | Tue 8/25/2020, 12:00 CDT | Thu 8/27/2020, 12:00 CDT
-| [Data science topics for Civil and Environmental Engineering](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1) | Tue 9/1/2020, 12:00 CDT | Thu 9/3/2020, 12:00 CDT
+| [Open Reproducible Science](#module-1-discussion) | Tue 8/25/2020, 12:00 CDT | Thu 8/27/2020, 12:00 CDT
+| [Data science topics for Civil and Environmental Engineering](#module-2-discussion) | Tue 9/1/2020, 12:00 CDT | Thu 9/3/2020, 12:00 CDT
 
 ### Homeworks
 
 Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- |
-| [Open Reproducible Science](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/) | Tue 8/25/2020, 12:00 CDT | Thu 8/27/2020, 12:00 CDT | Tue 9/8/2020, 12:00 CDT |
-| [Programming review](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524) | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
-| [Data](numerical python assignment in prarielearn) | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
-| [Spatial data](SpatialDataHomework) | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
-| [Supervised learning](SupervisedLearningHomework) | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 11:00 CST |
-| [Unsupervised learning](UnsupervisedLearningHomework) | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 11:00 CST |
-| [Deep learning](DeepLearningHomework) | Tue 11/3/2020, 11:00 CST | Thu 11/5/2020, 11:00 CST | Tue 11/17/2020, 11:00 CST |
-| [Project work](DeepLearningHomework) | Tue 11/10/2020, 11:00 CST | Thu 11/12/2020, 11:00 CST | Tue 11/24/2020, 11:00 CST |
-| [Final exam; final project presentations and reports](DeepLearningHomework) | Tue 11/17/2020, 11:00 CST | Thu 11/19/2020, 11:00 CST | Tue 12/1/2020, 11:00 CST |
+| [Open Reproducible Science](#module-1-homework) | Tue 8/25/2020, 12:00 CDT | Thu 8/27/2020, 12:00 CDT | Tue 9/8/2020, 12:00 CDT |
+| [Programming review](#module-3-homework) | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
+| [Data](#module-4-homework) | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
+| [Spatial data](#module-6-homework) | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
+| [Supervised learning](#module-9-homework) | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 11:00 CST |
+| [Unsupervised learning](#module-10-homework) | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 11:00 CST |
+| [Deep learning](#module-11-homework) | Tue 11/3/2020, 11:00 CST | Thu 11/5/2020, 11:00 CST | Tue 11/17/2020, 11:00 CST |
+| [Project work](#module-12-homework) | Tue 11/10/2020, 11:00 CST | Thu 11/12/2020, 11:00 CST | Tue 11/24/2020, 11:00 CST |
+| [Final exam; final project presentations and reports](#module-13-homework) | Tue 11/17/2020, 11:00 CST | Thu 11/19/2020, 11:00 CST | Tue 12/1/2020, 11:00 CST |
 
 ### Project Assignments
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| [Data science topics for Civil and Environmental Engineering](#data-science-topics-for-civil-and-environmental-engineering) | 8/31/2020 | Tue 9/22/2020, 12:00 CDT
-| [Exploratory data analysis (EDA)](#exploratory-data-analysis-(eda)) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
+| [Data science topics for Civil and Environmental Engineering](#module-2-project-assignment) | 8/31/2020 | Tue 9/22/2020, 12:00 CDT
+| [Exploratory data analysis (EDA)](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
 
 
 ## Modules
@@ -354,13 +354,13 @@ Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% C
 
 ### Module 1: Open Reproducible Science
 
-#### Overview
+#### Module 1 Overview
 This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.
 
-#### Objectives
+#### Module 1 Objectives
 You will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing.
 
-#### Readings and Lectures
+#### Module 1 Readings and Lectures
 Develop your answers to the discussion questions below while completing the readings and lectures.
 
 * [Introduction to Earth Data Science Chapter 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)
@@ -370,7 +370,7 @@ Develop your answers to the discussion questions below while completing the read
 * [NOVA: What Makes Science True?](https://www.youtube.com/watch?v=NGFO0kdbZmk&feature=youtu.be)
 
 
-#### Discussion
+#### Module 1 Discussion
 
 This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
 Consider the following questions:
@@ -384,11 +384,11 @@ Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/d
 Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
 **The initial post for this module are due by Tue 8/25/2020, 12:00 CDT and all response posts are due by Thu 8/27/2020, 12:00 CDT.**
 
-#### Homework
+#### Module 1 Homework
 The homework for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
 **The homework for this module is due by Tue 8/25/2020, 12:00 CDT for 110% credit, by Thu 8/27/2020, 12:00 CDT for 100% credit, and by Tue 9/8/2020, 12:00 CDT for 80% credit.**
 
-#### Topics for Zoom Meetings
+#### Module 1 Topics for Zoom Meetings
 
 * Introduction, syllabus, and getting to know one another
 * Discussion of readings and technology check: installing Python and related tools
@@ -397,12 +397,12 @@ The homework for Module 1 covers the required readings and lectures and is avail
 
 ### Module 2: Data science topics for Civil and Environmental Engineering
 
-#### Overview
+#### Module 2 Overview
 In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.
 
 
 
-#### Readings and Lectures
+#### Module 2 Readings and Lectures
 Develop your answers to the discussion questions below while completing the readings and lectures.
 
 * [Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)
@@ -414,7 +414,7 @@ Develop your answers to the discussion questions below while completing the read
 * [CACES air quality data](https://www.caces.us/data)
 
 
-#### Discussion
+#### Module 2 Discussion
 
 This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
 Consider the following questions:
@@ -428,37 +428,38 @@ Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instruc
 
 
 
-#### Topics for Zoom Meetings
+#### Module 2 Topics for Zoom Meetings
 
 * Group discussion regarding project topics
 * Select project groups
 
 
 
-#### Project Assignment
+#### Module 2 Project Assignment
 Write an engineering memo describing your project team, the problem 
 you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
 you will use.
+
 ### Module 3: Programming review
 
-#### Overview
+#### Module 3 Overview
 This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.
 
-#### Objectives
+#### Module 3 Objectives
 Students will refresh their skills in basic Python programming.
 
-#### Readings and Lectures
+#### Module 3 Readings and Lectures
 
 * Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'.
 
 
 
 
-#### Homework
+#### Module 3 Homework
 The homework for Module 3 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524).
 **The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Thu 9/10/2020, 12:00 CDT for 100% credit, and by Tue 9/22/2020, 12:00 CDT for 80% credit.**
 
-#### Topics for Zoom Meetings
+#### Module 3 Topics for Zoom Meetings
 
 * Python & Jupyter exercises and troubleshooting
 
@@ -466,28 +467,28 @@ The homework for Module 3 covers the required readings and lectures and is avail
 
 ### Module 4: Data
 
-#### Overview
+#### Module 4 Overview
 Data comes first in data science.
 
-#### Objectives
+#### Module 4 Objectives
 
 * Students will learn about types of data that are relevant to Civil and Environmental Engineering problems
 * Students will become acquainted with tools for processing data.
 * Students will learn strategies for staging and processing large amounts of data.
 
 
-#### Readings and Lectures
+#### Module 4 Readings and Lectures
 
 * Recorded lecture on Cloud / High-performance computing, Pangeo, and Earth engine
 
 
 
 
-#### Homework
+#### Module 4 Homework
 The homework for Module 4 covers the required readings and lectures and is available [here](numerical python assignment in prarielearn).
 **The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Thu 9/17/2020, 12:00 CDT for 100% credit, and by Tue 9/29/2020, 12:00 CDT for 80% credit.**
 
-#### Topics for Zoom Meetings
+#### Module 4 Topics for Zoom Meetings
 
 * Practice and Discussion
 
@@ -495,13 +496,13 @@ The homework for Module 4 covers the required readings and lectures and is avail
 
 ### Module 5: Exploratory data analysis (EDA)
 
-#### Overview
+#### Module 5 Overview
 The first step in a data science project is getting a feel for the dataset you are working with. This is called Exploratory Data Analysis (EDA).
 
-#### Objectives
+#### Module 5 Objectives
 Students will learn how to explore and process an unfamiliar dataset.
 
-#### Readings and Lectures
+#### Module 5 Readings and Lectures
 
 * Watch mlcourse.ai video lectures on [exploratory data analysis](https://youtu.be/fwWCw_cE5aI) and [visualization](https://www.youtube.com/watch?v=WNoQTNOME5g)
 * Work through accompanying notebooks [1](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/), [2.1](https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/) and [2.2](https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/)
@@ -511,26 +512,27 @@ Students will learn how to explore and process an unfamiliar dataset.
 
 
 
-#### Topics for Zoom Meetings
+#### Module 5 Topics for Zoom Meetings
 
 * Lecture: Statistics review
 * EDA group exercises
 
 
 
-#### Project Assignment
+#### Module 5 Project Assignment
 Students should begin working on EDA for their projects, which will be due in Week 9.
+
 ### Module 6: Spatial data
 
-#### Overview
+#### Module 6 Overview
 Spatial and Geospatial data are common in Civil and Environmental Engineering, 
 but less common in other disciplines that use data science. In this module we will learn 
 how to work with these types of data.
 
-#### Objectives
+#### Module 6 Objectives
 Students will learn about processing spatial data, which is common in physical data science
 
-#### Readings and Lectures
+#### Module 6 Readings and Lectures
 
 * Recorded lecture on raster vs. vector formats
 * Recorded lecture on joins and boolean operations
@@ -539,7 +541,7 @@ Students will learn about processing spatial data, which is common in physical d
 
 
 
-#### Homework
+#### Module 6 Homework
 The homework for Module 6 covers the required readings and lectures and is available [here](SpatialDataHomework).
 **The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Thu 10/1/2020, 12:00 CDT for 100% credit, and by Tue 10/13/2020, 12:00 CDT for 80% credit.**
 
@@ -550,10 +552,10 @@ The homework for Module 6 covers the required readings and lectures and is avail
 
 
 
-#### Objectives
+#### Module 7 Objectives
 Students will learn how to perform statistical analysis of spatial data.
 
-#### Readings and Lectures
+#### Module 7 Readings and Lectures
 
 * Recorded Lecture:  Spatial statistics (spatial autocorrelation, Modifiable areal unit problem, kriging)
 * [PySAL library](https://pysal.org/) and [notebooks](http://pysal.org/notebooks/intro)
@@ -570,7 +572,7 @@ Students will learn how to perform statistical analysis of spatial data.
 
 
 
-#### Objectives
+#### Module 8 Objectives
 Students should be able to access, characterize, and visualize the data for their projects by this point.
 
 
@@ -586,10 +588,10 @@ Students should be able to access, characterize, and visualize the data for thei
 
 
 
-#### Objectives
+#### Module 9 Objectives
 Students will learn what supervised machine learning is and how it can help solve Civil and Environmental Engineering problems.
 
-#### Readings and Lectures
+#### Module 9 Readings and Lectures
 
 * [framing machine learning](https://developers.google.com/machine-learning/crash-course/framing/video-lecture)
 * [gradient descent](https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture)
@@ -602,7 +604,7 @@ Students will learn what supervised machine learning is and how it can help solv
 
 
 
-#### Homework
+#### Module 9 Homework
 The homework for Module 9 covers the required readings and lectures and is available [here](SupervisedLearningHomework).
 **The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Thu 10/22/2020, 12:00 CDT for 100% credit, and by Tue 11/3/2020, 11:00 CST for 80% credit.**
 
@@ -613,10 +615,10 @@ The homework for Module 9 covers the required readings and lectures and is avail
 
 
 
-#### Objectives
+#### Module 10 Objectives
 Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.
 
-#### Readings and Lectures
+#### Module 10 Readings and Lectures
 
 * [unsupervised learning](https://www.youtube.com/watch?v=jAA2g9ItoAc)
 * [clustering](https://www.youtube.com/watch?v=Ev8YbxPu_bQ)
@@ -625,11 +627,11 @@ Students will learn about basic unsupervised learning algorithms and how they ca
 
 
 
-#### Homework
+#### Module 10 Homework
 The homework for Module 10 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
 **The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Thu 10/29/2020, 12:00 CDT for 100% credit, and by Tue 11/10/2020, 11:00 CST for 80% credit.**
 
-#### Topics for Zoom Meetings
+#### Module 10 Topics for Zoom Meetings
 
 * In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
 
@@ -639,10 +641,10 @@ The homework for Module 10 covers the required readings and lectures and is avai
 
 
 
-#### Objectives
+#### Module 11 Objectives
 Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
 
-#### Readings and Lectures
+#### Module 11 Readings and Lectures
 
 * [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
 * [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
@@ -651,7 +653,7 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 
 
 
-#### Homework
+#### Module 11 Homework
 The homework for Module 11 covers the required readings and lectures and is available [here](DeepLearningHomework).
 **The homework for this module is due by Tue 11/3/2020, 11:00 CST for 110% credit, by Thu 11/5/2020, 11:00 CST for 100% credit, and by Tue 11/17/2020, 11:00 CST for 80% credit.**
 
@@ -660,7 +662,7 @@ The homework for Module 11 covers the required readings and lectures and is avai
 
 ### Module 12: Project work
 
-#### Overview
+#### Module 12 Overview
 Students will work on their course projects
 
 
@@ -669,11 +671,11 @@ Students will work on their course projects
 
 
 
-#### Homework
+#### Module 12 Homework
 The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
 **The homework for this module is due by Tue 11/10/2020, 11:00 CST for 110% credit, by Thu 11/12/2020, 11:00 CST for 100% credit, and by Tue 11/24/2020, 11:00 CST for 80% credit.**
 
-#### Topics for Zoom Meetings
+#### Module 12 Topics for Zoom Meetings
 
 * During class time we will work together to troubleshoot student course projects.
 * Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.
@@ -684,18 +686,18 @@ The homework for Module 12 covers the required readings and lectures and is avai
 
 
 
-#### Objectives
+#### Module 13 Objectives
 Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
 
 
 
 
 
-#### Homework
+#### Module 13 Homework
 The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
 **The homework for this module is due by Tue 11/17/2020, 11:00 CST for 110% credit, by Thu 11/19/2020, 11:00 CST for 100% credit, and by Tue 12/1/2020, 11:00 CST for 80% credit.**
 
-#### Topics for Zoom Meetings
+#### Module 13 Topics for Zoom Meetings
 
 * Written report due
 * Oral presentations to class
