@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/29a5c4964a8613c8e50b395e69619ee3279100e9/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2349a28392fbc69f04ec0a512a21a19ce63695a4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/29a5c4964a8613c8e50b395e69619ee3279100e9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2349a28392fbc69f04ec0a512a21a19ce63695a4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/29a5c4964a8613c8e50b395e69619ee3279100e9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2349a28392fbc69f04ec0a512a21a19ce63695a4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -322,24 +322,22 @@ The University of Illinois strives to promote student success through the suppor
 
 ### Discussions
 
-| Title | Initial Post Due | Response Posts Due |
-| -- | -- | -- |
-| [Open Reproducible Science](#module-1-discussion) | Tue 8/25/2020, 12:00 CDT | Thu 8/27/2020, 12:00 CDT
-| [Data science topics for Civil and Environmental Engineering](#module-2-discussion) | Tue 9/1/2020, 12:00 CDT | Thu 9/3/2020, 12:00 CDT
+| Title | Assigned | Initial Post Due | Response Posts Due |
+| -- | -- | -- | -- |
+| [Open Reproducible Science](#module-1-discussion) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Tue 9/1/2020, 12:00 CDT
+| [Data science topics for Civil and Environmental Engineering](#module-2-discussion) | 8/24/2020 | Tue 9/1/2020, 12:00 CDT | Thu 9/3/2020, 12:00 CDT
 
 ### Homeworks
 
-Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
-| -- | -- | -- | -- |
-| [Open Reproducible Science](#module-1-homework) | Tue 8/25/2020, 12:00 CDT | Thu 8/27/2020, 12:00 CDT | Tue 9/8/2020, 12:00 CDT |
-| [Programming review](#module-3-homework) | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
-| [Data](#module-4-homework) | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
-| [Spatial data](#module-6-homework) | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
-| [Supervised learning](#module-9-homework) | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 11:00 CST |
-| [Unsupervised learning](#module-10-homework) | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 11:00 CST |
-| [Deep learning](#module-11-homework) | Tue 11/3/2020, 11:00 CST | Thu 11/5/2020, 11:00 CST | Tue 11/17/2020, 11:00 CST |
-| [Project work](#module-12-homework) | Tue 11/10/2020, 11:00 CST | Thu 11/12/2020, 11:00 CST | Tue 11/24/2020, 11:00 CST |
-| [Final exam; final project presentations and reports](#module-13-homework) | Tue 11/17/2020, 11:00 CST | Thu 11/19/2020, 11:00 CST | Tue 12/1/2020, 11:00 CST |
+Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
+| -- | -- | -- | -- | -- |
+| [Open Reproducible Science](#module-1-homework) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Tue 9/1/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT |
+| [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
+| [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
+| [Spatial data](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
+| [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 11:00 CST |
+| [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 11:00 CST |
+| [Deep learning](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 11:00 CST | Thu 11/5/2020, 11:00 CST | Tue 11/17/2020, 11:00 CST |
 
 ### Project Assignments
 
@@ -382,11 +380,11 @@ Consider the following questions:
 
 Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1) and make one initial post and two responses.
 Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
-**The initial post for this module are due by Tue 8/25/2020, 12:00 CDT and all response posts are due by Thu 8/27/2020, 12:00 CDT.**
+**The initial post for this module are due by Thu 8/27/2020, 12:00 CDT and all response posts are due by Tue 9/1/2020, 12:00 CDT.**
 
 #### Module 1 Homework
 The homework for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
-**The homework for this module is due by Tue 8/25/2020, 12:00 CDT for 110% credit, by Thu 8/27/2020, 12:00 CDT for 100% credit, and by Tue 9/8/2020, 12:00 CDT for 80% credit.**
+**The homework for this module is due by Thu 8/27/2020, 12:00 CDT for 110% credit, by Tue 9/1/2020, 12:00 CDT for 100% credit, and by Thu 9/10/2020, 12:00 CDT for 80% credit.**
 
 #### Module 1 Topics for Zoom Meetings
 
@@ -671,14 +669,8 @@ Students will work on their course projects
 
 
 
-#### Module 12 Homework
-The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
-**The homework for this module is due by Tue 11/10/2020, 11:00 CST for 110% credit, by Thu 11/12/2020, 11:00 CST for 100% credit, and by Tue 11/24/2020, 11:00 CST for 80% credit.**
 
-#### Module 12 Topics for Zoom Meetings
 
-* During class time we will work together to troubleshoot student course projects.
-* Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.
 
 
 
@@ -693,15 +685,8 @@ Students should have completed a project where they access and explore a civil o
 
 
 
-#### Module 13 Homework
-The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
-**The homework for this module is due by Tue 11/17/2020, 11:00 CST for 110% credit, by Thu 11/19/2020, 11:00 CST for 100% credit, and by Tue 12/1/2020, 11:00 CST for 80% credit.**
 
-#### Module 13 Topics for Zoom Meetings
 
-* Written report due
-* Oral presentations to class
-* Comprehensive final exam
 
 
 
