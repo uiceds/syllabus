@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-19'
+date-meta: '2020-08-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-19" />
+  <meta name="dc.date" content="2020-08-20" />
 
-  <meta name="citation_publication_date" content="2020-08-19" />
+  <meta name="citation_publication_date" content="2020-08-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3c17ceeeed78d8b1c59e1278f40d64dc3236feb6/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/410b84c6381de373e24e7b9af94d47ebd71360a1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3c17ceeeed78d8b1c59e1278f40d64dc3236feb6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/410b84c6381de373e24e7b9af94d47ebd71360a1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3c17ceeeed78d8b1c59e1278f40d64dc3236feb6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/410b84c6381de373e24e7b9af94d47ebd71360a1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -143,11 +143,10 @@ Additionally, students will complete homework assignments and a midterm and fina
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade
-  * Quizzes: 5% of final grade
-  * Homework problem sets: 15% of final grade
+  * Quizzes and homeworks: 20% of final grade
   * Midterm exam: 5% of final grade
   * Final exam: 15% of final grade
-  * Course project: 40% of final grade: 5% each for each of 5 checkpoints, 5% for midterm presentation, and 10% for final presentation.
+  * Course project: 40% of final grade: 7.5% for initial memo, 7.5% for midterm presentation, and 10% for final presentation, 15% for final report.
 * Graduate students are expected to register for 4 credits and undergraduates are expected to register for 3 credits. Correspondingly, course projects for graduate students are expected to include a machine learning component that is more complex than linear regression, whereas for undergraduates this is optional.
 * Letter grades will be assigned according to the following scale:
   * 97-100:	A+
@@ -163,6 +162,25 @@ Additionally, students will complete homework assignments and a midterm and fina
   * 64-66.5:	D
   * 60-63.5:	D-
   * Below 59.5:	F
+
+
+## Homeworks and Exams
+
+Homeworks and Exams will be done through [PrairieLearn](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
+In assigning these types of homeworks and exams, I'm placing emphasis on **mastery**.
+The idea is to keep doing questions until you master the underlying concept or method. Once you do, you should be able to answer these questions very quickly.
+
+### Homeworks
+
+For the homeworks, I try to preparation for class before a module starts, so if you finish all of the questions completely before the first meeting time for the module, you will receive 110% of the available points.
+Questions finished between the first and second meeting times of the module receive 100%, and questions finished up to two weeks after the module ends can receive 80%.
+
+Note that new homeworks are assigned most weeks, so if you don't stay ahead, it can be easy to fall behind.
+
+### Exams
+
+Exams are also administered using PrairieLearn. 
+For exams, partial credit isn't given, but you can try each problem more than once, with a decreasing number of points possible for each try.
 
 ## Learning Resources
 * Students are expected to bring have use of a laptop for class.
@@ -282,96 +300,6 @@ A list of the designated university employees who, as counselors, confidential a
 ### Student Wellness Resources
 The University of Illinois strives to promote student success through the support of student psychological and emotional well-being. Please take advantage of the resources listed on the Student Affairs website. 
 
-## Course Schedule
-
-* __Week 1: Open Reproducible Science.__ Students will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing.
-    * Before second class: [*The Introduction to Earth Data Science Textbook* Section 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)
-    * In class: Lecture on data science workflow best practices:
-      * Git/Github
-      * Jupyter
-      * Unit testing
-      * Software 1.0 and 2.0
-
-* __Week 2: Data science for the physical environment.__ Students will learn the types of environmental questions that data science and machine learning can help to answer, and begin to think about topics for course projects.
-  * Before class, read/browse through existing and proposed data science projects and brainstorm ideas for course projects.
-    * [Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)
-    * [PANGEO Geoscience Use Cases](https://pangeo.io/use_cases/index.html)
-    * [Kaggle data science competitions](https://www.kaggle.com/)
-    * [Earth Engine Case Studies](https://earthengine.google.com/case_studies/)
-    * [OpenAQ.org](https://openaq.org/)
-    * [Array of Things](https://arrayofthings.github.io/)
-    * [CACES air quality data](https://www.caces.us/data)
-    * Others from other CEE disciplines (TBD)
-  * In class:
-    * Students present on potential projects, with class discussion
-
-* __Week 3: Programming review__: Students will refresh their skills in basic Python programming
-    * Before class, complete the [Google python class](https://developers.google.com/edu/python) and complete python assignment on prarielearn.
-    * In class:
-      * Python & Jupyter exercises and troubleshooting
-
-* __Week 4: Big data__: Students will explore opportunities and challenges related to large databases
-    * Before class, view lectures on [numerical computing in Python](https://www.udemy.com/course/deep-learning-prerequisites-the-numpy-stack-in-python/) and complete numerical python assignment in prarielearn.
-    * In class:
-      * Lecture and demonstration:
-        * Cloud / High-performance computing
-        * Pangeo
-        * Earth engine
-      * Practice and discussion
-      * Choose project groups and topics
-
-* __Week 5: Spring break__
-
-* __Week 6: Exploratory data analysis (EDA)__ Students will learn how to explore and process an unfamiliar dataset.
-    * Before class: Watch mlcourse.ai video lectures on [exploratory data analysis](https://youtu.be/fwWCw_cE5aI) and [visualization](https://www.youtube.com/watch?v=WNoQTNOME5g) and work through accompanying notebooks [1](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/), [2.1](https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/) and [2.2](https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/)
-    * In class:
-      * Lecture: Statistics review
-      * EDA group exercises
-    * Students should begin working on EDA for their projects, which will be due in Week 9.
-
-* __Week 7: Geospatial data__: Students will learn about processing spatial data, which is common in physical data science
-    * Before class, students should work through the [geopandas tutorial](https://github.com/geopandas/scipy2018-geospatial-data) and complete a related assignment on prairielearn.
-    * In class lecture:
-      * raster vs. vector formats
-      * joins and boolean operations
-    * Spatial statistics homework assigned
-
-* __Week 8: Spatial statistics__: Students will learn how to perform statistical analysis of spatial data.
-  * Before class, students should review the [PySAL library](https://pysal.org/) and [notebooks](http://pysal.org/notebooks/intro) and complete an assignment brainstorming how one or more of these algorithms could be used for their project.
-  * In class:
-    * Lecture: Spatial statistics (spatial autocorrelation, Modifiable areal unit problem, kriging)
-    * Discussion: How spatial statistics can be applied to this semester's student projects
-
-* __Week 9: Mid-way project presentations__: Students should be able to access, characterize, and visualize the data for their projects by this point.
-  * Written project EDA report due
-  * Oral presentations of EDA results and plan for remainder of project.
-
-* __Week 10–10.5: Supervised learning__: Students will learn what supervised machine learning is and how it can help answer environmental questions
-  * Spatial statistics homework due
-  * Before class, students should complete the Google Machine Learning Crash Course sections on [framing machine learning](https://developers.google.com/machine-learning/crash-course/framing/video-lecture), [gradient descent](https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture), [optimization](https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture), [tensorflow](https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit), [generalization](https://developers.google.com/machine-learning/crash-course/generalization/video-lecture), [training and testing](https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture), and [validation](https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition), and the accompanying quiz on prairielearn.
-  * In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
-  * Machine learning homework assigned.
-
-* __Week 11: Unsupervised learning__: Students will learn about basic unsupervised learning algorithms and how they can be used on environmental applications.
-  * Before class, view Andrew Ng's lectures on [unsupervised learning](https://www.youtube.com/watch?v=jAA2g9ItoAc) and [clustering](https://www.youtube.com/watch?v=Ev8YbxPu_bQ), work through the [mlcourse.ai workbook](https://mlcourse.ai/articles/topic7-unsupervised/), and complete the quiz on prarielearn.
-  * In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
-
-* __Week 12: Deep learning__: Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
-  * Before class, students should complete the Google Machine Learning Crash Course sections on [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture), [Training Neural Networks](https://developers.google.com/machine-learning/crash-course/training-neural-networks/video-lecture), and [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture) and complete the prairielearn quiz.
-  * In class:
-    * Lecture on hyperparameter optimization and inductive biases
-    * Discuss applications to student projects
-
-* __Week 13–14: Projects__: Students will work on their course projects
-  * During class time we will work together to troubleshoot student course projects. Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.
-  * Machine learning homework due
-
-* __Week 15–16: Final exam; final project__: Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
-  * Written report due
-  * Oral presentations to class
-  * Comprehensive final exam
-
-
 ## Modules
 
 
@@ -385,6 +313,7 @@ You will learn how to structure a computational workflow for scientific analysis
 
 #### Readings and Lectures
 Develop your answers to the discussion questions below while completing the readings and lectures.
+
 * [Introduction to Earth Data Science Chapter 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)
 * [Introduction to Earth Data Science Chapter 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/)
 * [Introduction to Earth Data Science Chapter 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/jupyter-python/)
@@ -400,13 +329,299 @@ Consider the following questions:
   * What does it mean to practice open and reproducible science, and how could you apply it to your academic or professional life?
   * Although the readings and NOVA video mainly refer to academic science, how could they be relevant to science practiced in industry?
   * For the "Software 2.0" essay: What is the author talking about? Instead of trying to understand every detail in the essay (although by the end of the semester you should be able to understand a lot of it), focus on the main message: What is Software 2.0 and what are its implications for how science is carried out?
+
+
 Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1) and make one initial post and two responses.
 Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
 **All posts for this module are due by 0001-01-01 00:00:00 +0000 UTC.**
 
-#### Quiz
-The quiz for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
-**The quiz for this module is due by 0001-01-01 00:00:00 +0000 UTC.**
+#### Homework
+The homework for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+#### Topics for Zoom Meetings
+
+* Introduction, syllabus, and getting to know one another
+* Discussion of readings and technology check: installing Python and related tools
+
+### Module 2: Data science topics for Civil and Environmental Engineering
+
+#### Overview
+In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.
+
+
+
+#### Readings and Lectures
+Develop your answers to the discussion questions below while completing the readings and lectures.
+
+* [Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)
+* [PANGEO Geoscience Use Cases](https://pangeo.io/use_cases/index.html)
+* [Kaggle data science competitions](https://www.kaggle.com/)
+* [Earth Engine Case Studies](https://earthengine.google.com/case_studies/)
+* [OpenAQ.org](https://openaq.org/)
+* [Array of Things](https://arrayofthings.github.io/)
+* [CACES air quality data](https://www.caces.us/data)
+
+
+#### Discussion
+
+This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
+Consider the following questions:
+
+  * What are some ideas you have for course projects, and why do you think they would be useful?
+
+
+Log in to the [module discussion forum]() and make one initial post and two responses.
+Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
+**All posts for this module are due by 0001-01-01 00:00:00 +0000 UTC.**
+
+
+
+#### Topics for Zoom Meetings
+
+* Group discussion regarding project topics
+* Select project groups
+
+### Module 3: Programming review
+
+#### Overview
+This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.
+
+#### Objectives
+Students will refresh their skills in basic Python programming.
+
+#### Readings and Lectures
+
+* Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'.
+
+
+
+
+#### Homework
+The homework for Module 3 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+#### Topics for Zoom Meetings
+
+* Python & Jupyter exercises and troubleshooting
+
+### Module 4: Data
+
+#### Overview
+Data comes first in data science.
+
+#### Objectives
+
+* Students will learn about types of data that are relevant to Civil and Environmental Engineering problems
+* Students will become acquainted with tools for processing data.
+* Students will learn strategies for staging and processing large amounts of data.
+
+
+#### Readings and Lectures
+
+* Recorded lecture on Cloud / High-performance computing, Pangeo, and Earth engine
+
+
+
+
+#### Homework
+The homework for Module 4 covers the required readings and lectures and is available [here](numerical python assignment in prarielearn).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+#### Topics for Zoom Meetings
+
+* Practice and Discussion
+
+### Module 5: Exploratory data analysis (EDA)
+
+#### Overview
+The first step in a data science project is getting a feel for the dataset you are working with. This is called Exploratory Data Analysis (EDA).
+
+#### Objectives
+Students will learn how to explore and process an unfamiliar dataset.
+
+#### Readings and Lectures
+
+* Watch mlcourse.ai video lectures on [exploratory data analysis](https://youtu.be/fwWCw_cE5aI) and [visualization](https://www.youtube.com/watch?v=WNoQTNOME5g)
+* Work through accompanying notebooks [1](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/), [2.1](https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/) and [2.2](https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/)
+
+
+
+
+
+
+#### Topics for Zoom Meetings
+
+* Lecture: Statistics review
+* EDA group exercises
+
+### Module 6: Spatial data
+
+#### Overview
+Spatial and Geospatial data are common in Civil and Environmental Engineering, 
+but less common in other disciplines that use data science. In this module we will learn 
+how to work with these types of data.
+
+#### Objectives
+Students will learn about processing spatial data, which is common in physical data science
+
+#### Readings and Lectures
+
+* Recorded lecture on raster vs. vector formats
+* Recorded lecture on joins and boolean operations
+* [geopandas tutorial](https://github.com/geopandas/scipy2018-geospatial-data)
+
+
+
+
+#### Homework
+The homework for Module 6 covers the required readings and lectures and is available [here](SpatialDataHomework).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+
+### Module 7: Spatial statistics
+
+
+
+#### Objectives
+Students will learn how to perform statistical analysis of spatial data.
+
+#### Readings and Lectures
+
+* Recorded Lecture:  Spatial statistics (spatial autocorrelation, Modifiable areal unit problem, kriging)
+* [PySAL library](https://pysal.org/) and [notebooks](http://pysal.org/notebooks/intro)
+
+
+
+
+
+
+
+### Module 8: Mid-way project presentations
+
+
+
+#### Objectives
+Students should be able to access, characterize, and visualize the data for their projects by this point.
+
+
+
+
+
+
+
+
+### Module 9: Supervised learning
+
+
+
+#### Objectives
+Students will learn what supervised machine learning is and how it can help solve Civil and Environmental Engineering problems.
+
+#### Readings and Lectures
+
+* [framing machine learning](https://developers.google.com/machine-learning/crash-course/framing/video-lecture)
+* [gradient descent](https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture)
+* [optimization](https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture)
+* [tensorflow](https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit)
+* [generalization](https://developers.google.com/machine-learning/crash-course/generalization/video-lecture)
+* [training and testing](https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture)
+* [validation](https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition)
+
+
+
+
+#### Homework
+The homework for Module 9 covers the required readings and lectures and is available [here](SupervisedLearningHomework).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+
+### Module 10: Unsupervised learning
+
+
+
+#### Objectives
+Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.
+
+#### Readings and Lectures
+
+* [unsupervised learning](https://www.youtube.com/watch?v=jAA2g9ItoAc)
+* [clustering](https://www.youtube.com/watch?v=Ev8YbxPu_bQ)
+* [mlcourse.ai workbook](https://mlcourse.ai/articles/topic7-unsupervised/)
+
+
+
+
+#### Homework
+The homework for Module 10 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+#### Topics for Zoom Meetings
+
+* In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
+
+### Module 11: Deep learning
+
+
+
+#### Objectives
+Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
+
+#### Readings and Lectures
+
+* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
+* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
+* Recorded Lecture: hyperparameter optimization and inductive biases
+
+
+
+
+#### Homework
+The homework for Module 11 covers the required readings and lectures and is available [here](DeepLearningHomework).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+
+### Module 12: Project work
+
+#### Overview
+Students will work on their course projects
+
+
+
+
+
+
+
+#### Homework
+The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+#### Topics for Zoom Meetings
+
+* During class time we will work together to troubleshoot student course projects.
+* Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.
+
+### Module 13: Final exam; final project presentations and reports
+
+
+
+#### Objectives
+Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
+
+
+
+
+
+#### Homework
+The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
+**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+
+#### Topics for Zoom Meetings
+
+* Written report due
+* Oral presentations to class
+* Comprehensive final exam
+
 
 
 ## Assessment Instructions and Rubrics
