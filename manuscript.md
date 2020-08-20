@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/410b84c6381de373e24e7b9af94d47ebd71360a1/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ef8413d8ecd714824f95175301c088c59fc49221/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/410b84c6381de373e24e7b9af94d47ebd71360a1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ef8413d8ecd714824f95175301c088c59fc49221/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/410b84c6381de373e24e7b9af94d47ebd71360a1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ef8413d8ecd714824f95175301c088c59fc49221/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -333,16 +333,18 @@ Consider the following questions:
 
 Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1) and make one initial post and two responses.
 Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
-**All posts for this module are due by 0001-01-01 00:00:00 +0000 UTC.**
+**The initial post for this module are due by Tue 8/25/2020, 12:00 CDT and all response posts are due by Thu 8/27/2020, 12:00 CDT.**
 
 #### Homework
 The homework for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 8/25/2020, 12:00 CDT for 110% credit, by Thu 8/27/2020, 12:00 CDT for 100% credit, and by Tue 9/8/2020, 12:00 CDT for 80% credit.**
 
 #### Topics for Zoom Meetings
 
 * Introduction, syllabus, and getting to know one another
 * Discussion of readings and technology check: installing Python and related tools
+
+
 
 ### Module 2: Data science topics for Civil and Environmental Engineering
 
@@ -373,7 +375,7 @@ Consider the following questions:
 
 Log in to the [module discussion forum]() and make one initial post and two responses.
 Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
-**All posts for this module are due by 0001-01-01 00:00:00 +0000 UTC.**
+**The initial post for this module are due by Tue 9/1/2020, 12:00 CDT and all response posts are due by Thu 9/3/2020, 12:00 CDT.**
 
 
 
@@ -382,6 +384,12 @@ Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instruc
 * Group discussion regarding project topics
 * Select project groups
 
+
+
+#### Project Assignment
+Write an engineering memo describing your project team, the problem 
+you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
+you will use.
 ### Module 3: Programming review
 
 #### Overview
@@ -399,11 +407,13 @@ Students will refresh their skills in basic Python programming.
 
 #### Homework
 The homework for Module 3 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Thu 9/10/2020, 12:00 CDT for 100% credit, and by Tue 9/22/2020, 12:00 CDT for 80% credit.**
 
 #### Topics for Zoom Meetings
 
 * Python & Jupyter exercises and troubleshooting
+
+
 
 ### Module 4: Data
 
@@ -426,11 +436,13 @@ Data comes first in data science.
 
 #### Homework
 The homework for Module 4 covers the required readings and lectures and is available [here](numerical python assignment in prarielearn).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Thu 9/17/2020, 12:00 CDT for 100% credit, and by Tue 9/29/2020, 12:00 CDT for 80% credit.**
 
 #### Topics for Zoom Meetings
 
 * Practice and Discussion
+
+
 
 ### Module 5: Exploratory data analysis (EDA)
 
@@ -455,6 +467,10 @@ Students will learn how to explore and process an unfamiliar dataset.
 * Lecture: Statistics review
 * EDA group exercises
 
+
+
+#### Project Assignment
+Students should begin working on EDA for their projects, which will be due in Week 9.
 ### Module 6: Spatial data
 
 #### Overview
@@ -476,7 +492,9 @@ Students will learn about processing spatial data, which is common in physical d
 
 #### Homework
 The homework for Module 6 covers the required readings and lectures and is available [here](SpatialDataHomework).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Thu 10/1/2020, 12:00 CDT for 100% credit, and by Tue 10/13/2020, 12:00 CDT for 80% credit.**
+
+
 
 
 ### Module 7: Spatial statistics
@@ -497,12 +515,16 @@ Students will learn how to perform statistical analysis of spatial data.
 
 
 
+
+
 ### Module 8: Mid-way project presentations
 
 
 
 #### Objectives
 Students should be able to access, characterize, and visualize the data for their projects by this point.
+
+
 
 
 
@@ -533,7 +555,9 @@ Students will learn what supervised machine learning is and how it can help solv
 
 #### Homework
 The homework for Module 9 covers the required readings and lectures and is available [here](SupervisedLearningHomework).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Thu 10/1/2020, 12:00 CDT for 100% credit, and by Tue 10/13/2020, 12:00 CDT for 80% credit.**
+
+
 
 
 ### Module 10: Unsupervised learning
@@ -554,11 +578,13 @@ Students will learn about basic unsupervised learning algorithms and how they ca
 
 #### Homework
 The homework for Module 10 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 10/6/2020, 12:00 CDT for 110% credit, by Thu 10/8/2020, 12:00 CDT for 100% credit, and by Tue 10/20/2020, 12:00 CDT for 80% credit.**
 
 #### Topics for Zoom Meetings
 
 * In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
+
+
 
 ### Module 11: Deep learning
 
@@ -578,7 +604,9 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 
 #### Homework
 The homework for Module 11 covers the required readings and lectures and is available [here](DeepLearningHomework).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 10/13/2020, 12:00 CDT for 110% credit, by Thu 10/15/2020, 12:00 CDT for 100% credit, and by Tue 10/27/2020, 12:00 CDT for 80% credit.**
+
+
 
 
 ### Module 12: Project work
@@ -594,12 +622,14 @@ Students will work on their course projects
 
 #### Homework
 The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Thu 9/10/2020, 12:00 CDT for 100% credit, and by Tue 9/22/2020, 12:00 CDT for 80% credit.**
 
 #### Topics for Zoom Meetings
 
 * During class time we will work together to troubleshoot student course projects.
 * Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.
+
+
 
 ### Module 13: Final exam; final project presentations and reports
 
@@ -614,13 +644,15 @@ Students should have completed a project where they access and explore a civil o
 
 #### Homework
 The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Thu 9/10/2020, 12:00 CDT for 100% credit, and by Tue 9/22/2020, 12:00 CDT for 80% credit.**
 
 #### Topics for Zoom Meetings
 
 * Written report due
 * Oral presentations to class
 * Comprehensive final exam
+
+
 
 
 
