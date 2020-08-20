@@ -37,14 +37,14 @@ Consider the following questions:
 
 Log in to the [module discussion forum]({{.DiscussionURL}}) and make one initial post and two responses.
 Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
-**All posts for this module are due by {{.DiscussionDeadline}}.**
+**The initial post for this module are due by {{DiscussionInitialDeadline .}} and all response posts are due by {{DiscussionResponseDeadline .}}.**
 
 {{- end}}
 
 {{if .HomeworkURL -}}
 #### Homework
 The homework for Module {{.Number}} covers the required readings and lectures and is available [here]({{.HomeworkURL}}).
-**The homework for this module is due by X for 110% credit, by X for 100% credit, and by %X for 80% credit.**
+**The homework for this module is due by {{HomeworkDeadline1 .}} for 110% credit, by {{HomeworkDeadline2 .}} for 100% credit, and by {{HomeworkDeadline3 .}} for 80% credit.**
 {{- end}}
 
 {{if .LiveMeetingTopics -}}
@@ -52,6 +52,11 @@ The homework for Module {{.Number}} covers the required readings and lectures an
 
 {{range .LiveMeetingTopics}}* {{.}}
 {{end}}
+{{- end}}
+
+{{if .ProjectAssignment}}
+#### Project Assignment
+{{.ProjectAssignment}}
 {{- end}}
 
 {{- end}}

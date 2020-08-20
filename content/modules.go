@@ -4,25 +4,83 @@ import (
 	"os"
 	"text/template"
 	"time"
+
+	"gonum.org/v1/gonum/graph"
+	"gonum.org/v1/gonum/graph/simple"
+	"gonum.org/v1/gonum/graph/traverse"
 )
 
-var courses = []struct {
-	Number             int
-	Title              string
-	Overview           string
-	Objectives         []string
-	Readings           []string
-	DiscussionPrompts  []string
-	DiscussionURL      string
-	DiscussionDeadline time.Time
-	HomeworkURL        string
-	HomeworkDeadline   time.Time
-	LiveMeetingTopics  []string
-	Assignment         string
-	AssignmentDays     int
-}{
+var startDate time.Time
+
+var loc *time.Location
+
+func init() {
+	var err error
+	loc, err = time.LoadLocation("America/Chicago")
+	if err != nil {
+		panic(err)
+	}
+	startDate = time.Date(2020, time.August, 24, 12, 0, 0, 0, loc)
+}
+
+func startDates(modules []module) map[int64]time.Time {
+	g := simple.NewDirectedGraph()
+	mods := make(map[int64]graph.Node)
+	for _, m := range modules {
+		mods[m.ID()] = m
+	}
+	for _, m := range modules {
+		g.AddNode(m)
+		for _, p := range m.Parents {
+			g.SetEdge(g.NewEdge(mods[p], m))
+		}
+	}
+
+	startDates := make(map[int64]time.Time)
+	t := traverse.BreadthFirst{
+		Visit: func(n graph.Node) {
+			m := n.(module)
+			if len(m.Parents) == 0 { // Root starts at the start date
+				startDates[m.ID()] = startDate
+			} else { // Start at date that latest parent ends.
+				d := startDate
+				for _, p := range m.Parents {
+					mp := g.Node(p).(module)
+					dp := startDates[p].Add(time.Hour * 24 * time.Duration(mp.NumDays))
+					if dp.After(d) {
+						d = dp
+					}
+				}
+				startDates[m.ID()] = d
+			}
+		},
+	}
+	t.Walk(g, g.Node(1), nil)
+	return startDates
+}
+
+type module struct {
+	Number                int64
+	Title                 string
+	Parents               []int64
+	NumDays               int
+	Overview              string
+	Objectives            []string
+	Readings              []string
+	DiscussionPrompts     []string
+	DiscussionURL         string
+	HomeworkURL           string
+	LiveMeetingTopics     []string
+	ProjectAssignment     string
+	ProjectAssignmentDays int
+}
+
+func (m module) ID() int64 { return m.Number }
+
+var modules = []module{
 	{
 		Number:     1,
+		NumDays:    7,
 		Title:      "Open Reproducible Science",
 		Overview:   "This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.",
 		Objectives: []string{"You will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing."},
@@ -47,6 +105,8 @@ var courses = []struct {
 	},
 	{
 		Number:     2,
+		NumDays:    7,
+		Parents:    []int64{1},
 		Title:      "Data science topics for Civil and Environmental Engineering",
 		Overview:   "In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.",
 		Objectives: []string{},
@@ -66,13 +126,15 @@ var courses = []struct {
 			"Group discussion regarding project topics",
 			"Select project groups",
 		},
-		Assignment: `Write an engineering memo describing your project team, the problem 
+		ProjectAssignment: `Write an engineering memo describing your project team, the problem 
 you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
 you will use.`,
-		AssignmentDays: 17,
+		ProjectAssignmentDays: 17,
 	},
 	{
 		Number:      3,
+		NumDays:     7,
+		Parents:     []int64{2},
 		Title:       "Programming review",
 		Overview:    "This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.",
 		Objectives:  []string{"Students will refresh their skills in basic Python programming."},
@@ -84,6 +146,8 @@ you will use.`,
 	},
 	{
 		Number:   4,
+		NumDays:  7,
+		Parents:  []int64{3},
 		Title:    "Data",
 		Overview: "Data comes first in data science.",
 		Objectives: []string{
@@ -101,6 +165,8 @@ you will use.`,
 	},
 	{
 		Number:     5,
+		NumDays:    7,
+		Parents:    []int64{3, 4},
 		Title:      "Exploratory data analysis (EDA)",
 		Overview:   "The first step in a data science project is getting a feel for the dataset you are working with. This is called Exploratory Data Analysis (EDA).",
 		Objectives: []string{"Students will learn how to explore and process an unfamiliar dataset."},
@@ -112,12 +178,14 @@ you will use.`,
 			"Lecture: Statistics review",
 			"EDA group exercises",
 		},
-		Assignment:     `Students should begin working on EDA for their projects, which will be due in Week 9.`,
-		AssignmentDays: 17,
+		ProjectAssignment:     `Students should begin working on EDA for their projects, which will be due in Week 9.`,
+		ProjectAssignmentDays: 17,
 	},
 	{
-		Number: 6,
-		Title:  "Spatial data",
+		Number:  6,
+		Parents: []int64{3, 5},
+		NumDays: 7,
+		Title:   "Spatial data",
 		Overview: `Spatial and Geospatial data are common in Civil and Environmental Engineering, 
 but less common in other disciplines that use data science. In this module we will learn 
 how to work with these types of data.`,
@@ -132,6 +200,8 @@ how to work with these types of data.`,
 	},
 	{
 		Number:     7,
+		Parents:    []int64{6},
+		NumDays:    7,
 		Title:      "Spatial statistics",
 		Overview:   "",
 		Objectives: []string{"Students will learn how to perform statistical analysis of spatial data."},
@@ -144,6 +214,8 @@ how to work with these types of data.`,
 	{
 
 		Number:            8,
+		Parents:           []int64{2, 7},
+		NumDays:           7,
 		Title:             "Mid-way project presentations",
 		Overview:          "",
 		Objectives:        []string{"Students should be able to access, characterize, and visualize the data for their projects by this point."},
@@ -152,6 +224,8 @@ how to work with these types of data.`,
 	},
 	{
 		Number:     9,
+		Parents:    []int64{5, 8},
+		NumDays:    7,
 		Title:      "Supervised learning",
 		Overview:   "",
 		Objectives: []string{"Students will learn what supervised machine learning is and how it can help solve Civil and Environmental Engineering problems."},
@@ -169,6 +243,8 @@ how to work with these types of data.`,
 	},
 	{
 		Number:     10,
+		Parents:    []int64{5, 9},
+		NumDays:    7,
 		Title:      "Unsupervised learning",
 		Overview:   "",
 		Objectives: []string{"Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications."},
@@ -184,6 +260,8 @@ how to work with these types of data.`,
 	},
 	{
 		Number:   11,
+		Parents:  []int64{9, 10},
+		NumDays:  7,
 		Title:    "Deep learning",
 		Overview: "",
 		Objectives: []string{
@@ -199,6 +277,8 @@ how to work with these types of data.`,
 	},
 	{
 		Number:      12,
+		Parents:     []int64{2, 11},
+		NumDays:     7,
 		Title:       "Project work",
 		Overview:    "Students will work on their course projects",
 		Objectives:  []string{},
@@ -211,6 +291,8 @@ how to work with these types of data.`,
 	},
 	{
 		Number:      13,
+		Parents:     []int64{2, 12},
+		NumDays:     7,
 		Title:       "Final exam; final project presentations and reports",
 		Overview:    "",
 		Objectives:  []string{"Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question."},
@@ -224,12 +306,57 @@ how to work with these types of data.`,
 	},
 }
 
+func nextTuesday(t time.Time) time.Time {
+	d := t
+	for {
+		if d.Weekday() == time.Tuesday {
+			return d
+		}
+		d = d.Add(24 * time.Hour)
+	}
+}
+
+func nextThursday(t time.Time) time.Time {
+	d := t
+	for {
+		if d.Weekday() == time.Thursday {
+			return d
+		}
+		d = d.Add(24 * time.Hour)
+	}
+}
+
+const dateFormat = "Mon 1/2/2006, 15:04 MST"
+
 func main() {
-	tmpl := template.Must(template.ParseFiles("content/modules_template.md"))
+	dates := startDates(modules)
+
+	funcMap := template.FuncMap{
+		"StartDate": func(m module) string {
+			return dates[m.ID()].Format(dateFormat)
+		},
+		"DiscussionInitialDeadline": func(m module) string {
+			return nextTuesday(dates[m.ID()]).Format(dateFormat)
+		},
+		"DiscussionResponseDeadline": func(m module) string {
+			return nextThursday(dates[m.ID()]).Format(dateFormat)
+		},
+		"HomeworkDeadline1": func(m module) string {
+			return nextTuesday(dates[m.ID()]).Format(dateFormat)
+		},
+		"HomeworkDeadline2": func(m module) string {
+			return nextThursday(dates[m.ID()]).Format(dateFormat)
+		},
+		"HomeworkDeadline3": func(m module) string {
+			return nextTuesday(dates[m.ID()]).Add(14 * 24 * time.Hour).Format(dateFormat)
+		},
+	}
+
+	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("content/modules_template.md"))
 
 	w, err := os.Create("content/04.modules.md")
 	check(err)
-	check(tmpl.Execute(w, courses))
+	check(tmpl.ExecuteTemplate(w, "modules_template.md", modules))
 	w.Close()
 }
 
