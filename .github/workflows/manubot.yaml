@@ -33,8 +33,8 @@ jobs:
             ci-cache-refs/heads/master
       - name: Install Go
         uses: actions/setup-go@v2
-      - name: Run rendering script
-        run: go run content/render.go
+      - name: Render modules
+        run: go run content/modules.go
       - name: Install Environment
         uses: goanpeca/setup-miniconda@v1
         with:
