@@ -1,3 +1,44 @@
+## Schedule
+
+### Modules
+
+| Module | Title | Start Date |
+| -- | -- | -- |
+{{- range .}}
+| {{.Number}} | [{{.Title}}](#{{ModuleLink .}}) | {{StartDate .}}
+{{- end}}
+
+### Discussions
+
+| Title | Initial Post Due | Response Posts Due |
+| -- | -- | -- |
+{{- range .}}
+{{- if .DiscussionURL}}
+| [{{.Title}}]({{.DiscussionURL}}) | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
+{{- end -}}
+{{- end}}
+
+### Homeworks
+
+Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
+| -- | -- | -- | -- |
+{{- range .}}
+{{- if .HomeworkURL}}
+| [{{.Title}}]({{.HomeworkURL}}) | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
+{{- end -}}
+{{- end}}
+
+### Project Assignments
+
+| Title | Assigned | Due |
+| -- | -- | -- |
+{{- range .}}
+{{- if .ProjectAssignment}}
+| [{{.Title}}](#{{ModuleLink .}}) | {{StartDate .}} | {{AssignmentDeadline .}}
+{{- end -}}
+{{- end}}
+
+
 ## Modules
 
 {{range .}}

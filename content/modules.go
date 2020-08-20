@@ -2,6 +2,7 @@ package main
 
 import (
 	"os"
+	"strings"
 	"text/template"
 	"time"
 
@@ -53,6 +54,9 @@ func startDates(modules []module) map[int64]time.Time {
 				}
 				startDates[m.ID()] = d
 			}
+		},
+		Traverse: func(e graph.Edge) bool {
+			return e.From().ID() == e.To().ID()-1
 		},
 	}
 	t.Walk(g, g.Node(1), nil)
@@ -119,6 +123,7 @@ var modules = []module{
 			"[Array of Things](https://arrayofthings.github.io/)",
 			"[CACES air quality data](https://www.caces.us/data)",
 		},
+		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
 		DiscussionPrompts: []string{
 			"What are some ideas you have for course projects, and why do you think they would be useful?",
 		},
@@ -333,7 +338,7 @@ func main() {
 
 	funcMap := template.FuncMap{
 		"StartDate": func(m module) string {
-			return dates[m.ID()].Format(dateFormat)
+			return dates[m.ID()].Format("1/2/2006")
 		},
 		"DiscussionInitialDeadline": func(m module) string {
 			return nextTuesday(dates[m.ID()]).Format(dateFormat)
@@ -349,6 +354,12 @@ func main() {
 		},
 		"HomeworkDeadline3": func(m module) string {
 			return nextTuesday(dates[m.ID()]).Add(14 * 24 * time.Hour).Format(dateFormat)
+		},
+		"AssignmentDeadline": func(m module) string {
+			return nextTuesday(dates[m.ID()].Add(time.Duration(m.ProjectAssignmentDays) * 24 * time.Hour)).Format(dateFormat)
+		},
+		"ModuleLink": func(m module) string {
+			return strings.Replace(strings.ToLower(m.Title), " ", "-", -1)
 		},
 	}
 
