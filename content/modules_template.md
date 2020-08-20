@@ -10,21 +10,21 @@
 
 ### Discussions
 
-| Title | Initial Post Due | Response Posts Due |
-| -- | -- | -- |
+| Title | Assigned | Initial Post Due | Response Posts Due |
+| -- | -- | -- | -- |
 {{- range .}}
 {{- if .DiscussionURL}}
-| [{{.Title}}](#module-{{.Number}}-discussion) | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
+| [{{.Title}}](#module-{{.Number}}-discussion) | {{DiscussionAssigned .}} | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
 {{- end -}}
 {{- end}}
 
 ### Homeworks
 
-Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
-| -- | -- | -- | -- |
+Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
+| -- | -- | -- | -- | -- |
 {{- range .}}
 {{- if .HomeworkURL}}
-| [{{.Title}}](#module-{{.Number}}-homework) | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
+| [{{.Title}}](#module-{{.Number}}-homework) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
 {{- end -}}
 {{- end}}
 

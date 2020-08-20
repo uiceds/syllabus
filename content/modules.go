@@ -64,16 +64,25 @@ func startDates(modules []module) map[int64]time.Time {
 }
 
 type module struct {
-	Number                int64
-	Title                 string
-	Parents               []int64
-	NumDays               int
-	Overview              string
-	Objectives            []string
-	Readings              []string
-	DiscussionPrompts     []string
-	DiscussionURL         string
-	HomeworkURL           string
+	Number     int64
+	Title      string
+	Parents    []int64
+	NumDays    int
+	Overview   string
+	Objectives []string
+	Readings   []string
+
+	DiscussionPrompts []string
+	DiscussionURL     string
+	// DiscussionDelay is the number of lectures to delay the
+	// discussion due date by.
+	DiscussionDelay int
+
+	HomeworkURL string
+	// DiscussionDelay is the number of lectures to delay the
+	// discussion due date by.
+	HomeworkDelay int
+
 	LiveMeetingTopics     []string
 	ProjectAssignment     string
 	ProjectAssignmentDays int
@@ -100,8 +109,10 @@ var modules = []module{
 			"Although the readings and NOVA video mainly refer to academic science, how could they be relevant to science practiced in industry?",
 			"For the \"Software 2.0\" essay: What is the author talking about? Instead of trying to understand every detail in the essay (although by the end of the semester you should be able to understand a lot of it), focus on the main message: What is Software 2.0 and what are its implications for how science is carried out?",
 		},
-		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1",
-		HomeworkURL:   "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/",
+		DiscussionURL:   "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1",
+		DiscussionDelay: 1,
+		HomeworkURL:     "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/",
+		HomeworkDelay:   1,
 		LiveMeetingTopics: []string{
 			"Introduction, syllabus, and getting to know one another",
 			"Discussion of readings and technology check: installing Python and related tools",
@@ -281,82 +292,100 @@ how to work with these types of data.`,
 		LiveMeetingTopics: []string{},
 	},
 	{
-		Number:      12,
-		Parents:     []int64{2, 11},
-		NumDays:     7,
-		Title:       "Project work",
-		Overview:    "Students will work on their course projects",
-		Objectives:  []string{},
-		Readings:    []string{},
-		HomeworkURL: "DeepLearningHomework",
-		LiveMeetingTopics: []string{
-			"During class time we will work together to troubleshoot student course projects.",
-			"Students can sign up for time slots where they can present a problem they have encountered and the class will discuss possible solutions.",
-		},
+		Number:            12,
+		Parents:           []int64{2, 11},
+		NumDays:           7,
+		Title:             "Project work",
+		Overview:          "Students will work on their course projects",
+		Objectives:        []string{},
+		Readings:          []string{},
+		HomeworkURL:       "",
+		LiveMeetingTopics: []string{},
 	},
 	{
-		Number:      13,
-		Parents:     []int64{2, 12},
-		NumDays:     7,
-		Title:       "Final exam; final project presentations and reports",
-		Overview:    "",
-		Objectives:  []string{"Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question."},
-		Readings:    []string{},
-		HomeworkURL: "DeepLearningHomework",
-		LiveMeetingTopics: []string{
-			"Written report due",
-			"Oral presentations to class",
-			"Comprehensive final exam",
-		},
+		Number:            13,
+		Parents:           []int64{2, 12},
+		NumDays:           7,
+		Title:             "Final exam; final project presentations and reports",
+		Overview:          "",
+		Objectives:        []string{"Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question."},
+		Readings:          []string{},
+		HomeworkURL:       "",
+		LiveMeetingTopics: []string{},
 	},
 }
 
-func nextTuesday(t time.Time) time.Time {
+func nextLecture(t time.Time) time.Time {
 	d := t
 	for {
-		if d.Weekday() == time.Tuesday {
+		d = d.Add(24 * time.Hour)
+		if w := d.Weekday(); w == time.Tuesday || w == time.Thursday {
 			return d
 		}
-		d = d.Add(24 * time.Hour)
-	}
-}
-
-func nextThursday(t time.Time) time.Time {
-	d := t
-	for {
-		if d.Weekday() == time.Thursday {
-			return d
-		}
-		d = d.Add(24 * time.Hour)
 	}
 }
 
 const dateFormat = "Mon 1/2/2006, 15:04 MST"
+const dayFormat = "1/2/2006"
 
 func main() {
 	dates := startDates(modules)
 
 	funcMap := template.FuncMap{
 		"StartDate": func(m module) string {
-			return dates[m.ID()].Format("1/2/2006")
+			return dates[m.ID()].Format(dayFormat)
+		},
+		"DiscussionAssigned": func(m module) string {
+			d := dates[m.ID()].Add(-7 * 24 * time.Hour)
+			if d.Before(startDate) {
+				return startDate.Format(dayFormat)
+			}
+			return d.Format(dayFormat)
 		},
 		"DiscussionInitialDeadline": func(m module) string {
-			return nextTuesday(dates[m.ID()]).Format(dateFormat)
+			d := nextLecture(dates[m.ID()])
+			for i := 0; i < m.DiscussionDelay; i++ {
+				d = nextLecture(d)
+			}
+			return d.Format(dateFormat)
 		},
 		"DiscussionResponseDeadline": func(m module) string {
-			return nextThursday(dates[m.ID()]).Format(dateFormat)
+			d := nextLecture(nextLecture(dates[m.ID()]))
+			for i := 0; i < m.DiscussionDelay; i++ {
+				d = nextLecture(d)
+			}
+			return d.Format(dateFormat)
+		},
+		"HomeworkAssigned": func(m module) string {
+			d := dates[m.ID()].Add(-7 * 24 * time.Hour)
+			if d.Before(startDate) {
+				return startDate.Format(dayFormat)
+			}
+			return d.Format(dayFormat)
 		},
 		"HomeworkDeadline1": func(m module) string {
-			return nextTuesday(dates[m.ID()]).Format(dateFormat)
+			d := nextLecture(dates[m.ID()])
+			for i := 0; i < m.HomeworkDelay; i++ {
+				d = nextLecture(d)
+			}
+			return d.Format(dateFormat)
 		},
 		"HomeworkDeadline2": func(m module) string {
-			return nextThursday(dates[m.ID()]).Format(dateFormat)
+			d := nextLecture(nextLecture(dates[m.ID()]))
+			for i := 0; i < m.HomeworkDelay; i++ {
+				d = nextLecture(d)
+			}
+			return d.Format(dateFormat)
 		},
 		"HomeworkDeadline3": func(m module) string {
-			return nextTuesday(dates[m.ID()]).Add(14 * 24 * time.Hour).Format(dateFormat)
+			d := nextLecture(dates[m.ID()]).Add(14 * 24 * time.Hour)
+			for i := 0; i < m.HomeworkDelay; i++ {
+				d = nextLecture(d)
+			}
+			return d.Format(dateFormat)
 		},
 		"AssignmentDeadline": func(m module) string {
-			return nextTuesday(dates[m.ID()].Add(time.Duration(m.ProjectAssignmentDays) * 24 * time.Hour)).Format(dateFormat)
+			return nextLecture(dates[m.ID()].Add(time.Duration(m.ProjectAssignmentDays) * 24 * time.Hour)).Format(dateFormat)
 		},
 		"ModuleLink": func(m module) string {
 			return strings.Replace(strings.ToLower(m.Title), " ", "-", -1)
