@@ -352,9 +352,9 @@ func main() {
 		},
 	}
 
-	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("content/modules_template.md"))
+	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("modules_template.md"))
 
-	w, err := os.Create("content/04.modules.md")
+	w, err := os.Create("04.modules.md")
 	check(err)
 	check(tmpl.ExecuteTemplate(w, "modules_template.md", modules))
 	w.Close()

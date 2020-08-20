@@ -34,7 +34,7 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v2
       - name: Render modules
-        run: go get && go run content/modules.go
+        run: cd content/ && go get && go run modules.go && cd ../
       - name: Install Environment
         uses: goanpeca/setup-miniconda@v1
         with:
