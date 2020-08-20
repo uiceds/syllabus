@@ -5,7 +5,7 @@
 | Module | Title | Start Date |
 | -- | -- | -- |
 {{- range .}}
-| {{.Number}} | [{{.Title}}](#{{ModuleLink .}}) | {{StartDate .}}
+| {{.Number}} | [{{.Title}}](#module-{{.Number}}-{{ModuleLink .}}) | {{StartDate .}}
 {{- end}}
 
 ### Discussions
@@ -14,7 +14,7 @@
 | -- | -- | -- |
 {{- range .}}
 {{- if .DiscussionURL}}
-| [{{.Title}}]({{.DiscussionURL}}) | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
+| [{{.Title}}](#module-{{.Number}}-discussion) | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
 {{- end -}}
 {{- end}}
 
@@ -24,7 +24,7 @@ Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% C
 | -- | -- | -- | -- |
 {{- range .}}
 {{- if .HomeworkURL}}
-| [{{.Title}}]({{.HomeworkURL}}) | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
+| [{{.Title}}](#module-{{.Number}}-homework) | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
 {{- end -}}
 {{- end}}
 
@@ -34,7 +34,7 @@ Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% C
 | -- | -- | -- |
 {{- range .}}
 {{- if .ProjectAssignment}}
-| [{{.Title}}](#{{ModuleLink .}}) | {{StartDate .}} | {{AssignmentDeadline .}}
+| [{{.Title}}](#module-{{.Number}}-project-assignment) | {{StartDate .}} | {{AssignmentDeadline .}}
 {{- end -}}
 {{- end}}
 
@@ -45,12 +45,12 @@ Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% C
 ### Module {{.Number}}: {{.Title}}
 
 {{if .Overview -}}
-#### Overview
+#### Module {{.Number}} Overview
 {{.Overview}}
 {{- end}}
 
 {{if .Objectives -}}
-#### Objectives
+#### Module {{.Number}} Objectives
 {{if len .Objectives | eq 1}}{{index .Objectives 0}}
 {{- else}}
 {{range .Objectives}}* {{.}}
@@ -59,7 +59,7 @@ Title | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% C
 {{- end}}
 
 {{if .Readings -}}
-#### Readings and Lectures
+#### Module {{.Number}} Readings and Lectures
 {{if .DiscussionPrompts -}}
 Develop your answers to the discussion questions below while completing the readings and lectures.
 {{end}}
@@ -68,7 +68,7 @@ Develop your answers to the discussion questions below while completing the read
 {{- end}}
 
 {{if .DiscussionPrompts -}}
-#### Discussion
+#### Module {{.Number}} Discussion
 
 This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
 Consider the following questions:
@@ -83,21 +83,21 @@ Refer to the [Discussion Forum Instructions and Rubric](discussion-forum-instruc
 {{- end}}
 
 {{if .HomeworkURL -}}
-#### Homework
+#### Module {{.Number}} Homework
 The homework for Module {{.Number}} covers the required readings and lectures and is available [here]({{.HomeworkURL}}).
 **The homework for this module is due by {{HomeworkDeadline1 .}} for 110% credit, by {{HomeworkDeadline2 .}} for 100% credit, and by {{HomeworkDeadline3 .}} for 80% credit.**
 {{- end}}
 
 {{if .LiveMeetingTopics -}}
-#### Topics for Zoom Meetings
+#### Module {{.Number}} Topics for Zoom Meetings
 
 {{range .LiveMeetingTopics}}* {{.}}
 {{end}}
 {{- end}}
 
 {{if .ProjectAssignment}}
-#### Project Assignment
+#### Module {{.Number}} Project Assignment
 {{.ProjectAssignment}}
-{{- end}}
+{{end}}
 
 {{- end}}
