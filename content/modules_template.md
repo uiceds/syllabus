@@ -2,8 +2,6 @@
 
 [Course calendar](https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com)
 
-[Course calendar in iCal format](https://calendar.google.com/calendar/ical/c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com/private-bff46a030c29d1e643208141a833d90c/basic.ics)
-
 <iframe src="https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### Modules
