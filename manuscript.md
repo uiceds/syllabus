@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-20'
+date-meta: '2020-08-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-20" />
+  <meta name="dc.date" content="2020-08-21" />
 
-  <meta name="citation_publication_date" content="2020-08-20" />
+  <meta name="citation_publication_date" content="2020-08-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d733c1fd16f13377ba0cd06351fe58f5da78fd50/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/06098621799e5d3ac6544bcb06a4463ac57e935a/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d733c1fd16f13377ba0cd06351fe58f5da78fd50/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/06098621799e5d3ac6544bcb06a4463ac57e935a/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d733c1fd16f13377ba0cd06351fe58f5da78fd50/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/06098621799e5d3ac6544bcb06a4463ac57e935a/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -302,6 +302,12 @@ The University of Illinois strives to promote student success through the suppor
 
 ## Schedule
 
+[Course calendar](https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com)
+
+[Course calendar in iCal format](https://calendar.google.com/calendar/ical/c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com/private-bff46a030c29d1e643208141a833d90c/basic.ics)
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ### Modules
 
 | Module | Title | Start Date |
@@ -316,9 +322,11 @@ The University of Illinois strives to promote student success through the suppor
 | 8 | [Mid-way project presentations](#module-8-mid-way-project-presentations) | 10/12/2020
 | 9 | [Supervised learning](#module-9-supervised-learning) | 10/19/2020
 | 10 | [Unsupervised learning](#module-10-unsupervised-learning) | 10/26/2020
-| 11 | [Deep learning](#module-11-deep-learning) | 11/2/2020
-| 12 | [Project work](#module-12-project-work) | 11/9/2020
-| 13 | [Final exam; final project presentations and reports](#module-13-final-exam;-final-project-presentations-and-reports) | 11/16/2020
+| 11 | [Neural Networks](#module-11-neural-networks) | 11/2/2020
+| 12 | [Convolutional Neural Networks](#module-12-convolutional-neural-networks) | 11/9/2020
+| 13 | [Neural Networks for Sequences](#module-13-neural-networks-for-sequences) | 11/16/2020
+| 14 | [Project work](#module-14-project-work) | 11/23/2020
+| 15 | [Final exam; final project presentations and reports](#module-15-final-exam;-final-project-presentations-and-reports) | 11/30/2020
 
 ### Discussions
 
@@ -335,9 +343,11 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
 | [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
 | [Spatial data](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
-| [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 11:00 CST |
-| [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 11:00 CST |
-| [Deep learning](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 11:00 CST | Thu 11/5/2020, 11:00 CST | Tue 11/17/2020, 11:00 CST |
+| [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 12:00 CST |
+| [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 12:00 CST |
+| [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Thu 11/5/2020, 12:00 CST | Tue 11/17/2020, 12:00 CST |
+| [Convolutional Neural Networks](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Thu 11/12/2020, 12:00 CST | Tue 11/24/2020, 12:00 CST |
+| [Neural Networks for Sequences](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Thu 11/19/2020, 12:00 CST | Tue 12/1/2020, 12:00 CST |
 
 ### Project Assignments
 
@@ -345,6 +355,11 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | -- | -- | -- |
 | [Data science topics for Civil and Environmental Engineering](#module-2-project-assignment) | 8/31/2020 | Tue 9/22/2020, 12:00 CDT
 | [Exploratory data analysis (EDA)](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
+
+### Exams
+
+* Midterm Exam: Thu 10/15/2020, 12:00 CDT—Fri 10/16/2020, 12:00 CDT
+* Final Exam: Fri 12/11/2020, 13:30 CST—Fri 12/11/2020, 16:30 CST
 
 
 ## Modules
@@ -466,6 +481,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 3 Topics for Zoom Meetings
 
 * Python & Jupyter exercises and troubleshooting
+* 
 
 
 
@@ -497,6 +513,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 4 Topics for Zoom Meetings
 
 * Practice and Discussion
+* 
 
 
 
@@ -553,6 +570,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Thu 10/1/2020, 12:00 CDT for 100% credit, and by Tue 10/13/2020, 12:00 CDT for 80% credit.**
 
+#### Module 6 Topics for Zoom Meetings
+
+* 
+* 
 
 
 
@@ -573,6 +594,10 @@ Students will learn how to perform statistical analysis of spatial data.
 
 
 
+#### Module 7 Topics for Zoom Meetings
+
+* 
+* 
 
 
 
@@ -589,6 +614,10 @@ Students should be able to access, characterize, and visualize the data for thei
 
 
 
+#### Module 8 Topics for Zoom Meetings
+
+* 
+* 
 
 
 
@@ -616,8 +645,12 @@ Students will learn what supervised machine learning is and how it can help solv
 The homework for Module 9 covers the required readings and lectures and is available [here](SupervisedLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Thu 10/22/2020, 12:00 CDT for 100% credit, and by Tue 11/3/2020, 11:00 CST for 80% credit.**
+**The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Thu 10/22/2020, 12:00 CDT for 100% credit, and by Tue 11/3/2020, 12:00 CST for 80% credit.**
 
+#### Module 9 Topics for Zoom Meetings
+
+* 
+* 
 
 
 
@@ -641,15 +674,16 @@ Students will learn about basic unsupervised learning algorithms and how they ca
 The homework for Module 10 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Thu 10/29/2020, 12:00 CDT for 100% credit, and by Tue 11/10/2020, 11:00 CST for 80% credit.**
+**The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Thu 10/29/2020, 12:00 CDT for 100% credit, and by Tue 11/10/2020, 12:00 CST for 80% credit.**
 
 #### Module 10 Topics for Zoom Meetings
 
 * In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
+* 
 
 
 
-### Module 11: Deep learning
+### Module 11: Neural Networks
 
 
 
@@ -669,14 +703,76 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 The homework for Module 11 covers the required readings and lectures and is available [here](DeepLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 11/3/2020, 11:00 CST for 110% credit, by Thu 11/5/2020, 11:00 CST for 100% credit, and by Tue 11/17/2020, 11:00 CST for 80% credit.**
+**The homework for this module is due by Tue 11/3/2020, 12:00 CST for 110% credit, by Thu 11/5/2020, 12:00 CST for 100% credit, and by Tue 11/17/2020, 12:00 CST for 80% credit.**
+
+#### Module 11 Topics for Zoom Meetings
+
+* 
+* 
+
+
+
+### Module 12: Convolutional Neural Networks
+
+
+
+#### Module 12 Objectives
+Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
+
+#### Module 12 Readings and Lectures
+
+* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
+* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
+* Recorded Lecture: hyperparameter optimization and inductive biases
 
 
 
 
-### Module 12: Project work
+#### Module 12 Homework
+The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
+General information about homework assignments is [here](#homeworks-and-exams).
 
-#### Module 12 Overview
+**The homework for this module is due by Tue 11/10/2020, 12:00 CST for 110% credit, by Thu 11/12/2020, 12:00 CST for 100% credit, and by Tue 11/24/2020, 12:00 CST for 80% credit.**
+
+#### Module 12 Topics for Zoom Meetings
+
+* 
+* 
+
+
+
+### Module 13: Neural Networks for Sequences
+
+
+
+#### Module 13 Objectives
+Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
+
+#### Module 13 Readings and Lectures
+
+* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
+* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
+* Recorded Lecture: hyperparameter optimization and inductive biases
+
+
+
+
+#### Module 13 Homework
+The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
+General information about homework assignments is [here](#homeworks-and-exams).
+
+**The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Thu 11/19/2020, 12:00 CST for 100% credit, and by Tue 12/1/2020, 12:00 CST for 80% credit.**
+
+#### Module 13 Topics for Zoom Meetings
+
+* 
+* 
+
+
+
+### Module 14: Project work
+
+#### Module 14 Overview
 Students will work on their course projects
 
 
@@ -687,14 +783,18 @@ Students will work on their course projects
 
 
 
+#### Module 14 Topics for Zoom Meetings
+
+* 
+* 
 
 
 
-### Module 13: Final exam; final project presentations and reports
+### Module 15: Final exam; final project presentations and reports
 
 
 
-#### Module 13 Objectives
+#### Module 15 Objectives
 Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
 
 
@@ -703,6 +803,11 @@ Students should have completed a project where they access and explore a civil o
 
 
 
+#### Module 15 Topics for Zoom Meetings
+
+* 
+* 
+* 
 
 
 
