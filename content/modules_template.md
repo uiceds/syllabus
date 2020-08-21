@@ -1,10 +1,16 @@
 ## Schedule
 
+[Course calendar](https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com)
+
+[Course calendar in iCal format](https://calendar.google.com/calendar/ical/c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com/private-bff46a030c29d1e643208141a833d90c/basic.ics)
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ### Modules
 
 | Module | Title | Start Date |
 | -- | -- | -- |
-{{- range .}}
+{{- range .Modules}}
 | {{.Number}} | [{{.Title}}](#module-{{.Number}}-{{ModuleLink .}}) | {{StartDate .}}
 {{- end}}
 
@@ -12,7 +18,7 @@
 
 | Title | Assigned | Initial Post Due | Response Posts Due |
 | -- | -- | -- | -- |
-{{- range .}}
+{{- range .Modules}}
 {{- if .DiscussionURL}}
 | [{{.Title}}](#module-{{.Number}}-discussion) | {{DiscussionAssigned .}} | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
 {{- end -}}
@@ -22,7 +28,7 @@
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-{{- range .}}
+{{- range .Modules}}
 {{- if .HomeworkURL}}
 | [{{.Title}}](#module-{{.Number}}-homework) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
 {{- end -}}
@@ -32,16 +38,21 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-{{- range .}}
+{{- range .Modules}}
 {{- if .ProjectAssignment}}
 | [{{.Title}}](#module-{{.Number}}-project-assignment) | {{StartDate .}} | {{AssignmentDeadline .}}
 {{- end -}}
 {{- end}}
 
+### Exams
+
+* Midterm Exam: {{.MidtermExamStart}}—{{.MidtermExamEnd}}
+* Final Exam: {{.FinalExamStart}}—{{.FinalExamEnd}}
+
 
 ## Modules
 
-{{range .}}
+{{range .Modules}}
 ### Module {{.Number}}: {{.Title}}
 
 {{if .Overview -}}
