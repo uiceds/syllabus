@@ -12,13 +12,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="CEE 498DS: Data Science, Fall 2020" />
+  <meta name="dc.title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="citation_title" content="CEE 498DS: Data Science, Fall 2020" />
+  <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta property="og:title" content="CEE 498DS: Data Science, Fall 2020" />
+  <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta property="twitter:title" content="CEE 498DS: Data Science, Fall 2020" />
+  <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
   <meta name="dc.date" content="2020-08-21" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6692a209ae391357fb70143efed370cefc8a5ff2/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/60f3d05df231bc9567660b528586d3ac113e724f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6692a209ae391357fb70143efed370cefc8a5ff2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/60f3d05df231bc9567660b528586d3ac113e724f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6692a209ae391357fb70143efed370cefc8a5ff2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/60f3d05df231bc9567660b528586d3ac113e724f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -70,7 +70,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: 'CEE 498DS: Data Science, Fall 2020'
+title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 ...
 
 
