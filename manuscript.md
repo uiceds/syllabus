@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/bfdbcbe2b24e5640b5087014897d23952032739b/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/bbbeb553cc116685a152f2ec6825f6c317e37e88/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/bfdbcbe2b24e5640b5087014897d23952032739b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/bbbeb553cc116685a152f2ec6825f6c317e37e88/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/bfdbcbe2b24e5640b5087014897d23952032739b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/bbbeb553cc116685a152f2ec6825f6c317e37e88/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -304,7 +304,7 @@ The University of Illinois strives to promote student success through the suppor
 
 [Course calendar](https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com)
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_fqvrphqptlccpp6pubokjsraj0%40group.calendar.google.com" style="border: 0" width="700" height="550" frameborder="0" scrolling="no"></iframe>
 
 ### Modules
 
