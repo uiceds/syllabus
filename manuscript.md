@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/687b9b0e99212e673470760b858b15537bdfe426/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/60c69bd67f67c0a0432f9e38c908dfe450178e55/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/687b9b0e99212e673470760b858b15537bdfe426/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/60c69bd67f67c0a0432f9e38c908dfe450178e55/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/687b9b0e99212e673470760b858b15537bdfe426/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/60c69bd67f67c0a0432f9e38c908dfe450178e55/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -353,7 +353,6 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| [Data science topics for Civil and Environmental Engineering](#module-2-project-assignment) | 8/31/2020 | Tue 9/22/2020, 12:00 CDT
 | [Exploratory data analysis (EDA)](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
 
 ### Exams
@@ -421,8 +420,8 @@ In this module we will learn the types of Civil and Environmental Engineering pr
 #### Module 2 Readings and Lectures
 Develop your answers to the discussion questions below while completing the readings and lectures.
 
+* [Deep Learning State of the Art (This is an introduction to what is currently possible with data science)](https://www.youtube.com/watch?v=0VH1Lim8gL8&feature=emb_logo)
 * [Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)
-* [PANGEO Geoscience Use Cases](https://pangeo.io/use_cases/index.html)
 * [Kaggle data science competitions](https://www.kaggle.com/)
 * [Earth Engine Case Studies](https://earthengine.google.com/case_studies/)
 * [OpenAQ.org](https://openaq.org/)
@@ -430,6 +429,7 @@ Develop your answers to the discussion questions below while completing the read
 * [EIA Energy Data](https://www.eia.gov/)
 * [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
 * [Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
+* https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f
 
 
 #### Module 2 Discussion
@@ -437,7 +437,7 @@ Develop your answers to the discussion questions below while completing the read
 This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
 Consider the following questions:
 
-  * What are some ideas you have for course projects, and why do you think they would be useful?
+  * A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?
 
 
 Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1) and make one initial post and two responses.
@@ -449,16 +449,10 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 
 #### Module 2 Topics for Zoom Meetings
 
+* Machine learning overview
 * Group discussion regarding project topics
-* Group discussion regarding project topics
 
 
-
-#### Module 2 Project Assignment
-Write an engineering memo describing your project team, the problem 
-you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
-you will use. Keep in mind that part of the project will be to compare the results you get to any 
-previous attempts, so your project should not be exactly the same as something available on the internet.
 
 ### Module 3: Programming review
 
