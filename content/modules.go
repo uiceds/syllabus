@@ -151,8 +151,8 @@ var modules = []module{
 		Overview:   "In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.",
 		Objectives: []string{},
 		Readings: []string{
+			"[Deep Learning State of the Art (This is an introduction to what is currently possible with data science)](https://www.youtube.com/watch?v=0VH1Lim8gL8&feature=emb_logo)",
 			"[Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)",
-			"[PANGEO Geoscience Use Cases](https://pangeo.io/use_cases/index.html)",
 			"[Kaggle data science competitions](https://www.kaggle.com/)",
 			"[Earth Engine Case Studies](https://earthengine.google.com/case_studies/)",
 			"[OpenAQ.org](https://openaq.org/)",
@@ -160,20 +160,16 @@ var modules = []module{
 			"[EIA Energy Data](https://www.eia.gov/)",
 			"[UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)",
 			"[Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
+			"https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f",
 		},
 		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
 		DiscussionPrompts: []string{
-			"What are some ideas you have for course projects, and why do you think they would be useful?",
+			"A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?",
 		},
 		LiveMeetingTopics: []string{
-			"Group discussion regarding project topics",
+			"Machine learning overview",
 			"Group discussion regarding project topics",
 		},
-		ProjectAssignment: `Write an engineering memo describing your project team, the problem 
-you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
-you will use. Keep in mind that part of the project will be to compare the results you get to any 
-previous attempts, so your project should not be exactly the same as something available on the internet.`,
-		ProjectAssignmentDays: 17,
 	},
 	{
 		Number:      3,
