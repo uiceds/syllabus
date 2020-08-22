@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-21'
+date-meta: '2020-08-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-21" />
+  <meta name="dc.date" content="2020-08-22" />
 
-  <meta name="citation_publication_date" content="2020-08-21" />
+  <meta name="citation_publication_date" content="2020-08-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/60f3d05df231bc9567660b528586d3ac113e724f/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/687b9b0e99212e673470760b858b15537bdfe426/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/60f3d05df231bc9567660b528586d3ac113e724f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/687b9b0e99212e673470760b858b15537bdfe426/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/60f3d05df231bc9567660b528586d3ac113e724f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/687b9b0e99212e673470760b858b15537bdfe426/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -196,6 +196,8 @@ For exams, partial credit isn't given, but you can try each problem more than on
 #### Inclusive Environment
 
 The effectiveness of this course is dependent upon the creation of an encouraging and safe classroom environment. Exclusionary, offensive or harmful speech (such as racism, sexism, homophobia, transphobia, etc.) will not be tolerated and in some cases subject to University harassment procedures. We are all responsible for creating a positive and safe environment that allows all students equal respect and comfort. I expect each of you to help establish and maintain and environment where you and your peers can contribute without fear of ridicule or intolerant or offensive language.
+
+If you witness or experience racism, discrimination, micro-aggressions, or other offensive behavior, you are encouraged to bring this to the attention of the course director if you feel comfortable. You can also report these behaviors to the Bias Assessment and Response Team (BART) (https://bart.illinois.edu/). Based on your report, BART members will follow up and reach out to students to make sure they have the support they need to be healthy and safe. If the reported behavior also violates university policy, staff in the Office for Student Conflict Resolution may respond as well and will take appropriate action. 
 
 #### Accommodations
 To obtain disability-related academic adjustments and/or auxiliary aids, students should contact both the instructor and the Disability Resources and Educational Services (DRES) as soon as possible. You can contact DRES at 1207 S. Oak Street, Champaign, (217) 333-1970, or via email at disability@illinois.edu.
@@ -424,8 +426,10 @@ Develop your answers to the discussion questions below while completing the read
 * [Kaggle data science competitions](https://www.kaggle.com/)
 * [Earth Engine Case Studies](https://earthengine.google.com/case_studies/)
 * [OpenAQ.org](https://openaq.org/)
-* [Array of Things](https://arrayofthings.github.io/)
 * [CACES air quality data](https://www.caces.us/data)
+* [EIA Energy Data](https://www.eia.gov/)
+* [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
+* [Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
 
 
 #### Module 2 Discussion
@@ -446,14 +450,15 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 #### Module 2 Topics for Zoom Meetings
 
 * Group discussion regarding project topics
-* Select project groups
+* Group discussion regarding project topics
 
 
 
 #### Module 2 Project Assignment
 Write an engineering memo describing your project team, the problem 
 you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
-you will use.
+you will use. Keep in mind that part of the project will be to compare the results you get to any 
+previous attempts, so your project should not be exactly the same as something available on the internet.
 
 ### Module 3: Programming review
 
