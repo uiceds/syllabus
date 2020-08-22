@@ -156,8 +156,10 @@ var modules = []module{
 			"[Kaggle data science competitions](https://www.kaggle.com/)",
 			"[Earth Engine Case Studies](https://earthengine.google.com/case_studies/)",
 			"[OpenAQ.org](https://openaq.org/)",
-			"[Array of Things](https://arrayofthings.github.io/)",
 			"[CACES air quality data](https://www.caces.us/data)",
+			"[EIA Energy Data](https://www.eia.gov/)",
+			"[UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)",
+			"[Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
 		},
 		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
 		DiscussionPrompts: []string{
@@ -165,11 +167,12 @@ var modules = []module{
 		},
 		LiveMeetingTopics: []string{
 			"Group discussion regarding project topics",
-			"Select project groups",
+			"Group discussion regarding project topics",
 		},
 		ProjectAssignment: `Write an engineering memo describing your project team, the problem 
 you plan to solve, and the methods you plan to use to solve it, including the data and algorithm 
-you will use.`,
+you will use. Keep in mind that part of the project will be to compare the results you get to any 
+previous attempts, so your project should not be exactly the same as something available on the internet.`,
 		ProjectAssignmentDays: 17,
 	},
 	{
