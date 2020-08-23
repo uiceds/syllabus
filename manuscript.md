@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-22'
+date-meta: '2020-08-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-22" />
+  <meta name="dc.date" content="2020-08-23" />
 
-  <meta name="citation_publication_date" content="2020-08-22" />
+  <meta name="citation_publication_date" content="2020-08-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/60c69bd67f67c0a0432f9e38c908dfe450178e55/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8dfb7e3326ad9ee149eef32c2a29733ae73bdb26/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/60c69bd67f67c0a0432f9e38c908dfe450178e55/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8dfb7e3326ad9ee149eef32c2a29733ae73bdb26/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/60c69bd67f67c0a0432f9e38c908dfe450178e55/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8dfb7e3326ad9ee149eef32c2a29733ae73bdb26/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -137,7 +137,7 @@ This course will be structured around semester-long projects; students will choo
 
 This course is structured as a series of modules, with each module containing recorded lectures, readings, and quizzes to be completed before each class meeting.
 Class meetings will be held on Zoom to go into further depth on the material that was covered in recorded lectures and readings.
-Near the beginning or the semester, students will choose a topic for a group or individual project, which the will work on throughout the semester, applying the concepts that we learn in class.
+Near the beginning or the semester, students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
 Additionally, students will complete homework assignments and a midterm and final exam.
 
 ## Course Requirements and Assessment Overview
@@ -367,10 +367,18 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 ### Module 1: Open Reproducible Science
 
 #### Module 1 Overview
-This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.
+This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
 
-#### Module 1 Objectives
-You will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing.
+#### Module 1 Learning Objectives
+
+By the end of this module, you should be able to:
+
+
+* List the Bash commands for doing different computer operations
+* Describe how to organize data files to improve transparency and reproducibility
+* Define the syntax for the Markdown text formatting language
+* List the Git and Github commands and operations for performing different operations
+
 
 #### Module 1 Readings and Lectures
 Develop your answers to the discussion questions below while completing the readings and lectures.
@@ -415,6 +423,14 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 2 Overview
 In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.
 
+#### Module 2 Learning Objectives
+
+By the end of this module, you should be able to:
+
+
+* interpret how data science can be used in support of CEE
+* formulate a data science problem statement
+* describe a strategy for solving the problem
 
 
 #### Module 2 Readings and Lectures
@@ -430,6 +446,7 @@ Develop your answers to the discussion questions below while completing the read
 * [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
 * [Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
 * https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f
+* https://www.visualdata.io/discovery
 
 
 #### Module 2 Discussion
@@ -449,7 +466,7 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 
 #### Module 2 Topics for Zoom Meetings
 
-* Machine learning overview
+* What is data science, and how is it relevant to CEE? A discussion.
 * Group discussion regarding project topics
 
 
@@ -459,12 +476,18 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 #### Module 3 Overview
 This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.
 
-#### Module 3 Objectives
-Students will refresh their skills in basic Python programming.
+#### Module 3 Learning Objectives
+
+By the end of this module, you should be able to:
+
+
+* Express abstract concepts using Python syntax
+* Solve mathematical problems using Python
+
 
 #### Module 3 Readings and Lectures
 
-* Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'.
+* Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'. These readings may not include all the information you need to complete the homework, which will allow you to practice researching concepts on the internet.
 
 
 
@@ -487,7 +510,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 4 Overview
 Data comes first in data science.
 
-#### Module 4 Objectives
+#### Module 4 Learning Objectives
+
+By the end of this module, you should be able to:
+
 
 * Students will learn about types of data that are relevant to Civil and Environmental Engineering problems
 * Students will become acquainted with tools for processing data.
@@ -519,7 +545,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 5 Overview
 The first step in a data science project is getting a feel for the dataset you are working with. This is called Exploratory Data Analysis (EDA).
 
-#### Module 5 Objectives
+#### Module 5 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn how to explore and process an unfamiliar dataset.
 
 #### Module 5 Readings and Lectures
@@ -549,7 +578,10 @@ Spatial and Geospatial data are common in Civil and Environmental Engineering,
 but less common in other disciplines that use data science. In this module we will learn 
 how to work with these types of data.
 
-#### Module 6 Objectives
+#### Module 6 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn about processing spatial data, which is common in physical data science
 
 #### Module 6 Readings and Lectures
@@ -578,7 +610,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-#### Module 7 Objectives
+#### Module 7 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn how to perform statistical analysis of spatial data.
 
 #### Module 7 Readings and Lectures
@@ -602,7 +637,10 @@ Students will learn how to perform statistical analysis of spatial data.
 
 
 
-#### Module 8 Objectives
+#### Module 8 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students should be able to access, characterize, and visualize the data for their projects by this point.
 
 
@@ -622,7 +660,10 @@ Students should be able to access, characterize, and visualize the data for thei
 
 
 
-#### Module 9 Objectives
+#### Module 9 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn what supervised machine learning is and how it can help solve Civil and Environmental Engineering problems.
 
 #### Module 9 Readings and Lectures
@@ -655,7 +696,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-#### Module 10 Objectives
+#### Module 10 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.
 
 #### Module 10 Readings and Lectures
@@ -684,7 +728,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-#### Module 11 Objectives
+#### Module 11 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
 
 #### Module 11 Readings and Lectures
@@ -713,7 +760,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-#### Module 12 Objectives
+#### Module 12 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
 
 #### Module 12 Readings and Lectures
@@ -742,7 +792,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-#### Module 13 Objectives
+#### Module 13 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
 
 #### Module 13 Readings and Lectures
@@ -791,7 +844,10 @@ Students will work on their course projects
 
 
 
-#### Module 15 Objectives
+#### Module 15 Learning Objectives
+
+By the end of this module, you should be able to:
+
 Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
 
 
