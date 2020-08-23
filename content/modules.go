@@ -117,11 +117,16 @@ func (m module) ID() int64 { return m.Number }
 
 var modules = []module{
 	{
-		Number:     1,
-		NumDays:    7,
-		Title:      "Open Reproducible Science",
-		Overview:   "This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.",
-		Objectives: []string{"You will learn how to structure a computational workflow for scientific analysis, including version control, documentation, data provenance, and unit testing."},
+		Number:   1,
+		NumDays:  7,
+		Title:    "Open Reproducible Science",
+		Overview: "This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. ",
+		Objectives: []string{
+			"List the Bash commands for doing different computer operations",
+			"Describe how to organize data files to improve transparency and reproducibility",
+			"Define the syntax for the Markdown text formatting language",
+			"List the Git and Github commands and operations for performing different operations",
+		},
 		Readings: []string{
 			"[Introduction to Earth Data Science Chapter 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)",
 			"[Introduction to Earth Data Science Chapter 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/)",
@@ -144,12 +149,16 @@ var modules = []module{
 		},
 	},
 	{
-		Number:     2,
-		NumDays:    7,
-		Parents:    []int64{1},
-		Title:      "Data science topics for Civil and Environmental Engineering",
-		Overview:   "In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.",
-		Objectives: []string{},
+		Number:   2,
+		NumDays:  7,
+		Parents:  []int64{1},
+		Title:    "Data science topics for Civil and Environmental Engineering",
+		Overview: "In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.",
+		Objectives: []string{
+			"interpret how data science can be used in support of CEE",
+			"formulate a data science problem statement",
+			"describe a strategy for solving the problem",
+		},
 		Readings: []string{
 			"[Deep Learning State of the Art (This is an introduction to what is currently possible with data science)](https://www.youtube.com/watch?v=0VH1Lim8gL8&feature=emb_logo)",
 			"[Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)",
@@ -161,24 +170,29 @@ var modules = []module{
 			"[UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)",
 			"[Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
 			"https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f",
+			"https://www.visualdata.io/discovery",
 		},
 		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
 		DiscussionPrompts: []string{
 			"A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?",
 		},
 		LiveMeetingTopics: []string{
-			"Machine learning overview",
+			"What is data science, and how is it relevant to CEE? A discussion.",
 			"Group discussion regarding project topics",
 		},
 	},
 	{
-		Number:      3,
-		NumDays:     7,
-		Parents:     []int64{2},
-		Title:       "Programming review",
-		Overview:    "This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.",
-		Objectives:  []string{"Students will refresh their skills in basic Python programming."},
-		Readings:    []string{"Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'."},
+		Number:   3,
+		NumDays:  7,
+		Parents:  []int64{2},
+		Title:    "Programming review",
+		Overview: "This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.",
+		Objectives: []string{
+			"Express abstract concepts using Python syntax",
+			"Solve mathematical problems using Python",
+		},
+		Readings: []string{"Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'. " +
+			"These readings may not include all the information you need to complete the homework, which will allow you to practice researching concepts on the internet."},
 		HomeworkURL: "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524",
 		LiveMeetingTopics: []string{
 			"Python & Jupyter exercises and troubleshooting",

@@ -59,7 +59,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 {{- end}}
 
 {{if .Objectives -}}
-#### Module {{.Number}} Objectives
+#### Module {{.Number}} Learning Objectives
+
+By the end of this module, you should be able to:
+
 {{if len .Objectives | eq 1}}{{index .Objectives 0}}
 {{- else}}
 {{range .Objectives}}* {{.}}
