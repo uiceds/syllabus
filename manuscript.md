@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-23'
+date-meta: '2020-08-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-23" />
+  <meta name="dc.date" content="2020-08-24" />
 
-  <meta name="citation_publication_date" content="2020-08-23" />
+  <meta name="citation_publication_date" content="2020-08-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8dfb7e3326ad9ee149eef32c2a29733ae73bdb26/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6f55b1d1f92b08e711ea18b8d5c9148dd5856b84/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8dfb7e3326ad9ee149eef32c2a29733ae73bdb26/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6f55b1d1f92b08e711ea18b8d5c9148dd5856b84/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8dfb7e3326ad9ee149eef32c2a29733ae73bdb26/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6f55b1d1f92b08e711ea18b8d5c9148dd5856b84/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -169,6 +169,9 @@ Additionally, students will complete homework assignments and a midterm and fina
 Homeworks and Exams will be done through [PrairieLearn](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
 In assigning these types of homeworks and exams, I'm placing emphasis on **mastery**.
 The idea is to keep doing questions until you master the underlying concept or method. Once you do, you should be able to answer these questions very quickly.
+
+Before doing the assessments, you will need to enroll in this class in PrairieLearn.
+To do so, go to [https://prairielearn.engr.illinois.edu/pl/enroll](https://prairielearn.engr.illinois.edu/pl/enroll) and click on "Add course" next to "CEE 498DS: Data Science for Civil and Environmental Engineering, Fall 2020".
 
 ### Homeworks
 
