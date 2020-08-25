@@ -38,7 +38,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | -- | -- | -- |
 {{- range .Modules}}
 {{- if .ProjectAssignment}}
-| [{{.Title}}](#module-{{.Number}}-project-assignment) | {{StartDate .}} | {{AssignmentDeadline .}}
+| [{{.ProjectAssignment}}](#module-{{.Number}}-project-assignment) | {{StartDate .}} | {{AssignmentDeadline .}}
 {{- end -}}
 {{- end}}
 
