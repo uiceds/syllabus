@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f3735afa9a1ecffde51c623be21fb11b92e5952d/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2a346189d84f46058eccc559389807ade36d75b0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f3735afa9a1ecffde51c623be21fb11b92e5952d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2a346189d84f46058eccc559389807ade36d75b0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f3735afa9a1ecffde51c623be21fb11b92e5952d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2a346189d84f46058eccc559389807ade36d75b0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -146,7 +146,7 @@ Additionally, students will complete homework assignments and a midterm and fina
   * Homeworks: 17% of final grade
   * Midterm exam: 15% of final grade
   * Final exam: 25% of final grade
-  * Course project: 40% of final grade: 15% for Kaggle competition, 5% for midterm presentation, and 10% for final presentation, 10% for final report.
+  * Course project: 40% of final grade: 5% for literature review, 15% for Kaggle competition, and 10% for final presentation, 10% for final report.
 * Graduate students are expected to register for 4 credits and undergraduates are expected to register for 3 credits. Correspondingly, course projects for graduate students are expected to include a machine learning component that is more complex than linear regression, whereas for undergraduates this is optional.
 * Letter grades will be assigned according to the following scale:
   * 97-100:	A+
@@ -356,6 +356,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
+| [Programming review](#module-3-project-assignment) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
 | [Exploratory data analysis (EDA)](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
 
 ### Exams
@@ -508,6 +509,9 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
+#### Module 3 Project Assignment
+Choose a project and complete a literature review .
+
 ### Module 4: Data
 
 #### Module 4 Overview
@@ -572,7 +576,7 @@ Students will learn how to explore and process an unfamiliar dataset.
 
 
 #### Module 5 Project Assignment
-Students should begin working on EDA for their projects, which will be due in Week 9.
+Students should begin working on EDA for their projects.
 
 ### Module 6: Spatial data
 
