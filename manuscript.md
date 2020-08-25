@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-24'
+date-meta: '2020-08-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-24" />
+  <meta name="dc.date" content="2020-08-25" />
 
-  <meta name="citation_publication_date" content="2020-08-24" />
+  <meta name="citation_publication_date" content="2020-08-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6f55b1d1f92b08e711ea18b8d5c9148dd5856b84/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d24a0e2a79fcfefba696c4f1b80e144722a6f6b7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6f55b1d1f92b08e711ea18b8d5c9148dd5856b84/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d24a0e2a79fcfefba696c4f1b80e144722a6f6b7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6f55b1d1f92b08e711ea18b8d5c9148dd5856b84/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d24a0e2a79fcfefba696c4f1b80e144722a6f6b7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,7 +94,7 @@ title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 * Title: CEE 498DS: Data Science
 * Credits: 3 for Undergraduates, 4 for Graduate Students
 * Semester: Fall 2020
-* Meeting time and location: 12-1:20 on Tuesdays and Thursdays in 2312 Newmark
+* Meeting time and location: 12-1:20 on Tuesdays and Thursdays on [Zoom](https://compass2g.illinois.edu/webapps/blackboard/content/launchLink.jsp?course_id=_52490_1&tool_id=_2918_1&tool_type=TOOL&mode=cpview&mode=reset)
 * First day of instruction: 8/25/2020
 * Last day of instruction: 12/8/2020
 
@@ -102,7 +102,7 @@ title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 
 * Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
-* Office hours: TBD
+* Office hours: 10:30 am to 12:00 pm on Mondays and Wednesdays on [Zoom](https://compass2g.illinois.edu/webapps/blackboard/content/launchLink.jsp?course_id=_52490_1&tool_id=_2918_1&tool_type=TOOL&mode=cpview&mode=reset)
 * Email: ctessum@illinois.edu
 * Website: https://cee.illinois.edu/directory/profile/ctessum
 * Names and contact information for teaching assistants: TBD
