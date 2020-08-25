@@ -198,6 +198,8 @@ var modules = []module{
 			"Python & Jupyter exercises and troubleshooting",
 			"",
 		},
+		ProjectAssignment:     `Choose a project and complete a literature review .`,
+		ProjectAssignmentDays: 17,
 	},
 	{
 		Number:   4,
@@ -234,7 +236,7 @@ var modules = []module{
 			"Lecture: Statistics review",
 			"EDA group exercises",
 		},
-		ProjectAssignment:     `Students should begin working on EDA for their projects, which will be due in Week 9.`,
+		ProjectAssignment:     `Students should begin working on EDA for their projects.`,
 		ProjectAssignmentDays: 17,
 	},
 	{
