@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2a346189d84f46058eccc559389807ade36d75b0/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3936207e5e610bfc7e7a72e8d467ace19109e3f7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2a346189d84f46058eccc559389807ade36d75b0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3936207e5e610bfc7e7a72e8d467ace19109e3f7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2a346189d84f46058eccc559389807ade36d75b0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3936207e5e610bfc7e7a72e8d467ace19109e3f7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -146,7 +146,7 @@ Additionally, students will complete homework assignments and a midterm and fina
   * Homeworks: 17% of final grade
   * Midterm exam: 15% of final grade
   * Final exam: 25% of final grade
-  * Course project: 40% of final grade: 5% for literature review, 15% for Kaggle competition, and 10% for final presentation, 10% for final report.
+  * Course project: 40% of final grade: 5% for literature review, 15% for Kaggle competition, 2.5% for midterm presentation, 7.5% for final presentation, and 10% for final report.
 * Graduate students are expected to register for 4 credits and undergraduates are expected to register for 3 credits. Correspondingly, course projects for graduate students are expected to include a machine learning component that is more complex than linear regression, whereas for undergraduates this is optional.
 * Letter grades will be assigned according to the following scale:
   * 97-100:	A+
@@ -356,8 +356,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| [Programming review](#module-3-project-assignment) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
-| [Exploratory data analysis (EDA)](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
+| [Choose a project and complete a literature review .](#module-3-project-assignment) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
+| [Exploratory data analysis for their projects, with midterm presentation.](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
+| [Project Kaggle Competition.](#module-8-project-assignment) | 10/12/2020 | Tue 11/24/2020, 12:00 CST
+| [Project Final Presentation and Report](#module-12-project-assignment) | 11/9/2020 | Thu 12/3/2020, 12:00 CST
 
 ### Exams
 
@@ -576,7 +578,7 @@ Students will learn how to explore and process an unfamiliar dataset.
 
 
 #### Module 5 Project Assignment
-Students should begin working on EDA for their projects.
+Exploratory data analysis for their projects, with midterm presentation.
 
 ### Module 6: Spatial data
 
@@ -662,6 +664,9 @@ Students should be able to access, characterize, and visualize the data for thei
 * 
 
 
+
+#### Module 8 Project Assignment
+Project Kaggle Competition.
 
 ### Module 9: Supervised learning
 
@@ -758,7 +763,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 #### Module 11 Topics for Zoom Meetings
 
-* 
+* Remember to vote!
 * 
 
 
@@ -794,6 +799,9 @@ General information about homework assignments is [here](#homeworks-and-exams).
 * 
 
 
+
+#### Module 12 Project Assignment
+Project Final Presentation and Report
 
 ### Module 13: Neural Networks for Sequences
 
