@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d24a0e2a79fcfefba696c4f1b80e144722a6f6b7/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/69db9ac83274fb65125d312ee89a62177e7a19b7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d24a0e2a79fcfefba696c4f1b80e144722a6f6b7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/69db9ac83274fb65125d312ee89a62177e7a19b7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d24a0e2a79fcfefba696c4f1b80e144722a6f6b7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/69db9ac83274fb65125d312ee89a62177e7a19b7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -142,11 +142,11 @@ Additionally, students will complete homework assignments and a midterm and fina
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
-  * Mini quizzes and assignments on readings and video lectures, due before class: 20% of total grade
-  * Quizzes and homeworks: 20% of final grade
-  * Midterm exam: 5% of final grade
-  * Final exam: 15% of final grade
-  * Course project: 40% of final grade: 7.5% for initial memo, 7.5% for midterm presentation, and 10% for final presentation, 15% for final report.
+  * Discussions: 3% of final grade
+  * Homeworks: 17% of final grade
+  * Midterm exam: 15% of final grade
+  * Final exam: 25% of final grade
+  * Course project: 40% of final grade: 15% for Kaggle competition, 5% for midterm presentation, and 10% for final presentation, 10% for final report.
 * Graduate students are expected to register for 4 credits and undergraduates are expected to register for 3 credits. Correspondingly, course projects for graduate students are expected to include a machine learning component that is more complex than linear regression, whereas for undergraduates this is optional.
 * Letter grades will be assigned according to the following scale:
   * 97-100:	A+
