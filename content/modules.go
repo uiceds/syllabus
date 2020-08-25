@@ -144,7 +144,7 @@ var modules = []module{
 		HomeworkURL:     "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/",
 		HomeworkDelay:   1,
 		LiveMeetingTopics: []string{
-			"Introduction, syllabus, and getting to know one another",
+			"Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))",
 			"Discussion of readings and technology check: installing Python and related tools",
 		},
 	},
