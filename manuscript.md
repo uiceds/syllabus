@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/69db9ac83274fb65125d312ee89a62177e7a19b7/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f3735afa9a1ecffde51c623be21fb11b92e5952d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/69db9ac83274fb65125d312ee89a62177e7a19b7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f3735afa9a1ecffde51c623be21fb11b92e5952d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/69db9ac83274fb65125d312ee89a62177e7a19b7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f3735afa9a1ecffde51c623be21fb11b92e5952d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -416,7 +416,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 #### Module 1 Topics for Zoom Meetings
 
-* Introduction, syllabus, and getting to know one another
+* Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
 * Discussion of readings and technology check: installing Python and related tools
 
 
