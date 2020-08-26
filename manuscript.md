@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f9cef0495d1ca34bb34426bf7ce5b17ccf4e6273/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/b1befc872d6fab5bfb2c094ac2a114c60e87ddc2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f9cef0495d1ca34bb34426bf7ce5b17ccf4e6273/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/b1befc872d6fab5bfb2c094ac2a114c60e87ddc2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f9cef0495d1ca34bb34426bf7ce5b17ccf4e6273/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/b1befc872d6fab5bfb2c094ac2a114c60e87ddc2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
