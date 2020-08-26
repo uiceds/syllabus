@@ -2,9 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Syllabus](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://uiuc-cee-eds.github.io/syllabus/)
-[![PDF Syllabus](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://uiuc-cee-eds.github.io/syllabus/manuscript.pdf)
-[![GitHub Actions Status](https://github.com/uiuc-cee-eds/syllabus/workflows/Manubot/badge.svg)](https://github.com/uiuc-cee-eds/syllabus/actions)
+[![HTML Syllabus](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://uiceds.github.io/syllabus/)
+[![PDF Syllabus](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://uiceds.github.io/syllabus/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/uiuc-cee-eds/syllabus/workflows/Manubot/badge.svg)](https://github.com/uiceds/syllabus/actions)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 
