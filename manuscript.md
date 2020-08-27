@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8b55cb932be2003dd6f5a6afd2c8c23a023c14e5/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d0c2d01630e096dcfa135fe359ab3e45349f89cf/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8b55cb932be2003dd6f5a6afd2c8c23a023c14e5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d0c2d01630e096dcfa135fe359ab3e45349f89cf/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8b55cb932be2003dd6f5a6afd2c8c23a023c14e5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d0c2d01630e096dcfa135fe359ab3e45349f89cf/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -423,7 +423,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 1 Topics for Zoom Meetings
 
 * Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
-* Discussion of readings and technology check: installing Python and related tools
+* Discussion of readings and technology check: installing Python and related tools ([notes](https://github.com/uiceds/syllabus/blob/master/modules/module1/demo/README.md))
 
 
 
