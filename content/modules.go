@@ -198,7 +198,7 @@ var modules = []module{
 			"Python & Jupyter exercises and troubleshooting",
 			"",
 		},
-		ProjectAssignment:     `Choose a project and complete a literature review .`,
+		ProjectAssignment:     `Choose a project and complete a literature review.`,
 		ProjectAssignmentDays: 17,
 	},
 	{
