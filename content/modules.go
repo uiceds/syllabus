@@ -145,7 +145,7 @@ var modules = []module{
 		HomeworkDelay:   1,
 		LiveMeetingTopics: []string{
 			"Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))",
-			"Discussion of readings and technology check: installing Python and related tools",
+			"Discussion of readings and technology check: installing Python and related tools ([notes](https://github.com/uiceds/syllabus/blob/master/modules/module1/demo/README.md))",
 		},
 	},
 	{
