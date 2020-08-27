@@ -191,7 +191,7 @@ var modules = []module{
 			"Express abstract concepts using Python syntax",
 			"Solve mathematical problems using Python",
 		},
-		Readings: []string{"Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'. " +
+		Readings: []string{"Complete the tutorials at [learnpython.org](https://learnpython.org), including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'. " +
 			"These readings may not include all the information you need to complete the homework, which will allow you to practice researching concepts on the internet."},
 		HomeworkURL: "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524",
 		LiveMeetingTopics: []string{
