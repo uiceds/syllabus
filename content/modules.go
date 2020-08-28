@@ -168,7 +168,7 @@ var modules = []module{
 			"[CACES air quality data](https://www.caces.us/data)",
 			"[EIA Energy Data](https://www.eia.gov/)",
 			"[UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)",
-			"[Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
+			"[Dataset for defect detection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
 			"https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f",
 			"https://www.visualdata.io/discovery",
 		},
