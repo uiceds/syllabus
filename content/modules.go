@@ -125,7 +125,7 @@ var modules = []module{
 			"List the Bash commands for doing different computer operations",
 			"Describe how to organize data files to improve transparency and reproducibility",
 			"Define the syntax for the Markdown text formatting language",
-			"List the Git and Github commands and operations for performing different operations",
+			"List the Git and GitHub commands and operations for performing different operations",
 		},
 		Readings: []string{
 			"[Introduction to Earth Data Science Chapter 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)",
