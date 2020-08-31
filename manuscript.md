@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-08-27'
+date-meta: '2020-08-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-08-27" />
+  <meta name="dc.date" content="2020-08-31" />
 
-  <meta name="citation_publication_date" content="2020-08-27" />
+  <meta name="citation_publication_date" content="2020-08-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d0c2d01630e096dcfa135fe359ab3e45349f89cf/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f1f3a4740ce7e1c0044781963ee88d6ba6ec3b68/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d0c2d01630e096dcfa135fe359ab3e45349f89cf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f1f3a4740ce7e1c0044781963ee88d6ba6ec3b68/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d0c2d01630e096dcfa135fe359ab3e45349f89cf/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f1f3a4740ce7e1c0044781963ee88d6ba6ec3b68/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -466,7 +466,7 @@ Consider the following questions:
   * A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?
 
 
-Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1) and make one initial post and two responses.
+Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_52490_1&conf_id=260881&nav=discussion_board_entry) and make one initial post and two responses.
 Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
 
 **The initial post for this module are due by Tue 9/1/2020, 12:00 CDT and all response posts are due by Thu 9/3/2020, 12:00 CDT.**
