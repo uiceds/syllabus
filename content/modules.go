@@ -172,7 +172,7 @@ var modules = []module{
 			"https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f",
 			"https://www.visualdata.io/discovery",
 		},
-		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
+		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_52490_1&conf_id=260881&nav=discussion_board_entry",
 		DiscussionPrompts: []string{
 			"A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?",
 		},
