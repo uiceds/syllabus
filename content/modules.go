@@ -169,8 +169,8 @@ var modules = []module{
 			"[EIA Energy Data](https://www.eia.gov/)",
 			"[UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)",
 			"[Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
-			"https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f",
-			"https://www.visualdata.io/discovery",
+			"[Best Datasets for Machine Learning Data Science](https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)",
+			"[VisualData Dataset Discovery](https://www.visualdata.io/discovery)",
 		},
 		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
 		DiscussionPrompts: []string{
@@ -244,8 +244,8 @@ var modules = []module{
 		Parents: []int64{3, 5},
 		NumDays: 7,
 		Title:   "Spatial data",
-		Overview: `Spatial and Geospatial data are common in Civil and Environmental Engineering, 
-but less common in other disciplines that use data science. In this module we will learn 
+		Overview: `Spatial and Geospatial data are common in Civil and Environmental Engineering,
+but less common in other disciplines that use data science. In this module we will learn
 how to work with these types of data.`,
 		Objectives: []string{"Students will learn about processing spatial data, which is common in physical data science"},
 		Readings: []string{
