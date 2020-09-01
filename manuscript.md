@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1406371ba6a369a9f22d18eee5f1c985359d45ee/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d680b37a4309c58ba6516e83652f12a6893e8e7e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1406371ba6a369a9f22d18eee5f1c985359d45ee/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d680b37a4309c58ba6516e83652f12a6893e8e7e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1406371ba6a369a9f22d18eee5f1c985359d45ee/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d680b37a4309c58ba6516e83652f12a6893e8e7e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -475,7 +475,7 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 
 #### Module 2 Topics for Zoom Meetings
 
-* What is data science, and how is it relevant to CEE? A discussion.
+* Project introduction, brainstorming, and proposals (slides)[https://docs.google.com/presentation/d/1MjCbv3tA5FBN5Pu2rU670q1lk-aeQ1qmYR2vg8ai7j8/edit?usp=sharing]
 * Group discussion regarding project topics
 
 
