@@ -198,7 +198,7 @@ var modules = []module{
 			"Python & Jupyter exercises and troubleshooting",
 			"",
 		},
-		ProjectAssignment:     `Choose a project and complete a literature review .`,
+		ProjectAssignment:     `Project literature review`,
 		ProjectAssignmentDays: 17,
 	},
 	{
@@ -236,7 +236,7 @@ var modules = []module{
 			"Lecture: Statistics review",
 			"EDA group exercises",
 		},
-		ProjectAssignment:     `Exploratory data analysis for their projects.`,
+		ProjectAssignment:     `Project exploratory data analysis`,
 		ProjectAssignmentDays: 17,
 	},
 	{
@@ -288,7 +288,7 @@ how to work with these types of data.`,
 			"",
 			"",
 		},
-		ProjectAssignment:     `Project Kaggle Competition.`,
+		ProjectAssignment:     `Project Kaggle Competition`,
 		ProjectAssignmentDays: 40,
 	},
 	{
@@ -537,6 +537,9 @@ func main() {
 		"ModuleLink": func(m module) string {
 			return strings.Replace(strings.ToLower(m.Title), " ", "-", -1)
 		},
+		"StringLink": func(s string) string {
+			return strings.Replace(strings.ToLower(s), " ", "-", -1)
+		},
 	}
 
 	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("modules_template.md"))
@@ -759,7 +762,7 @@ func (m module) assignmentToCalendar(srv *calendar.Service, dates map[int64]time
 	}
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Project Activity Assigned",
-		Description: m.ProjectAssignment,
+		Description: fmt.Sprintf("<a href=https://uiceds.github.io/syllabus/#%s>%s</a>", strings.Replace(strings.ToLower(m.ProjectAssignment), " ", "-", -1), m.ProjectAssignment),
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			Date: moduleStart(m, dates).Format("2006-01-02"),
@@ -772,7 +775,7 @@ func (m module) assignmentToCalendar(srv *calendar.Service, dates map[int64]time
 
 	_, err = srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Project Activity Due",
-		Description: m.ProjectAssignment,
+		Description: fmt.Sprintf("<a href=https://uiceds.github.io/syllabus/#%s>%s</a>", strings.Replace(strings.ToLower(m.ProjectAssignment), " ", "-", -1), m.ProjectAssignment),
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			DateTime: assignmentDeadline(m, dates).Add(-time.Hour).Format(time.RFC3339),
