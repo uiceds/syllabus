@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/aefc04535e541872d1ab4a6853320396aa16c762/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1406371ba6a369a9f22d18eee5f1c985359d45ee/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/aefc04535e541872d1ab4a6853320396aa16c762/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1406371ba6a369a9f22d18eee5f1c985359d45ee/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/aefc04535e541872d1ab4a6853320396aa16c762/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1406371ba6a369a9f22d18eee5f1c985359d45ee/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -359,10 +359,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| [Choose a project and complete a literature review .](#module-3-project-assignment) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
-| [Exploratory data analysis for their projects.](#module-5-project-assignment) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
-| [Project Kaggle Competition.](#module-8-project-assignment) | 10/12/2020 | Tue 11/24/2020, 12:00 CST
-| [Project Final Presentation and Report](#module-12-project-assignment) | 11/9/2020 | Thu 12/3/2020, 12:00 CST
+| [Project literature review](#project-literature-review) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
+| [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
+| [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Tue 11/24/2020, 12:00 CST
+| [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/9/2020 | Thu 12/3/2020, 12:00 CST
 
 ### Exams
 
@@ -515,7 +515,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 #### Module 3 Project Assignment
-Choose a project and complete a literature review .
+Project literature review
 
 ### Module 4: Data
 
@@ -581,7 +581,7 @@ Students will learn how to explore and process an unfamiliar dataset.
 
 
 #### Module 5 Project Assignment
-Exploratory data analysis for their projects.
+Project exploratory data analysis
 
 ### Module 6: Spatial data
 
@@ -669,7 +669,7 @@ Students should be able to access, characterize, and visualize the data for thei
 
 
 #### Module 8 Project Assignment
-Project Kaggle Competition.
+Project Kaggle Competition
 
 ### Module 9: Supervised learning
 
@@ -944,7 +944,7 @@ Project topics will be selected from a combination of student-proposed topics an
 The projects will include some individual components and some team components, with teams comprised of all the students assigned to each topic.
 The project will include a literature review, an exploratory data analysis midterm presentation, a kaggle competition, and a final report and presentation.
 
-#### Literature review
+#### Project literature review
 
 By the time this literature review is completed, students should be able to:
 
@@ -961,14 +961,14 @@ Students will be evaluated as a group on whether their literature review include
 
 ##### Literature review rubric
 
-|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) |
-| -- | -- | --   | --           | --         | -- |
-| Completeness (5 pts) | Includes all relevant literature | Includes most relevant literature, but missing one or two impprtant studies | Missing more than two important studies | Missing most or all key studies |
+|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) 
+| -- | -- | --   | --           | --         | -- 
+| Completeness (5 pts) | Includes all relevant literature | Includes most relevant literature, but missing one or two impprtant studies | Missing more than two important studies | Missing most or all key studies 
 | Description (10 pts) | Clearly describes the important aspects of each study methods and results | Description is clear but not complete, or complete but not clear | Description is missing key aspects of study methodology and results | Description missing majority of important aspects
-| Critique (10 pts) | Clearly compares the studies to each other and discusses their individual and collective strengths and weaknesses in meeting the goal of the student's project | Critique is clear but not complete, or complete but not clear | Critique misses important strengths and weaknesses, either indvidually or collectively | Critique does not accurately describe strengths and weaknesses |
+| Critique (10 pts) | Clearly compares the studies to each other and discusses their individual and collective strengths and weaknesses in meeting the goal of the student's project | Critique is clear but not complete, or complete but not clear | Critique misses important strengths and weaknesses, either indvidually or collectively | Critique does not accurately describe strengths and weaknesses 
 
 
-#### Midterm exploratory data analysis
+#### Project exploratory data analysis
 
 After completing this exploratory data analysis, students should be able to:
 
@@ -989,14 +989,14 @@ The comments and suggestions will be graded as a class discussion initial post (
 
 ##### Exploratory data analysis rubric
 
-|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) |
-| -- | -- | --   | --           | --         | -- |
+|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) 
+| -- | -- | --   | --           | --         | -- 
 | Technical content (20 pts) | Statistical and visual representations of the data thoroughly characterize all aspects of the data relevant to the project | Representations of the data characterize almost all relevant aspects of the data | Representations are present but not thorough | The dataset is not well described
-| Graphical representation (10 pts) | Uses best practices for graphical display in all cases | Graphics mostly follow best practices, with some exceptions | Graphics are interpretable but do not follow best practices | Graphics are not interpretable |
-| Documentation (10 pts) | The document has a narrative flow, interspersing a well written introduction, method description including reasons for choosing the methods used, and discussion amidst the code and results | The document has a narrative flow but writing is not completely clear or some aspects are missing | Some documentation is included but it is not thorough | Documentation is not included |
+| Graphical representation (10 pts) | Uses best practices for graphical display in all cases | Graphics mostly follow best practices, with some exceptions | Graphics are interpretable but do not follow best practices | Graphics are not interpretable 
+| Documentation (10 pts) | The document has a narrative flow, interspersing a well written introduction, method description including reasons for choosing the methods used, and discussion amidst the code and results | The document has a narrative flow but writing is not completely clear or some aspects are missing | Some documentation is included but it is not thorough | Documentation is not included 
 
 
-#### Kaggle competition
+#### Project Kaggle competition
 
 After completing this competition, students should be able to:
 
@@ -1016,13 +1016,13 @@ At the end of the project period, the student with the highest score in the comp
 
 ##### Kaggle competition rubric
 
-|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) |
-| -- | -- | --   | --           | --         | -- |
-| Algorithm (20 pts) | A best-in-class algorithm is chosen and implemented correctly | An appropriate alorithm is chosen and implemented correctly | An appropriate algorithm is chosen but not implemented correctly | An inappropriate algorithm is used |
-| Training (20 pts) | The algorithm is tuned to maximize predictive accuracy while avoiding overfitting | The algorithm is trained correctly but slightly underfits or overfits | There is substantial over- or under-fitting | The algorithm does not fit the data |
-| Documentation (10 pts) | Documentation is thorough, clear, and well-written | There are minor issues with throroughness, clarity, or writing | There are substatantial documentation problems | Documentation doesn't exist or isn't readable |
+|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) 
+| -- | -- | --   | --           | --         | -- 
+| Algorithm (20 pts) | A best-in-class algorithm is chosen and implemented correctly | An appropriate alorithm is chosen and implemented correctly | An appropriate algorithm is chosen but not implemented correctly | An inappropriate algorithm is used 
+| Training (20 pts) | The algorithm is tuned to maximize predictive accuracy while avoiding overfitting | The algorithm is trained correctly but slightly underfits or overfits | There is substantial over- or under-fitting | The algorithm does not fit the data 
+| Documentation (10 pts) | Documentation is thorough, clear, and well-written | There are minor issues with throroughness, clarity, or writing | There are substatantial documentation problems | Documentation doesn't exist or isn't readable 
 
-#### Final presentation and report
+#### Project final presentation and report
 
 After completing this presentation and report, students should be able to:
 
@@ -1045,11 +1045,11 @@ The presentation will be stopped at 12 minutes regardless of whether it's finish
 
 ##### Final presentation and report rubric
 
-|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) |
-| -- | -- | --   | --           | --         | -- |
-| Writing (10 pts) | All required sections are present, well organized, and clearly written | There are minor defects in organization or clarity | There are substantial defects in organization or clarity | Not all required sections are present or interpretable |
-| Graphical representation (10 pts) | Uses best practices for graphical display in all cases | Graphics mostly follow best practices, with some exceptions | Graphics are interpretable but do not follow best practices | Graphics are not interpretable |
-| Oral presentation (5 pts) | Presentation is well organized, complete, and succinct | Minor issues with clarity, organization, or rambling | Poor organization or significantly too long | Presentation is not given |
+|  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) 
+| -- | -- | --   | --           | --         | -- 
+| Writing (10 pts) | All required sections are present, well organized, and clearly written | There are minor defects in organization or clarity | There are substantial defects in organization or clarity | Not all required sections are present or interpretable 
+| Graphical representation (10 pts) | Uses best practices for graphical display in all cases | Graphics mostly follow best practices, with some exceptions | Graphics are interpretable but do not follow best practices | Graphics are not interpretable 
+| Oral presentation (5 pts) | Presentation is well organized, complete, and succinct | Minor issues with clarity, organization, or rambling | Poor organization or significantly too long | Presentation is not given 
 
 ##### Participation multiplier
 
