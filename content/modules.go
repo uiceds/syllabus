@@ -177,7 +177,7 @@ var modules = []module{
 			"A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?",
 		},
 		LiveMeetingTopics: []string{
-			"What is data science, and how is it relevant to CEE? A discussion.",
+			"Project introduction, brainstorming, and proposals (slides)[https://docs.google.com/presentation/d/1MjCbv3tA5FBN5Pu2rU670q1lk-aeQ1qmYR2vg8ai7j8/edit?usp=sharing]",
 			"Group discussion regarding project topics",
 		},
 	},
