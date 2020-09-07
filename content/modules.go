@@ -202,20 +202,29 @@ var modules = []module{
 		ProjectAssignmentDays: 17,
 	},
 	{
-		Number:   4,
-		NumDays:  7,
-		Parents:  []int64{3},
-		Title:    "Data",
-		Overview: "Data comes first in data science.",
+		Number:  4,
+		NumDays: 7,
+		Parents: []int64{3},
+		Title:   "Data",
+		Overview: `Data relevant to Civil and Environmental Engineering comes in a number of different formats, including: 
+		
+* Tabular data (csv, excel): Rows represent observations, columns represent properties
+* Raster/image data ([geotiff](https://en.wikipedia.org/wiki/GeoTIFF), [NetCDF](https://www.unidata.ucar.edu/software/netcdf/), png, jpg)
+* graph data ([dot](https://gephi.org/users/supported-graph-formats/graphviz-dot-format/), [gtfs](https://gtfs.org/))`,
 		Objectives: []string{
-			"Students will learn about types of data that are relevant to Civil and Environmental Engineering problems",
-			"Students will become acquainted with tools for processing data.",
-			"Students will learn strategies for staging and processing large amounts of data.",
+			"Specify information as tabular, raster, and graph data",
+			"Use software tools to load and manipulate tabular, raster, and graph data",
 		},
 		Readings: []string{
-			"Recorded lecture on Cloud / High-performance computing, Pangeo, and Earth engine",
+			"tabular data: http://vita.had.co.nz/papers/tidy-data.pdf",
+			"Pandas for tabular data: https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python",
+			"graph data structure: https://www.youtube.com/watch?v=gXgEDyodOJU",
+			"graph properties: https://www.youtube.com/watch?v=AfYqN3fGapc",
+			"graph lecture notes: http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture09.pdf",
+			"image data: https://www.youtube.com/watch?v=UhDlL-tLT2U&list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX",
+			"pillow image processing: https://pillow.readthedocs.io/en/stable/handbook/tutorial.html",
 		},
-		HomeworkURL: "numerical python assignment in prarielearn",
+		HomeworkURL: "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831/",
 		LiveMeetingTopics: []string{
 			"Practice and Discussion",
 			"",
