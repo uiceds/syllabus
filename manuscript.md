@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/39d19e0310de3925e24b58134dd8daf2e188813b/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d1179e4387fbc2dfeceed91de2fce6a314f5ce33/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/39d19e0310de3925e24b58134dd8daf2e188813b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d1179e4387fbc2dfeceed91de2fce6a314f5ce33/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/39d19e0310de3925e24b58134dd8daf2e188813b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d1179e4387fbc2dfeceed91de2fce6a314f5ce33/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -537,13 +537,13 @@ By the end of this module, you should be able to:
 
 #### Module 4 Readings and Lectures
 
-* tabular data: http://vita.had.co.nz/papers/tidy-data.pdf
-* Pandas for tabular data: https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
-* graph data structure: https://www.youtube.com/watch?v=gXgEDyodOJU
-* graph properties: https://www.youtube.com/watch?v=AfYqN3fGapc
-* graph lecture notes: http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture09.pdf
-* image data: https://www.youtube.com/watch?v=UhDlL-tLT2U&list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX
-* pillow image processing: https://pillow.readthedocs.io/en/stable/handbook/tutorial.html
+* [tabular data](http://vita.had.co.nz/papers/tidy-data.pdf)
+* [Pandas for tabular data](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python)
+* [graph data structure](https://www.youtube.com/watch?v=gXgEDyodOJU)
+* [graph properties](https://www.youtube.com/watch?v=AfYqN3fGapc)
+* [graph lecture notes](http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture09.pdf)
+* [image data](https://www.youtube.com/watch?v=UhDlL-tLT2U&list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX)
+* [pillow image processing](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
 
 
 
