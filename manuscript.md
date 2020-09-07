@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-01'
+date-meta: '2020-09-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-01" />
+  <meta name="dc.date" content="2020-09-07" />
 
-  <meta name="citation_publication_date" content="2020-09-01" />
+  <meta name="citation_publication_date" content="2020-09-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d680b37a4309c58ba6516e83652f12a6893e8e7e/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/39d19e0310de3925e24b58134dd8daf2e188813b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d680b37a4309c58ba6516e83652f12a6893e8e7e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/39d19e0310de3925e24b58134dd8daf2e188813b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d680b37a4309c58ba6516e83652f12a6893e8e7e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/39d19e0310de3925e24b58134dd8daf2e188813b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -520,27 +520,36 @@ Project literature review
 ### Module 4: Data
 
 #### Module 4 Overview
-Data comes first in data science.
+Data relevant to Civil and Environmental Engineering comes in a number of different formats, including: 
+		
+* Tabular data (csv, excel): Rows represent observations, columns represent properties
+* Raster/image data ([geotiff](https://en.wikipedia.org/wiki/GeoTIFF), [NetCDF](https://www.unidata.ucar.edu/software/netcdf/), png, jpg)
+* graph data ([dot](https://gephi.org/users/supported-graph-formats/graphviz-dot-format/), [gtfs](https://gtfs.org/))
 
 #### Module 4 Learning Objectives
 
 By the end of this module, you should be able to:
 
 
-* Students will learn about types of data that are relevant to Civil and Environmental Engineering problems
-* Students will become acquainted with tools for processing data.
-* Students will learn strategies for staging and processing large amounts of data.
+* Specify information as tabular, raster, and graph data
+* Use software tools to load and manipulate tabular, raster, and graph data
 
 
 #### Module 4 Readings and Lectures
 
-* Recorded lecture on Cloud / High-performance computing, Pangeo, and Earth engine
+* tabular data: http://vita.had.co.nz/papers/tidy-data.pdf
+* Pandas for tabular data: https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python
+* graph data structure: https://www.youtube.com/watch?v=gXgEDyodOJU
+* graph properties: https://www.youtube.com/watch?v=AfYqN3fGapc
+* graph lecture notes: http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture09.pdf
+* image data: https://www.youtube.com/watch?v=UhDlL-tLT2U&list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX
+* pillow image processing: https://pillow.readthedocs.io/en/stable/handbook/tutorial.html
 
 
 
 
 #### Module 4 Homework
-The homework for Module 4 covers the required readings and lectures and is available [here](numerical python assignment in prarielearn).
+The homework for Module 4 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831/).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Thu 9/17/2020, 12:00 CDT for 100% credit, and by Tue 9/29/2020, 12:00 CDT for 80% credit.**
