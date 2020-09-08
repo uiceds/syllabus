@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2879e1dbb166fdcfe7982db250b6accf96f4ff1d/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3a1c780f5aea006fc4bf13880d214c6507727c94/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2879e1dbb166fdcfe7982db250b6accf96f4ff1d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3a1c780f5aea006fc4bf13880d214c6507727c94/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2879e1dbb166fdcfe7982db250b6accf96f4ff1d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3a1c780f5aea006fc4bf13880d214c6507727c94/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -453,7 +453,7 @@ Develop your answers to the discussion questions below while completing the read
 * [CACES air quality data](https://www.caces.us/data)
 * [EIA Energy Data](https://www.eia.gov/)
 * [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
-* [Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
+* [Dataset for defect detection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
 * [Best Datasets for Machine Learning Data Science](https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)
 * [VisualData Dataset Discovery](https://www.visualdata.io/discovery)
 
