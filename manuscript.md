@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/5685b0d3d9fbc8aec57bd94fd69ad28d58b85ae1/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/42b6009fb2829fd395e3678729a6ea2871544ede/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/5685b0d3d9fbc8aec57bd94fd69ad28d58b85ae1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/42b6009fb2829fd395e3678729a6ea2871544ede/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/5685b0d3d9fbc8aec57bd94fd69ad28d58b85ae1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/42b6009fb2829fd395e3678729a6ea2871544ede/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -173,7 +173,7 @@ The idea is to keep doing questions until you master the underlying concept or m
 Before doing the assessments, you will need to enroll in this class in PrairieLearn.
 To do so, go to [https://prairielearn.engr.illinois.edu/pl/enroll](https://prairielearn.engr.illinois.edu/pl/enroll) and click on "Add course" next to "CEE 498DS: Data Science for Civil and Environmental Engineering, Fall 2020".
 
-**Important**: When you log in to PrairieLearn, chose "Log in with Illinois" rather than "Log in with Google" or "Log in with Microsoft".
+**Important**: When you log in to PrairieLearn, choose "Log in with Illinois" rather than "Log in with Google" or "Log in with Microsoft".
 The UIUC login is the only one that will work.
 
 ### Homeworks
