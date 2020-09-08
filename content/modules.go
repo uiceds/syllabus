@@ -195,7 +195,7 @@ var modules = []module{
 			"These readings may not include all the information you need to complete the homework, which will allow you to practice researching concepts on the internet."},
 		HomeworkURL: "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524",
 		LiveMeetingTopics: []string{
-			"Python & Jupyter exercises and troubleshooting",
+			"Practice excercises and Q&A. [Practice excercises](https://github.com/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)",
 			"",
 		},
 		ProjectAssignment:     `Project literature review`,
