@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/42b6009fb2829fd395e3678729a6ea2871544ede/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2879e1dbb166fdcfe7982db250b6accf96f4ff1d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/42b6009fb2829fd395e3678729a6ea2871544ede/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2879e1dbb166fdcfe7982db250b6accf96f4ff1d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/42b6009fb2829fd395e3678729a6ea2871544ede/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2879e1dbb166fdcfe7982db250b6accf96f4ff1d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -386,7 +386,7 @@ By the end of this module, you should be able to:
 * List the Bash commands for doing different computer operations
 * Describe how to organize data files to improve transparency and reproducibility
 * Define the syntax for the Markdown text formatting language
-* List the Git and Github commands and operations for performing different operations
+* List the Git and GitHub commands and operations for performing different operations
 
 
 #### Module 1 Readings and Lectures
@@ -454,8 +454,8 @@ Develop your answers to the discussion questions below while completing the read
 * [EIA Energy Data](https://www.eia.gov/)
 * [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
 * [Dataset for defect decection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
-* https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f
-* https://www.visualdata.io/discovery
+* [Best Datasets for Machine Learning Data Science](https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)
+* [VisualData Dataset Discovery](https://www.visualdata.io/discovery)
 
 
 #### Module 2 Discussion
@@ -595,8 +595,8 @@ Project exploratory data analysis
 ### Module 6: Spatial data
 
 #### Module 6 Overview
-Spatial and Geospatial data are common in Civil and Environmental Engineering, 
-but less common in other disciplines that use data science. In this module we will learn 
+Spatial and Geospatial data are common in Civil and Environmental Engineering,
+but less common in other disciplines that use data science. In this module we will learn
 how to work with these types of data.
 
 #### Module 6 Learning Objectives
