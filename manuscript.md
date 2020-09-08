@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3a1c780f5aea006fc4bf13880d214c6507727c94/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6480ac2fe6d6763e701b7bf02e475c1f62131db1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3a1c780f5aea006fc4bf13880d214c6507727c94/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6480ac2fe6d6763e701b7bf02e475c1f62131db1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3a1c780f5aea006fc4bf13880d214c6507727c94/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6480ac2fe6d6763e701b7bf02e475c1f62131db1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -194,7 +194,7 @@ For exams, partial credit isn't given, but you can try each problem more than on
 * Some supplemental textbooks which students may find useful are:
   * Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython
   * Hands-On Machine Learning with Scikit-Learn & TensorFlow
-
+  * https://www.w3resource.com/python-exercises/
 
 
 ### Policies
