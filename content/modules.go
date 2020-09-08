@@ -169,15 +169,15 @@ var modules = []module{
 			"[EIA Energy Data](https://www.eia.gov/)",
 			"[UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)",
 			"[Dataset for defect detection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)",
-			"https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f",
-			"https://www.visualdata.io/discovery",
+			"[Best Datasets for Machine Learning Data Science](https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)",
+			"[VisualData Dataset Discovery](https://www.visualdata.io/discovery)",
 		},
-		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442878_1",
+		DiscussionURL: "https://compass2g.illinois.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_52490_1&conf_id=260881&nav=discussion_board_entry",
 		DiscussionPrompts: []string{
 			"A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?",
 		},
 		LiveMeetingTopics: []string{
-			"What is data science, and how is it relevant to CEE? A discussion.",
+			"Project introduction, brainstorming, and proposals (slides)[https://docs.google.com/presentation/d/1MjCbv3tA5FBN5Pu2rU670q1lk-aeQ1qmYR2vg8ai7j8/edit?usp=sharing]",
 			"Group discussion regarding project topics",
 		},
 	},
@@ -195,27 +195,36 @@ var modules = []module{
 			"These readings may not include all the information you need to complete the homework, which will allow you to practice researching concepts on the internet."},
 		HomeworkURL: "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524",
 		LiveMeetingTopics: []string{
-			"Python & Jupyter exercises and troubleshooting",
+			"Practice excercises and Q&A. [Practice excercises](https://github.com/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)",
 			"",
 		},
-		ProjectAssignment:     `Choose a project and complete a literature review .`,
+		ProjectAssignment:     `Project literature review`,
 		ProjectAssignmentDays: 17,
 	},
 	{
-		Number:   4,
-		NumDays:  7,
-		Parents:  []int64{3},
-		Title:    "Data",
-		Overview: "Data comes first in data science.",
+		Number:  4,
+		NumDays: 7,
+		Parents: []int64{3},
+		Title:   "Data",
+		Overview: `Data relevant to Civil and Environmental Engineering comes in a number of different formats, including: 
+		
+* Tabular data (csv, excel): Rows represent observations, columns represent properties
+* Raster/image data ([geotiff](https://en.wikipedia.org/wiki/GeoTIFF), [NetCDF](https://www.unidata.ucar.edu/software/netcdf/), png, jpg)
+* graph data ([dot](https://gephi.org/users/supported-graph-formats/graphviz-dot-format/), [gtfs](https://gtfs.org/))`,
 		Objectives: []string{
-			"Students will learn about types of data that are relevant to Civil and Environmental Engineering problems",
-			"Students will become acquainted with tools for processing data.",
-			"Students will learn strategies for staging and processing large amounts of data.",
+			"Specify information as tabular, raster, and graph data",
+			"Use software tools to load and manipulate tabular, raster, and graph data",
 		},
 		Readings: []string{
-			"Recorded lecture on Cloud / High-performance computing, Pangeo, and Earth engine",
+			"[tabular data](http://vita.had.co.nz/papers/tidy-data.pdf)",
+			"[Pandas for tabular data](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python)",
+			"[graph data structure](https://www.youtube.com/watch?v=gXgEDyodOJU)",
+			"[graph properties](https://www.youtube.com/watch?v=AfYqN3fGapc)",
+			"[graph lecture notes](http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture09.pdf)",
+			"[image data](https://www.youtube.com/watch?v=UhDlL-tLT2U&list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX)",
+			"[pillow image processing](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)",
 		},
-		HomeworkURL: "numerical python assignment in prarielearn",
+		HomeworkURL: "https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831/",
 		LiveMeetingTopics: []string{
 			"Practice and Discussion",
 			"",
@@ -236,7 +245,7 @@ var modules = []module{
 			"Lecture: Statistics review",
 			"EDA group exercises",
 		},
-		ProjectAssignment:     `Exploratory data analysis for their projects, with midterm presentation.`,
+		ProjectAssignment:     `Project exploratory data analysis`,
 		ProjectAssignmentDays: 17,
 	},
 	{
@@ -244,8 +253,8 @@ var modules = []module{
 		Parents: []int64{3, 5},
 		NumDays: 7,
 		Title:   "Spatial data",
-		Overview: `Spatial and Geospatial data are common in Civil and Environmental Engineering, 
-but less common in other disciplines that use data science. In this module we will learn 
+		Overview: `Spatial and Geospatial data are common in Civil and Environmental Engineering,
+but less common in other disciplines that use data science. In this module we will learn
 how to work with these types of data.`,
 		Objectives: []string{"Students will learn about processing spatial data, which is common in physical data science"},
 		Readings: []string{
@@ -280,7 +289,7 @@ how to work with these types of data.`,
 		Number:     8,
 		Parents:    []int64{2, 7},
 		NumDays:    7,
-		Title:      "Mid-way project presentations",
+		Title:      "Project EDA Due",
 		Overview:   "",
 		Objectives: []string{"Students should be able to access, characterize, and visualize the data for their projects by this point."},
 		Readings:   []string{},
@@ -288,7 +297,7 @@ how to work with these types of data.`,
 			"",
 			"",
 		},
-		ProjectAssignment:     `Project Kaggle Competition.`,
+		ProjectAssignment:     `Project Kaggle Competition`,
 		ProjectAssignmentDays: 40,
 	},
 	{
@@ -537,6 +546,9 @@ func main() {
 		"ModuleLink": func(m module) string {
 			return strings.Replace(strings.ToLower(m.Title), " ", "-", -1)
 		},
+		"StringLink": func(s string) string {
+			return strings.Replace(strings.ToLower(s), " ", "-", -1)
+		},
 	}
 
 	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("modules_template.md"))
@@ -759,7 +771,7 @@ func (m module) assignmentToCalendar(srv *calendar.Service, dates map[int64]time
 	}
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Project Activity Assigned",
-		Description: m.ProjectAssignment,
+		Description: fmt.Sprintf("<a href=https://uiceds.github.io/syllabus/#%s>%s</a>", strings.Replace(strings.ToLower(m.ProjectAssignment), " ", "-", -1), m.ProjectAssignment),
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			Date: moduleStart(m, dates).Format("2006-01-02"),
@@ -772,7 +784,7 @@ func (m module) assignmentToCalendar(srv *calendar.Service, dates map[int64]time
 
 	_, err = srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Project Activity Due",
-		Description: m.ProjectAssignment,
+		Description: fmt.Sprintf("<a href=https://uiceds.github.io/syllabus/#%s>%s</a>", strings.Replace(strings.ToLower(m.ProjectAssignment), " ", "-", -1), m.ProjectAssignment),
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			DateTime: assignmentDeadline(m, dates).Add(-time.Hour).Format(time.RFC3339),
