@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-07'
+date-meta: '2020-09-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-07" />
+  <meta name="dc.date" content="2020-09-08" />
 
-  <meta name="citation_publication_date" content="2020-09-07" />
+  <meta name="citation_publication_date" content="2020-09-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d1179e4387fbc2dfeceed91de2fce6a314f5ce33/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/14ab7de2621a47681e31749431c847a0e3274944/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d1179e4387fbc2dfeceed91de2fce6a314f5ce33/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/14ab7de2621a47681e31749431c847a0e3274944/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d1179e4387fbc2dfeceed91de2fce6a314f5ce33/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/14ab7de2621a47681e31749431c847a0e3274944/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
