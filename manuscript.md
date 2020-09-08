@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6701fa1779cf491786302882058335fa9856588c/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f97892666ac108d5feabd612dbd26a3915d8fc32/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6701fa1779cf491786302882058335fa9856588c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f97892666ac108d5feabd612dbd26a3915d8fc32/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6701fa1779cf491786302882058335fa9856588c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f97892666ac108d5feabd612dbd26a3915d8fc32/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -509,7 +509,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 #### Module 3 Topics for Zoom Meetings
 
-* Python & Jupyter exercises and troubleshooting
+* Practice excercises and Q&A. [Practice excercises](https://github.com/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)
 * 
 
 
