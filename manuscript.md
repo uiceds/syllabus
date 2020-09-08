@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6480ac2fe6d6763e701b7bf02e475c1f62131db1/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/b3aa1647ab0ed06b80759f37b60c04252229f0d2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6480ac2fe6d6763e701b7bf02e475c1f62131db1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/b3aa1647ab0ed06b80759f37b60c04252229f0d2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6480ac2fe6d6763e701b7bf02e475c1f62131db1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/b3aa1647ab0ed06b80759f37b60c04252229f0d2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -178,7 +178,7 @@ The UIUC login is the only one that will work.
 
 ### Homeworks
 
-For the homeworks, I try to preparation for class before a module starts, so if you finish all of the questions completely before the first meeting time for the module, you will receive 110% of the available points.
+For the homeworks, I try to encourage preparation for class before a module starts, so if you finish all of the questions completely before the first meeting time for the module, you will receive 110% of the available points.
 Questions finished between the first and second meeting times of the module receive 100%, and questions finished up to two weeks after the module ends can receive 80%.
 
 Note that new homeworks are assigned most weeks, so if you don't stay ahead, it can be easy to fall behind.
