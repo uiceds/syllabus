@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-08'
+date-meta: '2020-09-10'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-08" />
+  <meta name="dc.date" content="2020-09-10" />
 
-  <meta name="citation_publication_date" content="2020-09-08" />
+  <meta name="citation_publication_date" content="2020-09-10" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/b3aa1647ab0ed06b80759f37b60c04252229f0d2/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8facf09a20198cb79420751cb3ff2e810b8b1fb9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/b3aa1647ab0ed06b80759f37b60c04252229f0d2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8facf09a20198cb79420751cb3ff2e810b8b1fb9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/b3aa1647ab0ed06b80759f37b60c04252229f0d2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8facf09a20198cb79420751cb3ff2e810b8b1fb9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -509,8 +509,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 #### Module 3 Topics for Zoom Meetings
 
-* Practice excercises and Q&A. [Practice excercises](https://github.com/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)
-* 
+* Practice excercises and Q&A. [Practice excercises](https://nbviewer.jupyter.org/github/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)
+* Practice excercises and literature review intro. [Slides](https://docs.google.com/presentation/d/1Hfy4NOrFLEKLOMLBpgyv_hUIUpP82ohYDSDw9HIOThY/edit?usp=sharing)
 
 
 
@@ -972,7 +972,7 @@ Students will be evaluated as a group on whether their literature review include
 
 |  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) 
 | -- | -- | --   | --           | --         | -- 
-| Completeness (5 pts) | Includes all relevant literature | Includes most relevant literature, but missing one or two impprtant studies | Missing more than two important studies | Missing most or all key studies 
+| Completeness (5 pts) | Includes all relevant literature | Includes most relevant literature, but missing one or two important studies | Missing more than two important studies | Missing most or all key studies 
 | Description (10 pts) | Clearly describes the important aspects of each study methods and results | Description is clear but not complete, or complete but not clear | Description is missing key aspects of study methodology and results | Description missing majority of important aspects
 | Critique (10 pts) | Clearly compares the studies to each other and discusses their individual and collective strengths and weaknesses in meeting the goal of the student's project | Critique is clear but not complete, or complete but not clear | Critique misses important strengths and weaknesses, either indvidually or collectively | Critique does not accurately describe strengths and weaknesses 
 
