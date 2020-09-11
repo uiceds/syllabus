@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-10'
+date-meta: '2020-09-11'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-10" />
+  <meta name="dc.date" content="2020-09-11" />
 
-  <meta name="citation_publication_date" content="2020-09-10" />
+  <meta name="citation_publication_date" content="2020-09-11" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8facf09a20198cb79420751cb3ff2e810b8b1fb9/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3f7704d9d14508108bbd7d19ce851618346ab68f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8facf09a20198cb79420751cb3ff2e810b8b1fb9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3f7704d9d14508108bbd7d19ce851618346ab68f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8facf09a20198cb79420751cb3ff2e810b8b1fb9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3f7704d9d14508108bbd7d19ce851618346ab68f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -216,6 +216,10 @@ By registering for this online course, you commit to self-motivated study, parti
 
 #### Deadlines
 If you are unable to meet a particular deadline, it is your responsibility to make prior arrangements with the instructor for that given week. Otherwise, work submitted later than 1 day late will receive 10% penalty, and work submitted later than 2 days late will not be considered for grading unless consent has been given by the instructor.
+
+#### Regrades
+
+Requests for regrading homeworks, exams, and project deliverables must be submitted in writing within one week of receiving the initial grade.
 
 #### Instructor Responses
 ##### Instructor Feedback Turnaround Time
