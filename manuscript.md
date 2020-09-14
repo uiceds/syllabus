@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-11'
+date-meta: '2020-09-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-11" />
+  <meta name="dc.date" content="2020-09-14" />
 
-  <meta name="citation_publication_date" content="2020-09-11" />
+  <meta name="citation_publication_date" content="2020-09-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3f7704d9d14508108bbd7d19ce851618346ab68f/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/92cf2229c18253606186fd93352b94508b9144e9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3f7704d9d14508108bbd7d19ce851618346ab68f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/92cf2229c18253606186fd93352b94508b9144e9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3f7704d9d14508108bbd7d19ce851618346ab68f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/92cf2229c18253606186fd93352b94508b9144e9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -326,7 +326,7 @@ The University of Illinois strives to promote student success through the suppor
 | 2 | [Data science topics for Civil and Environmental Engineering](#module-2-data-science-topics-for-civil-and-environmental-engineering) | 8/31/2020
 | 3 | [Programming review](#module-3-programming-review) | 9/7/2020
 | 4 | [Data](#module-4-data) | 9/14/2020
-| 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-(eda)) | 9/21/2020
+| 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-eda) | 9/21/2020
 | 6 | [Spatial data](#module-6-spatial-data) | 9/28/2020
 | 7 | [Spatial statistics](#module-7-spatial-statistics) | 10/5/2020
 | 8 | [Project EDA Due](#module-8-project-eda-due) | 10/12/2020
@@ -352,6 +352,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Open Reproducible Science](#module-1-homework) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Tue 9/1/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT |
 | [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
 | [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
+| [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Thu 9/24/2020, 12:00 CDT | Tue 10/6/2020, 12:00 CDT |
 | [Spatial data](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
 | [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 12:00 CST |
 | [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 12:00 CST |
@@ -553,7 +554,7 @@ By the end of this module, you should be able to:
 
 
 #### Module 4 Homework
-The homework for Module 4 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831/).
+The homework for Module 4 covers the required readings and lectures and is available [here](homework5).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Thu 9/17/2020, 12:00 CDT for 100% credit, and by Tue 9/29/2020, 12:00 CDT for 80% credit.**
@@ -574,22 +575,30 @@ The first step in a data science project is getting a feel for the dataset you a
 
 By the end of this module, you should be able to:
 
-Students will learn how to explore and process an unfamiliar dataset.
+
+* Calculate relevant statistical properties of an unfamiliar dataset
+* Visualize an unfamiliar dataset and describe its relevant properties
+
 
 #### Module 5 Readings and Lectures
 
-* Watch mlcourse.ai video lectures on [exploratory data analysis](https://youtu.be/fwWCw_cE5aI) and [visualization](https://www.youtube.com/watch?v=WNoQTNOME5g)
-* Work through accompanying notebooks [1](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/), [2.1](https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/) and [2.2](https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/)
+* [Exploratory Data Analysis](https://www.youtube.com/watch?v=zHcQPKP6NpM)
+* [Exploratory Data Analysis in Pandas](https://youtu.be/WNoQTNOME5g?t=480) watch time 8:00 to 20:30
+* mlcourse.ai notebooks [1](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/), [2.1](https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/) and [2.2](https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/)
 
 
 
 
+#### Module 5 Homework
+The homework for Module 5 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1757363).
+General information about homework assignments is [here](#homeworks-and-exams).
 
+**The homework for this module is due by Tue 9/22/2020, 12:00 CDT for 110% credit, by Thu 9/24/2020, 12:00 CDT for 100% credit, and by Tue 10/6/2020, 12:00 CDT for 80% credit.**
 
 #### Module 5 Topics for Zoom Meetings
 
-* Lecture: Statistics review
-* EDA group exercises
+* Practice problems
+* Practice project EDA
 
 
 
