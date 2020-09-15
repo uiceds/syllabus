@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e18e241ecc238516d858739a87a8d15f65a3635c/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6b3a647182f950b6c87db863e98347a266d76ac9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e18e241ecc238516d858739a87a8d15f65a3635c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6b3a647182f950b6c87db863e98347a266d76ac9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e18e241ecc238516d858739a87a8d15f65a3635c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6b3a647182f950b6c87db863e98347a266d76ac9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -561,7 +561,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 #### Module 4 Topics for Zoom Meetings
 
-* Practice and Discussion
+* Group exercises [slides](https://docs.google.com/presentation/d/1SlC4bTehrP4cFuaSv36IMovJU24BMFbyEJthm8eooio/edit?usp=sharing)
 * 
 
 
