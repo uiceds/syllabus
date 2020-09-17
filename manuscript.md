@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-15'
+date-meta: '2020-09-17'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-15" />
+  <meta name="dc.date" content="2020-09-17" />
 
-  <meta name="citation_publication_date" content="2020-09-15" />
+  <meta name="citation_publication_date" content="2020-09-17" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/6b3a647182f950b6c87db863e98347a266d76ac9/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ed8924e5c319d36fe3da78849b8319be5fb617e0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/6b3a647182f950b6c87db863e98347a266d76ac9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ed8924e5c319d36fe3da78849b8319be5fb617e0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/6b3a647182f950b6c87db863e98347a266d76ac9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ed8924e5c319d36fe3da78849b8319be5fb617e0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -554,7 +554,7 @@ By the end of this module, you should be able to:
 
 
 #### Module 4 Homework
-The homework for Module 4 covers the required readings and lectures and is available [here](homework5).
+The homework for Module 4 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Thu 9/17/2020, 12:00 CDT for 100% credit, and by Tue 9/29/2020, 12:00 CDT for 80% credit.**
@@ -562,7 +562,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 4 Topics for Zoom Meetings
 
 * Group exercises [slides](https://docs.google.com/presentation/d/1SlC4bTehrP4cFuaSv36IMovJU24BMFbyEJthm8eooio/edit?usp=sharing)
-* 
+* [Guided exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-1/) and [group exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-2/)
 
 
 
