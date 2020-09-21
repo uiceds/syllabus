@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-17'
+date-meta: '2020-09-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-17" />
+  <meta name="dc.date" content="2020-09-21" />
 
-  <meta name="citation_publication_date" content="2020-09-17" />
+  <meta name="citation_publication_date" content="2020-09-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ed8924e5c319d36fe3da78849b8319be5fb617e0/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8c00a3143e18fe6af87492d47b29ca6c3919d257/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ed8924e5c319d36fe3da78849b8319be5fb617e0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8c00a3143e18fe6af87492d47b29ca6c3919d257/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ed8924e5c319d36fe3da78849b8319be5fb617e0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8c00a3143e18fe6af87492d47b29ca6c3919d257/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -975,19 +975,17 @@ By the time this literature review is completed, students should be able to:
 * Critique the previous studies, describing strengths and weaknesses.
 
 Working as a team, students will identify prior work related to the project topic from sources including peer-reviewed literature and [ArXiv](https://arxiv.org/) (and other ArXiv-like repositories such as [EarthArXiv](https://eartharxiv.org/)).
-Students will then divide the relevant articles among themselves, and individually write literature review of their portion of the articles. 
-(If the literature search does not yield at least 2 articles per person, all team members will independently review the same articles.)
+Students will then individually write an at least 400-word review of one of the articles. 
 Instructions about how to write a literature review are available [here](https://www.scribbr.com/dissertation/literature-review/), for example.
 
-Students will be evaluated as a group on whether their literature review includes all of the relevant literature, and they will be evaluated individually on the quality of their review.
+Literature reviews should be posted on the discussion board [here](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_468521_1).
 
 ##### Literature review rubric
 
 |  | Exceptional (100%) | Satisfactory (85%) | Needs work (70%) | Incomplete (<60%) 
 | -- | -- | --   | --           | --         | -- 
-| Completeness (5 pts) | Includes all relevant literature | Includes most relevant literature, but missing one or two important studies | Missing more than two important studies | Missing most or all key studies 
-| Description (10 pts) | Clearly describes the important aspects of each study methods and results | Description is clear but not complete, or complete but not clear | Description is missing key aspects of study methodology and results | Description missing majority of important aspects
-| Critique (10 pts) | Clearly compares the studies to each other and discusses their individual and collective strengths and weaknesses in meeting the goal of the student's project | Critique is clear but not complete, or complete but not clear | Critique misses important strengths and weaknesses, either indvidually or collectively | Critique does not accurately describe strengths and weaknesses 
+| Description (10 pts) | Clearly describes the important aspects of the study methods and results | Description is clear but not complete, or complete but not clear | Description is missing key aspects of study methodology and results | Description missing majority of important aspects
+| Critique (10 pts) | Clearly discusses the paper's strengths and weaknesses in meeting the goal of the student's project | Critique is clear but not complete, or complete but not clear | Critique misses important strengths and weaknesses | Critique does not accurately describe strengths and weaknesses 
 
 
 #### Project exploratory data analysis
