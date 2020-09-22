@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-21'
+date-meta: '2020-09-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-21" />
+  <meta name="dc.date" content="2020-09-22" />
 
-  <meta name="citation_publication_date" content="2020-09-21" />
+  <meta name="citation_publication_date" content="2020-09-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8c00a3143e18fe6af87492d47b29ca6c3919d257/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1fdb526ad2c87678988f7f6670c13e525990b96f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8c00a3143e18fe6af87492d47b29ca6c3919d257/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1fdb526ad2c87678988f7f6670c13e525990b96f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8c00a3143e18fe6af87492d47b29ca6c3919d257/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1fdb526ad2c87678988f7f6670c13e525990b96f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -327,7 +327,7 @@ The University of Illinois strives to promote student success through the suppor
 | 3 | [Programming review](#module-3-programming-review) | 9/7/2020
 | 4 | [Data](#module-4-data) | 9/14/2020
 | 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-eda) | 9/21/2020
-| 6 | [Spatial data](#module-6-spatial-data) | 9/28/2020
+| 6 | [Network analysis](#module-6-network-analysis) | 9/28/2020
 | 7 | [Spatial statistics](#module-7-spatial-statistics) | 10/5/2020
 | 8 | [Project EDA Due](#module-8-project-eda-due) | 10/12/2020
 | 9 | [Supervised learning](#module-9-supervised-learning) | 10/19/2020
@@ -353,7 +353,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
 | [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
 | [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Thu 9/24/2020, 12:00 CDT | Tue 10/6/2020, 12:00 CDT |
-| [Spatial data](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
+| [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
 | [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 12:00 CST |
 | [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 12:00 CST |
 | [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Thu 11/5/2020, 12:00 CST | Tue 11/17/2020, 12:00 CST |
@@ -562,7 +562,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 4 Topics for Zoom Meetings
 
 * Group exercises [slides](https://docs.google.com/presentation/d/1SlC4bTehrP4cFuaSv36IMovJU24BMFbyEJthm8eooio/edit?usp=sharing)
-* [Guided exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-1/) and [group exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-2/)
+* [Guided exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-1-result) and [group exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-2-result)
 
 
 
@@ -597,38 +597,40 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 #### Module 5 Topics for Zoom Meetings
 
-* Practice problems
-* Practice project EDA
+* Practice project EDA (Notebook)[https://www.kaggle.com/christophertessum/module-5-class-1-airplanes-result]
+* Image processing
 
 
 
 #### Module 5 Project Assignment
 Project exploratory data analysis
 
-### Module 6: Spatial data
+### Module 6: Network analysis
 
 #### Module 6 Overview
-Spatial and Geospatial data are common in Civil and Environmental Engineering,
-but less common in other disciplines that use data science. In this module we will learn
-how to work with these types of data.
+In the previous module we learned how to do exploratory data analysis for tabular data. 
+This week we will work on exploratory data analysis for graph (network) data.
 
 #### Module 6 Learning Objectives
 
 By the end of this module, you should be able to:
 
-Students will learn about processing spatial data, which is common in physical data science
+
+* Load and manipulate graph data using the `networkx` python library
+* Perform basic statistical analysis of graph data
+
 
 #### Module 6 Readings and Lectures
 
-* Recorded lecture on raster vs. vector formats
-* Recorded lecture on joins and boolean operations
-* [geopandas tutorial](https://github.com/geopandas/scipy2018-geospatial-data)
+* [Game of Thrones: Network Analysis](https://www.kaggle.com/mmmarchetti/game-of-thrones-network-analysis)
+* [Networkx introduction](https://networkx.github.io/documentation/stable/reference/introduction.html)
+* Networkx [betweenness centrality](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.betweenness_centrality.html#networkx.algorithms.centrality.betweenness_centrality), [degree centrality](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.degree_centrality.html#networkx.algorithms.centrality.degree_centrality), and [shortest path](https://networkx.github.io/documentation/stable/reference/algorithms/shortest_paths.html)
 
 
 
 
 #### Module 6 Homework
-The homework for Module 6 covers the required readings and lectures and is available [here](SpatialDataHomework).
+The homework for Module 6 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Thu 10/1/2020, 12:00 CDT for 100% credit, and by Tue 10/13/2020, 12:00 CDT for 80% credit.**
