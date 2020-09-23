@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-22'
+date-meta: '2020-09-23'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-22" />
+  <meta name="dc.date" content="2020-09-23" />
 
-  <meta name="citation_publication_date" content="2020-09-22" />
+  <meta name="citation_publication_date" content="2020-09-23" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1fdb526ad2c87678988f7f6670c13e525990b96f/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3a42df2fb8a3bfa318b31618d6b446210e82eaa2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1fdb526ad2c87678988f7f6670c13e525990b96f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3a42df2fb8a3bfa318b31618d6b446210e82eaa2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1fdb526ad2c87678988f7f6670c13e525990b96f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3a42df2fb8a3bfa318b31618d6b446210e82eaa2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -349,16 +349,16 @@ The University of Illinois strives to promote student success through the suppor
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| [Open Reproducible Science](#module-1-homework) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Tue 9/1/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT |
-| [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Thu 9/10/2020, 12:00 CDT | Tue 9/22/2020, 12:00 CDT |
-| [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Thu 9/17/2020, 12:00 CDT | Tue 9/29/2020, 12:00 CDT |
-| [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Thu 9/24/2020, 12:00 CDT | Tue 10/6/2020, 12:00 CDT |
-| [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Thu 10/1/2020, 12:00 CDT | Tue 10/13/2020, 12:00 CDT |
-| [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Thu 10/22/2020, 12:00 CDT | Tue 11/3/2020, 12:00 CST |
-| [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Thu 10/29/2020, 12:00 CDT | Tue 11/10/2020, 12:00 CST |
-| [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Thu 11/5/2020, 12:00 CST | Tue 11/17/2020, 12:00 CST |
-| [Convolutional Neural Networks](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Thu 11/12/2020, 12:00 CST | Tue 11/24/2020, 12:00 CST |
-| [Neural Networks for Sequences](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Thu 11/19/2020, 12:00 CST | Tue 12/1/2020, 12:00 CST |
+| [Open Reproducible Science](#module-1-homework) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Sun 9/6/2020, 23:59 CDT | Sun 9/20/2020, 23:59 CDT |
+| [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Sun 9/13/2020, 23:59 CDT | Sun 9/27/2020, 23:59 CDT |
+| [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Sun 9/20/2020, 23:59 CDT | Sun 10/4/2020, 23:59 CDT |
+| [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Sun 9/27/2020, 23:59 CDT | Sun 10/11/2020, 23:59 CDT |
+| [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Sun 10/4/2020, 23:59 CDT | Sun 10/18/2020, 23:59 CDT |
+| [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Sun 10/25/2020, 23:59 CDT | Sun 11/8/2020, 23:59 CST |
+| [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
+| [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
+| [Convolutional Neural Networks](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Sun 11/15/2020, 23:59 CST | Sun 11/29/2020, 23:59 CST |
+| [Neural Networks for Sequences](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Sun 11/22/2020, 23:59 CST | Sun 12/6/2020, 23:59 CST |
 
 ### Project Assignments
 
@@ -423,12 +423,14 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 The homework for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Thu 8/27/2020, 12:00 CDT for 110% credit, by Tue 9/1/2020, 12:00 CDT for 100% credit, and by Thu 9/10/2020, 12:00 CDT for 80% credit.**
+**The homework for this module is due by Thu 8/27/2020, 12:00 CDT for 110% credit, by Sun 9/6/2020, 23:59 CDT for 100% credit, and by Sun 9/20/2020, 23:59 CDT for 80% credit.**
 
 #### Module 1 Topics for Zoom Meetings
 
-* Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
-* Discussion of readings and technology check: installing Python and related tools ([notes](https://github.com/uiceds/syllabus/blob/master/modules/module1/demo/README.md))
+
+* Tue 8/25/2020, 12:00 CDT: Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
+* Thu 8/27/2020, 12:00 CDT: Discussion of readings and technology check: installing Python and related tools ([notes](https://github.com/uiceds/syllabus/blob/master/modules/module1/demo/README.md))
+
 
 
 
@@ -480,8 +482,10 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 
 #### Module 2 Topics for Zoom Meetings
 
-* Project introduction, brainstorming, and proposals (slides)[https://docs.google.com/presentation/d/1MjCbv3tA5FBN5Pu2rU670q1lk-aeQ1qmYR2vg8ai7j8/edit?usp=sharing]
-* Group discussion regarding project topics
+
+* Tue 9/1/2020, 12:00 CDT: Project introduction, brainstorming, and proposals (slides)[https://docs.google.com/presentation/d/1MjCbv3tA5FBN5Pu2rU670q1lk-aeQ1qmYR2vg8ai7j8/edit?usp=sharing]
+* Thu 9/3/2020, 12:00 CDT: Group discussion regarding project topics
+
 
 
 
@@ -510,12 +514,14 @@ By the end of this module, you should be able to:
 The homework for Module 3 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Thu 9/10/2020, 12:00 CDT for 100% credit, and by Tue 9/22/2020, 12:00 CDT for 80% credit.**
+**The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Sun 9/13/2020, 23:59 CDT for 100% credit, and by Sun 9/27/2020, 23:59 CDT for 80% credit.**
 
 #### Module 3 Topics for Zoom Meetings
 
-* Practice excercises and Q&A. [Practice excercises](https://nbviewer.jupyter.org/github/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)
-* Practice excercises and literature review intro. [Slides](https://docs.google.com/presentation/d/1Hfy4NOrFLEKLOMLBpgyv_hUIUpP82ohYDSDw9HIOThY/edit?usp=sharing)
+
+* Tue 9/8/2020, 12:00 CDT: Practice excercises and Q&A. [Practice excercises](https://nbviewer.jupyter.org/github/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)
+* Thu 9/10/2020, 12:00 CDT: Practice excercises and literature review intro. [Slides](https://docs.google.com/presentation/d/1Hfy4NOrFLEKLOMLBpgyv_hUIUpP82ohYDSDw9HIOThY/edit?usp=sharing)
+
 
 
 
@@ -557,12 +563,14 @@ By the end of this module, you should be able to:
 The homework for Module 4 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Thu 9/17/2020, 12:00 CDT for 100% credit, and by Tue 9/29/2020, 12:00 CDT for 80% credit.**
+**The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Sun 9/20/2020, 23:59 CDT for 100% credit, and by Sun 10/4/2020, 23:59 CDT for 80% credit.**
 
 #### Module 4 Topics for Zoom Meetings
 
-* Group exercises [slides](https://docs.google.com/presentation/d/1SlC4bTehrP4cFuaSv36IMovJU24BMFbyEJthm8eooio/edit?usp=sharing)
-* [Guided exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-1-result) and [group exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-2-result)
+
+* Tue 9/15/2020, 12:00 CDT: Group exercises [slides](https://docs.google.com/presentation/d/1SlC4bTehrP4cFuaSv36IMovJU24BMFbyEJthm8eooio/edit?usp=sharing)
+* Thu 9/17/2020, 12:00 CDT: [Guided exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-1-result) and [group exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-2-result)
+
 
 
 
@@ -593,12 +601,14 @@ By the end of this module, you should be able to:
 The homework for Module 5 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1757363).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/22/2020, 12:00 CDT for 110% credit, by Thu 9/24/2020, 12:00 CDT for 100% credit, and by Tue 10/6/2020, 12:00 CDT for 80% credit.**
+**The homework for this module is due by Tue 9/22/2020, 12:00 CDT for 110% credit, by Sun 9/27/2020, 23:59 CDT for 100% credit, and by Sun 10/11/2020, 23:59 CDT for 80% credit.**
 
 #### Module 5 Topics for Zoom Meetings
 
-* Practice project EDA (Notebook)[https://www.kaggle.com/christophertessum/module-5-class-1-airplanes-result]
-* Image processing
+
+* Tue 9/22/2020, 12:00 CDT: Practice project EDA (Notebook)[https://www.kaggle.com/christophertessum/module-5-class-1-airplanes-result]
+* Thu 9/24/2020, 12:00 CDT: Image processing
+
 
 
 
@@ -633,12 +643,14 @@ By the end of this module, you should be able to:
 The homework for Module 6 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Thu 10/1/2020, 12:00 CDT for 100% credit, and by Tue 10/13/2020, 12:00 CDT for 80% credit.**
+**The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Sun 10/4/2020, 23:59 CDT for 100% credit, and by Sun 10/18/2020, 23:59 CDT for 80% credit.**
 
 #### Module 6 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 9/29/2020, 12:00 CDT: 
+* Thu 10/1/2020, 12:00 CDT: 
+
 
 
 
@@ -664,8 +676,10 @@ Students will learn how to perform statistical analysis of spatial data.
 
 #### Module 7 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 10/6/2020, 12:00 CDT: 
+* Thu 10/8/2020, 12:00 CDT: 
+
 
 
 
@@ -687,8 +701,10 @@ Students should be able to access, characterize, and visualize the data for thei
 
 #### Module 8 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 10/13/2020, 12:00 CDT: 
+* Thu 10/15/2020, 12:00 CDT: 
+
 
 
 
@@ -722,12 +738,14 @@ Students will learn what supervised machine learning is and how it can help solv
 The homework for Module 9 covers the required readings and lectures and is available [here](SupervisedLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Thu 10/22/2020, 12:00 CDT for 100% credit, and by Tue 11/3/2020, 12:00 CST for 80% credit.**
+**The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Sun 10/25/2020, 23:59 CDT for 100% credit, and by Sun 11/8/2020, 23:59 CST for 80% credit.**
 
 #### Module 9 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 10/20/2020, 12:00 CDT: 
+* Thu 10/22/2020, 12:00 CDT: 
+
 
 
 
@@ -754,12 +772,14 @@ Students will learn about basic unsupervised learning algorithms and how they ca
 The homework for Module 10 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Thu 10/29/2020, 12:00 CDT for 100% credit, and by Tue 11/10/2020, 12:00 CST for 80% credit.**
+**The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Sun 11/1/2020, 23:59 CST for 100% credit, and by Sun 11/15/2020, 23:59 CST for 80% credit.**
 
 #### Module 10 Topics for Zoom Meetings
 
-* In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
-* 
+
+* Tue 10/27/2020, 12:00 CDT: In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
+* Thu 10/29/2020, 12:00 CDT: 
+
 
 
 
@@ -786,12 +806,14 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 The homework for Module 11 covers the required readings and lectures and is available [here](DeepLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 11/3/2020, 12:00 CST for 110% credit, by Thu 11/5/2020, 12:00 CST for 100% credit, and by Tue 11/17/2020, 12:00 CST for 80% credit.**
+**The homework for this module is due by Tue 11/3/2020, 12:00 CST for 110% credit, by Sun 11/8/2020, 23:59 CST for 100% credit, and by Sun 11/22/2020, 23:59 CST for 80% credit.**
 
 #### Module 11 Topics for Zoom Meetings
 
-* Remember to vote!
-* 
+
+* Tue 11/3/2020, 12:00 CST: Remember to vote!
+* Thu 11/5/2020, 12:00 CST: 
+
 
 
 
@@ -818,12 +840,14 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 11/10/2020, 12:00 CST for 110% credit, by Thu 11/12/2020, 12:00 CST for 100% credit, and by Tue 11/24/2020, 12:00 CST for 80% credit.**
+**The homework for this module is due by Tue 11/10/2020, 12:00 CST for 110% credit, by Sun 11/15/2020, 23:59 CST for 100% credit, and by Sun 11/29/2020, 23:59 CST for 80% credit.**
 
 #### Module 12 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 11/10/2020, 12:00 CST: 
+* Thu 11/12/2020, 12:00 CST: 
+
 
 
 
@@ -853,12 +877,14 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Thu 11/19/2020, 12:00 CST for 100% credit, and by Tue 12/1/2020, 12:00 CST for 80% credit.**
+**The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Sun 11/22/2020, 23:59 CST for 100% credit, and by Sun 12/6/2020, 23:59 CST for 80% credit.**
 
 #### Module 13 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 11/17/2020, 12:00 CST: 
+* Thu 11/19/2020, 12:00 CST: 
+
 
 
 
@@ -877,8 +903,10 @@ Students will work on their course projects
 
 #### Module 14 Topics for Zoom Meetings
 
-* 
-* 
+
+* Tue 11/24/2020, 12:00 CST: 
+* Thu 11/26/2020, 12:00 CST: 
+
 
 
 
@@ -900,9 +928,11 @@ Students should have completed a project where they access and explore a civil o
 
 #### Module 15 Topics for Zoom Meetings
 
-* 
-* 
-* 
+
+* Tue 12/1/2020, 12:00 CST: 
+* Thu 12/3/2020, 12:00 CST: 
+* Tue 12/8/2020, 12:00 CST: 
+
 
 
 
