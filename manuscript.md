@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/388dbcfc0bc0f49d979636d1df5c00c552888677/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d0e336b20e3dad365ea70515716c62dc8e42c933/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/388dbcfc0bc0f49d979636d1df5c00c552888677/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d0e336b20e3dad365ea70515716c62dc8e42c933/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/388dbcfc0bc0f49d979636d1df5c00c552888677/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d0e336b20e3dad365ea70515716c62dc8e42c933/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -146,7 +146,7 @@ Additionally, students will complete homework assignments and a midterm and fina
   * Homeworks: 17% of final grade
   * Midterm exam: 15% of final grade
   * Final exam: 25% of final grade
-  * Course project: 40% of final grade: 5% for literature review, 15% for Kaggle competition, 2.5% for midterm presentation, 7.5% for final presentation, and 10% for final report.
+  * Course project: 40% of final grade: 5% for literature review, 15% for Kaggle competition, 2.5% for exploratory data analysis, 7.5% for final presentation, and 10% for final report.
 * Graduate students are expected to register for 4 credits and undergraduates are expected to register for 3 credits. Correspondingly, course projects for graduate students are expected to include a machine learning component that is more complex than linear regression, whereas for undergraduates this is optional.
 * Letter grades will be assigned according to the following scale:
   * 97-100:	A+
