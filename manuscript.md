@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-23'
+date-meta: '2020-09-24'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-23" />
+  <meta name="dc.date" content="2020-09-24" />
 
-  <meta name="citation_publication_date" content="2020-09-23" />
+  <meta name="citation_publication_date" content="2020-09-24" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3a42df2fb8a3bfa318b31618d6b446210e82eaa2/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/388dbcfc0bc0f49d979636d1df5c00c552888677/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3a42df2fb8a3bfa318b31618d6b446210e82eaa2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/388dbcfc0bc0f49d979636d1df5c00c552888677/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3a42df2fb8a3bfa318b31618d6b446210e82eaa2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/388dbcfc0bc0f49d979636d1df5c00c552888677/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -606,8 +606,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 5 Topics for Zoom Meetings
 
 
-* Tue 9/22/2020, 12:00 CDT: Practice project EDA (Notebook)[https://www.kaggle.com/christophertessum/module-5-class-1-airplanes-result]
-* Thu 9/24/2020, 12:00 CDT: Image processing
+* Tue 9/22/2020, 12:00 CDT: Practice project EDA [Notebook](https://www.kaggle.com/christophertessum/module-5-class-1-airplanes-result)
+* Thu 9/24/2020, 12:00 CDT: Image processing [Notebook](https://www.kaggle.com/christophertessum/module-5-class-2-ships-result)
 
 
 
