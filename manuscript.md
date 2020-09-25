@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-24'
+date-meta: '2020-09-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-24" />
+  <meta name="dc.date" content="2020-09-25" />
 
-  <meta name="citation_publication_date" content="2020-09-24" />
+  <meta name="citation_publication_date" content="2020-09-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d0e336b20e3dad365ea70515716c62dc8e42c933/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ec6b6c43257b68beb5d7bbe907ff9741c2291138/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d0e336b20e3dad365ea70515716c62dc8e42c933/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ec6b6c43257b68beb5d7bbe907ff9741c2291138/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d0e336b20e3dad365ea70515716c62dc8e42c933/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ec6b6c43257b68beb5d7bbe907ff9741c2291138/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -1010,7 +1010,7 @@ Working as a team, students will identify prior work related to the project topi
 Students will then individually write an at least 400-word review of one of the articles. 
 Instructions about how to write a literature review are available [here](https://www.scribbr.com/dissertation/literature-review/), for example.
 
-Literature reviews should be posted on the discussion board [here](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_468521_1).
+Literature reviews should be submitted [here](https://compass2g.illinois.edu/webapps/assignment/uploadAssignment?content_id=_4834554_1&course_id=_52490_1&group_id=&mode=view).
 
 ##### Literature review rubric
 
