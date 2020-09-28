@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-26'
+date-meta: '2020-09-28'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-26" />
+  <meta name="dc.date" content="2020-09-28" />
 
-  <meta name="citation_publication_date" content="2020-09-26" />
+  <meta name="citation_publication_date" content="2020-09-28" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/15fb3506db196e6e022b4e7798597f3397a8e0f8/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fcd5c9d92c78249185037ca8bc4e74226b7431d4/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/15fb3506db196e6e022b4e7798597f3397a8e0f8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fcd5c9d92c78249185037ca8bc4e74226b7431d4/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/15fb3506db196e6e022b4e7798597f3397a8e0f8/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fcd5c9d92c78249185037ca8bc4e74226b7431d4/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -328,7 +328,7 @@ The University of Illinois strives to promote student success through the suppor
 | 4 | [Data](#module-4-data) | 9/14/2020
 | 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-eda) | 9/21/2020
 | 6 | [Network analysis](#module-6-network-analysis) | 9/28/2020
-| 7 | [Spatial statistics](#module-7-spatial-statistics) | 10/5/2020
+| 7 | [Spatial data](#module-7-spatial-data) | 10/5/2020
 | 8 | [Project EDA Due](#module-8-project-eda-due) | 10/12/2020
 | 9 | [Supervised learning](#module-9-supervised-learning) | 10/19/2020
 | 10 | [Unsupervised learning](#module-10-unsupervised-learning) | 10/26/2020
@@ -354,6 +354,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Sun 9/20/2020, 23:59 CDT | Sun 10/4/2020, 23:59 CDT |
 | [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Sun 9/27/2020, 23:59 CDT | Sun 10/11/2020, 23:59 CDT |
 | [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Sun 10/4/2020, 23:59 CDT | Sun 10/18/2020, 23:59 CDT |
+| [Spatial data](#module-7-homework) | 9/28/2020 | Tue 10/6/2020, 12:00 CDT | Sun 10/11/2020, 23:59 CDT | Sun 10/25/2020, 23:59 CDT |
 | [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Sun 10/25/2020, 23:59 CDT | Sun 11/8/2020, 23:59 CST |
 | [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
 | [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
@@ -654,25 +655,35 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-### Module 7: Spatial statistics
+### Module 7: Spatial data
 
-
+#### Module 7 Overview
+Many Civil and Environmental Engineering analyses—for example transportation networks or environmental data—have 
+a spatial component. This week we will work with spatial data.
 
 #### Module 7 Learning Objectives
 
 By the end of this module, you should be able to:
 
-Students will learn how to perform statistical analysis of spatial data.
+
+* Analyze raster (gridded) data using the XArray library
+* Analyze vector (point, line, or polygon) data using the GeoPandas library
+
 
 #### Module 7 Readings and Lectures
 
-* Recorded Lecture:  Spatial statistics (spatial autocorrelation, Modifiable areal unit problem, kriging)
-* [PySAL library](https://pysal.org/) and [notebooks](http://pysal.org/notebooks/intro)
+* [Xarray tutorial](https://www.youtube.com/playlist?list=PLTJsu1ustEMbVgE6SivbF17XvWmb3hqoR) videos 1–8
+* [Intro to Geopandas](https://www.youtube.com/playlist?list=PLewNEVDy7gq3DjrPDxGFLbHE4G2QWe8Qh) videos 1, 3–14 (video 2 is installation, which you can do with anaconda)
+* (In these and all video lectures, you can adjust the playback speed by clicking 'Settings' in the lower-right corner of the playback window.)
 
 
 
 
+#### Module 7 Homework
+The homework for Module 7 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1837345).
+General information about homework assignments is [here](#homeworks-and-exams).
 
+**The homework for this module is due by Tue 10/6/2020, 12:00 CDT for 110% credit, by Sun 10/11/2020, 23:59 CDT for 100% credit, and by Sun 10/25/2020, 23:59 CDT for 80% credit.**
 
 #### Module 7 Topics for Zoom Meetings
 
