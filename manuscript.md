@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fcd5c9d92c78249185037ca8bc4e74226b7431d4/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d3e89c0c427df6c37b3406a56a1fcf3c67a89293/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fcd5c9d92c78249185037ca8bc4e74226b7431d4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d3e89c0c427df6c37b3406a56a1fcf3c67a89293/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fcd5c9d92c78249185037ca8bc4e74226b7431d4/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d3e89c0c427df6c37b3406a56a1fcf3c67a89293/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -1021,7 +1021,7 @@ Working as a team, students will identify prior work related to the project topi
 Students will then individually write an at least 400-word review of one of the articles. 
 Instructions about how to write a literature review are available [here](https://www.scribbr.com/dissertation/literature-review/), for example.
 
-Literature reviews should be submitted [here](https://compass2g.illinois.edu/webapps/assignment/uploadAssignment?content_id=_4834554_1&course_id=_52490_1&group_id=&mode=view).
+Literature reviews should be submitted to the "course project" section on the compass2g course site.
 
 ##### Literature review rubric
 
