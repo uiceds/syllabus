@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-28'
+date-meta: '2020-09-29'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-28" />
+  <meta name="dc.date" content="2020-09-29" />
 
-  <meta name="citation_publication_date" content="2020-09-28" />
+  <meta name="citation_publication_date" content="2020-09-29" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d3e89c0c427df6c37b3406a56a1fcf3c67a89293/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/42f5561dd8703b7bf9f82bc82a94ff3e8b213913/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d3e89c0c427df6c37b3406a56a1fcf3c67a89293/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/42f5561dd8703b7bf9f82bc82a94ff3e8b213913/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d3e89c0c427df6c37b3406a56a1fcf3c67a89293/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/42f5561dd8703b7bf9f82bc82a94ff3e8b213913/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -649,7 +649,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 6 Topics for Zoom Meetings
 
 
-* Tue 9/29/2020, 12:00 CDT: 
+* Tue 9/29/2020, 12:00 CDT: Network analysis exercise ([Notebook](https://www.kaggle.com/christophertessum/module-6-class-1-airplanes))
 * Thu 10/1/2020, 12:00 CDT: 
 
 
