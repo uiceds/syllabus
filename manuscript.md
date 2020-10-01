@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-09-29'
+date-meta: '2020-10-01'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-09-29" />
+  <meta name="dc.date" content="2020-10-01" />
 
-  <meta name="citation_publication_date" content="2020-09-29" />
+  <meta name="citation_publication_date" content="2020-10-01" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/42f5561dd8703b7bf9f82bc82a94ff3e8b213913/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/194a56113e4a92a3547a5b128d4eff69d64cc3b0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/42f5561dd8703b7bf9f82bc82a94ff3e8b213913/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/194a56113e4a92a3547a5b128d4eff69d64cc3b0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/42f5561dd8703b7bf9f82bc82a94ff3e8b213913/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/194a56113e4a92a3547a5b128d4eff69d64cc3b0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -672,7 +672,7 @@ By the end of this module, you should be able to:
 
 #### Module 7 Readings and Lectures
 
-* [Xarray tutorial](https://www.youtube.com/playlist?list=PLTJsu1ustEMbVgE6SivbF17XvWmb3hqoR) videos 1–8
+* [Xarray tutorial](https://www.youtube.com/playlist?list=PLTJsu1ustEMbVgE6SivbF17XvWmb3hqoR) videos 1–8. If you want to follow along, the link to the dataset they use in the video is broken, but there is another copy [here](https://esgf.nci.org.au/thredds/fileServer/master/CMIP5/output1/CSIRO-BOM/ACCESS1-3/historical/mon/atmos/Amon/r1i1p1/v20120413/tas/tas_Amon_ACCESS1-3_historical_r1i1p1_185001-200512.nc)
 * [Intro to Geopandas](https://www.youtube.com/playlist?list=PLewNEVDy7gq3DjrPDxGFLbHE4G2QWe8Qh) videos 1, 3–14 (video 2 is installation, which you can do with anaconda)
 * (In these and all video lectures, you can adjust the playback speed by clicking 'Settings' in the lower-right corner of the playback window.)
 
