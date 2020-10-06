@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-01'
+date-meta: '2020-10-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-01" />
+  <meta name="dc.date" content="2020-10-06" />
 
-  <meta name="citation_publication_date" content="2020-10-01" />
+  <meta name="citation_publication_date" content="2020-10-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/194a56113e4a92a3547a5b128d4eff69d64cc3b0/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/cd04edfb990b2f93378a44f44414acd1d21abfaf/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/194a56113e4a92a3547a5b128d4eff69d64cc3b0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/cd04edfb990b2f93378a44f44414acd1d21abfaf/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/194a56113e4a92a3547a5b128d4eff69d64cc3b0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/cd04edfb990b2f93378a44f44414acd1d21abfaf/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -329,7 +329,7 @@ The University of Illinois strives to promote student success through the suppor
 | 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-eda) | 9/21/2020
 | 6 | [Network analysis](#module-6-network-analysis) | 9/28/2020
 | 7 | [Spatial data](#module-7-spatial-data) | 10/5/2020
-| 8 | [Project EDA Due](#module-8-project-eda-due) | 10/12/2020
+| 8 | [Midterm](#module-8-midterm) | 10/12/2020
 | 9 | [Supervised learning](#module-9-supervised-learning) | 10/19/2020
 | 10 | [Unsupervised learning](#module-10-unsupervised-learning) | 10/26/2020
 | 11 | [Neural Networks](#module-11-neural-networks) | 11/2/2020
@@ -366,7 +366,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | Title | Assigned | Due |
 | -- | -- | -- |
 | [Project literature review](#project-literature-review) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
-| [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Tue 10/13/2020, 12:00 CDT
+| [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Thu 10/22/2020, 12:00 CDT
 | [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Tue 11/24/2020, 12:00 CST
 | [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/9/2020 | Thu 12/3/2020, 12:00 CST
 
@@ -688,13 +688,13 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 7 Topics for Zoom Meetings
 
 
-* Tue 10/6/2020, 12:00 CDT: 
-* Thu 10/8/2020, 12:00 CDT: 
+* Tue 10/6/2020, 12:00 CDT: Geopandas ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-1-airplanes))
+* Thu 10/8/2020, 12:00 CDT: Xarray
 
 
 
 
-### Module 8: Project EDA Due
+### Module 8: Midterm
 
 
 
@@ -702,7 +702,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 By the end of this module, you should be able to:
 
-Students should be able to access, characterize, and visualize the data for their projects by this point.
+Access, characterize, and visualize the data for their projects
 
 
 
@@ -713,8 +713,8 @@ Students should be able to access, characterize, and visualize the data for thei
 #### Module 8 Topics for Zoom Meetings
 
 
-* Tue 10/13/2020, 12:00 CDT: 
-* Thu 10/15/2020, 12:00 CDT: 
+* Tue 10/13/2020, 12:00 CDT: Midterm course eval, project Kaggle competition, visualizations
+* Thu 10/15/2020, 12:00 CDT: Midterm Exam
 
 
 
