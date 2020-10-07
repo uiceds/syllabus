@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-06'
+date-meta: '2020-10-07'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-06" />
+  <meta name="dc.date" content="2020-10-07" />
 
-  <meta name="citation_publication_date" content="2020-10-06" />
+  <meta name="citation_publication_date" content="2020-10-07" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/cd04edfb990b2f93378a44f44414acd1d21abfaf/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/be9574ff4364d18d8708f06ed641df473506fead/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/cd04edfb990b2f93378a44f44414acd1d21abfaf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/be9574ff4364d18d8708f06ed641df473506fead/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/cd04edfb990b2f93378a44f44414acd1d21abfaf/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/be9574ff4364d18d8708f06ed641df473506fead/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -649,8 +649,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 6 Topics for Zoom Meetings
 
 
-* Tue 9/29/2020, 12:00 CDT: Network analysis exercise ([Notebook](https://www.kaggle.com/christophertessum/module-6-class-1-airplanes))
-* Thu 10/1/2020, 12:00 CDT: 
+* Tue 9/29/2020, 12:00 CDT: Network analysis exercise ([Notebook](https://www.kaggle.com/christophertessum/module-6-class-1-airplanes-result))
+* Thu 10/1/2020, 12:00 CDT: Midterm review
 
 
 
@@ -688,8 +688,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 7 Topics for Zoom Meetings
 
 
-* Tue 10/6/2020, 12:00 CDT: Geopandas ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-1-airplanes))
-* Thu 10/8/2020, 12:00 CDT: Xarray
+* Tue 10/6/2020, 12:00 CDT: Geopandas ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-1-airplanes-result))
+* Thu 10/8/2020, 12:00 CDT: Xarray ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-2-ds4g))
 
 
 
