@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-07'
+date-meta: '2020-10-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-07" />
+  <meta name="dc.date" content="2020-10-08" />
 
-  <meta name="citation_publication_date" content="2020-10-07" />
+  <meta name="citation_publication_date" content="2020-10-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/be9574ff4364d18d8708f06ed641df473506fead/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/be9574ff4364d18d8708f06ed641df473506fead/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/be9574ff4364d18d8708f06ed641df473506fead/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -689,7 +689,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 * Tue 10/6/2020, 12:00 CDT: Geopandas ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-1-airplanes-result))
-* Thu 10/8/2020, 12:00 CDT: Xarray ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-2-ds4g))
+* Thu 10/8/2020, 12:00 CDT: Xarray ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-2-ds4g-result))
 
 
 
