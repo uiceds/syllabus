@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="dcterms.date" content="2020-10-08" />
+  <meta name="dcterms.date" content="2020-10-13" />
   <title>CEE 498DS: Data Science for CEE, Fall 2020</title>
   <style>
     code{white-space: pre-wrap;}
@@ -26,8 +26,8 @@
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2020-10-08" />
-  <meta name="citation_publication_date" content="2020-10-08" />
+  <meta name="dc.date" content="2020-10-13" />
+  <meta name="citation_publication_date" content="2020-10-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,9 +40,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -296,7 +296,7 @@ For exams, partial credit isn’t given, but you can try each problem more than 
 </tr>
 <tr class="odd">
 <td>9</td>
-<td><a href="#module-9-supervised-learning">Supervised learning</a></td>
+<td><a href="#module-9-intro-to-machine-learning">Intro to machine learning</a></td>
 <td>10/19/2020</td>
 </tr>
 <tr class="even">
@@ -424,7 +424,7 @@ For exams, partial credit isn’t given, but you can try each problem more than 
 <td>Sun 10/25/2020, 23:59 CDT</td>
 </tr>
 <tr class="odd">
-<td><a href="#module-9-homework">Supervised learning</a></td>
+<td><a href="#module-9-homework">Intro to machine learning</a></td>
 <td>10/12/2020</td>
 <td>Tue 10/20/2020, 12:00 CDT</td>
 <td>Sun 10/25/2020, 23:59 CDT</td>
@@ -721,22 +721,18 @@ General information about homework assignments is <a href="#homeworks-and-exams"
 </ul>
 <h4 id="module-8-project-assignment">Module 8 Project Assignment</h4>
 <p>Project Kaggle Competition</p>
-<h3 id="module-9-supervised-learning">Module 9: Supervised learning</h3>
+<h3 id="module-9-intro-to-machine-learning">Module 9: Intro to machine learning</h3>
+<h4 id="module-9-overview">Module 9 Overview</h4>
+<p>This week we will cover the basics of machine learning, including gradient descent, generalization, representation, and regularization.</p>
 <h4 id="module-9-learning-objectives">Module 9 Learning Objectives</h4>
 <p>By the end of this module, you should be able to:</p>
-<p>Students will learn what supervised machine learning is and how it can help solve Civil and Environmental Engineering problems.</p>
+<p>Learn and apply fundamental machine learning concepts</p>
 <h4 id="module-9-readings-and-lectures">Module 9 Readings and Lectures</h4>
 <ul>
-<li><a href="https://developers.google.com/machine-learning/crash-course/framing/video-lecture">framing machine learning</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture">gradient descent</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture">optimization</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit">tensorflow</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/generalization/video-lecture">generalization</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture">training and testing</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition">validation</a></li>
+<li><a href="https://developers.google.com/machine-learning/crash-course">Google machine learning crash course</a>, starting with ‘Introduction to ML’ and ending after ‘Regularization: Sparsity’</li>
 </ul>
 <h4 id="module-9-homework">Module 9 Homework</h4>
-<p>The homework for Module 9 covers the required readings and lectures and is available <a href="SupervisedLearningHomework">here</a>.
+<p>The homework for Module 9 covers the required readings and lectures and is available <a href="https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1924211/">here</a>.
 General information about homework assignments is <a href="#homeworks-and-exams">here</a>.</p>
 <p><strong>The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Sun 10/25/2020, 23:59 CDT for 100% credit, and by Sun 11/8/2020, 23:59 CST for 80% credit.</strong></p>
 <h4 id="module-9-topics-for-zoom-meetings">Module 9 Topics for Zoom Meetings</h4>
@@ -769,9 +765,7 @@ General information about homework assignments is <a href="#homeworks-and-exams"
 <p>Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.</p>
 <h4 id="module-11-readings-and-lectures">Module 11 Readings and Lectures</h4>
 <ul>
-<li><a href="https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture">Introduction to Neural Networks</a></li>
-<li><a href="https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture">Multi-Class Neural Networks</a></li>
-<li>Recorded Lecture: hyperparameter optimization and inductive biases</li>
+<li></li>
 </ul>
 <h4 id="module-11-homework">Module 11 Homework</h4>
 <p>The homework for Module 11 covers the required readings and lectures and is available <a href="DeepLearningHomework">here</a>.
