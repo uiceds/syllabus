@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/43cf1fb8d22783421b6fc0d477d4652abadec704/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/43cf1fb8d22783421b6fc0d477d4652abadec704/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/43cf1fb8d22783421b6fc0d477d4652abadec704/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -713,8 +713,8 @@ Access, characterize, and visualize the data for their projects
 #### Module 8 Topics for Zoom Meetings
 
 
-* Tue 10/13/2020, 12:00 CDT: Midterm course eval, project Kaggle competition, visualizations
-* Thu 10/15/2020, 12:00 CDT: Midterm Exam
+* Tue 10/13/2020, 12:00 CDT: Midterm course eval, project questions, visualizations
+* Thu 10/15/2020, 12:00 CDT: Midterm Exam and project support
 
 
 
@@ -731,7 +731,7 @@ This week we will cover the basics of machine learning, including gradient desce
 
 By the end of this module, you should be able to:
 
-Learn and apply fundamental machine learning concepts
+apply fundamental machine learning concepts
 
 #### Module 9 Readings and Lectures
 
