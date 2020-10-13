@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-08'
+date-meta: '2020-10-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-08" />
+  <meta name="dc.date" content="2020-10-13" />
 
-  <meta name="citation_publication_date" content="2020-10-08" />
+  <meta name="citation_publication_date" content="2020-10-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4cfd632786992b8d13e5ad27003c8fb872642263/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/9be16029987066e50b5421ea344afdf59a6eaec0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -330,7 +330,7 @@ The University of Illinois strives to promote student success through the suppor
 | 6 | [Network analysis](#module-6-network-analysis) | 9/28/2020
 | 7 | [Spatial data](#module-7-spatial-data) | 10/5/2020
 | 8 | [Midterm](#module-8-midterm) | 10/12/2020
-| 9 | [Supervised learning](#module-9-supervised-learning) | 10/19/2020
+| 9 | [Intro to machine learning](#module-9-intro-to-machine-learning) | 10/19/2020
 | 10 | [Unsupervised learning](#module-10-unsupervised-learning) | 10/26/2020
 | 11 | [Neural Networks](#module-11-neural-networks) | 11/2/2020
 | 12 | [Convolutional Neural Networks](#module-12-convolutional-neural-networks) | 11/9/2020
@@ -355,7 +355,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Sun 9/27/2020, 23:59 CDT | Sun 10/11/2020, 23:59 CDT |
 | [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Sun 10/4/2020, 23:59 CDT | Sun 10/18/2020, 23:59 CDT |
 | [Spatial data](#module-7-homework) | 9/28/2020 | Tue 10/6/2020, 12:00 CDT | Sun 10/11/2020, 23:59 CDT | Sun 10/25/2020, 23:59 CDT |
-| [Supervised learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Sun 10/25/2020, 23:59 CDT | Sun 11/8/2020, 23:59 CST |
+| [Intro to machine learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Sun 10/25/2020, 23:59 CDT | Sun 11/8/2020, 23:59 CST |
 | [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
 | [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
 | [Convolutional Neural Networks](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Sun 11/15/2020, 23:59 CST | Sun 11/29/2020, 23:59 CST |
@@ -722,31 +722,26 @@ Access, characterize, and visualize the data for their projects
 #### Module 8 Project Assignment
 Project Kaggle Competition
 
-### Module 9: Supervised learning
+### Module 9: Intro to machine learning
 
-
+#### Module 9 Overview
+This week we will cover the basics of machine learning, including gradient descent, generalization, representation, and regularization.
 
 #### Module 9 Learning Objectives
 
 By the end of this module, you should be able to:
 
-Students will learn what supervised machine learning is and how it can help solve Civil and Environmental Engineering problems.
+Learn and apply fundamental machine learning concepts
 
 #### Module 9 Readings and Lectures
 
-* [framing machine learning](https://developers.google.com/machine-learning/crash-course/framing/video-lecture)
-* [gradient descent](https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture)
-* [optimization](https://developers.google.com/machine-learning/crash-course/reducing-loss/video-lecture)
-* [tensorflow](https://developers.google.com/machine-learning/crash-course/first-steps-with-tensorflow/toolkit)
-* [generalization](https://developers.google.com/machine-learning/crash-course/generalization/video-lecture)
-* [training and testing](https://developers.google.com/machine-learning/crash-course/training-and-test-sets/video-lecture)
-* [validation](https://developers.google.com/machine-learning/crash-course/validation/check-your-intuition)
+* [Google machine learning crash course](https://developers.google.com/machine-learning/crash-course), starting with 'Introduction to ML' and ending after 'Regularization: Sparsity'
 
 
 
 
 #### Module 9 Homework
-The homework for Module 9 covers the required readings and lectures and is available [here](SupervisedLearningHomework).
+The homework for Module 9 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1924211/).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Sun 10/25/2020, 23:59 CDT for 100% credit, and by Sun 11/8/2020, 23:59 CST for 80% credit.**
@@ -806,9 +801,7 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 
 #### Module 11 Readings and Lectures
 
-* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
-* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
-* Recorded Lecture: hyperparameter optimization and inductive biases
+* 
 
 
 
