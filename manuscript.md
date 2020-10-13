@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/43cf1fb8d22783421b6fc0d477d4652abadec704/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/43cf1fb8d22783421b6fc0d477d4652abadec704/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/43cf1fb8d22783421b6fc0d477d4652abadec704/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -1068,7 +1068,8 @@ Students should extend the documentation narrative from their EDA to cover metho
 Only some of the project datset will be made available for training the model on; the rest will be held separately to test the model results.
 Students will be able to see how their model performance compares to that of the other students in their project team.
 
-At the end of the project period, the student with the highest score in the competition gets an automatic 100% grade on this project component, and the remaining students are graded based on the rubric below. (If there is a tie for first place, all students are graded based on the rubric.)
+At the end of the project period, the student with the highest score in the competition gets an automatic 100% grade on this project component, and the remaining students are graded based on the rubric below. 
+If there is a tie for first place, or if there are less than 4 students in the project group, all students are graded based on the rubric.
 
 ##### Kaggle competition rubric
 
