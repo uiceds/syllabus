@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="dcterms.date" content="2020-10-13" />
+  <meta name="dcterms.date" content="2020-10-16" />
   <title>CEE 498DS: Data Science for CEE, Fall 2020</title>
   <style>
     code{white-space: pre-wrap;}
@@ -26,8 +26,8 @@
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2020-10-13" />
-  <meta name="citation_publication_date" content="2020-10-13" />
+  <meta name="dc.date" content="2020-10-16" />
+  <meta name="citation_publication_date" content="2020-10-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,9 +40,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -143,6 +143,10 @@ Questions finished between the first and second meeting times of the module rece
 <h3 id="exams">Exams</h3>
 <p>Exams are also administered using PrairieLearn.
 For exams, partial credit isn’t given, but you can try each problem more than once, with a decreasing number of points possible for each try.</p>
+<h2 id="time-commitment">Time commitment</h2>
+<p>The University guidelines for course credit hours are posted <a href="https://provost.illinois.edu/policies/policies/courses/credit-hour-definition/">here</a>.
+In summary, students in a 3-credit class are expected spend at least 6 hours per week, and students in a 4-credit class are expected to spend at least 8 hours per week, working outside of class times on readings, assigned lectures, assignments, projects, and test preparation.</p>
+<p>It is my goal for this class to follow these guidelines so let me know if you think it does not (keeping in mind that the guidelines are for the <em>minimum</em> effort requirements).</p>
 <h2 id="learning-resources">Learning Resources</h2>
 <ul>
 <li>Students are expected to bring have use of a laptop for class.</li>
@@ -985,11 +989,12 @@ Instructions about how to write a literature review are available <a href="https
 </ul>
 <p>Each project will include a scientific question to be answered, a dataset relevant to the question, and a machine-learning method used to answer the question using the dataset.
 The second deliverable for the project is an expoloratory data analysis (EDA) of the dataset your project which uses visualizations and statistics to summarize the main characteristics of the dataset.</p>
-<p>The EDA should be done by students individually (not as groups) as a <em>private</em> notebook in the <a href="https://www.kaggle.com/">Kaggle</a> data science platform.
+<p>The EDA should be done by students individually as a notebook in the <a href="https://www.kaggle.com/">Kaggle</a> data science platform.
 See <a href="https://www.kaggle.com/pavansanagapati/a-simple-tutorial-on-exploratory-data-analysis">here</a> for an example EDA.
 The EDA notebook should read like a narrative, with natural language descriptions, code, statistics, and visualizations all interspersed with each other.</p>
-<p>After the students complete and submit their EDA, they should make their notebook public and leave comments and suggestions on the EDA’s of their teammates working on the same project.
-The comments and suggestions will be graded as a class discussion initial post (for example, needing to be at least 200 words), using the class discussion rubric above.</p>
+<p>Each group member should perform and submit their own EDA.
+However, as detailed below, part of each student’s score is based on the diversity of approaches taken by the different members of each project group, and part of each student’s score is based on the average score of all members of the group.
+So it is in the best interest of group members to work together to ensure that a variety of different approaches are represented by the individual submissions, and to ensure that the individual submissions are all of high quality.</p>
 <h5 id="exploratory-data-analysis-rubric">Exploratory data analysis rubric</h5>
 <table style="width:100%;">
 <colgroup>
@@ -1035,6 +1040,22 @@ The comments and suggestions will be graded as a class discussion initial post (
 <td>Documentation is not included</td>
 <td></td>
 </tr>
+<tr class="even">
+<td>Group diversity (1 pt)</td>
+<td>Group submissions represent a diverse set of approaches</td>
+<td>There is some diversity of approaches among group members</td>
+<td>Group submissions are similar</td>
+<td>Group submissions are very similar</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Group average (1 pt)</td>
+<td>Average of group member scores == 100%</td>
+<td>Average of group member scores == 85%</td>
+<td>Average of group member scores == 70%</td>
+<td>Average of group member scores &lt; 60%</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <h4 id="project-kaggle-competition">Project Kaggle competition</h4>
@@ -1045,14 +1066,16 @@ The comments and suggestions will be graded as a class discussion initial post (
 <li>Interpret the model results and performance</li>
 </ul>
 <p>The class projects will be set up as Kaggle competitions, open only to members of this class.
-After completing their exploratory data analyses, students will make their notebooks private again.
 Working individually, they will choose an algorithm and use it to answer the class question.
 Students should extend the documentation narrative from their EDA to cover methods, results, and discussion for their learning algorithm.
 <a href="https://www.kaggle.com/christophertessum/house-price-example">Here is an example</a> of a combined EDA and model prediction.
 Only some of the project datset will be made available for training the model on; the rest will be held separately to test the model results.
 Students will be able to see how their model performance compares to that of the other students in their project team.</p>
-<p>At the end of the project period, the student with the highest score in the competition gets an automatic 100% grade on this project component, and the remaining students are graded based on the rubric below.
-If there is a tie for first place, or if there are less than 4 students in the project group, all students are graded based on the rubric.</p>
+<p>At the end of the project period, the student with the highest score in the competition gets 2 points extra credit on this project component.
+If there is a tie for first place, or if there are less than 4 students in the project group, no extra credit is awarded.</p>
+<p>Each group member should submit their own entry to the competition.
+However, as detailed below, part of each student’s score is based on the diversity of approaches taken by the different members of each project group, and part of each student’s score is based on the average score of all members of the group.
+So it is in the best interest of group members to work together to ensure that a variety of different approaches are represented by the individual submissions, and to ensure that the individual submissions are all of high quality.</p>
 <h5 id="kaggle-competition-rubric">Kaggle competition rubric</h5>
 <table style="width:100%;">
 <colgroup>
@@ -1092,10 +1115,26 @@ If there is a tie for first place, or if there are less than 4 students in the p
 </tr>
 <tr class="odd">
 <td>Documentation (10 pts)</td>
-<td>Documentation is thorough, clear, and well-written</td>
-<td>There are minor issues with throroughness, clarity, or writing</td>
-<td>There are substatantial documentation problems</td>
-<td>Documentation doesn’t exist or isn’t readable</td>
+<td>The document has a narrative flow, interspersing a well written introduction, method description including reasons for choosing the methods used, and discussion amidst the code and results</td>
+<td>The document has a narrative flow but writing is not completely clear or some aspects are missing</td>
+<td>Some documentation is included but it is not thorough</td>
+<td>Documentation is not included</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Group diversity (5 pts)</td>
+<td>Group submissions represent a diverse set of approaches</td>
+<td>There is some diversity of approaches among group members</td>
+<td>Group submissions are similar</td>
+<td>Group submissions are very similar</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Group average (5 pts)</td>
+<td>Average of group member scores == 100%</td>
+<td>Average of group member scores == 85%</td>
+<td>Average of group member scores == 70%</td>
+<td>Average of group member scores &lt; 60%</td>
 <td></td>
 </tr>
 </tbody>
