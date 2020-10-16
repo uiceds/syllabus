@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-13'
+date-meta: '2020-10-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-13" />
+  <meta name="dc.date" content="2020-10-16" />
 
-  <meta name="citation_publication_date" content="2020-10-13" />
+  <meta name="citation_publication_date" content="2020-10-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3360abed9a7f2852d9c2aba8aa52d53776eeefc1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -187,6 +187,13 @@ Note that new homeworks are assigned most weeks, so if you don't stay ahead, it 
 
 Exams are also administered using PrairieLearn. 
 For exams, partial credit isn't given, but you can try each problem more than once, with a decreasing number of points possible for each try.
+
+## Time commitment
+
+The University guidelines for course credit hours are posted [here](https://provost.illinois.edu/policies/policies/courses/credit-hour-definition/). 
+In summary, students in a 3-credit class are expected spend at least 6 hours per week, and students in a 4-credit class are expected to spend at least 8 hours per week, working outside of class times on readings, assigned lectures, assignments, projects, and test preparation.
+
+It is my goal for this class to follow these guidelines so let me know if you think it does not (keeping in mind that the guidelines are for the *minimum* effort requirements).
 
 ## Learning Resources
 * Students are expected to bring have use of a laptop for class.
@@ -1036,12 +1043,13 @@ After completing this exploratory data analysis, students should be able to:
 Each project will include a scientific question to be answered, a dataset relevant to the question, and a machine-learning method used to answer the question using the dataset. 
 The second deliverable for the project is an expoloratory data analysis (EDA) of the dataset your project which uses visualizations and statistics to summarize the main characteristics of the dataset. 
 
-The EDA should be done by students individually (not as groups) as a *private* notebook in the [Kaggle](https://www.kaggle.com/) data science platform.
+The EDA should be done by students individually as a notebook in the [Kaggle](https://www.kaggle.com/) data science platform.
 See [here](https://www.kaggle.com/pavansanagapati/a-simple-tutorial-on-exploratory-data-analysis) for an example EDA.
 The EDA notebook should read like a narrative, with natural language descriptions, code, statistics, and visualizations all interspersed with each other.
 
-After the students complete and submit their EDA, they should make their notebook public and leave comments and suggestions on the EDA's of their teammates working on the same project. 
-The comments and suggestions will be graded as a class discussion initial post (for example, needing to be at least 200 words), using the class discussion rubric above.
+Each group member should perform and submit their own EDA.
+However, as detailed below, part of each student's score is based on the diversity of approaches taken by the different members of each project group, and part of each student's score is based on the average score of all members of the group.
+So it is in the best interest of group members to work together to ensure that a variety of different approaches are represented by the individual submissions, and to ensure that the individual submissions are all of high quality.
 
 ##### Exploratory data analysis rubric
 
@@ -1050,7 +1058,8 @@ The comments and suggestions will be graded as a class discussion initial post (
 | Technical content (20 pts) | Statistical and visual representations of the data thoroughly characterize all aspects of the data relevant to the project | Representations of the data characterize almost all relevant aspects of the data | Representations are present but not thorough | The dataset is not well described
 | Graphical representation (10 pts) | Uses best practices for graphical display in all cases | Graphics mostly follow best practices, with some exceptions | Graphics are interpretable but do not follow best practices | Graphics are not interpretable 
 | Documentation (10 pts) | The document has a narrative flow, interspersing a well written introduction, method description including reasons for choosing the methods used, and discussion amidst the code and results | The document has a narrative flow but writing is not completely clear or some aspects are missing | Some documentation is included but it is not thorough | Documentation is not included 
-
+| Group diversity (1 pt) | Group submissions represent a diverse set of approaches | There is some diversity of approaches among group members | Group submissions are similar | Group submissions are very similar
+| Group average (1 pt) | Average of group member scores == 100% | Average of group member scores == 85% | Average of group member scores == 70% | Average of group member scores < 60%
 
 #### Project Kaggle competition
 
@@ -1061,15 +1070,18 @@ After completing this competition, students should be able to:
 * Interpret the model results and performance
 
 The class projects will be set up as Kaggle competitions, open only to members of this class. 
-After completing their exploratory data analyses, students will make their notebooks private again.
 Working individually, they will choose an algorithm and use it to answer the class question.
 Students should extend the documentation narrative from their EDA to cover methods, results, and discussion for their learning algorithm.
 [Here is an example](https://www.kaggle.com/christophertessum/house-price-example) of a combined EDA and model prediction.
 Only some of the project datset will be made available for training the model on; the rest will be held separately to test the model results.
 Students will be able to see how their model performance compares to that of the other students in their project team.
 
-At the end of the project period, the student with the highest score in the competition gets an automatic 100% grade on this project component, and the remaining students are graded based on the rubric below. 
-If there is a tie for first place, or if there are less than 4 students in the project group, all students are graded based on the rubric.
+At the end of the project period, the student with the highest score in the competition gets 2 points extra credit on this project component. 
+If there is a tie for first place, or if there are less than 4 students in the project group, no extra credit is awarded.
+
+Each group member should submit their own entry to the competition.
+However, as detailed below, part of each student's score is based on the diversity of approaches taken by the different members of each project group, and part of each student's score is based on the average score of all members of the group.
+So it is in the best interest of group members to work together to ensure that a variety of different approaches are represented by the individual submissions, and to ensure that the individual submissions are all of high quality.
 
 ##### Kaggle competition rubric
 
@@ -1077,7 +1089,10 @@ If there is a tie for first place, or if there are less than 4 students in the p
 | -- | -- | --   | --           | --         | -- 
 | Algorithm (20 pts) | A best-in-class algorithm is chosen and implemented correctly | An appropriate alorithm is chosen and implemented correctly | An appropriate algorithm is chosen but not implemented correctly | An inappropriate algorithm is used 
 | Training (20 pts) | The algorithm is tuned to maximize predictive accuracy while avoiding overfitting | The algorithm is trained correctly but slightly underfits or overfits | There is substantial over- or under-fitting | The algorithm does not fit the data 
-| Documentation (10 pts) | Documentation is thorough, clear, and well-written | There are minor issues with throroughness, clarity, or writing | There are substatantial documentation problems | Documentation doesn't exist or isn't readable 
+| Documentation (10 pts) | The document has a narrative flow, interspersing a well written introduction, method description including reasons for choosing the methods used, and discussion amidst the code and results | The document has a narrative flow but writing is not completely clear or some aspects are missing | Some documentation is included but it is not thorough | Documentation is not included 
+| Group diversity (5 pts) | Group submissions represent a diverse set of approaches | There is some diversity of approaches among group members | Group submissions are similar | Group submissions are very similar
+| Group average (5 pts) | Average of group member scores == 100% | Average of group member scores == 85% | Average of group member scores == 70% | Average of group member scores < 60%
+
 
 #### Project final presentation and report
 
