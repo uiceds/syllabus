@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-16'
+date-meta: '2020-10-20'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-16" />
+  <meta name="dc.date" content="2020-10-20" />
 
-  <meta name="citation_publication_date" content="2020-10-16" />
+  <meta name="citation_publication_date" content="2020-10-20" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/cd9749659a7bd306896b93f442a8729efd25823e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/cd9749659a7bd306896b93f442a8729efd25823e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/033c6c55044dbaad39d9b29bcef13d5570db5466/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/cd9749659a7bd306896b93f442a8729efd25823e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -338,10 +338,10 @@ The University of Illinois strives to promote student success through the suppor
 | 7 | [Spatial data](#module-7-spatial-data) | 10/5/2020
 | 8 | [Midterm](#module-8-midterm) | 10/12/2020
 | 9 | [Intro to machine learning](#module-9-intro-to-machine-learning) | 10/19/2020
-| 10 | [Unsupervised learning](#module-10-unsupervised-learning) | 10/26/2020
-| 11 | [Neural Networks](#module-11-neural-networks) | 11/2/2020
-| 12 | [Convolutional Neural Networks](#module-12-convolutional-neural-networks) | 11/9/2020
-| 13 | [Neural Networks for Sequences](#module-13-neural-networks-for-sequences) | 11/16/2020
+| 10 | [Neural Networks](#module-10-neural-networks) | 10/26/2020
+| 11 | [Convolutional Neural Networks](#module-11-convolutional-neural-networks) | 11/2/2020
+| 12 | [Neural Networks for Sequences](#module-12-neural-networks-for-sequences) | 11/9/2020
+| 13 | [Unsupervised learning](#module-13-unsupervised-learning) | 11/16/2020
 | 14 | [Project work](#module-14-project-work) | 11/23/2020
 | 15 | [Final exam; final project presentations and reports](#module-15-final-exam;-final-project-presentations-and-reports) | 11/30/2020
 
@@ -363,10 +363,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Sun 10/4/2020, 23:59 CDT | Sun 10/18/2020, 23:59 CDT |
 | [Spatial data](#module-7-homework) | 9/28/2020 | Tue 10/6/2020, 12:00 CDT | Sun 10/11/2020, 23:59 CDT | Sun 10/25/2020, 23:59 CDT |
 | [Intro to machine learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Sun 10/25/2020, 23:59 CDT | Sun 11/8/2020, 23:59 CST |
-| [Unsupervised learning](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
-| [Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
-| [Convolutional Neural Networks](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Sun 11/15/2020, 23:59 CST | Sun 11/29/2020, 23:59 CST |
-| [Neural Networks for Sequences](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Sun 11/22/2020, 23:59 CST | Sun 12/6/2020, 23:59 CST |
+| [Neural Networks](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
+| [Convolutional Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
+| [Neural Networks for Sequences](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Sun 11/15/2020, 23:59 CST | Sun 11/29/2020, 23:59 CST |
+| [Unsupervised learning](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Sun 11/22/2020, 23:59 CST | Sun 12/6/2020, 23:59 CST |
 
 ### Project Assignments
 
@@ -375,7 +375,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Project literature review](#project-literature-review) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
 | [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Thu 10/22/2020, 12:00 CDT
 | [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Tue 11/24/2020, 12:00 CST
-| [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/9/2020 | Thu 12/3/2020, 12:00 CST
+| [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/2/2020 | Thu 11/26/2020, 12:00 CST
 
 ### Exams
 
@@ -756,13 +756,13 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 9 Topics for Zoom Meetings
 
 
-* Tue 10/20/2020, 12:00 CDT: 
+* Tue 10/20/2020, 12:00 CDT: Linear regression ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-1-airplanes))
 * Thu 10/22/2020, 12:00 CDT: 
 
 
 
 
-### Module 10: Unsupervised learning
+### Module 10: Neural Networks
 
 
 
@@ -770,19 +770,20 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 By the end of this module, you should be able to:
 
-Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.
+
+* Train a neural network to make predictions about CEE datasets
+* Identify and debug common problems with neural network training
+
 
 #### Module 10 Readings and Lectures
 
-* [unsupervised learning](https://www.youtube.com/watch?v=jAA2g9ItoAc)
-* [clustering](https://www.youtube.com/watch?v=Ev8YbxPu_bQ)
-* [mlcourse.ai workbook](https://mlcourse.ai/articles/topic7-unsupervised/)
+* [Google machine learning crash course](https://developers.google.com/machine-learning/crash-course), starting with 'Logistic Regression' and ending after 'Training Neural Nets'
 
 
 
 
 #### Module 10 Homework
-The homework for Module 10 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
+The homework for Module 10 covers the required readings and lectures and is available [here](DeepLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Sun 11/1/2020, 23:59 CST for 100% credit, and by Sun 11/15/2020, 23:59 CST for 80% credit.**
@@ -790,13 +791,13 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 10 Topics for Zoom Meetings
 
 
-* Tue 10/27/2020, 12:00 CDT: In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
+* Tue 10/27/2020, 12:00 CDT: 
 * Thu 10/29/2020, 12:00 CDT: 
 
 
 
 
-### Module 11: Neural Networks
+### Module 11: Convolutional Neural Networks
 
 
 
@@ -808,7 +809,9 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 
 #### Module 11 Readings and Lectures
 
-* 
+* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
+* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
+* Recorded Lecture: hyperparameter optimization and inductive biases
 
 
 
@@ -828,7 +831,10 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-### Module 12: Convolutional Neural Networks
+#### Module 11 Project Assignment
+Project Final Presentation and Report
+
+### Module 12: Neural Networks for Sequences
 
 
 
@@ -862,10 +868,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-#### Module 12 Project Assignment
-Project Final Presentation and Report
-
-### Module 13: Neural Networks for Sequences
+### Module 13: Unsupervised learning
 
 
 
@@ -873,19 +876,19 @@ Project Final Presentation and Report
 
 By the end of this module, you should be able to:
 
-Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
+Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.
 
 #### Module 13 Readings and Lectures
 
-* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
-* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
-* Recorded Lecture: hyperparameter optimization and inductive biases
+* [unsupervised learning](https://www.youtube.com/watch?v=jAA2g9ItoAc)
+* [clustering](https://www.youtube.com/watch?v=Ev8YbxPu_bQ)
+* [mlcourse.ai workbook](https://mlcourse.ai/articles/topic7-unsupervised/)
 
 
 
 
 #### Module 13 Homework
-The homework for Module 13 covers the required readings and lectures and is available [here](DeepLearningHomework).
+The homework for Module 13 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Sun 11/22/2020, 23:59 CST for 100% credit, and by Sun 12/6/2020, 23:59 CST for 80% credit.**
@@ -893,7 +896,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 13 Topics for Zoom Meetings
 
 
-* Tue 11/17/2020, 12:00 CST: 
+* Tue 11/17/2020, 12:00 CST: In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
 * Thu 11/19/2020, 12:00 CST: 
 
 
