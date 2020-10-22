@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-20'
+date-meta: '2020-10-22'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-20" />
+  <meta name="dc.date" content="2020-10-22" />
 
-  <meta name="citation_publication_date" content="2020-10-20" />
+  <meta name="citation_publication_date" content="2020-10-22" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/cd9749659a7bd306896b93f442a8729efd25823e/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/632a3b224127adb4da97bc91b494bc4b8089e2c9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/cd9749659a7bd306896b93f442a8729efd25823e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/632a3b224127adb4da97bc91b494bc4b8089e2c9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/cd9749659a7bd306896b93f442a8729efd25823e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/632a3b224127adb4da97bc91b494bc4b8089e2c9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -372,10 +372,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| [Project literature review](#project-literature-review) | 9/7/2020 | Tue 9/29/2020, 12:00 CDT
-| [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Thu 10/22/2020, 12:00 CDT
-| [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Tue 11/24/2020, 12:00 CST
-| [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/2/2020 | Thu 11/26/2020, 12:00 CST
+| [Project literature review](#project-literature-review) | 9/7/2020 | Sun 9/27/2020, 23:59 CDT
+| [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Sun 10/25/2020, 23:59 CDT
+| [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Sun 11/22/2020, 23:59 CST
+| [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/2/2020 | Sun 11/29/2020, 23:59 CST
 
 ### Exams
 
