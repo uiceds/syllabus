@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/632a3b224127adb4da97bc91b494bc4b8089e2c9/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/722536e529d82905ef6f8b91acc5765fec50f411/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/632a3b224127adb4da97bc91b494bc4b8089e2c9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/722536e529d82905ef6f8b91acc5765fec50f411/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/632a3b224127adb4da97bc91b494bc4b8089e2c9/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/722536e529d82905ef6f8b91acc5765fec50f411/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -757,7 +757,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 * Tue 10/20/2020, 12:00 CDT: Linear regression ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-1-airplanes))
-* Thu 10/22/2020, 12:00 CDT: 
+* Thu 10/22/2020, 12:00 CDT: Linear regression part 2 ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-2-airplanes))
 
 
 
@@ -783,7 +783,7 @@ By the end of this module, you should be able to:
 
 
 #### Module 10 Homework
-The homework for Module 10 covers the required readings and lectures and is available [here](DeepLearningHomework).
+The homework for Module 10 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Sun 11/1/2020, 23:59 CST for 100% credit, and by Sun 11/15/2020, 23:59 CST for 80% credit.**
@@ -1052,6 +1052,7 @@ The EDA notebook should read like a narrative, with natural language description
 
 Each group member should perform and submit their own EDA.
 However, as detailed below, part of each student's score is based on the diversity of approaches taken by the different members of each project group, and part of each student's score is based on the average score of all members of the group.
+(Group members that do not submit the assignment will not be included in the overall average.)
 So it is in the best interest of group members to work together to ensure that a variety of different approaches are represented by the individual submissions, and to ensure that the individual submissions are all of high quality.
 
 ##### Exploratory data analysis rubric
@@ -1084,6 +1085,7 @@ If there is a tie for first place, or if there are less than 4 students in the p
 
 Each group member should submit their own entry to the competition.
 However, as detailed below, part of each student's score is based on the diversity of approaches taken by the different members of each project group, and part of each student's score is based on the average score of all members of the group.
+(Group members that do not submit the assignment will not be included in the overall average.)
 So it is in the best interest of group members to work together to ensure that a variety of different approaches are represented by the individual submissions, and to ensure that the individual submissions are all of high quality.
 
 ##### Kaggle competition rubric
