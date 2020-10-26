@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-22'
+date-meta: '2020-10-26'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-22" />
+  <meta name="dc.date" content="2020-10-26" />
 
-  <meta name="citation_publication_date" content="2020-10-22" />
+  <meta name="citation_publication_date" content="2020-10-26" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/722536e529d82905ef6f8b91acc5765fec50f411/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/43974c6e70485e2268f7515534586e60bde6f64e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/722536e529d82905ef6f8b91acc5765fec50f411/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/43974c6e70485e2268f7515534586e60bde6f64e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/722536e529d82905ef6f8b91acc5765fec50f411/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/43974c6e70485e2268f7515534586e60bde6f64e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -799,25 +799,26 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 ### Module 11: Convolutional Neural Networks
 
-
+#### Module 11 Overview
+This week we will learn about convolutional neural networks for computer vision. Training these neural networks from scratch is computationally- and data-intensive, but good results can be achieved with less time and data using a technique called transfer learning.
 
 #### Module 11 Learning Objectives
 
 By the end of this module, you should be able to:
 
-Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
+Apply transfer learning to solve computer vision problems
 
 #### Module 11 Readings and Lectures
 
-* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
-* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
-* Recorded Lecture: hyperparameter optimization and inductive biases
+* [Convolutional neural network explainer](https://poloclub.github.io/cnn-explainer/)
+* [Transfer learning video](https://youtu.be/yofjFQddwHE)
+* [Transfer learning notebook](https://keras.io/guides/transfer_learning/)
 
 
 
 
 #### Module 11 Homework
-The homework for Module 11 covers the required readings and lectures and is available [here](DeepLearningHomework).
+The homework for Module 11 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1993504).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 11/3/2020, 12:00 CST for 110% credit, by Sun 11/8/2020, 23:59 CST for 100% credit, and by Sun 11/22/2020, 23:59 CST for 80% credit.**
@@ -825,8 +826,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 11 Topics for Zoom Meetings
 
 
-* Tue 11/3/2020, 12:00 CST: Remember to vote!
-* Thu 11/5/2020, 12:00 CST: 
+* Tue 11/3/2020, 12:00 CST: Remember to vote! ([class canceled](https://education.illinois.edu/about/news-events/news/article/2020/07/15/statewide-election-day-holiday-no-classes-on-tuesday,-november-3,-2020))
+* Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-11-class-1-cars))
 
 
 
