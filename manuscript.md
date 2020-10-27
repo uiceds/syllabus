@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-26'
+date-meta: '2020-10-27'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-26" />
+  <meta name="dc.date" content="2020-10-27" />
 
-  <meta name="citation_publication_date" content="2020-10-26" />
+  <meta name="citation_publication_date" content="2020-10-27" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/43974c6e70485e2268f7515534586e60bde6f64e/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/47c06f57f2cc5b6d760bfafb889f8d477d09b659/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/43974c6e70485e2268f7515534586e60bde6f64e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/47c06f57f2cc5b6d760bfafb889f8d477d09b659/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/43974c6e70485e2268f7515534586e60bde6f64e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/47c06f57f2cc5b6d760bfafb889f8d477d09b659/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -791,8 +791,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 10 Topics for Zoom Meetings
 
 
-* Tue 10/27/2020, 12:00 CDT: 
-* Thu 10/29/2020, 12:00 CDT: 
+* Tue 10/27/2020, 12:00 CDT: Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-1-airplanes))
+* Thu 10/29/2020, 12:00 CDT: Regularization ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-2-regularization))
 
 
 
