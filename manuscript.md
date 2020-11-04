@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e8a18b82ee2a5ca83ccefff861c166319fe5f551/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e8a18b82ee2a5ca83ccefff861c166319fe5f551/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e8a18b82ee2a5ca83ccefff861c166319fe5f551/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -837,13 +837,17 @@ Project Final Presentation and Report
 
 ### Module 12: Neural Networks for Sequences
 
-
+#### Module 12 Overview
+Time series data are common in civil and environmental engineering, and machine learning can be used to make future predictions, for example for weather and pollution forecasts and predictions of mechanical failure.
 
 #### Module 12 Learning Objectives
 
 By the end of this module, you should be able to:
 
-Students will learn about deep learning, the opportunities and drawbacks it presents, and applications to environmental problems.
+
+* Create recurrent neural networks for time series predictions
+* Apply recurrent neural networks to answer questions related to CEE
+
 
 #### Module 12 Readings and Lectures
 
