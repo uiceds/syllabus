@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-10-27'
+date-meta: '2020-11-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-10-27" />
+  <meta name="dc.date" content="2020-11-04" />
 
-  <meta name="citation_publication_date" content="2020-10-27" />
+  <meta name="citation_publication_date" content="2020-11-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/47c06f57f2cc5b6d760bfafb889f8d477d09b659/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e8a18b82ee2a5ca83ccefff861c166319fe5f551/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/47c06f57f2cc5b6d760bfafb889f8d477d09b659/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e8a18b82ee2a5ca83ccefff861c166319fe5f551/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/47c06f57f2cc5b6d760bfafb889f8d477d09b659/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e8a18b82ee2a5ca83ccefff861c166319fe5f551/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -847,15 +847,16 @@ Students will learn about deep learning, the opportunities and drawbacks it pres
 
 #### Module 12 Readings and Lectures
 
-* [Introduction to Neural Networks](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/video-lecture)
-* [Multi-Class Neural Networks](https://developers.google.com/machine-learning/crash-course/multi-class-neural-networks/video-lecture)
-* Recorded Lecture: hyperparameter optimization and inductive biases
+* [An illustrated guide to recurrent neural networks](https://youtu.be/LHXXI4-IEns)
+* [Illustrated guide to LSTM's and GRU's: A step by step explanation](https://www.youtube.com/watch?v=8HyCNIVRbSU)
+* [Understanding LSTM networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [Time series forecasting tutorial](https://www.tensorflow.org/tutorials/structured_data/time_series)
 
 
 
 
 #### Module 12 Homework
-The homework for Module 12 covers the required readings and lectures and is available [here](DeepLearningHomework).
+The homework for Module 12 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/2040526).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 11/10/2020, 12:00 CST for 110% credit, by Sun 11/15/2020, 23:59 CST for 100% credit, and by Sun 11/29/2020, 23:59 CST for 80% credit.**
@@ -863,8 +864,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 12 Topics for Zoom Meetings
 
 
-* Tue 11/10/2020, 12:00 CST: 
-* Thu 11/12/2020, 12:00 CST: 
+* Tue 11/10/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage))
+* Thu 11/12/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage))
 
 
 
