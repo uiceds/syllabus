@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="dcterms.date" content="2020-11-04" />
+  <meta name="dcterms.date" content="2020-11-10" />
   <title>CEE 498DS: Data Science for CEE, Fall 2020</title>
   <style>
     code{white-space: pre-wrap;}
@@ -13,6 +13,68 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -26,8 +88,8 @@
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2020-11-04" />
-  <meta name="citation_publication_date" content="2020-11-04" />
+  <meta name="dc.date" content="2020-11-10" />
+  <meta name="citation_publication_date" content="2020-11-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,15 +102,22 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ce40022edd216a2707540cc04cd822e85038cf6d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ce40022edd216a2707540cc04cd822e85038cf6d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ce40022edd216a2707540cc04cd822e85038cf6d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
+  
+  <!-- pandoc-eqnos: equation style -->
+  <style>
+    .eqnos { display: inline-block; position: relative; width: 100%; }
+    .eqnos br { display: none; }
+    .eqnos-number { position: absolute; right: 0em; top: 50%; line-height: 0; }
+  </style>
 </head>
 <body>
 <header id="title-block-header">
@@ -158,6 +227,296 @@ In summary, students in a 3-credit class are expected spend at least 6 hours per
 <li>https://www.w3resource.com/python-exercises/</li>
 </ul></li>
 </ul>
+<p>This manuscript is a template (aka “rootstock”) for <a href="https://manubot.org/" title="Manubot">Manubot</a>, a tool for writing scholarly manuscripts.
+Use this template as a starting point for your manuscript.</p>
+<p>The rest of this document is a full list of formatting elements/features supported by Manubot.
+Compare the input (<code>.md</code> files in the <code>/content</code> directory) to the output you see below.</p>
+<h2 id="basic-formatting">Basic formatting</h2>
+<p><strong>Bold</strong> <strong>text</strong></p>
+<p><span class="semibold">Semi-bold text</span></p>
+<p><span class="center">Centered text</span></p>
+<p><span class="right">Right-aligned text</span></p>
+<p><em>Italic</em> <em>text</em></p>
+<p>Combined <em>italics and <strong>bold</strong></em></p>
+<p><del>Strikethrough</del></p>
+<ol type="1">
+<li>Ordered list item</li>
+<li>Ordered list item
+<ol type="a">
+<li>Sub-item</li>
+<li>Sub-item
+<ol type="i">
+<li>Sub-sub-item</li>
+</ol></li>
+</ol></li>
+<li>Ordered list item
+<ol type="a">
+<li>Sub-item</li>
+</ol></li>
+</ol>
+<ul>
+<li>List item</li>
+<li>List item</li>
+<li>List item</li>
+</ul>
+<p>subscript: H<sub>2</sub>O is a liquid</p>
+<p>superscript: 2<sup>10</sup> is 1024.</p>
+<p><a href="https://www.google.com/search?q=superscript+generator">unicode superscripts</a>⁰¹²³⁴⁵⁶⁷⁸⁹</p>
+<p><a href="https://www.google.com/search?q=superscript+generator">unicode subscripts</a>₀₁₂₃₄₅₆₇₈₉</p>
+<p>A long paragraph of text.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Putting each sentence on its own line has numerous benefits with regard to <a href="https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line">editing</a> and <a href="https://rhodesmill.org/brandon/2012/one-sentence-per-line/">version control</a>.</p>
+<p>Line break without starting a new paragraph by putting<br />
+two spaces at end of line.</p>
+<h2 id="document-organization">Document organization</h2>
+<p>Document section headings:</p>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<h3 class="center page_center" id="a-heading-centered-on-its-own-printed-page">A heading centered on its own printed page</h3>
+<!-- an arbitrary comment. visible in input, but not visible in output. -->
+<p>Horizontal rule:</p>
+<hr />
+<p><code>Heading 1</code>’s are recommended to be reserved for the title of the manuscript.</p>
+<p><code>Heading 2</code>’s are recommended for broad sections such as <em>Abstract</em>, <em>Methods</em>, <em>Conclusion</em>, etc.</p>
+<p><code>Heading 3</code>’s and <code>Heading 4</code>’s are recommended for sub-sections.</p>
+<h2 id="links">Links</h2>
+<p>Bare URL link: <a href="https://manubot.org" class="uri">https://manubot.org</a></p>
+<p><a href="https://manubot.org">Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah</a></p>
+<p><a href="https://manubot.org">Link with text</a></p>
+<p><a href="https://manubot.org" title="Manubot Homepage">Link with hover text</a></p>
+<p><a href="https://manubot.org">Link by reference</a></p>
+<h2 id="citations">Citations</h2>
+<p>Citation by DOI <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>]</span>.</p>
+<p>Citation by PubMed Central ID <span class="citation" data-cites="mSMVRkoc">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>]</span>.</p>
+<p>Citation by PubMed ID <span class="citation" data-cites="126Wi5Us4">[<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>]</span>.</p>
+<p>Citation by Wikidata ID <span class="citation" data-cites="QhC8yJ7V">[<a href="#ref-QhC8yJ7V" role="doc-biblioref">4</a>]</span>.</p>
+<p>Citation by ISBN <span class="citation" data-cites="zBPP9YKu">[<a href="#ref-zBPP9YKu" role="doc-biblioref">5</a>]</span>.</p>
+<p>Citation by URL <span class="citation" data-cites="6acIRW4q">[<a href="#ref-6acIRW4q" role="doc-biblioref">6</a>]</span>.</p>
+<p>Citation by alias <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>]</span>.</p>
+<p>Multiple citations can be put inside the same set of brackets <span class="citation" data-cites="IhliSZDo PZMP42Ak zBPP9YKu">[<a href="#ref-IhliSZDo" role="doc-biblioref">1</a>,<a href="#ref-zBPP9YKu" role="doc-biblioref">5</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>]</span>.
+Manubot plugins provide easier, more convenient visualization of and navigation between citations <span class="citation" data-cites="YuJbg3zO 126Wi5Us4 mSMVRkoc PZMP42Ak">[<a href="#ref-mSMVRkoc" role="doc-biblioref">2</a>,<a href="#ref-126Wi5Us4" role="doc-biblioref">3</a>,<a href="#ref-PZMP42Ak" role="doc-biblioref">7</a>,<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span>.</p>
+<p>Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown’s reference link syntax:</p>
+<h2 id="referencing-figures-tables-equations">Referencing figures, tables, equations</h2>
+<p>Figure <a href="#fig:square-image">1</a></p>
+<p>Figure <a href="#fig:wide-image">2</a></p>
+<p>Figure <a href="#fig:tall-image">3</a></p>
+<p>Figure <a href="#fig:vector-image">4</a></p>
+<p>Table <a href="#tbl:bowling-scores">1</a></p>
+<p>Equation <a href="#eq:regular-equation">1</a></p>
+<p>Equation <a href="#eq:long-equation">2</a></p>
+<h2 id="quotes-and-code">Quotes and code</h2>
+<blockquote>
+<p>Quoted text</p>
+</blockquote>
+<blockquote>
+<p>Quoted block of text</p>
+<p>Two roads diverged in a wood, and I—<br />
+I took the one less traveled by,<br />
+And that has made all the difference.</p>
+</blockquote>
+<p>Code <code>in the middle</code> of normal text, aka <code>inline code</code>.</p>
+<p>Code block with Python syntax highlighting:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">from</span> manubot.cite.doi <span class="im">import</span> expand_short_doi</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">def</span> test_expand_short_doi():</span>
+<span id="cb1-4"><a href="#cb1-4"></a>    doi <span class="op">=</span> expand_short_doi(<span class="st">&quot;10/c3bp&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5"></a>    <span class="co"># a string too long to fit within page:</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>    <span class="cf">assert</span> doi <span class="op">==</span> <span class="st">&quot;10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah&quot;</span></span></code></pre></div>
+<p>Code block with no syntax highlighting:</p>
+<pre><code>Exporting HTML manuscript
+Exporting DOCX manuscript
+Exporting PDF manuscript</code></pre>
+<h2 id="figures">Figures</h2>
+<div id="fig:square-image" class="fignos">
+<figure>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png" alt="" /><figcaption><span>Figure 1:</span> <strong>A square image at actual size and with a bottom caption.</strong>
+Loaded from the latest version of image on GitHub.</figcaption>
+</figure>
+</div>
+<div id="fig:wide-image" class="fignos">
+<figure>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png" alt="" /><figcaption><span>Figure 2:</span> <strong>An image too wide to fit within page at full size.</strong>
+Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
+</figure>
+</div>
+<div id="fig:tall-image" class="fignos">
+<figure>
+<img src="https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png" style="height:3in" alt="" /><figcaption><span>Figure 3:</span> <strong>A tall image with a specified height.</strong>
+Loaded from a specific (hashed) version of the image on GitHub.</figcaption>
+</figure>
+</div>
+<div id="fig:vector-image" class="fignos">
+<figure>
+<img src="https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true" class="white" style="height:2.5in" alt="" /><figcaption><span>Figure 4:</span> <strong>A vector <code>.svg</code> image loaded from GitHub.</strong>
+The parameter <code>sanitize=true</code> is necessary to properly load SVGs hosted via GitHub URLs.
+White background specified to serve as a backdrop for transparent sections of the image.</figcaption>
+</figure>
+</div>
+<h2 id="tables">Tables</h2>
+<div id="tbl:bowling-scores" class="tablenos">
+<table>
+<caption><span>Table 1:</span> A table with a top caption and specified relative column widths.
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><em>Bowling Scores</em></th>
+<th style="text-align: center;">Jane</th>
+<th style="text-align: center;">John</th>
+<th style="text-align: center;">Alice</th>
+<th style="text-align: center;">Bob</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Game 1</td>
+<td style="text-align: center;">150</td>
+<td style="text-align: center;">187</td>
+<td style="text-align: center;">210</td>
+<td style="text-align: center;">105</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Game 2</td>
+<td style="text-align: center;">98</td>
+<td style="text-align: center;">202</td>
+<td style="text-align: center;">197</td>
+<td style="text-align: center;">102</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Game 3</td>
+<td style="text-align: center;">123</td>
+<td style="text-align: center;">180</td>
+<td style="text-align: center;">238</td>
+<td style="text-align: center;">134</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:constant-digits" class="tablenos">
+<table>
+<caption><span>Table 2:</span> A table too wide to fit within page.
+</caption>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 20%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 34%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Digits 1-33</th>
+<th style="text-align: left;">Digits 34-66</th>
+<th style="text-align: left;">Digits 67-99</th>
+<th style="text-align: left;">Ref.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">pi</td>
+<td style="text-align: left;">3.14159265358979323846264338327950</td>
+<td style="text-align: left;">288419716939937510582097494459230</td>
+<td style="text-align: left;">781640628620899862803482534211706</td>
+<td style="text-align: left;"><a href="https://www.piday.org/million/"><code>piday.org</code></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">e</td>
+<td style="text-align: left;">2.71828182845904523536028747135266</td>
+<td style="text-align: left;">249775724709369995957496696762772</td>
+<td style="text-align: left;">407663035354759457138217852516642</td>
+<td style="text-align: left;"><a href="https://apod.nasa.gov/htmltest/gifcity/e.2mil"><code>nasa.gov</code></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tbl:1f566486-cdb2-4c1e-bb19-2af371d7147b" class="tablenos">
+<table>
+<caption><span>Table 3:</span> A table with merged cells using the <code>attributes</code> plugin.
+</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;"><strong>Colors</strong> <!-- $colspan="2" --></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><strong>Size</strong></td>
+<td style="text-align: center;"><strong>Text Color</strong></td>
+<td style="text-align: center;"><strong>Background Color</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">big</td>
+<td style="text-align: center;">blue</td>
+<td style="text-align: center;">orange</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">small</td>
+<td style="text-align: center;">black</td>
+<td style="text-align: center;">white</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="equations">Equations</h2>
+<p>A LaTeX equation:</p>
+<p><span id="eq:regular-equation" class="eqnos"><span class="math display">\[\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}\]</span><span class="eqnos-number">(1)</span></span> </p>
+<p>An equation too long to fit within page:</p>
+<p><span id="eq:long-equation" class="eqnos"><span class="math display">\[x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9\]</span><span class="eqnos-number">(2)</span></span> </p>
+<h2 id="special">Special</h2>
+<p><i class="fas fa-exclamation-triangle"></i> <span class="semibold">WARNING</span> <em>The following features are only supported and intended for <code>.html</code> and <code>.pdf</code> exports.</em>
+<em>Journals are not likely to support them, and they may not display correctly when converted to other formats such as <code>.docx</code>.</em></p>
+<p><a href="https://manubot.org" class="button" title="Manubot Homepage">Link styled as a button</a></p>
+<p>Adding arbitrary HTML attributes to an element using Pandoc’s attribute syntax:</p>
+<div id="some_id_1" class="some_class" style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true">
+<p>Manubot Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot.
+Manubot Manubot.
+Manubot.</p>
+</div>
+<p>Adding arbitrary HTML attributes to an element with the Manubot <code>attributes</code> plugin (more flexible than Pandoc’s method in terms of which elements you can add attributes to):</p>
+<p>Manubot Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot.
+Manubot Manubot.
+Manubot.
+<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" --></p>
+<p>Available background colors for text, images, code, banners, etc:</p>
+<p><code class="white">white</code>
+<code class="lightgrey">lightgrey</code>
+<code class="grey">grey</code>
+<code class="darkgrey">darkgrey</code>
+<code class="black">black</code>
+<code class="lightred">lightred</code>
+<code class="lightyellow">lightyellow</code>
+<code class="lightgreen">lightgreen</code>
+<code class="lightblue">lightblue</code>
+<code class="lightpurple">lightpurple</code>
+<code class="red">red</code>
+<code class="orange">orange</code>
+<code class="yellow">yellow</code>
+<code class="green">green</code>
+<code class="blue">blue</code>
+<code class="purple">purple</code></p>
+<p>Using the <a href="https://fontawesome.com/">Font Awesome</a> icon set:</p>
+<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
+<p><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></p>
+<p><i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i></p>
+<p><span class="banner lightgrey"><i class="fas fa-scroll fa-lg"></i> <strong>Light Grey Banner</strong><br>
+useful for <em>general information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
+<p><span class="banner lightblue"><i class="fas fa-info-circle fa-lg"></i> <strong>Blue Banner</strong><br>
+useful for <em>important information</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
+<p><span class="banner lightred"><i class="fas fa-ban fa-lg"></i> <strong>Light Red Banner</strong><br>
+useful for <em>warnings</em> - <a href="https://manubot.org/">manubot.org</a></span></p>
 <h3 id="policies">Policies</h3>
 <h4 id="inclusive-environment">Inclusive Environment</h4>
 <p>The effectiveness of this course is dependent upon the creation of an encouraging and safe classroom environment. Exclusionary, offensive or harmful speech (such as racism, sexism, homophobia, transphobia, etc.) will not be tolerated and in some cases subject to University harassment procedures. We are all responsible for creating a positive and safe environment that allows all students equal respect and comfort. I expect each of you to help establish and maintain and environment where you and your peers can contribute without fear of ridicule or intolerant or offensive language.</p>
@@ -320,17 +679,17 @@ In summary, students in a 3-credit class are expected spend at least 6 hours per
 </tr>
 <tr class="odd">
 <td>13</td>
-<td><a href="#module-13-unsupervised-learning">Unsupervised learning</a></td>
+<td><a href="#module-13-random-forests">Random forests</a></td>
 <td>11/16/2020</td>
 </tr>
 <tr class="even">
 <td>14</td>
-<td><a href="#module-14-project-work">Project work</a></td>
+<td><a href="#module-14-fall-break">Fall Break</a></td>
 <td>11/23/2020</td>
 </tr>
 <tr class="odd">
 <td>15</td>
-<td><a href="#module-15-final-exam;-final-project-presentations-and-reports">Final exam; final project presentations and reports</a></td>
+<td><a href="#module-15-final-project-presentations">Final project presentations</a></td>
 <td>11/30/2020</td>
 </tr>
 </tbody>
@@ -456,7 +815,7 @@ In summary, students in a 3-credit class are expected spend at least 6 hours per
 <td>Sun 11/29/2020, 23:59 CST</td>
 </tr>
 <tr class="odd">
-<td><a href="#module-13-homework">Unsupervised learning</a></td>
+<td><a href="#module-13-homework">Random forests</a></td>
 <td>11/9/2020</td>
 <td>Tue 11/17/2020, 12:00 CST</td>
 <td>Sun 11/22/2020, 23:59 CST</td>
@@ -490,9 +849,14 @@ In summary, students in a 3-credit class are expected spend at least 6 hours per
 <td>Sun 11/22/2020, 23:59 CST</td>
 </tr>
 <tr class="even">
-<td><a href="#project-final-presentation-and-report">Project Final Presentation and Report</a></td>
+<td><a href="#project-group-final-presentation">Project Group Final Presentation</a></td>
 <td>11/2/2020</td>
 <td>Sun 11/29/2020, 23:59 CST</td>
+</tr>
+<tr class="odd">
+<td><a href="#project-group-final-report">Project Group Final Report</a></td>
+<td>11/9/2020</td>
+<td>Sun 12/6/2020, 23:59 CST</td>
 </tr>
 </tbody>
 </table>
@@ -786,7 +1150,7 @@ General information about homework assignments is <a href="#homeworks-and-exams"
 <li>Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks (<a href="https://www.kaggle.com/christophertessum/module-11-class-1-cars">Notebook</a>)</li>
 </ul>
 <h4 id="module-11-project-assignment">Module 11 Project Assignment</h4>
-<p>Project Final Presentation and Report</p>
+<p>Project Group Final Presentation</p>
 <h3 id="module-12-neural-networks-for-sequences">Module 12: Neural Networks for Sequences</h3>
 <h4 id="module-12-overview">Module 12 Overview</h4>
 <p>Time series data are common in civil and environmental engineering, and machine learning can be used to make future predictions, for example for weather and pollution forecasts and predictions of mechanical failure.</p>
@@ -812,42 +1176,50 @@ General information about homework assignments is <a href="#homeworks-and-exams"
 <li>Tue 11/10/2020, 12:00 CST: LSTM for damage detection (<a href="https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage">Notebook</a>)</li>
 <li>Thu 11/12/2020, 12:00 CST: LSTM for damage detection (<a href="https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage">Notebook</a>)</li>
 </ul>
-<h3 id="module-13-unsupervised-learning">Module 13: Unsupervised learning</h3>
+<h4 id="module-12-project-assignment">Module 12 Project Assignment</h4>
+<p>Project Group Final Report</p>
+<h3 id="module-13-random-forests">Module 13: Random forests</h3>
+<h4 id="module-13-overview">Module 13 Overview</h4>
+<p>In addition to linear regression and neural networks, random forest models are another commonly used machine learning framework</p>
 <h4 id="module-13-learning-objectives">Module 13 Learning Objectives</h4>
 <p>By the end of this module, you should be able to:</p>
-<p>Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.</p>
+<p>Apply random forest models to answer questions related to CEE</p>
 <h4 id="module-13-readings-and-lectures">Module 13 Readings and Lectures</h4>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=jAA2g9ItoAc">unsupervised learning</a></li>
-<li><a href="https://www.youtube.com/watch?v=Ev8YbxPu_bQ">clustering</a></li>
-<li><a href="https://mlcourse.ai/articles/topic7-unsupervised/">mlcourse.ai workbook</a></li>
+<li><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to decision trees part 1</a></li>
+<li><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-2/">Visual intro to decision trees part 2</a></li>
+<li><a href="https://youtu.be/7VeUPuFGJHk">Decision trees</a></li>
+<li><a href="https://youtu.be/g9c66TUylZ4">Regression trees</a></li>
+<li><a href="https://youtu.be/D0efHEJsfHo">Pruning regression trees</a></li>
+<li><a href="https://youtu.be/J4Wdy0Wc_xQ">Random forests part 1</a></li>
+<li><a href="https://youtu.be/sQ870aTKqiM">Random forests part 2</a></li>
 </ul>
 <h4 id="module-13-homework">Module 13 Homework</h4>
-<p>The homework for Module 13 covers the required readings and lectures and is available <a href="UnsupervisedLearningHomework">here</a>.
+<p>The homework for Module 13 covers the required readings and lectures and is available <a href="https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/2065426">here</a>.
 General information about homework assignments is <a href="#homeworks-and-exams">here</a>.</p>
 <p><strong>The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Sun 11/22/2020, 23:59 CST for 100% credit, and by Sun 12/6/2020, 23:59 CST for 80% credit.</strong></p>
 <h4 id="module-13-topics-for-zoom-meetings">Module 13 Topics for Zoom Meetings</h4>
 <ul>
-<li>Tue 11/17/2020, 12:00 CST: In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.</li>
+<li>Tue 11/17/2020, 12:00 CST:</li>
 <li>Thu 11/19/2020, 12:00 CST:</li>
 </ul>
-<h3 id="module-14-project-work">Module 14: Project work</h3>
+<h3 id="module-14-fall-break">Module 14: Fall Break</h3>
 <h4 id="module-14-overview">Module 14 Overview</h4>
-<p>Students will work on their course projects</p>
+<p>Happy Thanksgiving</p>
 <h4 id="module-14-topics-for-zoom-meetings">Module 14 Topics for Zoom Meetings</h4>
 <ul>
-<li>Tue 11/24/2020, 12:00 CST:</li>
-<li>Thu 11/26/2020, 12:00 CST:</li>
+<li>Tue 11/24/2020, 12:00 CST: No class</li>
+<li>Thu 11/26/2020, 12:00 CST: No class</li>
 </ul>
-<h3 id="module-15-final-exam-final-project-presentations-and-reports">Module 15: Final exam; final project presentations and reports</h3>
+<h3 id="module-15-final-project-presentations">Module 15: Final project presentations</h3>
 <h4 id="module-15-learning-objectives">Module 15 Learning Objectives</h4>
 <p>By the end of this module, you should be able to:</p>
 <p>Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.</p>
 <h4 id="module-15-topics-for-zoom-meetings">Module 15 Topics for Zoom Meetings</h4>
 <ul>
-<li>Tue 12/1/2020, 12:00 CST:</li>
-<li>Thu 12/3/2020, 12:00 CST:</li>
-<li>Tue 12/8/2020, 12:00 CST:</li>
+<li>Tue 12/1/2020, 12:00 CST: Project presentations</li>
+<li>Thu 12/3/2020, 12:00 CST: Project presentations</li>
+<li>Tue 12/8/2020, 12:00 CST: Project presentations</li>
 </ul>
 <h2 id="assessment-instructions-and-rubrics">Assessment Instructions and Rubrics</h2>
 <h3 id="discussion-forum-instructions-and-rubric">Discussion Forum Instructions and Rubric</h3>
@@ -1227,6 +1599,54 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
 </ul>
 <h5 id="ms-word-multiplier">MS Word multiplier</h5>
 <p>Teams not using Manubot will have their presentation and report score multiplied by 0.9.</p>
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-IhliSZDo">
+<p>1. <strong>Sci-Hub provides access to nearly all scholarly literature</strong> <br />
+Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene<br />
+<em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a> <br />
+DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></p>
+</div>
+<div id="ref-mSMVRkoc">
+<p>2. <strong>Reproducibility of computational workflows is automated using continuous analysis</strong> <br />
+Brett K Beaulieu-Jones, Casey S Greene<br />
+<em>Nature biotechnology</em> (2017-04) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/</a> <br />
+DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></p>
+</div>
+<div id="ref-126Wi5Us4">
+<p>3. <strong>Bitcoin for the biological literature.</strong> <br />
+Douglas Heaven<br />
+<em>Nature</em> (2019-02) <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">https://www.ncbi.nlm.nih.gov/pubmed/30718888</a> <br />
+DOI: <a href="https://doi.org/10.1038/d41586-019-00447-9">10.1038/d41586-019-00447-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30718888">30718888</a></p>
+</div>
+<div id="ref-QhC8yJ7V">
+<p>4. <strong>Plan S: Accelerating the transition to full and immediate Open Access to scientific publications</strong> <br />
+cOAlition S<br />
+(2018-09-04) <a href="https://www.wikidata.org/wiki/Q56458321">https://www.wikidata.org/wiki/Q56458321</a></p>
+</div>
+<div id="ref-zBPP9YKu">
+<p>5. <strong>Open access</strong> <br />
+Peter Suber<br />
+<em>MIT Press</em> (2012) <br />
+ISBN: <a href="https://worldcat.org/isbn/9780262517638">9780262517638</a></p>
+</div>
+<div id="ref-6acIRW4q">
+<p>6. <strong>Open collaborative writing with Manubot</strong> <br />
+Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
+<em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></p>
+</div>
+<div id="ref-PZMP42Ak">
+<p>7. <strong>Opportunities and obstacles for deep learning in biology and medicine</strong> <br />
+Travers Ching, Daniel S. Himmelstein, Brett K. Beaulieu-Jones, Alexandr A. Kalinin, Brian T. Do, Gregory P. Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M. Hoffman, … Casey S. Greene<br />
+<em>Journal of The Royal Society Interface</em> (2018-04-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a> <br />
+DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></p>
+</div>
+<div id="ref-YuJbg3zO">
+<p>8. <strong>Open collaborative writing with Manubot</strong> <br />
+Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter<br />
+<em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
+</div>
+</div>
 <!-- default theme -->
 
 <style>
@@ -1307,6 +1727,26 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
         margin-top: 30px;
         padding-bottom: 5px;
         border-bottom: solid 1px #bdbdbd;
+    }
+
+    /* heading font sizes */
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.35em;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+    h5 {
+        font-size: 1.15em;
+    }
+    h6 {
+        font-size: 1em;
     }
 
     /* -------------------------------------------------- */
@@ -1425,7 +1865,8 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
     }
 
     /* figure image element */
-    figure img {
+    figure > img,
+    figure > svg {
         max-width: 100%;
         display: block;
         margin-left: auto;
@@ -1433,7 +1874,8 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
     }
 
     /* figure auto-number */
-    img + figcaption > span:first-of-type {
+    img + figcaption > span:first-of-type,
+    svg + figcaption > span:first-of-type {
         font-weight: bold;
         margin-right: 5px;
     }
@@ -1742,22 +2184,6 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             margin: 15px 0;
         }
 
-        /* heading 1 */
-        h1 {
-            font-size: 1.75em;
-        }
-
-        /* heading 2 */
-        h2 {
-            font-size: 1.25em;
-            margin-top: 0;
-        }
-
-        /* heading 3 */
-        h3 {
-            font-size: 1.10em;
-        }
-
         /* figures and tables */
         figure, table {
             font-size: 0.85em;
@@ -2029,7 +2455,8 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
         }
 
         /* tooltip copy of <img> */
-        #tooltip_content > figure > img {
+        #tooltip_content > figure > img,
+        #tooltip_content > figure > svg {
             max-height: 260px;
         }
 
@@ -2280,7 +2707,7 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
 
     @media only screen {
         /* regular <img> in document when hovered */
-        .lightbox_document_img:hover {
+        img.lightbox_document_img:hover {
             cursor: pointer;
         }
 
@@ -2411,10 +2838,39 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
     /* hypothesis (annotations) plugin */
     /* -------------------------------------------------- */
 
+    /* hypothesis activation button */
+    #hypothesis_button {
+        box-sizing: border-box;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 60px;
+        background: #ffffff;
+        border-radius: 0;
+        border-left: solid 1px #bdbdbd;
+        border-bottom: solid 1px #bdbdbd;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        z-index: 2;
+    }
+
+    /* hypothesis button svg */
+    #hypothesis_button > svg {
+        position: relative;
+        top: -4px;
+    }
+
+    /* hypothesis annotation count */
+    #hypothesis_count {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+    }
+
     /* side panel */
     .annotator-frame {
         width: 280px !important;
-        z-index: 0 !important;
     }
 
     /* match highlight color to rest of theme */
@@ -2432,8 +2888,12 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
         background: #f5f5f5 !important;
     }
 
-    /* always hide toolbar and tooltip on print */
+    /* always hide button, toolbar, and tooltip on print */
     @media only print {
+        #hypothesis_button {
+            display: none;
+        }
+
         .annotator-frame {
             display: none !important;
         }
@@ -3929,8 +4389,6 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             window.addEventListener('load', start);
     })();
 </script>
-<!-- table of contents plugin -->
-
 <script>
     (function() {
         // /////////////////////////
@@ -3953,10 +4411,13 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             // which types of elements to add links for, in
             // "document.querySelector" format
             typesQuery: 'h1, h2, h3',
-            // whether default behavior is to be closed ('false'), open
-            // ('true'), or only open when screen wide enough to fit panel
-            // ('auto'). note: still always starts closed when page loads.
-            open: 'auto',
+            // whether toc starts open. use 'true' or 'false', or 'auto' to
+            // use 'true' behavior when screen wide enough and 'false' when not
+            startOpen: 'false',
+            // whether toc closes when clicking on toc link. use 'true' or
+            // 'false', or 'auto' to use 'false' behavior when screen wide
+            // enough and 'true' when not
+            clickClose: 'auto',
             // if list item is more than this many characters, text will be
             // truncated
             charLimit: '50',
@@ -3981,13 +4442,21 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             if (!panel)
                 return;
             makeEntries(panel);
+            // attach panel to document after making entries, so 'toc' heading
+            // in panel isn't included in toc
             document.body.insertBefore(panel, document.body.firstChild);
 
-            closePanel();
+            // initial panel state
+            if (
+                options.startOpen === 'true' ||
+                (options.startOpen === 'auto' && !isSmallScreen())
+            )
+                openPanel();
+            else
+                closePanel();
 
             // attach click, scroll, and hash change listeners to window
             window.addEventListener('click', onClick);
-            window.addEventListener('touchstart', onClick);
             window.addEventListener('scroll', onScroll);
             window.addEventListener('hashchange', onScroll);
             window.addEventListener('keyup', onKeyUp);
@@ -4005,25 +4474,10 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             return window.innerWidth < 816 + 260 * 2;
         }
 
-        // open/close panel based on option and screen size
-        function openOrClosePanel() {
-            if (
-                options.open === 'true' ||
-                (options.open === 'auto' && !isSmallScreen())
-            )
-                openPanel();
-            else
-                closePanel();
-        }
-
         // when mouse is clicked anywhere in window
         function onClick() {
-            const panel = document.getElementById('toc_panel');
-            if (!panel)
-                return;
-
-            if (panel.dataset.open === 'true')
-                openOrClosePanel();
+            if (isSmallScreen())
+                closePanel();
         }
 
         // when window is scrolled or hash changed
@@ -4100,13 +4554,12 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             // create toc button
             const button = document.createElement('button');
             button.id = 'toc_button';
-            button.innerHTML = document.querySelector(
-                '.icon_th_list'
-            ).innerHTML;
+            button.innerHTML = document.querySelector('.icon_th_list').innerHTML;
+            button.title = 'Table of Contents';
             button.classList.add('icon_button');
 
             // create header text
-            const text = document.createElement('h3');
+            const text = document.createElement('h4');
             text.innerHTML = 'Table of Contents';
 
             // create container for toc list
@@ -4184,8 +4637,14 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
         }
 
         // when link is clicked
-        function onLinkClick() {
-            openOrClosePanel();
+        function onLinkClick(event) {
+            if (
+                options.clickClose === 'true' ||
+                (options.clickClose === 'auto' && isSmallScreen())
+            )
+                closePanel();
+            else
+                openPanel();
         }
 
         // open panel if closed, close if opened
@@ -4995,7 +5454,7 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             window.addEventListener('load', start);
     })();
 </script>
-<!-- math plugin configuration -->
+<!-- mathjax plugin configuration -->
 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -5003,12 +5462,16 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
         "HTML-CSS": { linebreaks: { automatic: true } },
         "SVG": { linebreaks: { automatic: true } },
         "fast-preview": { disabled: true }
-    });
+  });
 </script>
 
-<!-- math plugin -->
+<!-- mathjax plugin -->
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+    integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A=="
+    crossorigin="anonymous"
+>
     // /////////////////////////
     // DESCRIPTION
     // /////////////////////////
@@ -5018,9 +5481,19 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
 
     // https://www.mathjax.org/
 </script>
-<!-- annotations plugin configuration -->
+<!-- annotations plugin -->
 
 <script>
+    // /////////////////////////
+    // DESCRIPTION
+    // /////////////////////////
+
+    // This third-party plugin 'Hypothesis' allows public annotation of the
+    // manuscript.
+
+    // https://web.hypothes.is/
+
+    // plugin configuration
     window.hypothesisConfig = function() {
         return {
             branding: {
@@ -5033,20 +5506,85 @@ The presentation will be stopped at 12 minutes regardless of whether it’s fini
             }
         };
     };
+
+    // hypothesis client script
+    const embed = 'https://hypothes.is/embed.js';
+    // hypothesis annotation count query url
+    const query = 'https://api.hypothes.is/api/search?limit=0&url='
+
+    
+    // start script
+    function start() {
+        const button = makeButton();
+        document.body.insertBefore(button, document.body.firstChild);
+        insertCount(button);
+    }
+
+    // make button
+    function makeButton() {
+        // create button
+        const button = document.createElement('button');
+        button.id = 'hypothesis_button';
+        button.innerHTML = document.querySelector('.icon_hypothesis').innerHTML;
+        button.title = 'Hypothesis annotations';
+        button.classList.add('icon_button');
+
+        function onClick(event) {
+            onButtonClick(event, button);
+        }
+
+        // attach click listeners
+        button.addEventListener('click', onClick);
+
+        return button;
+    }
+
+    // insert annotations count
+    async function insertCount(button) {
+        // get annotation count from Hypothesis based on url
+        let count = '-';
+        try {
+            const canonical = document.querySelector('link[rel="canonical"]');
+            const location = window.location;
+            const url = encodeURIComponent((canonical || location).href);
+            const response = await fetch(query + url);
+            const json = await response.json();
+            count = json.total || '-';
+        } catch(error) {
+            console.log(error);
+        }
+        
+        // put count into button
+        const counter = document.createElement('span');
+        counter.id = 'hypothesis_count';
+        counter.innerHTML = count;
+        button.title = 'View ' + count + ' Hypothesis annotations';
+        button.append(counter);
+    }
+
+    // when button is clicked
+    function onButtonClick(event, button) {
+        const script = document.createElement('script');
+        script.src = embed;
+        document.body.append(script);
+        button.remove();
+    }
+
+    window.addEventListener('load', start);
 </script>
 
-<!-- annotations plugin -->
+<!-- hypothesis icon -->
 
-<script src='https://hypothes.is/embed.js'>
-    // /////////////////////////
-    // DESCRIPTION
-    // /////////////////////////
-
-    // This third-party plugin 'Hypothesis' allows public annotation of the
-    // manuscript.
-
-    // https://web.hypothes.is/
-</script>
+<template class="icon_hypothesis">
+    <!-- modified from: https://simpleicons.org/icons/hypothesis.svg / https://git.io/Jf1VB -->
+    <svg width="16" height="16" viewBox="0 0 24 24" tabindex="-1">
+        <path
+            fill="currentColor"
+            d="M3.43 0C2.5 0 1.72 .768 1.72 1.72V18.86C1.72 19.8 2.5 20.57 3.43 20.57H9.38L12 24L14.62 20.57H20.57C21.5 20.57 22.29 19.8 22.29 18.86V1.72C22.29 .77 21.5 0 20.57 0H3.43M5.14 3.43H7.72V9.43S8.58 7.72 10.28 7.72C12 7.72 13.74 8.57 13.74 11.24V17.14H11.16V12C11.16 10.61 10.28 10.07 9.43 10.29C8.57 10.5 7.72 11.41 7.72 13.29V17.14H5.14V3.43M18 13.72C18.95 13.72 19.72 14.5 19.72 15.42A1.71 1.71 0 0 1 18 17.13A1.71 1.71 0 0 1 16.29 15.42C16.29 14.5 17.05 13.71 18 13.71Z"
+            tabindex="-1"
+        ></path>
+    </svg>
+</template>
 <!-- analytics plugin -->
 
 <!-- copy and paste code from Google Analytics or similar service here -->
