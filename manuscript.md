@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-11-04'
+date-meta: '2020-11-10'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-11-04" />
+  <meta name="dc.date" content="2020-11-10" />
 
-  <meta name="citation_publication_date" content="2020-11-04" />
+  <meta name="citation_publication_date" content="2020-11-10" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ce40022edd216a2707540cc04cd822e85038cf6d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ce40022edd216a2707540cc04cd822e85038cf6d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ff7ae7b834eb01ccafb8709ee3b634e607994a9f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ce40022edd216a2707540cc04cd822e85038cf6d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -204,6 +204,302 @@ It is my goal for this class to follow these guidelines so let me know if you th
   * https://www.w3resource.com/python-exercises/
 
 
+This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
+Use this template as a starting point for your manuscript.
+
+The rest of this document is a full list of formatting elements/features supported by Manubot.
+Compare the input (`.md` files in the `/content` directory) to the output you see below.
+
+## Basic formatting
+
+**Bold** __text__
+
+[Semi-bold text]{.semibold}
+
+[Centered text]{.center}
+
+[Right-aligned text]{.right}
+
+*Italic* _text_
+
+Combined *italics and __bold__*
+
+~~Strikethrough~~
+
+1. Ordered list item
+2. Ordered list item
+    a. Sub-item
+    b. Sub-item
+        i. Sub-sub-item
+3. Ordered list item
+    a. Sub-item
+
+- List item
+- List item
+- List item
+
+subscript: H~2~O is a liquid
+
+superscript: 2^10^ is 1024.
+
+[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
+
+[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
+
+A long paragraph of text.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
+
+Line break without starting a new paragraph by putting  
+two spaces at end of line.
+
+## Document organization
+
+Document section headings:
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+### A heading centered on its own printed page{.center .page_center}
+
+<!-- an arbitrary comment. visible in input, but not visible in output. -->
+
+Horizontal rule:
+
+---
+
+`Heading 1`'s are recommended to be reserved for the title of the manuscript.
+
+`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
+
+`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
+
+## Links
+
+Bare URL link: <https://manubot.org>
+
+[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
+
+[Link with text](https://manubot.org)
+
+[Link with hover text](https://manubot.org "Manubot Homepage")
+
+[Link by reference][manubot homepage]
+
+[Manubot Homepage]: https://manubot.org
+
+## Citations
+
+Citation by DOI [@doi:10.7554/eLife.32822].
+
+Citation by PubMed Central ID [@pmc:PMC6103790].
+
+Citation by PubMed ID [@pubmed:30718888].
+
+Citation by Wikidata ID [@wikidata:Q56458321].
+
+Citation by ISBN [@isbn:9780262517638].
+
+Citation by URL [@https://greenelab.github.io/meta-review/].
+
+Citation by alias [@deep-review].
+
+Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
+Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
+
+Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
+
+[@deep-review]: doi:10.1098/rsif.2017.0387
+
+## Referencing figures, tables, equations
+
+Figure @fig:square-image
+
+Figure @fig:wide-image
+
+Figure @fig:tall-image
+
+Figure @fig:vector-image
+
+Table @tbl:bowling-scores
+
+Equation @eq:regular-equation
+
+Equation @eq:long-equation
+
+## Quotes and code
+
+> Quoted text
+
+> Quoted block of text
+>
+> Two roads diverged in a wood, and I—  
+> I took the one less traveled by,  
+> And that has made all the difference.
+
+Code `in the middle` of normal text, aka `inline code`.
+
+Code block with Python syntax highlighting:
+
+```python
+from manubot.cite.doi import expand_short_doi
+
+def test_expand_short_doi():
+    doi = expand_short_doi("10/c3bp")
+    # a string too long to fit within page:
+    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
+```
+
+Code block with no syntax highlighting:
+
+```
+Exporting HTML manuscript
+Exporting DOCX manuscript
+Exporting PDF manuscript
+```
+
+## Figures
+
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
+
+![
+**An image too wide to fit within page at full size.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
+
+![
+**A tall image with a specified height.**
+Loaded from a specific (hashed) version of the image on GitHub.
+](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
+
+![
+**A vector `.svg` image loaded from GitHub.**
+The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
+White background specified to serve as a backdrop for transparent sections of the image.
+](https://raw.githubusercontent.com/manubot/resources/master/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
+
+## Tables
+
+| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
+|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
+| Game 1 | 150 | 187 | 210 | 105 |
+| Game 2 |  98 | 202 | 197 | 102 |
+| Game 3 | 123 | 180 | 238 | 134 |
+
+Table: A table with a top caption and specified relative column widths.
+{#tbl:bowling-scores}
+
+|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
+|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
+| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
+| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
+
+Table: A table too wide to fit within page.
+{#tbl:constant-digits}
+
+|          | **Colors** <!-- $colspan="2" --> |                      |
+|:--------:|:--------------------------------:|:--------------------:|
+| **Size** | **Text Color**                   | **Background Color** |
+| big      | blue                             | orange               |
+| small    | black                            | white                |
+
+Table: A table with merged cells using the `attributes` plugin.
+{#tbl: merged-cells}
+
+## Equations
+
+A LaTeX equation:
+
+$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
+
+An equation too long to fit within page:
+
+$$x = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
+
+## Special
+
+<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
+_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
+
+[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
+
+Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
+
+::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
+Manubot Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot.
+Manubot Manubot.
+Manubot.
+:::
+
+Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
+
+Manubot Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot Manubot.
+Manubot Manubot Manubot.
+Manubot Manubot.
+Manubot.
+<!-- $id="element_id" class="some_class" $style="color: #ad1457; margin-left: 40px;" $disabled="true" $title="a paragraph of text" $data-color="red" -->
+
+Available background colors for text, images, code, banners, etc:  
+
+`white`{.white}
+`lightgrey`{.lightgrey}
+`grey`{.grey}
+`darkgrey`{.darkgrey}
+`black`{.black}
+`lightred`{.lightred}
+`lightyellow`{.lightyellow}
+`lightgreen`{.lightgreen}
+`lightblue`{.lightblue}
+`lightpurple`{.lightpurple}
+`red`{.red}
+`orange`{.orange}
+`yellow`{.yellow}
+`green`{.green}
+`blue`{.blue}
+`purple`{.purple}
+
+Using the [Font Awesome](https://fontawesome.com/) icon set:
+
+<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
+
+[
+<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
+useful for *general information* - [manubot.org](https://manubot.org/)
+]{.banner .lightgrey}
+
+[
+<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
+useful for *important information* - [manubot.org](https://manubot.org/)
+]{.banner .lightblue}
+
+[
+<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
+useful for *warnings* - [manubot.org](https://manubot.org/)
+]{.banner .lightred}
+
+
 ### Policies
 
 #### Inclusive Environment
@@ -341,9 +637,9 @@ The University of Illinois strives to promote student success through the suppor
 | 10 | [Neural Networks](#module-10-neural-networks) | 10/26/2020
 | 11 | [Convolutional Neural Networks](#module-11-convolutional-neural-networks) | 11/2/2020
 | 12 | [Neural Networks for Sequences](#module-12-neural-networks-for-sequences) | 11/9/2020
-| 13 | [Unsupervised learning](#module-13-unsupervised-learning) | 11/16/2020
-| 14 | [Project work](#module-14-project-work) | 11/23/2020
-| 15 | [Final exam; final project presentations and reports](#module-15-final-exam;-final-project-presentations-and-reports) | 11/30/2020
+| 13 | [Random forests](#module-13-random-forests) | 11/16/2020
+| 14 | [Fall Break](#module-14-fall-break) | 11/23/2020
+| 15 | [Final project presentations](#module-15-final-project-presentations) | 11/30/2020
 
 ### Discussions
 
@@ -366,7 +662,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Neural Networks](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
 | [Convolutional Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
 | [Neural Networks for Sequences](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Sun 11/15/2020, 23:59 CST | Sun 11/29/2020, 23:59 CST |
-| [Unsupervised learning](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Sun 11/22/2020, 23:59 CST | Sun 12/6/2020, 23:59 CST |
+| [Random forests](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Sun 11/22/2020, 23:59 CST | Sun 12/6/2020, 23:59 CST |
 
 ### Project Assignments
 
@@ -375,7 +671,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | [Project literature review](#project-literature-review) | 9/7/2020 | Sun 9/27/2020, 23:59 CDT
 | [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Sun 10/25/2020, 23:59 CDT
 | [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Sun 11/22/2020, 23:59 CST
-| [Project Final Presentation and Report](#project-final-presentation-and-report) | 11/2/2020 | Sun 11/29/2020, 23:59 CST
+| [Project Group Final Presentation](#project-group-final-presentation) | 11/2/2020 | Sun 11/29/2020, 23:59 CST
+| [Project Group Final Report](#project-group-final-report) | 11/9/2020 | Sun 12/6/2020, 23:59 CST
 
 ### Exams
 
@@ -833,7 +1130,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 #### Module 11 Project Assignment
-Project Final Presentation and Report
+Project Group Final Presentation
 
 ### Module 12: Neural Networks for Sequences
 
@@ -874,27 +1171,35 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 
-### Module 13: Unsupervised learning
+#### Module 12 Project Assignment
+Project Group Final Report
 
+### Module 13: Random forests
 
+#### Module 13 Overview
+In addition to linear regression and neural networks, random forest models are another commonly used machine learning framework
 
 #### Module 13 Learning Objectives
 
 By the end of this module, you should be able to:
 
-Students will learn about basic unsupervised learning algorithms and how they can be used on Civil and Environmental Engineering applications.
+Apply random forest models to answer questions related to CEE
 
 #### Module 13 Readings and Lectures
 
-* [unsupervised learning](https://www.youtube.com/watch?v=jAA2g9ItoAc)
-* [clustering](https://www.youtube.com/watch?v=Ev8YbxPu_bQ)
-* [mlcourse.ai workbook](https://mlcourse.ai/articles/topic7-unsupervised/)
+* [Visual intro to decision trees part 1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+* [Visual intro to decision trees part 2](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+* [Decision trees](https://youtu.be/7VeUPuFGJHk)
+* [Regression trees](https://youtu.be/g9c66TUylZ4)
+* [Pruning regression trees](https://youtu.be/D0efHEJsfHo)
+* [Random forests part 1](https://youtu.be/J4Wdy0Wc_xQ)
+* [Random forests part 2](https://youtu.be/sQ870aTKqiM)
 
 
 
 
 #### Module 13 Homework
-The homework for Module 13 covers the required readings and lectures and is available [here](UnsupervisedLearningHomework).
+The homework for Module 13 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/2065426).
 General information about homework assignments is [here](#homeworks-and-exams).
 
 **The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Sun 11/22/2020, 23:59 CST for 100% credit, and by Sun 12/6/2020, 23:59 CST for 80% credit.**
@@ -902,16 +1207,16 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 13 Topics for Zoom Meetings
 
 
-* Tue 11/17/2020, 12:00 CST: In class, we will work through some applications to environmental data and discuss how supervised learning can be applied to student projects.
+* Tue 11/17/2020, 12:00 CST: 
 * Thu 11/19/2020, 12:00 CST: 
 
 
 
 
-### Module 14: Project work
+### Module 14: Fall Break
 
 #### Module 14 Overview
-Students will work on their course projects
+Happy Thanksgiving
 
 
 
@@ -924,13 +1229,13 @@ Students will work on their course projects
 #### Module 14 Topics for Zoom Meetings
 
 
-* Tue 11/24/2020, 12:00 CST: 
-* Thu 11/26/2020, 12:00 CST: 
+* Tue 11/24/2020, 12:00 CST: No class
+* Thu 11/26/2020, 12:00 CST: No class
 
 
 
 
-### Module 15: Final exam; final project presentations and reports
+### Module 15: Final project presentations
 
 
 
@@ -949,9 +1254,9 @@ Students should have completed a project where they access and explore a civil o
 #### Module 15 Topics for Zoom Meetings
 
 
-* Tue 12/1/2020, 12:00 CST: 
-* Thu 12/3/2020, 12:00 CST: 
-* Tue 12/8/2020, 12:00 CST: 
+* Tue 12/1/2020, 12:00 CST: Project presentations
+* Thu 12/3/2020, 12:00 CST: Project presentations
+* Tue 12/8/2020, 12:00 CST: Project presentations
 
 
 
