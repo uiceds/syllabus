@@ -12,7 +12,7 @@ Chuq
 CITL
 convolutional
 csv
-Dataset
+dataset
 Datasets
 datset
 deliverables
@@ -27,16 +27,16 @@ excercises
 explainer
 expoloratory
 extenstive
-Geopandas
+GeoPandas
 geotiff
 gridded
 GRU’s
 gtfs
-Homeworks
+homeworks
 interpretable
 IPython
 jpg
-kaggle
+Kaggle
 Karpathy
 LSTM
 LSTM’s
@@ -66,4 +66,4 @@ UIUC
 underfits
 VisualData
 Von
-XArray
+Xarray

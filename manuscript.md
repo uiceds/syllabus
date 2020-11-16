@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-11-10'
+date-meta: '2020-11-16'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-11-10" />
+  <meta name="dc.date" content="2020-11-16" />
 
-  <meta name="citation_publication_date" content="2020-11-10" />
+  <meta name="citation_publication_date" content="2020-11-16" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4367f8fcb0defaa67a1a9c0f5d63e224c7dc7111/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/26a0380c42e226332d0399786a16098cefb62387/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4367f8fcb0defaa67a1a9c0f5d63e224c7dc7111/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/26a0380c42e226332d0399786a16098cefb62387/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4367f8fcb0defaa67a1a9c0f5d63e224c7dc7111/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/26a0380c42e226332d0399786a16098cefb62387/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -911,7 +911,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 13 Topics for Zoom Meetings
 
 
-* Tue 11/17/2020, 12:00 CST: 
+* Tue 11/17/2020, 12:00 CST: Random forests ([Notebook](https://www.kaggle.com/christophertessum/module-13-class-1))
 * Thu 11/19/2020, 12:00 CST: 
 
 
