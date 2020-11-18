@@ -175,7 +175,8 @@ content/04.modules.md:569:CEE
 content/04.modules.md:585:prairielearn
 content/04.modules.md:586:homeworks
 content/04.modules.md:593:kaggle
-content/04.modules.md:629:dataset
+content/04.modules.md:609:Equivariance
+content/04.modules.md:633:dataset
 content/06.rubrics.md:52:timeframe
 content/07.project.md:3:relevent
 content/07.project.md:6:kaggle

@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-11-16'
+date-meta: '2020-11-18'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-11-16" />
+  <meta name="dc.date" content="2020-11-18" />
 
-  <meta name="citation_publication_date" content="2020-11-16" />
+  <meta name="citation_publication_date" content="2020-11-18" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/26a0380c42e226332d0399786a16098cefb62387/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8a90b0998bed04eab1b63c203d74b89e6709cdca/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/26a0380c42e226332d0399786a16098cefb62387/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8a90b0998bed04eab1b63c203d74b89e6709cdca/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/26a0380c42e226332d0399786a16098cefb62387/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8a90b0998bed04eab1b63c203d74b89e6709cdca/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -924,6 +924,10 @@ Happy Thanksgiving
 
 
 
+#### Module 14 Readings and Lectures
+
+* Optional: [Machine learning for fluid dynamics](https://www.youtube.com/watch?v=8e3OT2K99Kw)
+* Optional: [Symmetry and Equivariance in neural networks](https://youtu.be/8s0Ka6Y_kIM)
 
 
 
