@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8a90b0998bed04eab1b63c203d74b89e6709cdca/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/7e96078eec417a1d6af789d78b5d712993efc587/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8a90b0998bed04eab1b63c203d74b89e6709cdca/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/7e96078eec417a1d6af789d78b5d712993efc587/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8a90b0998bed04eab1b63c203d74b89e6709cdca/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/7e96078eec417a1d6af789d78b5d712993efc587/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -374,7 +374,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | -- | -- | -- |
 | [Project literature review](#project-literature-review) | 9/7/2020 | Sun 9/27/2020, 23:59 CDT
 | [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Sun 10/25/2020, 23:59 CDT
-| [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Sun 11/22/2020, 23:59 CST
+| [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Sun 11/29/2020, 23:59 CST
 | [Project Group Final Presentation](#project-group-final-presentation) | 11/2/2020 | Sun 11/29/2020, 23:59 CST
 | [Project Group Final Report](#project-group-final-report) | 11/9/2020 | Sun 12/6/2020, 23:59 CST
 

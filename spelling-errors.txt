@@ -12,8 +12,8 @@ Chuq
 CITL
 convolutional
 csv
-dataset
-Datasets
+Dataset
+datasets
 datset
 deliverables
 DRES
@@ -33,7 +33,7 @@ geotiff
 gridded
 GRU’s
 gtfs
-Homeworks
+homeworks
 interpretable
 IPython
 jpg
@@ -67,4 +67,4 @@ UIUC
 underfits
 VisualData
 Von
-Xarray
+XArray
