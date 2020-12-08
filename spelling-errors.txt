@@ -10,9 +10,9 @@ CEE
 Champaign
 Chuq
 CITL
-convolutional
+Convolutional
 csv
-Dataset
+dataset
 datasets
 datset
 deliverables
@@ -33,7 +33,7 @@ geotiff
 gridded
 GRU’s
 gtfs
-homeworks
+Homeworks
 interpretable
 IPython
 jpg
@@ -67,4 +67,4 @@ UIUC
 underfits
 VisualData
 Von
-XArray
+Xarray

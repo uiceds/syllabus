@@ -1,7 +1,7 @@
 ---
 author-meta: []
 bibliography: []
-date-meta: '2020-11-18'
+date-meta: '2020-12-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,9 +20,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
 
-  <meta name="dc.date" content="2020-11-18" />
+  <meta name="dc.date" content="2020-12-08" />
 
-  <meta name="citation_publication_date" content="2020-11-18" />
+  <meta name="citation_publication_date" content="2020-12-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/7e96078eec417a1d6af789d78b5d712993efc587/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/18bdcac00e03d0bce4ddc03c3e8135d601c2021f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/7e96078eec417a1d6af789d78b5d712993efc587/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/18bdcac00e03d0bce4ddc03c3e8135d601c2021f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/7e96078eec417a1d6af789d78b5d712993efc587/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/18bdcac00e03d0bce4ddc03c3e8135d601c2021f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -757,8 +757,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 9 Topics for Zoom Meetings
 
 
-* Tue 10/20/2020, 12:00 CDT: Linear regression ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-1-airplanes))
-* Thu 10/22/2020, 12:00 CDT: Linear regression part 2 ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-2-airplanes))
+* Tue 10/20/2020, 12:00 CDT: Linear regression ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-1-airplanes-result))
+* Thu 10/22/2020, 12:00 CDT: Linear regression part 2 ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-2-airplanes-result))
 
 
 
@@ -792,8 +792,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 10 Topics for Zoom Meetings
 
 
-* Tue 10/27/2020, 12:00 CDT: Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-1-airplanes))
-* Thu 10/29/2020, 12:00 CDT: Regularization ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-2-regularization))
+* Tue 10/27/2020, 12:00 CDT: Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-1-airplanes-result))
+* Thu 10/29/2020, 12:00 CDT: Regularization ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-2-regularization-result))
 
 
 
@@ -828,7 +828,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 * Tue 11/3/2020, 12:00 CST: Remember to vote! ([class canceled](https://education.illinois.edu/about/news-events/news/article/2020/07/15/statewide-election-day-holiday-no-classes-on-tuesday,-november-3,-2020))
-* Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-11-class-1-cars))
+* Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-11-class-1-cars-result))
 
 
 
@@ -869,8 +869,8 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 12 Topics for Zoom Meetings
 
 
-* Tue 11/10/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage))
-* Thu 11/12/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage))
+* Tue 11/10/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage-result))
+* Thu 11/12/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage-result))
 
 
 
@@ -911,7 +911,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 #### Module 13 Topics for Zoom Meetings
 
 
-* Tue 11/17/2020, 12:00 CST: Random forests ([Notebook](https://www.kaggle.com/christophertessum/module-13-class-1))
+* Tue 11/17/2020, 12:00 CST: Random forests ([Notebook](https://www.kaggle.com/christophertessum/module-13-class-1-result))
 * Thu 11/19/2020, 12:00 CST: 
 
 
