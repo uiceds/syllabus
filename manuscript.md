@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/18bdcac00e03d0bce4ddc03c3e8135d601c2021f/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2890f8882cbbfdcd0c09c7ea883f883f30940021/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/18bdcac00e03d0bce4ddc03c3e8135d601c2021f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2890f8882cbbfdcd0c09c7ea883f883f30940021/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/18bdcac00e03d0bce4ddc03c3e8135d601c2021f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2890f8882cbbfdcd0c09c7ea883f883f30940021/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -828,7 +828,7 @@ General information about homework assignments is [here](#homeworks-and-exams).
 
 
 * Tue 11/3/2020, 12:00 CST: Remember to vote! ([class canceled](https://education.illinois.edu/about/news-events/news/article/2020/07/15/statewide-election-day-holiday-no-classes-on-tuesday,-november-3,-2020))
-* Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-11-class-1-cars-result))
+* Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/homework-11-result))
 
 
 

@@ -10,10 +10,10 @@ CEE
 Champaign
 Chuq
 CITL
-Convolutional
+convolutional
 csv
 dataset
-datasets
+Datasets
 datset
 deliverables
 DRES
@@ -28,7 +28,7 @@ excercises
 explainer
 expoloratory
 extenstive
-Geopandas
+GeoPandas
 geotiff
 gridded
 GRU’s
@@ -37,7 +37,7 @@ Homeworks
 interpretable
 IPython
 jpg
-kaggle
+Kaggle
 Karpathy
 LSTM
 LSTM’s
@@ -67,4 +67,4 @@ UIUC
 underfits
 VisualData
 Von
-Xarray
+XArray
