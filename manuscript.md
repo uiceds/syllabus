@@ -48,11 +48,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/169ff1273bdf3b01b6eace5fc074723b4f2dd07a/" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/0c028fb293089606e10b87105789ed4307803fd8/" />
 
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/169ff1273bdf3b01b6eace5fc074723b4f2dd07a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/0c028fb293089606e10b87105789ed4307803fd8/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/169ff1273bdf3b01b6eace5fc074723b4f2dd07a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/0c028fb293089606e10b87105789ed4307803fd8/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -329,54 +329,35 @@ The University of Illinois strives to promote student success through the suppor
 
 | Module | Title | Start Date |
 | -- | -- | -- |
-| 1 | [Open Reproducible Science](#module-1-open-reproducible-science) | 8/24/2020
-| 2 | [Data science topics for Civil and Environmental Engineering](#module-2-data-science-topics-for-civil-and-environmental-engineering) | 8/31/2020
-| 3 | [Programming review](#module-3-programming-review) | 9/7/2020
-| 4 | [Data](#module-4-data) | 9/14/2020
-| 5 | [Exploratory data analysis (EDA)](#module-5-exploratory-data-analysis-eda) | 9/21/2020
-| 6 | [Network analysis](#module-6-network-analysis) | 9/28/2020
-| 7 | [Spatial data](#module-7-spatial-data) | 10/5/2020
-| 8 | [Midterm](#module-8-midterm) | 10/12/2020
-| 9 | [Intro to machine learning](#module-9-intro-to-machine-learning) | 10/19/2020
-| 10 | [Neural Networks](#module-10-neural-networks) | 10/26/2020
-| 11 | [Convolutional Neural Networks](#module-11-convolutional-neural-networks) | 11/2/2020
-| 12 | [Neural Networks for Sequences](#module-12-neural-networks-for-sequences) | 11/9/2020
-| 13 | [Random forests](#module-13-random-forests) | 11/16/2020
-| 14 | [Fall Break](#module-14-fall-break) | 11/23/2020
-| 15 | [Final project presentations](#module-15-final-project-presentations) | 11/30/2020
+| 0 | [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/24/2021
+| 1 | [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/26/2021
+| 2 | [Open reproducible science](#module-2-open-reproducible-science) | 9/2/2021
+| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/14/2021
+| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/21/2021
+| 5 | [Regression](#module-5-regression) | 9/28/2021
+| 6 | [Regularization and model fit 1](#module-6-regularization-and-model-fit-1) | 10/7/2021
+| 7 | [Regularization and model fit 2](#module-7-regularization-and-model-fit-2) | 10/14/2021
+| 8 | [Machine learning](#module-8-machine-learning) | 10/21/2021
+| 9 | [Neural networks 1](#module-9-neural-networks-1) | 11/2/2021
+| 10 | [Neural networks 2](#module-10-neural-networks-2) | 11/9/2021
+| 11 | [Data-driven dynamical systems](#module-11-data-driven-dynamical-systems) | 11/16/2021
+| -1 | [Fall break](#module--1-fall-break) | 11/23/2021
+| 12 | [Final projects](#module-12-final-projects) | 11/30/2021
 
 ### Discussions
 
 | Title | Assigned | Initial Post Due | Response Posts Due |
 | -- | -- | -- | -- |
-| [Open Reproducible Science](#module-1-discussion) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Tue 9/1/2020, 12:00 CDT
-| [Data science topics for Civil and Environmental Engineering](#module-2-discussion) | 8/24/2020 | Tue 9/1/2020, 12:00 CDT | Thu 9/3/2020, 12:00 CDT
 
 ### Homeworks
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| [Open Reproducible Science](#module-1-homework) | 8/24/2020 | Thu 8/27/2020, 12:00 CDT | Sun 9/6/2020, 23:59 CDT | Sun 9/20/2020, 23:59 CDT |
-| [Programming review](#module-3-homework) | 8/31/2020 | Tue 9/8/2020, 12:00 CDT | Sun 9/13/2020, 23:59 CDT | Sun 9/27/2020, 23:59 CDT |
-| [Data](#module-4-homework) | 9/7/2020 | Tue 9/15/2020, 12:00 CDT | Sun 9/20/2020, 23:59 CDT | Sun 10/4/2020, 23:59 CDT |
-| [Exploratory data analysis (EDA)](#module-5-homework) | 9/14/2020 | Tue 9/22/2020, 12:00 CDT | Sun 9/27/2020, 23:59 CDT | Sun 10/11/2020, 23:59 CDT |
-| [Network analysis](#module-6-homework) | 9/21/2020 | Tue 9/29/2020, 12:00 CDT | Sun 10/4/2020, 23:59 CDT | Sun 10/18/2020, 23:59 CDT |
-| [Spatial data](#module-7-homework) | 9/28/2020 | Tue 10/6/2020, 12:00 CDT | Sun 10/11/2020, 23:59 CDT | Sun 10/25/2020, 23:59 CDT |
-| [Intro to machine learning](#module-9-homework) | 10/12/2020 | Tue 10/20/2020, 12:00 CDT | Sun 10/25/2020, 23:59 CDT | Sun 11/8/2020, 23:59 CST |
-| [Neural Networks](#module-10-homework) | 10/19/2020 | Tue 10/27/2020, 12:00 CDT | Sun 11/1/2020, 23:59 CST | Sun 11/15/2020, 23:59 CST |
-| [Convolutional Neural Networks](#module-11-homework) | 10/26/2020 | Tue 11/3/2020, 12:00 CST | Sun 11/8/2020, 23:59 CST | Sun 11/22/2020, 23:59 CST |
-| [Neural Networks for Sequences](#module-12-homework) | 11/2/2020 | Tue 11/10/2020, 12:00 CST | Sun 11/15/2020, 23:59 CST | Sun 11/29/2020, 23:59 CST |
-| [Random forests](#module-13-homework) | 11/9/2020 | Tue 11/17/2020, 12:00 CST | Sun 11/22/2020, 23:59 CST | Sun 12/6/2020, 23:59 CST |
 
 ### Project Assignments
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| [Project literature review](#project-literature-review) | 9/7/2020 | Sun 9/27/2020, 23:59 CDT
-| [Project exploratory data analysis](#project-exploratory-data-analysis) | 9/21/2020 | Sun 10/25/2020, 23:59 CDT
-| [Project Kaggle Competition](#project-kaggle-competition) | 10/12/2020 | Sun 11/29/2020, 23:59 CST
-| [Project Group Final Presentation](#project-group-final-presentation) | 11/2/2020 | Sun 11/29/2020, 23:59 CST
-| [Project Group Final Report](#project-group-final-report) | 11/9/2020 | Sun 12/6/2020, 23:59 CST
 
 ### Exams
 
@@ -387,330 +368,186 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 ## Modules
 
 
-### Module 1: Open Reproducible Science
+### Module 0: Introduction and motivating problems
+
+#### Module 0 Overview
+In this module we will get to know each other and cover the format of the course, its contents, and expectations.
+
+
+
+
+
+
+
+
+
+#### Module 0 Topics for Zoom Meetings
+
+
+* Thu 8/26/2021, 12:00 CDT: Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
+
+
+
+
+### Module 1: Linear algebra review and intro to the Julia Language
 
 #### Module 1 Overview
-This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
-
-#### Module 1 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* List the Bash commands for doing different computer operations
-* Describe how to organize data files to improve transparency and reproducibility
-* Define the syntax for the Markdown text formatting language
-* List the Git and GitHub commands and operations for performing different operations
+In this course, we will use two key tools: linear algebra and the Julia programming language. 
+		You should already be familiar with linear algebra, so we will only briefly review it here. 
+		You're not expected to know anything about the Julia language before starting this class, but you are
+		expected to have completed a basic computer programming class (similar to CS101) using some computing language.
 
 
-#### Module 1 Readings and Lectures
-Develop your answers to the discussion questions below while completing the readings and lectures.
-
-* [Introduction to Earth Data Science Chapter 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/get-started-open-reproducible-science/)
-* [Introduction to Earth Data Science Chapter 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/)
-* [Introduction to Earth Data Science Chapter 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/jupyter-python/)
-* [Andrej Karpathy: Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
-* [NOVA: What Makes Science True?](https://www.youtube.com/watch?v=NGFO0kdbZmk&feature=youtu.be)
 
 
-#### Module 1 Discussion
-
-This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
-Consider the following questions:
-
-  * What does it mean to practice open and reproducible science, and how could you apply it to your academic or professional life?
-  * Although the readings and NOVA video mainly refer to academic science, how could they be relevant to science practiced in industry?
-  * For the "Software 2.0" essay: What is the author talking about? Instead of trying to understand every detail in the essay (although by the end of the semester you should be able to understand a lot of it), focus on the main message: What is Software 2.0 and what are its implications for how science is carried out?
 
 
-Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/forum?action=list_threads&course_id=_52490_1&nav=discussion_board_entry&conf_id=_260881_1&forum_id=_442877_1) and make one initial post and two responses.
-Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
 
-**The initial post for this module are due by Thu 8/27/2020, 12:00 CDT and all response posts are due by Tue 9/1/2020, 12:00 CDT.**
 
-#### Module 1 Homework
-The homework for Module 1 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2215179/).
-General information about homework assignments is [here](#homeworks-and-exams).
-
-**The homework for this module is due by Thu 8/27/2020, 12:00 CDT for 110% credit, by Sun 9/6/2020, 23:59 CDT for 100% credit, and by Sun 9/20/2020, 23:59 CDT for 80% credit.**
 
 #### Module 1 Topics for Zoom Meetings
 
 
-* Tue 8/25/2020, 12:00 CDT: Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
-* Thu 8/27/2020, 12:00 CDT: Discussion of readings and technology check: installing Python and related tools ([notes](https://github.com/uiceds/syllabus/blob/master/modules/module1/demo/README.md))
+* Tue 8/31/2021, 12:00 CDT: The Julia language: variables, strings, and data structures
+* Thu 9/2/2021, 12:00 CDT: The Julia language: loops, conditionals, and functions
 
 
 
 
-### Module 2: Data science topics for Civil and Environmental Engineering
+### Module 2: Open reproducible science
 
 #### Module 2 Overview
-In this module we will learn the types of Civil and Environmental Engineering problems that data science and machine learning can help to answer, and begin to think about topics for course projects.
-
-#### Module 2 Learning Objectives
-
-By the end of this module, you should be able to:
+This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
 
 
-* interpret how data science can be used in support of CEE
-* formulate a data science problem statement
-* describe a strategy for solving the problem
 
 
-#### Module 2 Readings and Lectures
-Develop your answers to the discussion questions below while completing the readings and lectures.
-
-* [Deep Learning State of the Art (This is an introduction to what is currently possible with data science)](https://www.youtube.com/watch?v=0VH1Lim8gL8&feature=emb_logo)
-* [Tackling Climate Change with Machine Learning](https://arxiv.org/pdf/1906.05433.pdf)
-* [Kaggle data science competitions](https://www.kaggle.com/)
-* [Earth Engine Case Studies](https://earthengine.google.com/case_studies/)
-* [OpenAQ.org](https://openaq.org/)
-* [CACES air quality data](https://www.caces.us/data)
-* [EIA Energy Data](https://www.eia.gov/)
-* [UCI Machine Learning Datasets](https://archive.ics.uci.edu/ml/datasets.php)
-* [Dataset for defect detection in Concrete](https://zenodo.org/record/2620293#.X0Gbd2jYpaY)
-* [Best Datasets for Machine Learning Data Science](https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)
-* [VisualData Dataset Discovery](https://www.visualdata.io/discovery)
 
 
-#### Module 2 Discussion
-
-This module includes a discussion section to help you understand by articulating how the module content could be useful in your professional life.
-Consider the following questions:
-
-  * A big part of this course will be a semester-long project, where you will use a dataset to answer a question relevant to Civil or Environmental Engineering. What are some ideas you have for course projects, how are they related to Civil or Environmental Engineering, why do you think they would be useful, and what dataset would they be based on?
-
-
-Log in to the [module discussion forum](https://compass2g.illinois.edu/webapps/discussionboard/do/conference?action=list_forums&course_id=_52490_1&conf_id=260881&nav=discussion_board_entry) and make one initial post and two responses.
-Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instructions-and-rubric) for instructions how to compose posts to the discussion forum, and how they will be graded.
-
-**The initial post for this module are due by Tue 9/1/2020, 12:00 CDT and all response posts are due by Thu 9/3/2020, 12:00 CDT.**
 
 
 
 #### Module 2 Topics for Zoom Meetings
 
 
-* Tue 9/1/2020, 12:00 CDT: Project introduction, brainstorming, and proposals (slides)[https://docs.google.com/presentation/d/1MjCbv3tA5FBN5Pu2rU670q1lk-aeQ1qmYR2vg8ai7j8/edit?usp=sharing]
-* Thu 9/3/2020, 12:00 CDT: Group discussion regarding project topics
+* Tue 9/7/2021, 12:00 CDT: Git & GitHub for reproduceable science
+* Thu 9/9/2021, 12:00 CDT: Data cleaning & visualization
+* Tue 9/14/2021, 12:00 CDT: Exploratory data analysis
 
 
 
 
-### Module 3: Programming review
-
-#### Module 3 Overview
-This course makes extensive use of the Python programming language. By brushing up on our Python skills now, we will make the rest of the course easier.
-
-#### Module 3 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Express abstract concepts using Python syntax
-* Solve mathematical problems using Python
-
-
-#### Module 3 Readings and Lectures
-
-* Complete the tutorials at https://learnpython.org, including those under 'Learn the Basics', 'Data Science Tutorials', and 'Advanced Tutorials'. These readings may not include all the information you need to complete the homework, which will allow you to practice researching concepts on the internet.
+### Module 3: Singular value decomposition and principle component analysis
 
 
 
 
-#### Module 3 Homework
-The homework for Module 3 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment/2143524).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/8/2020, 12:00 CDT for 110% credit, by Sun 9/13/2020, 23:59 CDT for 100% credit, and by Sun 9/27/2020, 23:59 CDT for 80% credit.**
+
+
+
+
+
 
 #### Module 3 Topics for Zoom Meetings
 
 
-* Tue 9/8/2020, 12:00 CDT: Practice excercises and Q&A. [Practice excercises](https://nbviewer.jupyter.org/github/uiceds/syllabus/blob/master/modules/module3/module3_practice_problems.ipynb)
-* Thu 9/10/2020, 12:00 CDT: Practice excercises and literature review intro. [Slides](https://docs.google.com/presentation/d/1Hfy4NOrFLEKLOMLBpgyv_hUIUpP82ohYDSDw9HIOThY/edit?usp=sharing)
+* Thu 9/16/2021, 12:00 CDT: Singular value decomposition: theory
+* Tue 9/21/2021, 12:00 CDT: Singular value decomposition: uses
 
 
 
 
-#### Module 3 Project Assignment
-Project literature review
-
-### Module 4: Data
-
-#### Module 4 Overview
-Data relevant to Civil and Environmental Engineering comes in a number of different formats, including: 
-		
-* Tabular data (csv, excel): Rows represent observations, columns represent properties
-* Raster/image data ([geotiff](https://en.wikipedia.org/wiki/GeoTIFF), [NetCDF](https://www.unidata.ucar.edu/software/netcdf/), png, jpg)
-* graph data ([dot](https://gephi.org/users/supported-graph-formats/graphviz-dot-format/), [gtfs](https://gtfs.org/))
-
-#### Module 4 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Specify information as tabular, raster, and graph data
-* Use software tools to load and manipulate tabular, raster, and graph data
-
-
-#### Module 4 Readings and Lectures
-
-* [tabular data](http://vita.had.co.nz/papers/tidy-data.pdf)
-* [Pandas for tabular data](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python)
-* [graph data structure](https://www.youtube.com/watch?v=gXgEDyodOJU)
-* [graph properties](https://www.youtube.com/watch?v=AfYqN3fGapc)
-* [graph lecture notes](http://www.cs.cmu.edu/afs/cs/academic/class/15210-f13/www/lectures/lecture09.pdf)
-* [image data](https://www.youtube.com/watch?v=UhDlL-tLT2U&list=PLuh62Q4Sv7BUf60vkjePfcOQc8sHxmnDX)
-* [pillow image processing](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
+### Module 4: Fourier and wavelet transforms
 
 
 
 
-#### Module 4 Homework
-The homework for Module 4 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1700831).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/15/2020, 12:00 CDT for 110% credit, by Sun 9/20/2020, 23:59 CDT for 100% credit, and by Sun 10/4/2020, 23:59 CDT for 80% credit.**
+
+
+
+
+
 
 #### Module 4 Topics for Zoom Meetings
 
 
-* Tue 9/15/2020, 12:00 CDT: Group exercises [slides](https://docs.google.com/presentation/d/1SlC4bTehrP4cFuaSv36IMovJU24BMFbyEJthm8eooio/edit?usp=sharing)
-* Thu 9/17/2020, 12:00 CDT: [Guided exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-1-result) and [group exercise](https://www.kaggle.com/christophertessum/module-4-class-2-exercise-2-result)
+* Thu 9/23/2021, 12:00 CDT: Fourier transforms: theory
+* Tue 9/28/2021, 12:00 CDT: Fourier transforms: applications
 
 
 
 
-### Module 5: Exploratory data analysis (EDA)
-
-#### Module 5 Overview
-The first step in a data science project is getting a feel for the dataset you are working with. This is called Exploratory Data Analysis (EDA).
-
-#### Module 5 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Calculate relevant statistical properties of an unfamiliar dataset
-* Visualize an unfamiliar dataset and describe its relevant properties
-
-
-#### Module 5 Readings and Lectures
-
-* [Exploratory Data Analysis](https://www.youtube.com/watch?v=zHcQPKP6NpM)
-* [Exploratory Data Analysis in Pandas](https://youtu.be/WNoQTNOME5g?t=480) watch time 8:00 to 20:30
-* mlcourse.ai notebooks [1](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/), [2.1](https://mlcourse.ai/articles/topic2-visual-data-analysis-in-python/) and [2.2](https://mlcourse.ai/articles/topic2-part2-seaborn-plotly/)
+### Module 5: Regression
 
 
 
 
-#### Module 5 Homework
-The homework for Module 5 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1757363).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/22/2020, 12:00 CDT for 110% credit, by Sun 9/27/2020, 23:59 CDT for 100% credit, and by Sun 10/11/2020, 23:59 CDT for 80% credit.**
+
+
+
+
+
 
 #### Module 5 Topics for Zoom Meetings
 
 
-* Tue 9/22/2020, 12:00 CDT: Practice project EDA [Notebook](https://www.kaggle.com/christophertessum/module-5-class-1-airplanes-result)
-* Thu 9/24/2020, 12:00 CDT: Image processing [Notebook](https://www.kaggle.com/christophertessum/module-5-class-2-ships-result)
+* Thu 9/30/2021, 12:00 CDT: Classic Curve Fitting and Least-Squares Regression
+* Tue 10/5/2021, 12:00 CDT: Nonlinear Regression and Gradient Descent
+* Thu 10/7/2021, 12:00 CDT: Over- and Under-determined Systems (Also: Project check-in)
 
 
 
 
-#### Module 5 Project Assignment
-Project exploratory data analysis
-
-### Module 6: Network analysis
-
-#### Module 6 Overview
-In the previous module we learned how to do exploratory data analysis for tabular data. 
-This week we will work on exploratory data analysis for graph (network) data.
-
-#### Module 6 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Load and manipulate graph data using the `networkx` python library
-* Perform basic statistical analysis of graph data
-
-
-#### Module 6 Readings and Lectures
-
-* [Game of Thrones: Network Analysis](https://www.kaggle.com/mmmarchetti/game-of-thrones-network-analysis)
-* [Networkx introduction](https://networkx.github.io/documentation/stable/reference/introduction.html)
-* Networkx [betweenness centrality](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.betweenness_centrality.html#networkx.algorithms.centrality.betweenness_centrality), [degree centrality](https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.degree_centrality.html#networkx.algorithms.centrality.degree_centrality), and [shortest path](https://networkx.github.io/documentation/stable/reference/algorithms/shortest_paths.html)
+### Module 6: Regularization and model fit 1
 
 
 
 
-#### Module 6 Homework
-The homework for Module 6 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 9/29/2020, 12:00 CDT for 110% credit, by Sun 10/4/2020, 23:59 CDT for 100% credit, and by Sun 10/18/2020, 23:59 CDT for 80% credit.**
+
+
+
+
+
 
 #### Module 6 Topics for Zoom Meetings
 
 
-* Tue 9/29/2020, 12:00 CDT: Network analysis exercise ([Notebook](https://www.kaggle.com/christophertessum/module-6-class-1-airplanes-result))
-* Thu 10/1/2020, 12:00 CDT: Midterm review
+* Tue 10/12/2021, 12:00 CDT: Optimization for Regressions
+* Thu 10/14/2021, 12:00 CDT: The Pareto Front and Parsimonious Models
 
 
 
 
-### Module 7: Spatial data
-
-#### Module 7 Overview
-Many Civil and Environmental Engineering analyses—for example transportation networks or environmental data—have 
-a spatial component. This week we will work with spatial data.
-
-#### Module 7 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Analyze raster (gridded) data using the XArray library
-* Analyze vector (point, line, or polygon) data using the GeoPandas library
-
-
-#### Module 7 Readings and Lectures
-
-* [Xarray tutorial](https://www.youtube.com/playlist?list=PLTJsu1ustEMbVgE6SivbF17XvWmb3hqoR) videos 1–8. If you want to follow along, the link to the dataset they use in the video is broken, but there is another copy [here](https://esgf.nci.org.au/thredds/fileServer/master/CMIP5/output1/CSIRO-BOM/ACCESS1-3/historical/mon/atmos/Amon/r1i1p1/v20120413/tas/tas_Amon_ACCESS1-3_historical_r1i1p1_185001-200512.nc)
-* [Intro to Geopandas](https://www.youtube.com/playlist?list=PLewNEVDy7gq3DjrPDxGFLbHE4G2QWe8Qh) videos 1, 3–14 (video 2 is installation, which you can do with anaconda)
-* (In these and all video lectures, you can adjust the playback speed by clicking 'Settings' in the lower-right corner of the playback window.)
+### Module 7: Regularization and model fit 2
 
 
 
 
-#### Module 7 Homework
-The homework for Module 7 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1837345).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/6/2020, 12:00 CDT for 110% credit, by Sun 10/11/2020, 23:59 CDT for 100% credit, and by Sun 10/25/2020, 23:59 CDT for 80% credit.**
+
+
+
+
+
 
 #### Module 7 Topics for Zoom Meetings
 
 
-* Tue 10/6/2020, 12:00 CDT: Geopandas ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-1-airplanes-result))
-* Thu 10/8/2020, 12:00 CDT: Xarray ([Notebook](https://www.kaggle.com/christophertessum/module-7-class-2-ds4g-result))
+* Tue 10/19/2021, 12:00 CDT: Model Selection and Cross-Validation
+* Thu 10/21/2021, 12:00 CDT: Feature Selection and Data Mining
 
 
 
 
-### Module 8: Midterm
+### Module 8: Machine learning
 
 
 
-#### Module 8 Learning Objectives
 
-By the end of this module, you should be able to:
-
-Access, characterize, and visualize the data for their projects
 
 
 
@@ -721,250 +558,115 @@ Access, characterize, and visualize the data for their projects
 #### Module 8 Topics for Zoom Meetings
 
 
-* Tue 10/13/2020, 12:00 CDT: Midterm course eval, project questions, visualizations
-* Thu 10/15/2020, 12:00 CDT: Midterm Exam and project support
+* Tue 10/26/2021, 12:00 CDT: Supervised versus Unsupervised Learning
+* Thu 10/28/2021, 12:00 CDT: Unsupervised Learning - k-Means Clustering
+* Tue 11/2/2021, 12:00 CDT: Supervised Learning - Classification Trees
 
 
 
 
-#### Module 8 Project Assignment
-Project Kaggle Competition
-
-### Module 9: Intro to machine learning
-
-#### Module 9 Overview
-This week we will cover the basics of machine learning, including gradient descent, generalization, representation, and regularization.
-
-#### Module 9 Learning Objectives
-
-By the end of this module, you should be able to:
-
-apply fundamental machine learning concepts
-
-#### Module 9 Readings and Lectures
-
-* [Google machine learning crash course](https://developers.google.com/machine-learning/crash-course), starting with 'Introduction to ML' and ending after 'Regularization: Sparsity'
+### Module 9: Neural networks 1
 
 
 
 
-#### Module 9 Homework
-The homework for Module 9 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1924211/).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/20/2020, 12:00 CDT for 110% credit, by Sun 10/25/2020, 23:59 CDT for 100% credit, and by Sun 11/8/2020, 23:59 CST for 80% credit.**
+
+
+
+
+
 
 #### Module 9 Topics for Zoom Meetings
 
 
-* Tue 10/20/2020, 12:00 CDT: Linear regression ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-1-airplanes-result))
-* Thu 10/22/2020, 12:00 CDT: Linear regression part 2 ([Notebook](https://www.kaggle.com/christophertessum/module-9-class-2-airplanes-result))
+* Thu 11/4/2021, 12:00 CDT: Basics of Neural Networks
+* Tue 11/9/2021, 12:00 CST: Neural networks and activation functions
 
 
 
 
-### Module 10: Neural Networks
-
-
-
-#### Module 10 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Train a neural network to make predictions about CEE datasets
-* Identify and debug common problems with neural network training
-
-
-#### Module 10 Readings and Lectures
-
-* [Google machine learning crash course](https://developers.google.com/machine-learning/crash-course), starting with 'Logistic Regression' and ending after 'Training Neural Nets'
+### Module 10: Neural networks 2
 
 
 
 
-#### Module 10 Homework
-The homework for Module 10 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessments).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 10/27/2020, 12:00 CDT for 110% credit, by Sun 11/1/2020, 23:59 CST for 100% credit, and by Sun 11/15/2020, 23:59 CST for 80% credit.**
+
+
+
+
+
 
 #### Module 10 Topics for Zoom Meetings
 
 
-* Tue 10/27/2020, 12:00 CDT: Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-1-airplanes-result))
-* Thu 10/29/2020, 12:00 CDT: Regularization ([Notebook](https://www.kaggle.com/christophertessum/module-10-class-2-regularization-result))
+* Thu 11/11/2021, 12:00 CST: The backpropagation algorithm
+* Tue 11/16/2021, 12:00 CST: The stochastic gradient descent algorithm
 
 
 
 
-### Module 11: Convolutional Neural Networks
-
-#### Module 11 Overview
-This week we will learn about convolutional neural networks for computer vision. Training these neural networks from scratch is computationally- and data-intensive, but good results can be achieved with less time and data using a technique called transfer learning.
-
-#### Module 11 Learning Objectives
-
-By the end of this module, you should be able to:
-
-Apply transfer learning to solve computer vision problems
-
-#### Module 11 Readings and Lectures
-
-* [Convolutional neural network explainer](https://poloclub.github.io/cnn-explainer/)
-* [Transfer learning video](https://youtu.be/yofjFQddwHE)
-* [Transfer learning notebook](https://keras.io/guides/transfer_learning/)
+### Module 11: Data-driven dynamical systems
 
 
 
 
-#### Module 11 Homework
-The homework for Module 11 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/1993504).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 11/3/2020, 12:00 CST for 110% credit, by Sun 11/8/2020, 23:59 CST for 100% credit, and by Sun 11/22/2020, 23:59 CST for 80% credit.**
+
+
+
+
+
 
 #### Module 11 Topics for Zoom Meetings
 
 
-* Tue 11/3/2020, 12:00 CST: Remember to vote! ([class canceled](https://education.illinois.edu/about/news-events/news/article/2020/07/15/statewide-election-day-holiday-no-classes-on-tuesday,-november-3,-2020))
-* Thu 11/5/2020, 12:00 CST: Convolutional Neural Networks ([Notebook](https://www.kaggle.com/christophertessum/homework-11-result))
+* Thu 11/18/2021, 12:00 CST: Parameter fitting for dynamical systems
+* Tue 11/23/2021, 12:00 CST: Neural network parameterization of dynamical systems (Neural ODEs)
 
 
 
 
-#### Module 11 Project Assignment
-Project Group Final Presentation
-
-### Module 12: Neural Networks for Sequences
-
-#### Module 12 Overview
-Time series data are common in civil and environmental engineering, and machine learning can be used to make future predictions, for example for weather and pollution forecasts and predictions of mechanical failure.
-
-#### Module 12 Learning Objectives
-
-By the end of this module, you should be able to:
-
-
-* Create recurrent neural networks for time series predictions
-* Apply recurrent neural networks to answer questions related to CEE
-
-
-#### Module 12 Readings and Lectures
-
-* [An illustrated guide to recurrent neural networks](https://youtu.be/LHXXI4-IEns)
-* [Illustrated guide to LSTM's and GRU's: A step by step explanation](https://www.youtube.com/watch?v=8HyCNIVRbSU)
-* [Understanding LSTM networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-* [Time series forecasting tutorial](https://www.tensorflow.org/tutorials/structured_data/time_series)
+### Module -1: Fall break
 
 
 
 
-#### Module 12 Homework
-The homework for Module 12 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/2040526).
-General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by Tue 11/10/2020, 12:00 CST for 110% credit, by Sun 11/15/2020, 23:59 CST for 100% credit, and by Sun 11/29/2020, 23:59 CST for 80% credit.**
+
+
+
+
+
+
+#### Module -1 Topics for Zoom Meetings
+
+
+* Thu 11/25/2021, 12:00 CST: Fall break
+* Tue 11/30/2021, 12:00 CST: Fall break
+
+
+
+
+### Module 12: Final projects
+
+
+
+
+
+
+
+
+
+
 
 #### Module 12 Topics for Zoom Meetings
 
 
-* Tue 11/10/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage-result))
-* Thu 11/12/2020, 12:00 CST: LSTM for damage detection ([Notebook](https://www.kaggle.com/christophertessum/module-12-class-1-jet-engine-damage-result))
-
-
-
-
-#### Module 12 Project Assignment
-Project Group Final Report
-
-### Module 13: Random forests
-
-#### Module 13 Overview
-In addition to linear regression and neural networks, random forest models are another commonly used machine learning framework
-
-#### Module 13 Learning Objectives
-
-By the end of this module, you should be able to:
-
-Apply random forest models to answer questions related to CEE
-
-#### Module 13 Readings and Lectures
-
-* [Visual intro to decision trees part 1](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-* [Visual intro to decision trees part 2](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
-* [Decision trees](https://youtu.be/7VeUPuFGJHk)
-* [Regression trees](https://youtu.be/g9c66TUylZ4)
-* [Pruning regression trees](https://youtu.be/D0efHEJsfHo)
-* [Random forests part 1](https://youtu.be/J4Wdy0Wc_xQ)
-* [Random forests part 2](https://youtu.be/sQ870aTKqiM)
-
-
-
-
-#### Module 13 Homework
-The homework for Module 13 covers the required readings and lectures and is available [here](https://prairielearn.engr.illinois.edu/pl/course_instance/89830/assessment_instance/2065426).
-General information about homework assignments is [here](#homeworks-and-exams).
-
-**The homework for this module is due by Tue 11/17/2020, 12:00 CST for 110% credit, by Sun 11/22/2020, 23:59 CST for 100% credit, and by Sun 12/6/2020, 23:59 CST for 80% credit.**
-
-#### Module 13 Topics for Zoom Meetings
-
-
-* Tue 11/17/2020, 12:00 CST: Random forests ([Notebook](https://www.kaggle.com/christophertessum/module-13-class-1-result))
-* Thu 11/19/2020, 12:00 CST: 
-
-
-
-
-### Module 14: Fall Break
-
-#### Module 14 Overview
-Happy Thanksgiving
-
-
-
-#### Module 14 Readings and Lectures
-
-* Optional: [Machine learning for fluid dynamics](https://www.youtube.com/watch?v=8e3OT2K99Kw)
-* Optional: [Symmetry and Equivariance in neural networks](https://youtu.be/8s0Ka6Y_kIM)
-
-
-
-
-
-
-#### Module 14 Topics for Zoom Meetings
-
-
-* Tue 11/24/2020, 12:00 CST: No class
-* Thu 11/26/2020, 12:00 CST: No class
-
-
-
-
-### Module 15: Final project presentations
-
-
-
-#### Module 15 Learning Objectives
-
-By the end of this module, you should be able to:
-
-Students should have completed a project where they access and explore a civil or environmental dataset and use it to answer a scientific question.
-
-
-
-
-
-
-
-#### Module 15 Topics for Zoom Meetings
-
-
-* Tue 12/1/2020, 12:00 CST: Project presentations
-* Thu 12/3/2020, 12:00 CST: Project presentations
-* Tue 12/8/2020, 12:00 CST: Project presentations
+* Thu 12/2/2021, 12:00 CST: Project workshop
+* Tue 12/7/2021, 12:00 CST: Final project presentations
+* Thu 12/9/2021, 12:00 CST: Final project presentations
 
 
 
