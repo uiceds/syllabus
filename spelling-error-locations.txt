@@ -26,7 +26,6 @@ content/01.basic_information.md:100:PrairieLearn
 content/01.basic_information.md:114:IPython
 content/01.basic_information.md:114:NumPy
 content/01.basic_information.md:115:Scikit
-content/01.basic_information.md:115:TensorFlow
 content/02.policies.md:5:transphobia
 content/02.policies.md:7:aggressions
 content/02.policies.md:10:Champaign
@@ -40,7 +39,6 @@ content/02.policies.md:74:Rospach
 content/02.policies.md:74:Spafford
 content/02.policies.md:74:Von
 content/02.policies.md:84:else's
-content/02.policies.md:111:advisors
 content/04.modules.md:15:eda
 content/04.modules.md:15:EDA
 content/04.modules.md:21:convolutional
@@ -164,7 +162,6 @@ content/04.modules.md:535:GRU's
 content/04.modules.md:535:LSTM
 content/04.modules.md:535:LSTM's
 content/04.modules.md:536:LSTM
-content/04.modules.md:537:tensorflow
 content/04.modules.md:543:prairielearn
 content/04.modules.md:544:homeworks
 content/04.modules.md:551:kaggle
