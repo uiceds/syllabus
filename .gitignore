@@ -41,3 +41,10 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+
+## Generated Content
+content/04.modules.md
+
+## secrets
+credentials.json
+token.json

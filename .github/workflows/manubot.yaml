@@ -37,6 +37,10 @@ jobs:
           key: ci-cache-${{ github.ref }}
           restore-keys: |
             ci-cache-${{ env.DEFAULT_BRANCH_REF }}
+      - name: Install Go
+        uses: actions/setup-go@v2
+      - name: Render modules
+        run: cd content/ && go get && go run modules.go && cd ../
       - name: Install Environment
         uses: conda-incubator/setup-miniconda@v2
         with:
