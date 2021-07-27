@@ -1,90 +1,47 @@
 ---
-author-meta: []
-bibliography: []
-date-meta: '2021-07-26'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-
-  <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-
-  <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-
-  <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-
-  <meta name="dc.date" content="2021-07-26" />
-
-  <meta name="citation_publication_date" content="2021-07-26" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <link rel="canonical" href="https://uiceds.github.io/syllabus/" />
-
-  <meta property="og:url" content="https://uiceds.github.io/syllabus/" />
-
-  <meta property="twitter:url" content="https://uiceds.github.io/syllabus/" />
-
-  <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
-
-  <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/0c028fb293089606e10b87105789ed4307803fd8/" />
-
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/0c028fb293089606e10b87105789ed4307803fd8/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/0c028fb293089606e10b87105789ed4307803fd8/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 lang: en-US
-manubot-clear-requests-cache: false
+date-meta: '2021-07-27'
+author-meta: []
+header-includes: |-
+  <!--
+  Manubot generated metadata rendered from header-includes-template.html.
+  Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
+  -->
+  <meta name="dc.format" content="text/html" />
+  <meta name="dc.title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
+  <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
+  <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
+  <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
+  <meta name="dc.date" content="2021-07-27" />
+  <meta name="citation_publication_date" content="2021-07-27" />
+  <meta name="dc.language" content="en-US" />
+  <meta name="citation_language" content="en-US" />
+  <meta name="dc.relation.ispartof" content="Manubot" />
+  <meta name="dc.publisher" content="Manubot" />
+  <meta name="citation_journal_title" content="Manubot" />
+  <meta name="citation_technical_report_institution" content="Manubot" />
+  <link rel="canonical" href="https://uiceds.github.io/syllabus/" />
+  <meta property="og:url" content="https://uiceds.github.io/syllabus/" />
+  <meta property="twitter:url" content="https://uiceds.github.io/syllabus/" />
+  <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
+  <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/213cf6f0613e58ec2c74ac4cbaf7aee5e83632d3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/213cf6f0613e58ec2c74ac4cbaf7aee5e83632d3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/213cf6f0613e58ec2c74ac4cbaf7aee5e83632d3/manuscript.pdf" />
+  <meta property="og:type" content="article" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
+  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
+  <meta name="theme-color" content="#ad1457" />
+  <!-- end Manubot generated metadata -->
+bibliography: []
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: 'CEE 498DS: Data Science for CEE, Fall 2020'
+manubot-clear-requests-cache: false
 ...
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **THIS SYLLABUS IS SUBJECT TO CHANGE!** Please check back throughout the course.
 

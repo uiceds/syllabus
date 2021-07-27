@@ -17,10 +17,10 @@ EDA
 else’s
 expoloratory
 extenstive
-Homeworks
+homeworks
 interpretable
 IPython
-kaggle
+Kaggle
 Newmark
 NumPy
 overfits
