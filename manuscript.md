@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 lang: en-US
-date-meta: '2021-07-27'
+date-meta: '2021-08-17'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2021-07-27" />
-  <meta name="citation_publication_date" content="2021-07-27" />
+  <meta name="dc.date" content="2021-08-17" />
+  <meta name="citation_publication_date" content="2021-08-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/213cf6f0613e58ec2c74ac4cbaf7aee5e83632d3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/213cf6f0613e58ec2c74ac4cbaf7aee5e83632d3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/213cf6f0613e58ec2c74ac4cbaf7aee5e83632d3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/008fb1a5beb318100f0afdf74bd670b54849e082/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/008fb1a5beb318100f0afdf74bd670b54849e082/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/008fb1a5beb318100f0afdf74bd670b54849e082/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -288,23 +288,22 @@ The University of Illinois strives to promote student success through the suppor
 | -- | -- | -- |
 | 0 | [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/24/2021
 | 1 | [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/26/2021
-| 2 | [Open reproducible science](#module-2-open-reproducible-science) | 9/2/2021
-| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/14/2021
-| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/21/2021
-| 5 | [Regression](#module-5-regression) | 9/28/2021
-| 6 | [Regularization and model fit 1](#module-6-regularization-and-model-fit-1) | 10/7/2021
-| 7 | [Regularization and model fit 2](#module-7-regularization-and-model-fit-2) | 10/14/2021
-| 8 | [Machine learning](#module-8-machine-learning) | 10/21/2021
-| 9 | [Neural networks 1](#module-9-neural-networks-1) | 11/2/2021
-| 10 | [Neural networks 2](#module-10-neural-networks-2) | 11/9/2021
-| 11 | [Data-driven dynamical systems](#module-11-data-driven-dynamical-systems) | 11/16/2021
+| 2 | [Open reproducible science](#module-2-open-reproducible-science) | 9/7/2021
+| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/21/2021
+| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/28/2021
+| 5 | [Regression](#module-5-regression) | 10/12/2021
+| 6 | [Machine learning](#module-6-machine-learning) | 10/21/2021
+| 7 | [Neural networks](#module-7-neural-networks) | 10/28/2021
+| 8 | [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/9/2021
+| 9 | [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/16/2021
 | -1 | [Fall break](#module--1-fall-break) | 11/23/2021
-| 12 | [Final projects](#module-12-final-projects) | 11/30/2021
+| 10 | [Final projects](#module-10-final-projects) | 11/30/2021
 
-### Discussions
+<!-- ### Discussions
 
 | Title | Assigned | Initial Post Due | Response Posts Due |
 | -- | -- | -- | -- |
+-->
 
 ### Homeworks
 
@@ -318,8 +317,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 ### Exams
 
-* Midterm Exam: Thu 10/15/2020, 12:00 CDT—Fri 10/16/2020, 12:00 CDT
-* Final Exam: Fri 12/11/2020, 13:30 CST—Fri 12/11/2020, 16:30 CST
+* Midterm Exam: Mon 1/1/0001, 00:00 UTC—Mon 1/1/0001, 00:00 UTC
+* Final Exam: Fri 12/10/2021, 08:00 CST—Sat 12/11/2021, 08:00 CST
 
 
 ## Modules
@@ -327,8 +326,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 ### Module 0: Introduction and motivating problems
 
-#### Module 0 Overview
-In this module we will get to know each other and cover the format of the course, its contents, and expectations.
+**Module 0 Overview:** In this module we will get to know each other and cover the format of the course, its contents, and expectations.
 
 
 
@@ -338,18 +336,17 @@ In this module we will get to know each other and cover the format of the course
 
 
 
-#### Module 0 Topics for Zoom Meetings
+**Module 0 Class sessions:**
 
 
-* Thu 8/26/2021, 12:00 CDT: Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))
+* Tue 8/24/2021, 12:00 CDT: intro
 
 
 
 
 ### Module 1: Linear algebra review and intro to the Julia Language
 
-#### Module 1 Overview
-In this course, we will use two key tools: linear algebra and the Julia programming language. 
+**Module 1 Overview:** In this course, we will use two key tools: linear algebra and the Julia programming language. 
 		You should already be familiar with linear algebra, so we will only briefly review it here. 
 		You're not expected to know anything about the Julia language before starting this class, but you are
 		expected to have completed a basic computer programming class (similar to CS101) using some computing language.
@@ -362,19 +359,19 @@ In this course, we will use two key tools: linear algebra and the Julia programm
 
 
 
-#### Module 1 Topics for Zoom Meetings
+**Module 1 Class sessions:**
 
 
-* Tue 8/31/2021, 12:00 CDT: The Julia language: variables, strings, and data structures
-* Thu 9/2/2021, 12:00 CDT: The Julia language: loops, conditionals, and functions
+* Thu 8/26/2021, 12:00 CDT: julia_basics
+* Tue 8/31/2021, 12:00 CDT: julia_numerics
+* Thu 9/2/2021, 12:00 CDT: linalg
 
 
 
 
 ### Module 2: Open reproducible science
 
-#### Module 2 Overview
-This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
+**Module 2 Overview:** This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
 
 
 
@@ -384,12 +381,13 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 2 Topics for Zoom Meetings
+**Module 2 Class sessions:**
 
 
-* Tue 9/7/2021, 12:00 CDT: Git & GitHub for reproduceable science
-* Thu 9/9/2021, 12:00 CDT: Data cleaning & visualization
-* Tue 9/14/2021, 12:00 CDT: Exploratory data analysis
+* Tue 9/7/2021, 12:00 CDT: git
+* Thu 9/9/2021, 12:00 CDT: viz
+* Tue 9/14/2021, 12:00 CDT: wrangle
+* Thu 9/16/2021, 12:00 CDT: Exam 1
 
 
 
@@ -406,11 +404,11 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 3 Topics for Zoom Meetings
+**Module 3 Class sessions:**
 
 
-* Thu 9/16/2021, 12:00 CDT: Singular value decomposition: theory
-* Tue 9/21/2021, 12:00 CDT: Singular value decomposition: uses
+* Tue 9/21/2021, 12:00 CDT: svd
+* Thu 9/23/2021, 12:00 CDT: pca
 
 
 
@@ -427,11 +425,13 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 4 Topics for Zoom Meetings
+**Module 4 Class sessions:**
 
 
-* Thu 9/23/2021, 12:00 CDT: Fourier transforms: theory
-* Tue 9/28/2021, 12:00 CDT: Fourier transforms: applications
+* Tue 9/28/2021, 12:00 CDT: fourier
+* Thu 9/30/2021, 12:00 CDT: fft
+* Tue 10/5/2021, 12:00 CDT: wavelet
+* Thu 10/7/2021, 12:00 CDT: Exam 2
 
 
 
@@ -448,17 +448,17 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 5 Topics for Zoom Meetings
+**Module 5 Class sessions:**
 
 
-* Thu 9/30/2021, 12:00 CDT: Classic Curve Fitting and Least-Squares Regression
-* Tue 10/5/2021, 12:00 CDT: Nonlinear Regression and Gradient Descent
-* Thu 10/7/2021, 12:00 CDT: Over- and Under-determined Systems (Also: Project check-in)
+* Tue 10/12/2021, 12:00 CDT: regression
+* Thu 10/14/2021, 12:00 CDT: regularization
+* Tue 10/19/2021, 12:00 CDT: model_selection
 
 
 
 
-### Module 6: Regularization and model fit 1
+### Module 6: Machine learning
 
 
 
@@ -470,16 +470,16 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 6 Topics for Zoom Meetings
+**Module 6 Class sessions:**
 
 
-* Tue 10/12/2021, 12:00 CDT: Optimization for Regressions
-* Thu 10/14/2021, 12:00 CDT: The Pareto Front and Parsimonious Models
+* Thu 10/21/2021, 12:00 CDT: k-means
+* Tue 10/26/2021, 12:00 CDT: classification_trees
 
 
 
 
-### Module 7: Regularization and model fit 2
+### Module 7: Neural networks
 
 
 
@@ -491,16 +491,17 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 7 Topics for Zoom Meetings
+**Module 7 Class sessions:**
 
 
-* Tue 10/19/2021, 12:00 CDT: Model Selection and Cross-Validation
-* Thu 10/21/2021, 12:00 CDT: Feature Selection and Data Mining
+* Thu 10/28/2021, 12:00 CDT: neural_nets1
+* Tue 11/2/2021, 12:00 CDT: neural_nets2
+* Thu 11/4/2021, 12:00 CDT: conv_nets
 
 
 
 
-### Module 8: Machine learning
+### Module 8: Data-driven dynamical systems
 
 
 
@@ -512,17 +513,16 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 8 Topics for Zoom Meetings
+**Module 8 Class sessions:**
 
 
-* Tue 10/26/2021, 12:00 CDT: Supervised versus Unsupervised Learning
-* Thu 10/28/2021, 12:00 CDT: Unsupervised Learning - k-Means Clustering
-* Tue 11/2/2021, 12:00 CDT: Supervised Learning - Classification Trees
+* Tue 11/9/2021, 12:00 CST: param_fitting
+* Thu 11/11/2021, 12:00 CST: neural_odes
 
 
 
 
-### Module 9: Neural networks 1
+### Module 9: Fairness in machine learning
 
 
 
@@ -534,53 +534,11 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 9 Topics for Zoom Meetings
+**Module 9 Class sessions:**
 
 
-* Thu 11/4/2021, 12:00 CDT: Basics of Neural Networks
-* Tue 11/9/2021, 12:00 CST: Neural networks and activation functions
-
-
-
-
-### Module 10: Neural networks 2
-
-
-
-
-
-
-
-
-
-
-
-#### Module 10 Topics for Zoom Meetings
-
-
-* Thu 11/11/2021, 12:00 CST: The backpropagation algorithm
-* Tue 11/16/2021, 12:00 CST: The stochastic gradient descent algorithm
-
-
-
-
-### Module 11: Data-driven dynamical systems
-
-
-
-
-
-
-
-
-
-
-
-#### Module 11 Topics for Zoom Meetings
-
-
-* Thu 11/18/2021, 12:00 CST: Parameter fitting for dynamical systems
-* Tue 11/23/2021, 12:00 CST: Neural network parameterization of dynamical systems (Neural ODEs)
+* Tue 11/16/2021, 12:00 CST: fairness
+* Thu 11/18/2021, 12:00 CST: Exam 3
 
 
 
@@ -597,20 +555,16 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module -1 Topics for Zoom Meetings
+**Module -1 Class sessions:**
 
 
+* Tue 11/23/2021, 12:00 CST: Fall break
 * Thu 11/25/2021, 12:00 CST: Fall break
-* Tue 11/30/2021, 12:00 CST: Fall break
 
 
 
 
-### Module 12: Final projects
-
-
-
-
+### Module 10: Final projects
 
 
 
@@ -618,12 +572,16 @@ This module covers tools and methods for ensuring your work is correct, understa
 
 
 
-#### Module 12 Topics for Zoom Meetings
 
 
-* Thu 12/2/2021, 12:00 CST: Project workshop
+
+
+**Module 10 Class sessions:**
+
+
+* Tue 11/30/2021, 12:00 CST: Project workshop
+* Thu 12/2/2021, 12:00 CST: Final project presentations
 * Tue 12/7/2021, 12:00 CST: Final project presentations
-* Thu 12/9/2021, 12:00 CST: Final project presentations
 
 
 

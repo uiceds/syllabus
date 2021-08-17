@@ -39,10 +39,11 @@ content/02.policies.md:74:Rospach
 content/02.policies.md:74:Spafford
 content/02.policies.md:74:Von
 content/02.policies.md:84:else's
-content/04.modules.md:31:Homeworks
-content/04.modules.md:112:reproduceable
-content/04.modules.md:283:backpropagation
-content/04.modules.md:305:parameterization
+content/04.modules.md:30:Homeworks
+content/04.modules.md:89:linalg
+content/04.modules.md:132:svd
+content/04.modules.md:133:pca
+content/04.modules.md:154:fft
 content/06.rubrics.md:52:timeframe
 content/07.project.md:3:relevent
 content/07.project.md:6:kaggle
@@ -102,5 +103,5 @@ content/07.project.md:121:interpretable
 content/07.project.md:121:interpretable
 content/07.project.md:121:pts
 content/07.project.md:122:pts
-content/modules_template.md:25:Homeworks
-content/modules_template.md:101:homeworks
+content/modules_template.md:26:Homeworks
+content/modules_template.md:99:homeworks
