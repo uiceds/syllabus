@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 	"text/template"
 	"time"
@@ -21,11 +22,16 @@ import (
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
 
-const courseInstance = "fall2020"
+const courseInstance = "../../pl-cee498ds/courseInstances/Fa2021"
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
+const plWebsite = "https://www.prairielearn.org/pl/course_instance/128749/assessments"
+
 var startDate, midtermExamStart, midtermExamEnd, finalExamStart, finalExamEnd time.Time
+
+var classDuration = 80 * time.Minute
+var examDuration = 24 * time.Hour
 
 var loc *time.Location
 
@@ -39,10 +45,8 @@ func init() {
 	}
 	startDate = time.Date(2021, time.August, 24, 12, 0, 0, 0, loc)
 
-	midtermExamStart = time.Date(2020, time.October, 15, 12, 0, 0, 0, loc)
-	midtermExamEnd = time.Date(2020, time.October, 16, 12, 0, 0, 0, loc)
-	finalExamStart = time.Date(2020, time.December, 11, 13, 30, 0, 0, loc)
-	finalExamEnd = time.Date(2020, time.December, 11, 16, 30, 0, 0, loc)
+	finalExamStart = time.Date(2021, time.December, 10, 8, 00, 0, 0, loc)
+	finalExamEnd = time.Date(2021, time.December, 11, 8, 00, 0, 0, loc)
 }
 
 func startDates(modules []module) map[int64]time.Time {
@@ -52,19 +56,16 @@ func startDates(modules []module) map[int64]time.Time {
 		mods[m.Number] = m
 	}
 	for _, m := range modules {
-		if len(m.Parents) == 0 { // Root starts at the start date
-			startDates[m.ID()] = startDate
-		} else { // Start at date that latest parent ends.
-			d := startDate
-			for _, p := range m.Parents {
-				mp := mods[p]
-				dp := nextModuleStart(mp, startDates[p])
-				if dp.After(d) {
-					d = dp
-				}
+		// Start at date that latest parent ends.
+		d := startDate
+		for _, p := range m.Parents {
+			mp := mods[p]
+			dp := nextModuleStart(mp, startDates[p])
+			if dp.After(d) {
+				d = dp
 			}
-			startDates[m.ID()] = d
 		}
+		startDates[m.ID()] = d
 	}
 	return startDates
 }
@@ -88,11 +89,12 @@ type module struct {
 	// homework due date by.
 	HomeworkDelay int
 
-	PreClassQuestions []string
-	ClassQuestions    []string
-	HomeworkQuestions []string
+	// PLName is the name of the module in PrairieLearn.
+	PLName string
 
-	LiveMeetingTopics     []string
+	// ClassNames holds the PraireLearn class names for this module.
+	ClassNames []string
+
 	ProjectAssignment     string
 	ProjectAssignmentDays int
 }
@@ -101,12 +103,11 @@ func (m module) ID() int64 { return m.Number }
 
 var modules = []module{
 	{
-		Number:   0,
-		Title:    "Introduction and motivating problems",
-		Overview: "In this module we will get to know each other and cover the format of the course, its contents, and expectations.",
-		LiveMeetingTopics: []string{
-			"Introduction, syllabus, and getting to know one another ([slides](https://docs.google.com/presentation/d/1U-xdr_lPprNl5HiMTZ-pG0p9lRhR9FR0zMF3pwzVPjw/edit?usp=sharing))",
-		},
+		Number:     0,
+		Title:      "Introduction and motivating problems",
+		Overview:   "In this module we will get to know each other and cover the format of the course, its contents, and expectations.",
+		PLName:     "intro",
+		ClassNames: []string{"intro"},
 	},
 	{
 		Number:  1,
@@ -116,12 +117,11 @@ var modules = []module{
 		You should already be familiar with linear algebra, so we will only briefly review it here. 
 		You're not expected to know anything about the Julia language before starting this class, but you are
 		expected to have completed a basic computer programming class (similar to CS101) using some computing language.`,
-		PreClassQuestions: []string{
-			"linalg_review",
-		},
-		LiveMeetingTopics: []string{
-			"The Julia language: variables, strings, and data structures",
-			"The Julia language: loops, conditionals, and functions",
+		PLName: "intro_julia_la",
+		ClassNames: []string{
+			"julia_basics",
+			"julia_numerics",
+			"linalg",
 		},
 	},
 	{
@@ -129,109 +129,102 @@ var modules = []module{
 		Parents:  []int64{1},
 		Title:    "Open reproducible science",
 		Overview: "This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. ",
-		LiveMeetingTopics: []string{
-			"Git & GitHub for reproduceable science",
-			"Data cleaning & visualization",
-			"Exploratory data analysis",
+		PLName:   "reproducible",
+		ClassNames: []string{
+			"git",
+			"viz",
+			"wrangle",
+			"Exam 1",
 		},
 	},
 	{
 		Number:  3,
 		Parents: []int64{2},
 		Title:   "Singular value decomposition and principle component analysis",
-		LiveMeetingTopics: []string{
-			"Singular value decomposition: theory",
-			"Singular value decomposition: uses",
+		PLName:  "svd_pca",
+		ClassNames: []string{
+			"svd",
+			"pca",
 		},
 	},
 	{
 		Number:  4,
 		Parents: []int64{3},
 		Title:   "Fourier and wavelet transforms",
-		LiveMeetingTopics: []string{
-			"Fourier transforms: theory",
-			"Fourier transforms: applications",
+		PLName:  "fourier",
+		ClassNames: []string{
+			"fourier",
+			"fft",
+			"wavelet",
+			"Exam 2",
 		},
 	},
 	{
 		Number:  5,
 		Parents: []int64{4},
 		Title:   "Regression",
-		LiveMeetingTopics: []string{
-			"Classic Curve Fitting and Least-Squares Regression",
-			"Nonlinear Regression and Gradient Descent",
-			"Over- and Under-determined Systems (Also: Project check-in)",
+		PLName:  "regression",
+		ClassNames: []string{
+			"regression",
+			"regularization",
+			"model_selection",
 		},
 	},
 	{
 		Number:  6,
 		Parents: []int64{5},
-		Title:   "Regularization and model fit 1",
-		LiveMeetingTopics: []string{
-			"Optimization for Regressions",
-			"The Pareto Front and Parsimonious Models",
+		Title:   "Machine learning",
+		PLName:  "machine_learning",
+		ClassNames: []string{
+			"k-means",
+			"classification_trees",
 		},
 	},
 	{
 		Number:  7,
 		Parents: []int64{6},
-		Title:   "Regularization and model fit 2",
-		LiveMeetingTopics: []string{
-			"Model Selection and Cross-Validation",
-			"Feature Selection and Data Mining",
+		Title:   "Neural networks",
+		PLName:  "neural_nets",
+		ClassNames: []string{
+			"neural_nets1",
+			"neural_nets2",
+			"conv_nets",
 		},
 	},
 	{
 		Number:  8,
 		Parents: []int64{7},
-		Title:   "Machine learning",
-		LiveMeetingTopics: []string{
-			"Supervised versus Unsupervised Learning",
-			"Unsupervised Learning - k-Means Clustering",
-			"Supervised Learning - Classification Trees",
+		Title:   "Data-driven dynamical systems",
+		PLName:  "data_driven_dynamics",
+		ClassNames: []string{
+			"param_fitting",
+			"neural_odes",
 		},
 	},
 	{
 		Number:  9,
 		Parents: []int64{8},
-		Title:   "Neural networks 1",
-		LiveMeetingTopics: []string{
-			"Basics of Neural Networks",
-			"Neural networks and activation functions",
-		},
-	},
-	{
-		Number:  10,
-		Parents: []int64{9},
-		Title:   "Neural networks 2",
-		LiveMeetingTopics: []string{
-			"The backpropagation algorithm",
-			"The stochastic gradient descent algorithm",
-		},
-	},
-	{
-		Number:  11,
-		Parents: []int64{10},
-		Title:   "Data-driven dynamical systems",
-		LiveMeetingTopics: []string{
-			"Parameter fitting for dynamical systems",
-			"Neural network parameterization of dynamical systems (Neural ODEs)",
+		Title:   "Fairness in machine learning",
+		PLName:  "fairness",
+		ClassNames: []string{
+			"fairness",
+			"Exam 3",
 		},
 	},
 	{
 		Number:  -1,
-		Parents: []int64{11},
+		Parents: []int64{9},
 		Title:   "Fall break",
-		LiveMeetingTopics: []string{
+		ClassNames: []string{
 			"Fall break",
 			"Fall break",
 		},
 	},
 	{
-		Number:  12,
+		Number:  10,
 		Parents: []int64{-1},
 		Title:   "Final projects",
-		LiveMeetingTopics: []string{
+		ClassNames: []string{
 			"Project workshop",
 			"Final project presentations",
 			"Final project presentations",
@@ -595,6 +588,16 @@ func nextSundayNight(t time.Time) time.Time {
 	}
 }
 
+func nextFridayNight(t time.Time) time.Time {
+	d := t
+	for {
+		d = d.Add(24 * time.Hour)
+		if w := d.Weekday(); w == time.Friday {
+			return time.Date(d.Year(), d.Month(), d.Day(), 17, 0, 0, 0, d.Location())
+		}
+	}
+}
+
 func nextOfficeHour(t time.Time) time.Time {
 	d := t
 	for {
@@ -613,7 +616,7 @@ func moduleStart(m module, dates map[int64]time.Time) time.Time {
 }
 func nextModuleStart(m module, startDate time.Time) time.Time {
 	d := startDate
-	for i := 0; i < len(m.LiveMeetingTopics); i++ {
+	for i := 0; i < len(m.ClassNames); i++ {
 		d = nextLecture(d)
 	}
 	return d
@@ -624,6 +627,10 @@ func discussionAssigned(m module, dates map[int64]time.Time) time.Time {
 		return startDate
 	}
 	return d
+}
+func preclassAssigned(m module, dates map[int64]time.Time, n int) time.Time {
+	t := classSession(m, dates, n)
+	return t.Add(-7 * 24 * time.Hour)
 }
 func discussionInitialDeadline(m module, dates map[int64]time.Time) time.Time {
 	d := nextLecture(dates[m.ID()])
@@ -640,7 +647,7 @@ func discussionResponseDeadline(m module, dates map[int64]time.Time) time.Time {
 	return d
 }
 func classSession(m module, dates map[int64]time.Time, num int) time.Time {
-	d := nextLecture(dates[m.ID()])
+	d := dates[m.ID()]
 	for i := 0; i < num; i++ {
 		d = nextLecture(d)
 	}
@@ -654,25 +661,21 @@ func homeworkAssigned(m module, dates map[int64]time.Time) time.Time {
 	return d
 }
 func homeworkDeadline1(m module, dates map[int64]time.Time) time.Time {
-	d := nextLecture(dates[m.ID()])
+	d := dates[m.ID()]
 	for i := 0; i < m.HomeworkDelay; i++ {
 		d = nextLecture(d)
 	}
 	return d
 }
 func homeworkDeadline2(m module, dates map[int64]time.Time) time.Time {
-	d := nextSundayNight(nextLecture(dates[m.ID()]))
+	d := nextFridayNight(nextLecture(nextModuleStart(m, dates[m.ID()])))
 	for i := 0; i < m.HomeworkDelay; i++ {
-		d = nextSundayNight(d)
+		d = nextFridayNight(d)
 	}
 	return d
 }
 func homeworkDeadline3(m module, dates map[int64]time.Time) time.Time {
-	d := nextSundayNight(dates[m.ID()].Add(14 * 24 * time.Hour))
-	for i := 0; i < m.HomeworkDelay; i++ {
-		d = nextSundayNight(d)
-	}
-	return d
+	return homeworkDeadline2(m, dates).Add(14 * 24 * time.Hour)
 }
 func assignmentDeadline(m module, dates map[int64]time.Time) time.Time {
 	return nextSundayNight(dates[m.ID()].Add(time.Duration(m.ProjectAssignmentDays) * 24 * time.Hour))
@@ -698,6 +701,9 @@ func main() {
 		"DiscussionResponseDeadline": func(m module) string {
 			return discussionResponseDeadline(m, dates).Format(dateFormat)
 		},
+		"PreclassAssigned": func(m module, n int) string {
+			return preclassAssigned(m, dates, n).Format(dayFormat)
+		},
 		"HomeworkAssigned": func(m module) string {
 			return homeworkAssigned(m, dates).Format(dayFormat)
 		},
@@ -722,6 +728,21 @@ func main() {
 		"StringLink": func(s string) string {
 			return stringToLink(s)
 		},
+		"ClassTitle": func(m module, n int) string {
+			return classTitle(m, n)
+		},
+		"HasHomework": func(m module) bool {
+			return getHomework(m) != nil
+		},
+		"PLWebsite": func() string {
+			return plWebsite
+		},
+	}
+
+	for _, mod := range modules {
+		setupPreclass(mod, dates)
+		setupHomework(mod, dates)
+		setupInClass(mod, dates)
 	}
 
 	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("modules_template.md"))
@@ -779,32 +800,52 @@ func createCalendar(modules []module, startDates map[int64]time.Time, funcs temp
 	for _, m := range modules {
 		d := startDates[m.Number]
 		fmt.Println("Adding events to calendar for module:", m.Number)
-		m.lecturesToCalendar(srv, d)
-		m.officeHoursToCalendar(srv, d)
+		m.lecturesAssignmentsMidtermsToCalendar(srv, d)
+		//m.officeHoursToCalendar(srv, d)
 		m.discussionToCalendar(srv, startDates)
 		m.homeworkToCalendar(srv, startDates)
 		m.assignmentToCalendar(srv, startDates)
-		m.examsToCalendar(srv)
+		m.preclassToCalendar(srv, startDates)
 	}
+	finalExamToCalendar(srv)
 }
 
-func (m module) lecturesToCalendar(srv *calendar.Service, startDate time.Time) {
+func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, startDate time.Time) {
 	d := startDate
-	for i := 0; i < len(m.LiveMeetingTopics); i++ {
-		_, err := srv.Events.Insert(calendarID, &calendar.Event{
-			Summary:     fmt.Sprintf("DS-CEE Zoom meeting: %s", m.Title),
-			Location:    "https://compass2g.illinois.edu/webapps/blackboard/content/launchLink.jsp?course_id=_52490_1&tool_id=_2918_1&tool_type=TOOL&mode=view&mode=reset",
-			Description: m.LiveMeetingTopics[i],
-			Status:      "confirmed",
-			Start: &calendar.EventDateTime{
-				DateTime: d.Format(time.RFC3339),
-			},
-			End: &calendar.EventDateTime{
-				DateTime: d.Add(80 * time.Minute).Format(time.RFC3339),
-			},
-		}).Do()
+	for i, class := range m.ClassNames {
+
+		if strings.Contains(strings.ToLower(class), "exam") {
+			_, err := srv.Events.Insert(calendarID, &calendar.Event{
+				Summary:     fmt.Sprintf("DS-CEE %s", class),
+				Description: "On Prairielearn (https://www.prairielearn.org/pl/)",
+				Status:      "confirmed",
+				Start: &calendar.EventDateTime{
+					DateTime: d.Format(time.RFC3339),
+				},
+				End: &calendar.EventDateTime{
+					DateTime: d.Add(examDuration).Format(time.RFC3339),
+				},
+			}).Do()
+			check(err)
+		} else {
+
+			_, err := srv.Events.Insert(calendarID, &calendar.Event{
+				Summary:     fmt.Sprintf("DS-CEE Class meeting: %s", classTitle(m, i)),
+				Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
+				Description: "Also on Zoom (see Canvas site for link).",
+				Status:      "confirmed",
+				Start: &calendar.EventDateTime{
+					DateTime: d.Format(time.RFC3339),
+				},
+				End: &calendar.EventDateTime{
+					DateTime: d.Add(classDuration).Format(time.RFC3339),
+				},
+			}).Do()
+			check(err)
+		}
+
 		d = nextLecture(d)
-		check(err)
+
 	}
 }
 
@@ -874,14 +915,61 @@ func (m module) discussionToCalendar(srv *calendar.Service, dates map[int64]time
 	check(err)
 }
 
+func (m module) preclassToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
+	if m.PLName == "" {
+		return
+	}
+	for i, className := range m.ClassNames {
+		assess, err := getInfoAssessment(m, i, "preclass")
+		if err != nil {
+			fmt.Println("no pre-class for ", className)
+			continue
+		}
+
+		var number string
+		if len(m.ClassNames) > 1 {
+			number = fmt.Sprintf("%d.%d", m.Number, i+1)
+		} else {
+			number = fmt.Sprintf("%d", m.Number)
+		}
+		_, err = srv.Events.Insert(calendarID, &calendar.Event{
+			Summary:     fmt.Sprintf("DS-CEE Pre-class %s assigned", number),
+			Location:    plWebsite,
+			Description: assess.Title,
+			Status:      "confirmed",
+			Start: &calendar.EventDateTime{
+				Date: preclassAssigned(m, dates, i).Format("2006-01-02"),
+			},
+			End: &calendar.EventDateTime{
+				Date: preclassAssigned(m, dates, i).Format("2006-01-02"),
+			},
+		}).Do()
+		check(err)
+
+		_, err = srv.Events.Insert(calendarID, &calendar.Event{
+			Summary:     fmt.Sprintf("DS-CEE Pre-class %s deadline", number),
+			Location:    plWebsite,
+			Description: m.Title,
+			Status:      "confirmed",
+			Start: &calendar.EventDateTime{
+				DateTime: classSession(m, dates, i).Add(-15 * time.Minute).Format(time.RFC3339),
+			},
+			End: &calendar.EventDateTime{
+				DateTime: classSession(m, dates, i).Format(time.RFC3339),
+			},
+		}).Do()
+		check(err)
+	}
+}
+
 func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
-	if m.HomeworkURL == "" {
+	if getHomework(m) == nil {
 		return
 	}
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("Homework Assigned: %s", m.Title),
-		Location:    m.HomeworkURL,
-		Description: fmt.Sprintf("https://uiceds.github.io/syllabus/#module-%d-homework", m.Number),
+		Summary:     fmt.Sprintf("DS-CEE HW%d Assigned: %s", m.Number, m.Title),
+		Location:    plWebsite,
+		Description: m.Title,
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			Date: homeworkAssigned(m, dates).Format("2006-01-02"),
@@ -893,12 +981,12 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 	check(err)
 
 	_, err = srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("110%% credit Homework deadline: %s", m.Title),
-		Location:    m.HomeworkURL,
-		Description: fmt.Sprintf("https://uiceds.github.io/syllabus/#module-%d-homework", m.Number),
+		Summary:     fmt.Sprintf("110%% credit HW%d deadline", m.Number),
+		Location:    plWebsite,
+		Description: m.Title,
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
-			DateTime: homeworkDeadline1(m, dates).Add(-time.Hour).Format(time.RFC3339),
+			DateTime: homeworkDeadline1(m, dates).Add(-15 * time.Minute).Format(time.RFC3339),
 		},
 		End: &calendar.EventDateTime{
 			DateTime: homeworkDeadline1(m, dates).Format(time.RFC3339),
@@ -907,12 +995,12 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 	check(err)
 
 	_, err = srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("100%% credit Homework deadline: %s", m.Title),
-		Location:    m.HomeworkURL,
-		Description: fmt.Sprintf("https://uiceds.github.io/syllabus/#module-%d-homework", m.Number),
+		Summary:     fmt.Sprintf("100%% credit HW%d deadline", m.Number),
+		Location:    plWebsite,
+		Description: m.Title,
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
-			DateTime: homeworkDeadline2(m, dates).Add(-time.Hour).Format(time.RFC3339),
+			DateTime: homeworkDeadline2(m, dates).Add(-15 * time.Minute).Format(time.RFC3339),
 		},
 		End: &calendar.EventDateTime{
 			DateTime: homeworkDeadline2(m, dates).Format(time.RFC3339),
@@ -921,12 +1009,12 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 	check(err)
 
 	_, err = srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("80%% credit Homework deadline: %s", m.Title),
-		Location:    m.HomeworkURL,
-		Description: fmt.Sprintf("https://uiceds.github.io/syllabus/#module-%d-homework", m.Number),
+		Summary:     fmt.Sprintf("80%% credit HW%d deadline", m.Number),
+		Location:    plWebsite,
+		Description: m.Title,
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
-			DateTime: homeworkDeadline3(m, dates).Add(-time.Hour).Format(time.RFC3339),
+			DateTime: homeworkDeadline3(m, dates).Add(-15 * time.Minute).Format(time.RFC3339),
 		},
 		End: &calendar.EventDateTime{
 			DateTime: homeworkDeadline3(m, dates).Format(time.RFC3339),
@@ -966,24 +1054,8 @@ func (m module) assignmentToCalendar(srv *calendar.Service, dates map[int64]time
 	check(err)
 }
 
-func (m module) examsToCalendar(srv *calendar.Service) {
-	if m.ProjectAssignment == "" {
-		return
-	}
+func finalExamToCalendar(srv *calendar.Service) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     "Midterm Exam",
-		Description: "",
-		Status:      "confirmed",
-		Start: &calendar.EventDateTime{
-			DateTime: midtermExamStart.Format(time.RFC3339),
-		},
-		End: &calendar.EventDateTime{
-			DateTime: midtermExamEnd.Format(time.RFC3339),
-		},
-	}).Do()
-	check(err)
-
-	_, err = srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Final Exam",
 		Description: "",
 		Status:      "confirmed",
@@ -1056,4 +1128,230 @@ func check(err error) {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func classTitle(m module, i int) string {
+	assess, err := getInfoAssessment(m, i, "preclass")
+	if err != nil {
+		fmt.Println("no pre-class for ", m.ClassNames[i])
+		return m.ClassNames[i]
+	}
+	return assess.Title
+}
+
+func getHomework(m module) *infoAssessment {
+	modPath := filepath.Join(courseInstance, "assessments", m.PLName, "homework")
+	f, err := os.Open(filepath.Join(modPath, "infoAssessment.json"))
+	if err != nil {
+		return nil
+	}
+	d := json.NewDecoder(f)
+	assess := new(infoAssessment)
+	check(d.Decode(assess))
+	f.Close()
+	return assess
+}
+
+func writeHomework(assess *infoAssessment, m module) {
+	modPath := filepath.Join(courseInstance, "assessments", m.PLName, "homework")
+	w, err := os.Create(filepath.Join(modPath, "infoAssessment.json"))
+	check(err)
+	check(err)
+	b, err := json.MarshalIndent(assess, "", "  ")
+	check(err)
+	_, err = w.Write(b)
+	check(err)
+	w.Close()
+}
+
+func getInfoAssessment(m module, i int, typ string) (*infoAssessment, error) {
+	modPath := filepath.Join(courseInstance, "assessments", m.PLName, typ)
+	f, err := os.Open(filepath.Join(modPath, m.ClassNames[i], "infoAssessment.json"))
+	if err != nil {
+		return nil, err
+	}
+	d := json.NewDecoder(f)
+	assess := new(infoAssessment)
+	check(d.Decode(assess))
+	f.Close()
+	return assess, nil
+}
+
+func writeInfoAssessment(assess *infoAssessment, m module, i int, typ string) {
+	modPath := filepath.Join(courseInstance, "assessments", m.PLName, typ)
+	//os.MkdirAll(filepath.Join(modPath, m.ClassNames[i]), 0755)
+	w, err := os.Create(filepath.Join(modPath, m.ClassNames[i], "infoAssessment.json"))
+	check(err)
+	b, err := json.MarshalIndent(assess, "", "  ")
+	check(err)
+	_, err = w.Write(b)
+	check(err)
+	w.Close()
+}
+
+func setupPreclass(m module, dates map[int64]time.Time) {
+	if m.PLName == "" {
+		return
+	}
+	for i, className := range m.ClassNames {
+		assess, err := getInfoAssessment(m, i, "preclass")
+		if err != nil {
+			fmt.Println("no pre-class for ", className)
+			continue
+		}
+		assess.Type = "Homework"
+		assess.Set = "Pre-class"
+
+		if len(m.ClassNames) > 1 {
+			assess.Number = fmt.Sprintf("%d.%d", m.Number, i+1)
+		} else {
+			assess.Number = fmt.Sprintf("%d", m.Number)
+		}
+		assess.AllowAccess = []allowAccess{
+			{
+				StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+				EndDate:   preclassAssigned(m, dates, i).Format("2006-01-02T15:04:05"),
+				Credit:    0,
+				Active:    false,
+			},
+			{
+				StartDate: preclassAssigned(m, dates, i).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Format("2006-01-02T15:04:05"),
+				Credit:    100,
+				Active:    true,
+			},
+			{
+				StartDate: classSession(m, dates, i).Format("2006-01-02T15:04:05"),
+				EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+				Credit:    0,
+				Active:    true,
+			},
+		}
+		if len(assess.Zones) == 1 {
+			assess.Zones[0].Title = assess.Title
+		}
+		for i := range assess.Zones {
+			assess.Zones[i].GradeRateMinutes = 5
+		}
+		writeInfoAssessment(assess, m, i, "preclass")
+	}
+}
+
+func setupInClass(m module, dates map[int64]time.Time) {
+	if m.PLName == "" {
+		return
+	}
+	for i, className := range m.ClassNames {
+		assess, err := getInfoAssessment(m, i, "inclass")
+		if err != nil {
+			fmt.Println("no in-class for ", className)
+			continue
+		}
+		assess.Type = "Homework"
+		assess.Set = "Worksheet"
+
+		if len(m.ClassNames) > 1 {
+			assess.Number = fmt.Sprintf("%d.%d", m.Number, i+1)
+		} else {
+			assess.Number = fmt.Sprintf("%d", m.Number)
+		}
+		assess.AllowAccess = []allowAccess{
+			{
+				StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Format("2006-01-02T15:04:05"),
+				Credit:    0,
+				Active:    false,
+			},
+			{
+				StartDate: classSession(m, dates, i).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Add(classDuration).Format("2006-01-02T15:04:05"),
+				Credit:    100,
+				Active:    true,
+			},
+			{
+				StartDate: classSession(m, dates, i).Add(classDuration).Format("2006-01-02T15:04:05"),
+				EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+				Credit:    0,
+				Active:    true,
+			},
+		}
+		for i := range assess.Zones {
+			assess.Zones[i].GradeRateMinutes = 1
+		}
+		if len(assess.Zones) == 1 {
+			assess.Zones[0].Title = assess.Title
+		}
+		writeInfoAssessment(assess, m, i, "inclass")
+	}
+}
+
+func setupHomework(m module, dates map[int64]time.Time) {
+	hw := getHomework(m)
+	if hw == nil {
+		return
+	}
+	hw.Title = m.Title
+	hw.Number = fmt.Sprint(m.Number)
+
+	hw.AllowAccess = []allowAccess{
+		{
+			StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+			EndDate:   homeworkAssigned(m, dates).Format("2006-01-02T15:04:05"),
+			Credit:    0,
+			Active:    false,
+		},
+		{
+			StartDate: homeworkAssigned(m, dates).Format("2006-01-02T15:04:05"),
+			EndDate:   homeworkDeadline1(m, dates).Format("2006-01-02T15:04:05"),
+			Credit:    110,
+			Active:    true,
+		},
+		{
+			StartDate: homeworkDeadline1(m, dates).Format("2006-01-02T15:04:05"),
+			EndDate:   homeworkDeadline2(m, dates).Format("2006-01-02T15:04:05"),
+			Credit:    100,
+			Active:    true,
+		},
+		{
+			StartDate: homeworkDeadline2(m, dates).Format("2006-01-02T15:04:05"),
+			EndDate:   homeworkDeadline3(m, dates).Format("2006-01-02T15:04:05"),
+			Credit:    80,
+			Active:    true,
+		},
+		{
+			StartDate: homeworkDeadline3(m, dates).Format("2006-01-02T15:04:05"),
+			EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+			Credit:    0,
+			Active:    true,
+		},
+	}
+	writeHomework(hw, m)
+}
+
+type infoAssessment struct {
+	UUID        string        `json:"uuid"`
+	Type        string        `json:"type"`
+	Title       string        `json:"title"`
+	Set         string        `json:"set"`
+	Number      string        `json:"number"`
+	AllowAccess []allowAccess `json:"allowAccess"`
+	Zones       []zone        `json:"zones"`
+}
+
+type allowAccess struct {
+	StartDate string `json:"startDate"`
+	EndDate   string `json:"endDate"`
+	Credit    int    `json:"credit"`
+	Active    bool   `json:"active"`
+}
+
+type zone struct {
+	Title            string     `json:"title"`
+	GradeRateMinutes int        `json:"gradeRateMinutes"`
+	Questions        []question `json:"questions"`
+}
+
+type question struct {
+	ID     string `json:"id"`
+	Points int    `json:"points"`
 }

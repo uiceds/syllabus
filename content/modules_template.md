@@ -12,7 +12,7 @@
 | {{.Number}} | [{{.Title}}](#module-{{.Number}}-{{ModuleLink .}}) | {{StartDate .}}
 {{- end}}
 
-### Discussions
+<!-- ### Discussions
 
 | Title | Assigned | Initial Post Due | Response Posts Due |
 | -- | -- | -- | -- |
@@ -21,14 +21,15 @@
 | [{{.Title}}](#module-{{.Number}}-discussion) | {{DiscussionAssigned .}} | {{DiscussionInitialDeadline .}} | {{DiscussionResponseDeadline .}}
 {{- end -}}
 {{- end}}
+-->
 
 ### Homeworks
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
 {{- range .Modules}}
-{{- if .HomeworkURL}}
-| [{{.Title}}](#module-{{.Number}}-homework) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
+{{- if HasHomework .}}
+| [HW{{.Number}}: {{.Title}}]({{PLWebsite}}) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
 {{- end -}}
 {{- end}}
 
@@ -54,14 +55,11 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 ### Module {{.Number}}: {{.Title}}
 
 {{if .Overview -}}
-#### Module {{.Number}} Overview
-{{.Overview}}
+**Module {{.Number}} Overview:** {{.Overview}}
 {{- end}}
 
 {{if .Objectives -}}
-#### Module {{.Number}} Learning Objectives
-
-By the end of this module, you should be able to:
+**Module {{.Number}} Learning Objectives:** By the end of this module, you should be able to:
 
 {{if len .Objectives | eq 1}}{{index .Objectives 0}}
 {{- else}}
@@ -103,11 +101,11 @@ General information about homework assignments is [here](#homeworks-and-exams).
 **The homework for this module is due by {{HomeworkDeadline1 .}} for 110% credit, by {{HomeworkDeadline2 .}} for 100% credit, and by {{HomeworkDeadline3 .}} for 80% credit.**
 {{- end}}
 
-{{if .LiveMeetingTopics -}}
-#### Module {{.Number}} Topics for Zoom Meetings
+{{if .ClassNames -}}
+**Module {{.Number}} Class sessions:**
 
 {{with $mod := .}}
-{{range $index, $element := .LiveMeetingTopics}}* {{ClassSession $mod $index}}: {{$element}}
+{{range $index, $element := .ClassNames}}* {{ClassSession $mod $index}}: {{ClassTitle $mod $index}}
 {{end}}
 {{- end}}
 {{end}}
