@@ -21,6 +21,13 @@ jobs:
         with:
           # fetch entire commit history to support get_rootstock_commit
           fetch-depth: 0
+      - name: Checkout PrairieLearn Course
+        uses: actions/checkout@v2
+        with:
+          repository: PrairieLearn/pl-cee498ds
+          token: ${{ secrets.ACCESS_TOKEN }}
+          fetch-depth: 1
+          path: ./pl-cee498ds
       - name: Set Environment Variables
         run: |
           TRIGGERING_SHA=${GITHUB_PULL_REQUEST_SHA:-$GITHUB_SHA}
@@ -40,7 +47,11 @@ jobs:
       - name: Install Go
         uses: actions/setup-go@v2
       - name: Render modules
-        run: cd content/ && go get && go run modules.go && cd ../
+        run: |
+          cd content/ 
+          go get
+          go run modules.go -pl-path=../pl-cee498ds/courseInstances/Fa2021 
+          cd ../
       - name: Install Environment
         uses: conda-incubator/setup-miniconda@v2
         with:

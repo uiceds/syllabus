@@ -21,8 +21,9 @@ import (
 )
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
+var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2021", "Whether to create calendar events")
 
-const courseInstance = "../../pl-cee498ds/courseInstances/Fa2021"
+var courseInstance string
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
@@ -37,6 +38,7 @@ var loc *time.Location
 
 func init() {
 	flag.Parse()
+	courseInstance = *plPath
 
 	var err error
 	loc, err = time.LoadLocation("America/Chicago")
