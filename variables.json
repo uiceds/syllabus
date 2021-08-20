@@ -4,7 +4,7 @@
     "lang": "en-US",
     "date-meta": "2021-08-20",
     "author-meta": [],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta name=\"citation_title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta property=\"og:title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta property=\"twitter:title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta name=\"dc.date\" content=\"2021-08-20\" />\n<meta name=\"citation_publication_date\" content=\"2021-08-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/syllabus/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/syllabus/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/syllabus/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/syllabus/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/syllabus/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/syllabus/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/syllabus/v/bc0d76b633b46103d9a8de33463363a1ffd86cec/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/syllabus/v/bc0d76b633b46103d9a8de33463363a1ffd86cec/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/syllabus/v/bc0d76b633b46103d9a8de33463363a1ffd86cec/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta name=\"citation_title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta property=\"og:title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta property=\"twitter:title\" content=\"CEE 498DS: Data Science for CEE, Fall 2020\" />\n<meta name=\"dc.date\" content=\"2021-08-20\" />\n<meta name=\"citation_publication_date\" content=\"2021-08-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/syllabus/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/syllabus/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/syllabus/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/syllabus/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/syllabus/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/syllabus/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [],
     "manubot-output-bibliography": "output/references.json",
     "manubot-output-citekeys": "output/citations.tsv",
@@ -19,19 +19,19 @@
       "repo_slug": "uiceds/syllabus",
       "repo_owner": "uiceds",
       "repo_name": "syllabus",
-      "commit": "bc0d76b633b46103d9a8de33463363a1ffd86cec",
-      "triggering_commit": "bc0d76b633b46103d9a8de33463363a1ffd86cec",
-      "build_url": "https://github.com/uiceds/syllabus/commit/bc0d76b633b46103d9a8de33463363a1ffd86cec/checks",
+      "commit": "787f653c4ba652a25f48892cfc9a29a2bdb6bc7c",
+      "triggering_commit": "787f653c4ba652a25f48892cfc9a29a2bdb6bc7c",
+      "build_url": "https://github.com/uiceds/syllabus/commit/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/checks",
       "job_url": "https://github.com/uiceds/syllabus/runs/__run_4"
     },
     "html_url": "https://uiceds.github.io/syllabus/",
     "pdf_url": "https://uiceds.github.io/syllabus/manuscript.pdf",
-    "html_url_versioned": "https://uiceds.github.io/syllabus/v/bc0d76b633b46103d9a8de33463363a1ffd86cec/",
-    "pdf_url_versioned": "https://uiceds.github.io/syllabus/v/bc0d76b633b46103d9a8de33463363a1ffd86cec/manuscript.pdf",
+    "html_url_versioned": "https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/",
+    "pdf_url_versioned": "https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": "defe787b0ad8a21a745cc82c3117770896caaf8b",
     "manuscript_stats": {
-      "word_count": 6347
+      "word_count": 3760
     }
   }
 }
