@@ -17,8 +17,10 @@ EDA
 else’s
 expoloratory
 extenstive
-homeworks
+Guo
+Homeworks
 HW
+Hydrosystems
 interpretable
 IPython
 Kaggle
@@ -32,6 +34,7 @@ pts
 relevent
 Rospach
 Scikit
+Shiyuan
 Spafford
 Spectrograms
 TBD
@@ -41,3 +44,4 @@ transphobia
 UIUC
 underfits
 Von
+worsheets
