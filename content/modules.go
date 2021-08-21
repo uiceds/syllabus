@@ -29,7 +29,7 @@ const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
 const plWebsite = "https://www.prairielearn.org/pl/course_instance/128749/assessments"
 
-var startDate, midtermExamStart, midtermExamEnd, finalExamStart, finalExamEnd time.Time
+var startDate, finalExamStart, finalExamEnd time.Time
 
 var classDuration = 80 * time.Minute
 var examDuration = 24 * time.Hour
@@ -757,11 +757,9 @@ func main() {
 		FinalExamStart, FinalExamEnd     string
 		Modules                          []module
 	}{
-		MidtermExamStart: midtermExamStart.Format(dateFormat),
-		MidtermExamEnd:   midtermExamEnd.Format(dateFormat),
-		FinalExamStart:   finalExamStart.Format(dateFormat),
-		FinalExamEnd:     finalExamEnd.Format(dateFormat),
-		Modules:          modules,
+		FinalExamStart: finalExamStart.Format(dateFormat),
+		FinalExamEnd:   finalExamEnd.Format(dateFormat),
+		Modules:        modules,
 	}
 
 	check(tmpl.ExecuteTemplate(w, "modules_template.md", schedule))

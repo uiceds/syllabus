@@ -45,7 +45,6 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 ### Exams
 
-* Midterm Exam: {{.MidtermExamStart}}—{{.MidtermExamEnd}}
 * Final Exam: {{.FinalExamStart}}—{{.FinalExamEnd}}
 
 
