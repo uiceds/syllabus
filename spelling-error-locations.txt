@@ -5,6 +5,7 @@ content/01.basic_information.md:15:Tessum
 content/01.basic_information.md:16:Newmark
 content/01.basic_information.md:17:TBD
 content/01.basic_information.md:18:cee
+content/01.basic_information.md:18:cee
 content/01.basic_information.md:19:Guo
 content/01.basic_information.md:19:Shiyuan
 content/01.basic_information.md:23:CEE

@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/7488f8336fece0a71a70aedfe172fdcde95ec994/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/7488f8336fece0a71a70aedfe172fdcde95ec994/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/7488f8336fece0a71a70aedfe172fdcde95ec994/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3652a43bb292da7c1c3e602f61f8ce1f34f0ac4e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3652a43bb292da7c1c3e602f61f8ce1f34f0ac4e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3652a43bb292da7c1c3e602f61f8ce1f34f0ac4e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,7 +60,7 @@ manubot-clear-requests-cache: false
 * Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
 * Office hours: TBD
-* Website: https://cee.illinois.edu/directory/profile/ctessum
+* Website: [https://cee.illinois.edu/directory/profile/ctessum](https://cee.illinois.edu/directory/profile/ctessum)
 * Teaching assistants: Lin Guo and Shiyuan Wang
 
 ## Description of the course
