@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 lang: en-US
-date-meta: '2021-08-20'
+date-meta: '2021-08-21'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2021-08-20" />
-  <meta name="citation_publication_date" content="2021-08-20" />
+  <meta name="dc.date" content="2021-08-21" />
+  <meta name="citation_publication_date" content="2021-08-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/787f653c4ba652a25f48892cfc9a29a2bdb6bc7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/7488f8336fece0a71a70aedfe172fdcde95ec994/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/7488f8336fece0a71a70aedfe172fdcde95ec994/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/7488f8336fece0a71a70aedfe172fdcde95ec994/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -185,6 +185,7 @@ Requests for regrading homeworks, exams, and project deliverables must be submit
 #### Instructor Responses
 ##### Instructor Feedback Turnaround Time
 Questions posted to [CampusWire](https://campuswire.com/c/G51A12F7E) generally will be answered within 24 hours.
+Questions may be answered on weekends but this should not be expected.
 
 Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Exams, essays, and term papers will generally be graded within 10 business days.
 
@@ -312,7 +313,6 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 ### Exams
 
-* Midterm Exam: Mon 1/1/0001, 00:00 UTC—Mon 1/1/0001, 00:00 UTC
 * Final Exam: Fri 12/10/2021, 08:00 CST—Sat 12/11/2021, 08:00 CST
 
 
