@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/db537fa75c3afef0982446f2ceb382aa290792f4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/db537fa75c3afef0982446f2ceb382aa290792f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/db537fa75c3afef0982446f2ceb382aa290792f4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/96f28138eda8ee0fd5d45b4c5a7a163fe950dd16/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/96f28138eda8ee0fd5d45b4c5a7a163fe950dd16/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/96f28138eda8ee0fd5d45b4c5a7a163fe950dd16/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -104,7 +104,7 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
   * Midterm exams: 30% of final grade (10% each). 
   * Final exam: 20% of final grade
   * Course project (4-credit students only): 25% of final grade: 
-    * 3% for project selection, 
+    * 3% for project selection and introduction, 
     * 3% for exploratory analysis, 
     * 3% for preliminary modeling, 
     * 3% for report rough draft, 
@@ -296,20 +296,25 @@ The University of Illinois strives to promote student success through the suppor
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| [HW1: Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/24/2021 | Thu 8/26/2021, 12:00 CDT | Fri 9/10/2021, 17:00 CDT | Fri 9/24/2021, 17:00 CDT |
-| [HW2: Open reproducible science](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/31/2021 | Tue 9/7/2021, 12:00 CDT | Fri 9/24/2021, 17:00 CDT | Fri 10/8/2021, 17:00 CDT |
-| [HW3: Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/14/2021 | Tue 9/21/2021, 12:00 CDT | Fri 10/1/2021, 17:00 CDT | Fri 10/15/2021, 17:00 CDT |
-| [HW4: Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/21/2021 | Tue 9/28/2021, 12:00 CDT | Fri 10/15/2021, 17:00 CDT | Fri 10/29/2021, 17:00 CDT |
-| [HW5: Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/5/2021 | Tue 10/12/2021, 12:00 CDT | Fri 10/29/2021, 17:00 CDT | Fri 11/12/2021, 16:00 CST |
-| [HW6: Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/14/2021 | Thu 10/21/2021, 12:00 CDT | Fri 11/5/2021, 17:00 CDT | Fri 11/19/2021, 16:00 CST |
-| [HW7: Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/21/2021 | Thu 10/28/2021, 12:00 CDT | Fri 11/12/2021, 17:00 CST | Fri 11/26/2021, 17:00 CST |
-| [HW8: Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/2/2021 | Tue 11/9/2021, 12:00 CST | Fri 11/19/2021, 17:00 CST | Fri 12/3/2021, 17:00 CST |
-| [HW9: Fairness in machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/9/2021 | Tue 11/16/2021, 12:00 CST | Fri 11/26/2021, 17:00 CST | Fri 12/10/2021, 17:00 CST |
+| HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/24/2021 | Thu 8/26/2021, 12:00 CDT | Fri 9/10/2021, 17:00 CDT | Fri 9/24/2021, 17:00 CDT |
+| HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/31/2021 | Tue 9/7/2021, 12:00 CDT | Fri 9/24/2021, 17:00 CDT | Fri 10/8/2021, 17:00 CDT |
+| HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/14/2021 | Tue 9/21/2021, 12:00 CDT | Fri 10/1/2021, 17:00 CDT | Fri 10/15/2021, 17:00 CDT |
+| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/21/2021 | Tue 9/28/2021, 12:00 CDT | Fri 10/15/2021, 17:00 CDT | Fri 10/29/2021, 17:00 CDT |
+| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/5/2021 | Tue 10/12/2021, 12:00 CDT | Fri 10/29/2021, 17:00 CDT | Fri 11/12/2021, 16:00 CST |
+| HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/14/2021 | Thu 10/21/2021, 12:00 CDT | Fri 11/5/2021, 17:00 CDT | Fri 11/19/2021, 16:00 CST |
+| HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/21/2021 | Thu 10/28/2021, 12:00 CDT | Fri 11/12/2021, 17:00 CST | Fri 11/26/2021, 17:00 CST |
+| HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/2/2021 | Tue 11/9/2021, 12:00 CST | Fri 11/19/2021, 17:00 CST | Fri 12/3/2021, 17:00 CST |
+| HW9: [Fairness in machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/9/2021 | Tue 11/16/2021, 12:00 CST | Fri 11/26/2021, 17:00 CST | Fri 12/10/2021, 17:00 CST |
 
-### Project Assignments
+### Project Deliverables
 
 | Title | Assigned | Due |
 | -- | -- | -- |
+| 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-08-24 12:00:00 -0500 CDT | 2021-09-24 17:00:00 -0500 CDT
+| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-09-24 17:00:00 -0500 CDT | 2021-10-15 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-10-15 17:00:00 -0500 CDT | 2021-11-12 17:00:00 -0600 CST
+| 4. [Report rough draft](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-11-12 17:00:00 -0600 CST | 2021-11-19 17:00:00 -0600 CST
+| 5. [Final report and presentation](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-11-19 17:00:00 -0600 CST | 2021-12-03 17:00:00 -0600 CST
 
 ### Exams
 
@@ -408,6 +413,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
+#### Module 3 Project Assignment
+project/selection
+
 ### Module 4: Fourier and wavelet transforms
 
 
@@ -452,6 +460,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
+
+#### Module 5 Project Assignment
+project/exploratory
 
 ### Module 6: Machine learning
 
@@ -517,6 +528,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
+#### Module 8 Project Assignment
+project/modeling
+
 ### Module 9: Fairness in machine learning
 
 
@@ -537,6 +551,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
+
+#### Module 9 Project Assignment
+project/rough_draft
 
 ### Module -1: Fall break
 
@@ -580,4 +597,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
+
+#### Module 10 Project Assignment
+project/final
 
