@@ -29,18 +29,16 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | -- | -- | -- | -- | -- |
 {{- range .Modules}}
 {{- if HasHomework .}}
-| [HW{{.Number}}: {{.Title}}]({{PLWebsite}}) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
+| HW{{.Number}}: [{{.Title}}]({{PLWebsite}}) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
 {{- end -}}
 {{- end}}
 
-### Project Assignments
+### Project Deliverables
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-{{- range .Modules}}
-{{- if .ProjectAssignment}}
-| [{{.ProjectAssignment}}](#{{StringLink .ProjectAssignment}}) | {{StartDate .}} | {{AssignmentDeadline .}}
-{{- end -}}
+{{- range .Projects}}
+| {{.Number}}. [{{ProjectTitle .}}]({{PLWebsite}}) | {{.Assigned}} | {{.Due}}
 {{- end}}
 
 ### Exams

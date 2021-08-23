@@ -72,6 +72,37 @@ func startDates(modules []module) map[int64]time.Time {
 	return startDates
 }
 
+type project struct {
+	ID       string
+	Number   int
+	Assigned time.Time
+	Due      time.Time
+}
+
+func projects(modules []module) []project {
+	var i int
+	var proj []project
+	for _, m := range modules {
+		if m.ProjectAssignment == "" {
+			continue
+		}
+		var assigned time.Time
+		if i == 0 {
+			assigned = startDate
+		} else {
+			assigned = proj[i-1].Due
+		}
+		proj = append(proj, project{
+			ID:       m.ProjectAssignment,
+			Number:   i + 1,
+			Assigned: assigned,
+			Due:      projectAssignmentDue(m, startDates(modules)),
+		})
+		i++
+	}
+	return proj
+}
+
 type module struct {
 	Number     int64
 	Title      string
@@ -148,6 +179,7 @@ var modules = []module{
 			"svd",
 			"pca",
 		},
+		ProjectAssignment: "project/selection",
 	},
 	{
 		Number:  4,
@@ -171,6 +203,7 @@ var modules = []module{
 			"regularization",
 			"model_selection",
 		},
+		ProjectAssignment: "project/exploratory",
 	},
 	{
 		Number:  6,
@@ -202,6 +235,7 @@ var modules = []module{
 			"param_fitting",
 			"neural_odes",
 		},
+		ProjectAssignment: "project/modeling",
 	},
 	{
 		Number:  9,
@@ -212,6 +246,7 @@ var modules = []module{
 			"fairness",
 			"Exam 3",
 		},
+		ProjectAssignment: "project/rough_draft",
 	},
 	{
 		Number:  -1,
@@ -231,6 +266,7 @@ var modules = []module{
 			"Final project presentations",
 			"Final project presentations",
 		},
+		ProjectAssignment: "project/final",
 	},
 
 	/*	{
@@ -623,6 +659,9 @@ func nextModuleStart(m module, startDate time.Time) time.Time {
 	}
 	return d
 }
+func projectAssignmentDue(m module, dates map[int64]time.Time) time.Time {
+	return nextFridayNight(moduleStart(m, dates))
+}
 func discussionAssigned(m module, dates map[int64]time.Time) time.Time {
 	d := dates[m.ID()].Add(-7 * 24 * time.Hour)
 	if d.Before(startDate) {
@@ -733,6 +772,7 @@ func main() {
 		"ClassTitle": func(m module, n int) string {
 			return classTitle(m, n)
 		},
+		"ProjectTitle": func(p project) string { return projectTitle(p) },
 		"HasHomework": func(m module) bool {
 			return getHomework(m) != nil
 		},
@@ -746,6 +786,10 @@ func main() {
 		setupHomework(mod, dates)
 		setupInClass(mod, dates)
 	}
+	proj := projects(modules)
+	for _, p := range proj {
+		setupProject(p)
+	}
 
 	tmpl := template.Must(template.New("root").Funcs(funcMap).ParseFiles("modules_template.md"))
 
@@ -756,21 +800,23 @@ func main() {
 		MidtermExamStart, MidtermExamEnd string
 		FinalExamStart, FinalExamEnd     string
 		Modules                          []module
+		Projects                         []project
 	}{
 		FinalExamStart: finalExamStart.Format(dateFormat),
 		FinalExamEnd:   finalExamEnd.Format(dateFormat),
 		Modules:        modules,
+		Projects:       proj,
 	}
 
 	check(tmpl.ExecuteTemplate(w, "modules_template.md", schedule))
 	w.Close()
 
 	if *cal {
-		createCalendar(modules, dates, funcMap)
+		createCalendar(modules, proj, dates, funcMap)
 	}
 }
 
-func createCalendar(modules []module, startDates map[int64]time.Time, funcs template.FuncMap) {
+func createCalendar(modules []module, proj []project, startDates map[int64]time.Time, funcs template.FuncMap) {
 	b, err := ioutil.ReadFile("credentials.json")
 	if err != nil {
 		log.Fatalf("Unable to read client secret file: %v", err)
@@ -797,6 +843,9 @@ func createCalendar(modules []module, startDates map[int64]time.Time, funcs temp
 	}
 
 	// Add events
+	for _, p := range proj {
+		p.toCalendar(srv)
+	}
 	for _, m := range modules {
 		d := startDates[m.Number]
 		fmt.Println("Adding events to calendar for module:", m.Number)
@@ -804,7 +853,6 @@ func createCalendar(modules []module, startDates map[int64]time.Time, funcs temp
 		//m.officeHoursToCalendar(srv, d)
 		m.discussionToCalendar(srv, startDates)
 		m.homeworkToCalendar(srv, startDates)
-		m.assignmentToCalendar(srv, startDates)
 		m.preclassToCalendar(srv, startDates)
 	}
 	finalExamToCalendar(srv)
@@ -816,7 +864,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 
 		if strings.Contains(strings.ToLower(class), "exam") {
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
-				Summary:     fmt.Sprintf("DS-CEE %s", class),
+				Summary:     class,
 				Description: "On Prairielearn (https://www.prairielearn.org/pl/)",
 				Status:      "confirmed",
 				Start: &calendar.EventDateTime{
@@ -830,7 +878,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 		} else {
 
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
-				Summary:     fmt.Sprintf("DS-CEE Class meeting: %s", classTitle(m, i)),
+				Summary:     fmt.Sprintf("Class meeting: %s", classTitle(m, i)),
 				Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
 				Description: "Also on Zoom (see Canvas site for link).",
 				Status:      "confirmed",
@@ -854,7 +902,7 @@ func (m module) officeHoursToCalendar(srv *calendar.Service, startDate time.Time
 	for i := 0; i < 2; i++ {
 		d = nextOfficeHour(d)
 		_, err := srv.Events.Insert(calendarID, &calendar.Event{
-			Summary:  "DS-CEE Office hours",
+			Summary:  "Office hours",
 			Location: "https://compass2g.illinois.edu/webapps/blackboard/content/launchLink.jsp?course_id=_52490_1&tool_id=_2918_1&tool_type=TOOL&mode=view&mode=reset",
 			Status:   "confirmed",
 			Start: &calendar.EventDateTime{
@@ -933,7 +981,7 @@ func (m module) preclassToCalendar(srv *calendar.Service, dates map[int64]time.T
 			number = fmt.Sprintf("%d", m.Number)
 		}
 		_, err = srv.Events.Insert(calendarID, &calendar.Event{
-			Summary:     fmt.Sprintf("DS-CEE Pre-class %s assigned", number),
+			Summary:     fmt.Sprintf("Pre-class %s assigned", number),
 			Location:    plWebsite,
 			Description: assess.Title,
 			Status:      "confirmed",
@@ -947,7 +995,7 @@ func (m module) preclassToCalendar(srv *calendar.Service, dates map[int64]time.T
 		check(err)
 
 		_, err = srv.Events.Insert(calendarID, &calendar.Event{
-			Summary:     fmt.Sprintf("DS-CEE Pre-class %s deadline", number),
+			Summary:     fmt.Sprintf("Pre-class %s deadline", number),
 			Location:    plWebsite,
 			Description: m.Title,
 			Status:      "confirmed",
@@ -967,7 +1015,7 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 		return
 	}
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("DS-CEE HW%d Assigned: %s", m.Number, m.Title),
+		Summary:     fmt.Sprintf("HW%d Assigned: %s", m.Number, m.Title),
 		Location:    plWebsite,
 		Description: m.Title,
 		Status:      "confirmed",
@@ -1023,32 +1071,16 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 	check(err)
 }
 
-func (m module) assignmentToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
-	if m.ProjectAssignment == "" {
-		return
-	}
+func (p project) toCalendar(srv *calendar.Service) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     "Project Activity Assigned",
-		Description: fmt.Sprintf("<a href=https://uiceds.github.io/syllabus/#%s>%s</a>", stringToLink(m.ProjectAssignment), m.ProjectAssignment),
-		Status:      "confirmed",
+		Summary:  fmt.Sprintf("Project deliverable %d due", p.Number),
+		Location: plWebsite,
+		Status:   "confirmed",
 		Start: &calendar.EventDateTime{
-			Date: moduleStart(m, dates).Format("2006-01-02"),
+			DateTime: p.Due.Add(-1 * time.Hour).Format(time.RFC3339),
 		},
 		End: &calendar.EventDateTime{
-			Date: moduleStart(m, dates).Format("2006-01-02"),
-		},
-	}).Do()
-	check(err)
-
-	_, err = srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     "Project Activity Due",
-		Description: fmt.Sprintf("<a href=https://uiceds.github.io/syllabus/#%s>%s</a>", stringToLink(m.ProjectAssignment), m.ProjectAssignment),
-		Status:      "confirmed",
-		Start: &calendar.EventDateTime{
-			DateTime: assignmentDeadline(m, dates).Add(-time.Hour).Format(time.RFC3339),
-		},
-		End: &calendar.EventDateTime{
-			DateTime: assignmentDeadline(m, dates).Format(time.RFC3339),
+			DateTime: p.Due.Format(time.RFC3339),
 		},
 	}).Do()
 	check(err)
@@ -1139,6 +1171,10 @@ func classTitle(m module, i int) string {
 	return assess.Title
 }
 
+func projectTitle(p project) string {
+	return getProject(p).Title
+}
+
 func getHomework(m module) *infoAssessment {
 	modPath := filepath.Join(courseInstance, "assessments", m.PLName, "homework")
 	f, err := os.Open(filepath.Join(modPath, "infoAssessment.json"))
@@ -1154,6 +1190,31 @@ func getHomework(m module) *infoAssessment {
 
 func writeHomework(assess *infoAssessment, m module) {
 	modPath := filepath.Join(courseInstance, "assessments", m.PLName, "homework")
+	w, err := os.Create(filepath.Join(modPath, "infoAssessment.json"))
+	check(err)
+	check(err)
+	b, err := json.MarshalIndent(assess, "", "  ")
+	check(err)
+	_, err = w.Write(b)
+	check(err)
+	w.Close()
+}
+
+func getProject(p project) *infoAssessment {
+	modPath := filepath.Join(courseInstance, "assessments", p.ID)
+	f, err := os.Open(filepath.Join(modPath, "infoAssessment.json"))
+	if err != nil {
+		return nil
+	}
+	d := json.NewDecoder(f)
+	assess := new(infoAssessment)
+	check(d.Decode(assess))
+	f.Close()
+	return assess
+}
+
+func writeProject(assess *infoAssessment, p project) {
+	modPath := filepath.Join(courseInstance, "assessments", p.ID)
 	w, err := os.Create(filepath.Join(modPath, "infoAssessment.json"))
 	check(err)
 	check(err)
@@ -1250,6 +1311,13 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		assess.Type = "Homework"
 		assess.Set = "Worksheet"
 
+		assess.GroupWork = true
+		assess.StudentGroupCreate = true
+		assess.StudentGroupJoin = true
+		assess.StudentGroupLeave = true
+		assess.GroupMaxSize = 4
+		assess.GroupMinSize = 2
+
 		if len(m.ClassNames) > 1 {
 			assess.Number = fmt.Sprintf("%d.%d", m.Number, i+1)
 		} else {
@@ -1328,14 +1396,59 @@ func setupHomework(m module, dates map[int64]time.Time) {
 	writeHomework(hw, m)
 }
 
+func setupProject(p project) {
+	assess := getProject(p)
+	assess.Type = "Homework"
+	assess.Set = "Project"
+	assess.Number = fmt.Sprintf("%d", p.Number)
+
+	assess.GroupWork = true
+	assess.StudentGroupCreate = true
+	assess.StudentGroupJoin = true
+	assess.StudentGroupLeave = true
+	assess.GroupMaxSize = 4
+	assess.GroupMinSize = 3
+
+	assess.AllowAccess = []allowAccess{
+		{
+			StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+			EndDate:   p.Assigned.Format("2006-01-02T15:04:05"),
+			Credit:    0,
+			Active:    false,
+		},
+		{
+			StartDate: p.Assigned.Format("2006-01-02T15:04:05"),
+			EndDate:   p.Due.Format("2006-01-02T15:04:05"),
+			Credit:    100,
+			Active:    true,
+		},
+		{
+			StartDate: p.Due.Format("2006-01-02T15:04:05"),
+			EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+			Credit:    0,
+			Active:    true,
+		},
+	}
+	if len(assess.Zones) == 1 {
+		assess.Zones[0].Title = assess.Title
+	}
+	writeProject(assess, p)
+}
+
 type infoAssessment struct {
-	UUID        string        `json:"uuid"`
-	Type        string        `json:"type"`
-	Title       string        `json:"title"`
-	Set         string        `json:"set"`
-	Number      string        `json:"number"`
-	AllowAccess []allowAccess `json:"allowAccess"`
-	Zones       []zone        `json:"zones"`
+	UUID               string        `json:"uuid"`
+	Type               string        `json:"type"`
+	Title              string        `json:"title"`
+	Set                string        `json:"set"`
+	Number             string        `json:"number"`
+	GroupWork          bool          `json:"groupWork"`
+	GroupMaxSize       int           `json:"groupMaxSize"`
+	GroupMinSize       int           `json:"groupMinSize"`
+	StudentGroupCreate bool          `json:"studentGroupCreate"`
+	StudentGroupJoin   bool          `json:"studentGroupJoin"`
+	StudentGroupLeave  bool          `json:"studentGroupLeave"`
+	AllowAccess        []allowAccess `json:"allowAccess"`
+	Zones              []zone        `json:"zones"`
 }
 
 type allowAccess struct {
