@@ -1264,12 +1264,12 @@ func setupInClass(m module, dates map[int64]time.Time) {
 			},
 			{
 				StartDate: classSession(m, dates, i).Format("2006-01-02T15:04:05"),
-				EndDate:   classSession(m, dates, i).Add(classDuration).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    100,
 				Active:    true,
 			},
 			{
-				StartDate: classSession(m, dates, i).Add(classDuration).Format("2006-01-02T15:04:05"),
+				StartDate: classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
 				EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    true,
