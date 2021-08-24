@@ -150,6 +150,13 @@ var modules = []module{
 		You should already be familiar with linear algebra, so we will only briefly review it here. 
 		You're not expected to know anything about the Julia language before starting this class, but you are
 		expected to have completed a basic computer programming class (similar to CS101) using some computing language.`,
+		Objectives: []string{
+			"Operate the Julia language programming interface, using both the REPL and Pluto notebooks",
+			"Use variables, arrays, conditional statements, loops, and functions to write process data using Julia",
+			"Use Julia's built-in and library functions to operate on text and data",
+			"Solve systems of equations using linear algebra in the Julia language",
+			"Debug Julia programs to fix programming errors",
+		},
 		PLName: "intro_julia_la",
 		ClassNames: []string{
 			"julia_basics",
