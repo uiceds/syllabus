@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2020'
 lang: en-US
-date-meta: '2021-08-23'
+date-meta: '2021-08-24'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2021-08-23" />
-  <meta name="citation_publication_date" content="2021-08-23" />
+  <meta name="dc.date" content="2021-08-24" />
+  <meta name="citation_publication_date" content="2021-08-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/96f28138eda8ee0fd5d45b4c5a7a163fe950dd16/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/96f28138eda8ee0fd5d45b4c5a7a163fe950dd16/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/96f28138eda8ee0fd5d45b4c5a7a163fe950dd16/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4d2f17ebb42e1a019b6dac1399bac6ab362ab5bb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4d2f17ebb42e1a019b6dac1399bac6ab362ab5bb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4d2f17ebb42e1a019b6dac1399bac6ab362ab5bb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -351,6 +351,14 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 		You're not expected to know anything about the Julia language before starting this class, but you are
 		expected to have completed a basic computer programming class (similar to CS101) using some computing language.
 
+**Module 1 Learning Objectives:** By the end of this module, you should be able to:
+
+
+* Operate the Julia language programming interface, using both the REPL and Pluto notebooks
+* Use variables, arrays, conditional statements, loops, and functions to write process data using Julia
+* Use Julia's built-in and library functions to operate on text and data
+* Solve systems of equations using linear algebra in the Julia language
+* Debug Julia programs to fix programming errors
 
 
 

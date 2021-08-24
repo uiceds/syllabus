@@ -9,7 +9,7 @@ Chuq
 CITL
 Convolutional
 Courville
-Deliverables
+deliverables
 DRES
 DS
 ebook
@@ -23,7 +23,8 @@ Kutz
 Newmark
 numerics
 PrairieLearn
-Pre
+pre
+REPL
 repost
 Rospach
 Shiyuan
