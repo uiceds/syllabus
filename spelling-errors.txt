@@ -16,14 +16,14 @@ ebook
 else’s
 Goodfellow
 Guo
-Homeworks
+homeworks
 HW
 Hydrosystems
 Kutz
 Newmark
 numerics
 PrairieLearn
-pre
+Pre
 REPL
 repost
 Rospach
