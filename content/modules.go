@@ -1323,7 +1323,7 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		assess.StudentGroupJoin = true
 		assess.StudentGroupLeave = true
 		assess.GroupMaxSize = 4
-		assess.GroupMinSize = 2
+		assess.GroupMinSize = 1
 
 		if len(m.ClassNames) > 1 {
 			assess.Number = fmt.Sprintf("%d.%d", m.Number, i+1)
