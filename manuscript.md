@@ -1,7 +1,7 @@
 ---
-title: 'CEE 498DS: Data Science for CEE, Fall 2020'
+title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-08-24'
+date-meta: '2021-08-25'
 author-meta: []
 header-includes: |-
   <!--
@@ -9,12 +9,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2020" />
-  <meta name="dc.date" content="2021-08-24" />
-  <meta name="citation_publication_date" content="2021-08-24" />
+  <meta name="dc.title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
+  <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
+  <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
+  <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
+  <meta name="dc.date" content="2021-08-25" />
+  <meta name="citation_publication_date" content="2021-08-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4d2f17ebb42e1a019b6dac1399bac6ab362ab5bb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4d2f17ebb42e1a019b6dac1399bac6ab362ab5bb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4d2f17ebb42e1a019b6dac1399bac6ab362ab5bb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a0d5654844c0699cf2772195e81f880b14b5dd7b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a0d5654844c0699cf2772195e81f880b14b5dd7b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a0d5654844c0699cf2772195e81f880b14b5dd7b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />

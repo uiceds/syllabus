@@ -9,14 +9,14 @@ Chuq
 CITL
 Convolutional
 Courville
-deliverables
+Deliverables
 DRES
 DS
 ebook
 else’s
 Goodfellow
 Guo
-homeworks
+Homeworks
 HW
 Hydrosystems
 Kutz
