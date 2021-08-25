@@ -1277,7 +1277,7 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 		}
 		assess.AllowAccess = []allowAccess{
 			{
-				StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+				StartDate: preclassAssigned(m, dates, i).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 				EndDate:   preclassAssigned(m, dates, i).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    false,
@@ -1332,7 +1332,7 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		}
 		assess.AllowAccess = []allowAccess{
 			{
-				StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+				StartDate: classSession(m, dates, i).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 				EndDate:   classSession(m, dates, i).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    false,
@@ -1370,7 +1370,7 @@ func setupHomework(m module, dates map[int64]time.Time) {
 
 	hw.AllowAccess = []allowAccess{
 		{
-			StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+			StartDate: homeworkAssigned(m, dates).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 			EndDate:   homeworkAssigned(m, dates).Format("2006-01-02T15:04:05"),
 			Credit:    0,
 			Active:    false,
@@ -1418,7 +1418,7 @@ func setupProject(p project) {
 
 	assess.AllowAccess = []allowAccess{
 		{
-			StartDate: startDate.Add(-7 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+			StartDate: p.Assigned.Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 			EndDate:   p.Assigned.Format("2006-01-02T15:04:05"),
 			Credit:    0,
 			Active:    false,
