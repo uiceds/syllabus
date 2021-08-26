@@ -12,7 +12,6 @@ content/01.basic_information.md:23:CEE
 content/01.basic_information.md:43:CEE
 content/01.basic_information.md:50:worsheets
 content/01.basic_information.md:51:worsheets
-content/01.basic_information.md:51:worsheets
 content/01.basic_information.md:56:deliverables
 content/01.basic_information.md:57:Pre
 content/01.basic_information.md:58:Homeworks
