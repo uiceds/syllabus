@@ -647,8 +647,8 @@ func nextOfficeHour(t time.Time) time.Time {
 	d := t
 	for {
 		d = d.Add(24 * time.Hour)
-		if w := d.Weekday(); w == time.Monday || w == time.Wednesday {
-			return time.Date(d.Year(), d.Month(), d.Day(), 10, 30, 0, 0, d.Location())
+		if w := d.Weekday(); w == time.Thursday {
+			return time.Date(d.Year(), d.Month(), d.Day(), 11, 00, 0, 0, d.Location())
 		}
 	}
 }
@@ -857,10 +857,11 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 		d := startDates[m.Number]
 		fmt.Println("Adding events to calendar for module:", m.Number)
 		m.lecturesAssignmentsMidtermsToCalendar(srv, d)
-		//m.officeHoursToCalendar(srv, d)
+		m.officeHoursToCalendar(srv, d)
 		m.discussionToCalendar(srv, startDates)
 		m.homeworkToCalendar(srv, startDates)
 		m.preclassToCalendar(srv, startDates)
+		time.Sleep(5 * time.Second)
 	}
 	finalExamToCalendar(srv)
 }
@@ -906,21 +907,22 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 
 func (m module) officeHoursToCalendar(srv *calendar.Service, startDate time.Time) {
 	d := startDate.Add(-24 * time.Hour)
-	for i := 0; i < 2; i++ {
-		d = nextOfficeHour(d)
-		_, err := srv.Events.Insert(calendarID, &calendar.Event{
-			Summary:  "Office hours",
-			Location: "https://compass2g.illinois.edu/webapps/blackboard/content/launchLink.jsp?course_id=_52490_1&tool_id=_2918_1&tool_type=TOOL&mode=view&mode=reset",
-			Status:   "confirmed",
-			Start: &calendar.EventDateTime{
-				DateTime: d.Format(time.RFC3339),
-			},
-			End: &calendar.EventDateTime{
-				DateTime: d.Add(90 * time.Minute).Format(time.RFC3339),
-			},
-		}).Do()
-		check(err)
-	}
+	//for i := 0; i < 2; i++ {
+	d = nextOfficeHour(d)
+	_, err := srv.Events.Insert(calendarID, &calendar.Event{
+		Summary:     "Tessum office hours",
+		Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
+		Description: "Also on Zoom (see Canvas site for link).",
+		Status:      "confirmed",
+		Start: &calendar.EventDateTime{
+			DateTime: d.Format(time.RFC3339),
+		},
+		End: &calendar.EventDateTime{
+			DateTime: d.Add(60 * time.Minute).Format(time.RFC3339),
+		},
+	}).Do()
+	check(err)
+	//}
 }
 
 func (m module) discussionToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
