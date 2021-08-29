@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-08-26'
+date-meta: '2021-08-29'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-08-26" />
-  <meta name="citation_publication_date" content="2021-08-26" />
+  <meta name="dc.date" content="2021-08-29" />
+  <meta name="citation_publication_date" content="2021-08-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3d7c2a62168b7160e734ae95a93e0a0d472ec1d1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3d7c2a62168b7160e734ae95a93e0a0d472ec1d1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3d7c2a62168b7160e734ae95a93e0a0d472ec1d1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2a4ac052fe38ef76c483f201a76ba23b5f12ad5d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2a4ac052fe38ef76c483f201a76ba23b5f12ad5d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2a4ac052fe38ef76c483f201a76ba23b5f12ad5d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,7 +59,7 @@ manubot-clear-requests-cache: false
 
 * Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
-* Office hours: TBD
+* Office hours: Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems and on Zoom
 * Website: [https://cee.illinois.edu/directory/profile/ctessum](https://cee.illinois.edu/directory/profile/ctessum)
 * Teaching assistants: Lin Guo and Shiyuan Wang
 

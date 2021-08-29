@@ -9,7 +9,7 @@ Chuq
 CITL
 Convolutional
 Courville
-Deliverables
+deliverables
 DRES
 DS
 ebook
@@ -30,7 +30,6 @@ Rospach
 Shiyuan
 Spafford
 Spectrograms
-TBD
 Tessum
 transphobia
 UIUC
