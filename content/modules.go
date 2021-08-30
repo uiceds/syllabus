@@ -643,12 +643,30 @@ func nextFridayNight(t time.Time) time.Time {
 	}
 }
 
-func nextOfficeHour(t time.Time) time.Time {
+func nextTessumOfficeHour(t time.Time) time.Time {
 	d := t
 	for {
 		d = d.Add(24 * time.Hour)
 		if w := d.Weekday(); w == time.Thursday {
 			return time.Date(d.Year(), d.Month(), d.Day(), 11, 00, 0, 0, d.Location())
+		}
+	}
+}
+func nextGuoOfficeHour(t time.Time) time.Time {
+	d := t
+	for {
+		d = d.Add(24 * time.Hour)
+		if w := d.Weekday(); w == time.Monday {
+			return time.Date(d.Year(), d.Month(), d.Day(), 9, 00, 0, 0, d.Location())
+		}
+	}
+}
+func nextWangOfficeHour(t time.Time) time.Time {
+	d := t
+	for {
+		d = d.Add(24 * time.Hour)
+		if w := d.Weekday(); w == time.Wednesday {
+			return time.Date(d.Year(), d.Month(), d.Day(), 12, 00, 0, 0, d.Location())
 		}
 	}
 }
@@ -853,11 +871,20 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 	for _, p := range proj {
 		p.toCalendar(srv)
 	}
+	for d := startDate; d.Before(finalExamStart); d = nextTessumOfficeHour(d) {
+		tessumOfficeHoursToCalendar(srv, d)
+	}
+	for d := startDate; d.Before(finalExamStart); d = nextGuoOfficeHour(d) {
+		guoOfficeHoursToCalendar(srv, d)
+	}
+	for d := startDate; d.Before(finalExamStart); d = nextWangOfficeHour(d) {
+		wangOfficeHoursToCalendar(srv, d)
+	}
+
 	for _, m := range modules {
 		d := startDates[m.Number]
 		fmt.Println("Adding events to calendar for module:", m.Number)
 		m.lecturesAssignmentsMidtermsToCalendar(srv, d)
-		m.officeHoursToCalendar(srv, d)
 		m.discussionToCalendar(srv, startDates)
 		m.homeworkToCalendar(srv, startDates)
 		m.preclassToCalendar(srv, startDates)
@@ -905,10 +932,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 	}
 }
 
-func (m module) officeHoursToCalendar(srv *calendar.Service, startDate time.Time) {
-	d := startDate.Add(-24 * time.Hour)
-	//for i := 0; i < 2; i++ {
-	d = nextOfficeHour(d)
+func tessumOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Tessum office hours",
 		Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
@@ -922,7 +946,38 @@ func (m module) officeHoursToCalendar(srv *calendar.Service, startDate time.Time
 		},
 	}).Do()
 	check(err)
-	//}
+}
+
+func guoOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
+	_, err := srv.Events.Insert(calendarID, &calendar.Event{
+		Summary:     "Guo office hours",
+		Location:    "Zoom",
+		Description: "See Canvas site for link.",
+		Status:      "confirmed",
+		Start: &calendar.EventDateTime{
+			DateTime: d.Format(time.RFC3339),
+		},
+		End: &calendar.EventDateTime{
+			DateTime: d.Add(60 * time.Minute).Format(time.RFC3339),
+		},
+	}).Do()
+	check(err)
+}
+
+func wangOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
+	_, err := srv.Events.Insert(calendarID, &calendar.Event{
+		Summary:     "Wang office hours",
+		Location:    "Zoom",
+		Description: "See Canvas site for link.",
+		Status:      "confirmed",
+		Start: &calendar.EventDateTime{
+			DateTime: d.Format(time.RFC3339),
+		},
+		End: &calendar.EventDateTime{
+			DateTime: d.Add(60 * time.Minute).Format(time.RFC3339),
+		},
+	}).Do()
+	check(err)
 }
 
 func (m module) discussionToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
