@@ -84,7 +84,6 @@ content/04.modules.md:50:prairielearn
 content/04.modules.md:51:prairielearn
 content/04.modules.md:52:prairielearn
 content/04.modules.md:92:REPL
-content/04.modules.md:109:numerics
 content/04.modules.md:179:Spectrograms
 content/04.modules.md:248:Convolutional
 content/modules_template.md:26:Homeworks

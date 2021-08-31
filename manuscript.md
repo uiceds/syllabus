@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-08-30'
+date-meta: '2021-08-31'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-08-30" />
-  <meta name="citation_publication_date" content="2021-08-30" />
+  <meta name="dc.date" content="2021-08-31" />
+  <meta name="citation_publication_date" content="2021-08-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a0bf0955d5107f38dfee9a1015a2bf0ce330e3bd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a0bf0955d5107f38dfee9a1015a2bf0ce330e3bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a0bf0955d5107f38dfee9a1015a2bf0ce330e3bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2f1c5a5dacec4c7403a0677d486e0f4bb838b6ed/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2f1c5a5dacec4c7403a0677d486e0f4bb838b6ed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2f1c5a5dacec4c7403a0677d486e0f4bb838b6ed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -358,7 +358,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 * Operate the Julia language programming interface, using both the REPL and Pluto notebooks
-* Use variables, arrays, conditional statements, loops, and functions to write process data using Julia
+* Use variables, arrays, conditional statements, loops, and functions to process data using Julia
 * Use Julia's built-in and library functions to operate on text and data
 * Solve systems of equations using linear algebra in the Julia language
 * Debug Julia programs to fix programming errors
@@ -373,8 +373,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 1 Class sessions:**
 
 
-* Thu 8/26/2021, 12:00 CDT: Module 1.1: Julia basics
-* Tue 8/31/2021, 12:00 CDT: Module 1.2: Julia numerics
+* Thu 8/26/2021, 12:00 CDT: Julia basics
+* Tue 8/31/2021, 12:00 CDT: Julia basics 2
 * Thu 9/2/2021, 12:00 CDT: Linear algebra review
 
 
