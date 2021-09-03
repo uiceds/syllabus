@@ -42,7 +42,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 {{- end}}
 
 ### Exams
-
+{{range .Exams}}
+* {{.Name}}: {{.Date}}
+{{end}}
 * Final Exam: {{.FinalExamStart}}—{{.FinalExamEnd}}
 
 
@@ -107,9 +109,9 @@ General information about homework assignments is [here](#homeworks-and-exams).
 {{- end}}
 {{end}}
 
-{{if .ProjectAssignment}}
+<!--{{if .ProjectAssignment}}
 #### Module {{.Number}} Project Assignment
 {{.ProjectAssignment}}
-{{end}}
+{{end}}-->
 
 {{- end}}

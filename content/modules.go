@@ -174,7 +174,6 @@ var modules = []module{
 			"git",
 			"viz",
 			"wrangle",
-			"Exam 1",
 		},
 	},
 	{
@@ -195,9 +194,9 @@ var modules = []module{
 		PLName:  "fourier",
 		ClassNames: []string{
 			"fourier",
+			"Exam 1: Computational thinking",
 			"fft",
 			"wavelet",
-			"Exam 2",
 		},
 	},
 	{
@@ -209,6 +208,7 @@ var modules = []module{
 			"regression",
 			"regularization",
 			"model_selection",
+			"Exam 2: Signal processing",
 		},
 		ProjectAssignment: "project/exploratory",
 	},
@@ -251,7 +251,7 @@ var modules = []module{
 		PLName:  "fairness",
 		ClassNames: []string{
 			"fairness",
-			"Exam 3",
+			"Exam 3: Machine learning",
 		},
 		ProjectAssignment: "project/rough_draft",
 	},
@@ -719,6 +719,26 @@ func classSession(m module, dates map[int64]time.Time, num int) time.Time {
 	}
 	return d
 }
+
+type nameDate struct {
+	Name string
+	Date string
+}
+
+func exams(mods []module, dates map[int64]time.Time) []nameDate {
+	var o []nameDate
+	for _, m := range mods {
+		for i, name := range m.ClassNames {
+			if strings.Contains(strings.ToLower(name), "exam") {
+				o = append(o, nameDate{
+					Name: name,
+					Date: classSession(m, dates, i).Format(dateFormat),
+				})
+			}
+		}
+	}
+	return o
+}
 func homeworkAssigned(m module, dates map[int64]time.Time) time.Time {
 	d := dates[m.ID()].Add(-7 * 24 * time.Hour)
 	if d.Before(startDate) {
@@ -826,11 +846,13 @@ func main() {
 		FinalExamStart, FinalExamEnd     string
 		Modules                          []module
 		Projects                         []project
+		Exams                            []nameDate
 	}{
 		FinalExamStart: finalExamStart.Format(dateFormat),
 		FinalExamEnd:   finalExamEnd.Format(dateFormat),
 		Modules:        modules,
 		Projects:       proj,
+		Exams:          exams(modules, dates),
 	}
 
 	check(tmpl.ExecuteTemplate(w, "modules_template.md", schedule))
