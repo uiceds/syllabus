@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-08-31'
+date-meta: '2021-09-03'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-08-31" />
-  <meta name="citation_publication_date" content="2021-08-31" />
+  <meta name="dc.date" content="2021-09-03" />
+  <meta name="citation_publication_date" content="2021-09-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2f1c5a5dacec4c7403a0677d486e0f4bb838b6ed/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2f1c5a5dacec4c7403a0677d486e0f4bb838b6ed/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2f1c5a5dacec4c7403a0677d486e0f4bb838b6ed/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f4884af7597ea64bf7e149206ccb303cbe90789e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f4884af7597ea64bf7e149206ccb303cbe90789e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f4884af7597ea64bf7e149206ccb303cbe90789e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -279,9 +279,9 @@ The University of Illinois strives to promote student success through the suppor
 | 0 | [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/24/2021
 | 1 | [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/26/2021
 | 2 | [Open reproducible science](#module-2-open-reproducible-science) | 9/7/2021
-| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/21/2021
-| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/28/2021
-| 5 | [Regression](#module-5-regression) | 10/12/2021
+| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/16/2021
+| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/23/2021
+| 5 | [Regression](#module-5-regression) | 10/7/2021
 | 6 | [Machine learning](#module-6-machine-learning) | 10/21/2021
 | 7 | [Neural networks](#module-7-neural-networks) | 10/28/2021
 | 8 | [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/9/2021
@@ -301,9 +301,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | -- | -- | -- | -- | -- |
 | HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/24/2021 | Thu 8/26/2021, 12:00 CDT | Fri 9/10/2021, 17:00 CDT | Fri 9/24/2021, 17:00 CDT |
 | HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/31/2021 | Tue 9/7/2021, 12:00 CDT | Fri 9/24/2021, 17:00 CDT | Fri 10/8/2021, 17:00 CDT |
-| HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/14/2021 | Tue 9/21/2021, 12:00 CDT | Fri 10/1/2021, 17:00 CDT | Fri 10/15/2021, 17:00 CDT |
-| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/21/2021 | Tue 9/28/2021, 12:00 CDT | Fri 10/15/2021, 17:00 CDT | Fri 10/29/2021, 17:00 CDT |
-| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/5/2021 | Tue 10/12/2021, 12:00 CDT | Fri 10/29/2021, 17:00 CDT | Fri 11/12/2021, 16:00 CST |
+| HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/9/2021 | Thu 9/16/2021, 12:00 CDT | Fri 10/1/2021, 17:00 CDT | Fri 10/15/2021, 17:00 CDT |
+| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/16/2021 | Thu 9/23/2021, 12:00 CDT | Fri 10/15/2021, 17:00 CDT | Fri 10/29/2021, 17:00 CDT |
+| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/30/2021 | Thu 10/7/2021, 12:00 CDT | Fri 10/29/2021, 17:00 CDT | Fri 11/12/2021, 16:00 CST |
 | HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/14/2021 | Thu 10/21/2021, 12:00 CDT | Fri 11/5/2021, 17:00 CDT | Fri 11/19/2021, 16:00 CST |
 | HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/21/2021 | Thu 10/28/2021, 12:00 CDT | Fri 11/12/2021, 17:00 CST | Fri 11/26/2021, 17:00 CST |
 | HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/2/2021 | Tue 11/9/2021, 12:00 CST | Fri 11/19/2021, 17:00 CST | Fri 12/3/2021, 17:00 CST |
@@ -313,13 +313,19 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-08-24 12:00:00 -0500 CDT | 2021-09-24 17:00:00 -0500 CDT
-| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-09-24 17:00:00 -0500 CDT | 2021-10-15 17:00:00 -0500 CDT
-| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-10-15 17:00:00 -0500 CDT | 2021-11-12 17:00:00 -0600 CST
+| 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-08-24 12:00:00 -0500 CDT | 2021-09-17 17:00:00 -0500 CDT
+| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-09-17 17:00:00 -0500 CDT | 2021-10-08 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-10-08 17:00:00 -0500 CDT | 2021-11-12 17:00:00 -0600 CST
 | 4. [Report rough draft](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-11-12 17:00:00 -0600 CST | 2021-11-19 17:00:00 -0600 CST
 | 5. [Final report and presentation](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-11-19 17:00:00 -0600 CST | 2021-12-03 17:00:00 -0600 CST
 
 ### Exams
+
+* Exam 1: Computational thinking: Tue 9/28/2021, 12:00 CDT
+
+* Exam 2: Signal processing: Tue 10/19/2021, 12:00 CDT
+
+* Exam 3: Machine learning: Thu 11/18/2021, 12:00 CST
 
 * Final Exam: Fri 12/10/2021, 08:00 CST—Sat 12/11/2021, 08:00 CST
 
@@ -346,7 +352,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
-
+<!---->
 ### Module 1: Linear algebra review and intro to the Julia Language
 
 **Module 1 Overview:** In this course, we will use two key tools: linear algebra and the Julia programming language. 
@@ -379,7 +385,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 
-
+<!---->
 ### Module 2: Open reproducible science
 
 **Module 2 Overview:** This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
@@ -398,11 +404,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 * Tue 9/7/2021, 12:00 CDT: Module 2.1: Git and Github
 * Thu 9/9/2021, 12:00 CDT: Module 2.2: Visualization
 * Tue 9/14/2021, 12:00 CDT: Module 2.3: Data Wrangling
-* Thu 9/16/2021, 12:00 CDT: Exam 1
 
 
 
-
+<!---->
 ### Module 3: Singular value decomposition and principle component analysis
 
 
@@ -418,15 +423,15 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 3 Class sessions:**
 
 
-* Tue 9/21/2021, 12:00 CDT: Singular Value Decomposition
-* Thu 9/23/2021, 12:00 CDT: Principal Components Analysis
+* Thu 9/16/2021, 12:00 CDT: Singular Value Decomposition
+* Tue 9/21/2021, 12:00 CDT: Principal Components Analysis
 
 
 
-
+<!--
 #### Module 3 Project Assignment
 project/selection
-
+-->
 ### Module 4: Fourier and wavelet transforms
 
 
@@ -442,14 +447,14 @@ project/selection
 **Module 4 Class sessions:**
 
 
-* Tue 9/28/2021, 12:00 CDT: Fourier Series
+* Thu 9/23/2021, 12:00 CDT: Fourier Series
+* Tue 9/28/2021, 12:00 CDT: Exam 1: Computational thinking
 * Thu 9/30/2021, 12:00 CDT: Fourier Transforms
 * Tue 10/5/2021, 12:00 CDT: Spectrograms and Wavelets
-* Thu 10/7/2021, 12:00 CDT: Exam 2
 
 
 
-
+<!---->
 ### Module 5: Regression
 
 
@@ -465,16 +470,17 @@ project/selection
 **Module 5 Class sessions:**
 
 
-* Tue 10/12/2021, 12:00 CDT: Regression
-* Thu 10/14/2021, 12:00 CDT: Regularization
-* Tue 10/19/2021, 12:00 CDT: Model and feature selection
+* Thu 10/7/2021, 12:00 CDT: Regression
+* Tue 10/12/2021, 12:00 CDT: Regularization
+* Thu 10/14/2021, 12:00 CDT: Model and feature selection
+* Tue 10/19/2021, 12:00 CDT: Exam 2: Signal processing
 
 
 
-
+<!--
 #### Module 5 Project Assignment
 project/exploratory
-
+-->
 ### Module 6: Machine learning
 
 
@@ -495,7 +501,7 @@ project/exploratory
 
 
 
-
+<!---->
 ### Module 7: Neural networks
 
 
@@ -517,7 +523,7 @@ project/exploratory
 
 
 
-
+<!---->
 ### Module 8: Data-driven dynamical systems
 
 
@@ -538,10 +544,10 @@ project/exploratory
 
 
 
-
+<!--
 #### Module 8 Project Assignment
 project/modeling
-
+-->
 ### Module 9: Fairness in machine learning
 
 
@@ -558,14 +564,14 @@ project/modeling
 
 
 * Tue 11/16/2021, 12:00 CST: Fairness in machine learning
-* Thu 11/18/2021, 12:00 CST: Exam 3
+* Thu 11/18/2021, 12:00 CST: Exam 3: Machine learning
 
 
 
-
+<!--
 #### Module 9 Project Assignment
 project/rough_draft
-
+-->
 ### Module -1: Fall break
 
 
@@ -586,7 +592,7 @@ project/rough_draft
 
 
 
-
+<!---->
 ### Module 10: Final projects
 
 
@@ -608,7 +614,7 @@ project/rough_draft
 
 
 
-
+<!--
 #### Module 10 Project Assignment
 project/final
-
+-->
