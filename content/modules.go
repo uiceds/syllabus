@@ -185,7 +185,6 @@ var modules = []module{
 			"svd",
 			"pca",
 		},
-		ProjectAssignment: "project/selection",
 	},
 	{
 		Number:  4,
@@ -198,6 +197,7 @@ var modules = []module{
 			"fft",
 			"wavelet",
 		},
+		ProjectAssignment: "project/selection",
 	},
 	{
 		Number:  5,
@@ -210,7 +210,6 @@ var modules = []module{
 			"model_selection",
 			"Exam 2: Signal processing",
 		},
-		ProjectAssignment: "project/exploratory",
 	},
 	{
 		Number:  6,
@@ -221,6 +220,7 @@ var modules = []module{
 			"k-means",
 			"classification_trees",
 		},
+		ProjectAssignment: "project/exploratory",
 	},
 	{
 		Number:  7,
@@ -1053,6 +1053,7 @@ func (m module) preclassToCalendar(srv *calendar.Service, dates map[int64]time.T
 	if m.PLName == "" {
 		return
 	}
+	j := 1
 	for i, className := range m.ClassNames {
 		assess, err := getInfoAssessment(m, i, "preclass")
 		if err != nil {
@@ -1062,7 +1063,8 @@ func (m module) preclassToCalendar(srv *calendar.Service, dates map[int64]time.T
 
 		var number string
 		if len(m.ClassNames) > 1 {
-			number = fmt.Sprintf("%d.%d", m.Number, i+1)
+			number = fmt.Sprintf("%d.%d", m.Number, j)
+			j++
 		} else {
 			number = fmt.Sprintf("%d", m.Number)
 		}
@@ -1340,6 +1342,7 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 	if m.PLName == "" {
 		return
 	}
+	j := 1
 	for i, className := range m.ClassNames {
 		assess, err := getInfoAssessment(m, i, "preclass")
 		if err != nil {
@@ -1350,7 +1353,8 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 		assess.Set = "Pre-class"
 
 		if len(m.ClassNames) > 1 {
-			assess.Number = fmt.Sprintf("%d.%d", m.Number, i+1)
+			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
+			j++
 		} else {
 			assess.Number = fmt.Sprintf("%d", m.Number)
 		}
@@ -1388,6 +1392,7 @@ func setupInClass(m module, dates map[int64]time.Time) {
 	if m.PLName == "" {
 		return
 	}
+	j := 1
 	for i, className := range m.ClassNames {
 		assess, err := getInfoAssessment(m, i, "inclass")
 		if err != nil {
@@ -1405,7 +1410,8 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		assess.GroupMinSize = 1
 
 		if len(m.ClassNames) > 1 {
-			assess.Number = fmt.Sprintf("%d.%d", m.Number, i+1)
+			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
+			j++
 		} else {
 			assess.Number = fmt.Sprintf("%d", m.Number)
 		}
