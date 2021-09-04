@@ -9,7 +9,7 @@ Chuq
 CITL
 Convolutional
 Courville
-deliverables
+Deliverables
 DRES
 DS
 ebook
@@ -22,12 +22,13 @@ Hydrosystems
 Kutz
 Newmark
 PrairieLearn
-Pre
+pre
 REPL
 repost
 Rospach
 Shiyuan
 Spafford
+spatiotemporal
 Spectrograms
 Tessum
 transphobia

@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/394fff3ff51e9c7be06ad066c0abaea7001ba460/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/394fff3ff51e9c7be06ad066c0abaea7001ba460/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/394fff3ff51e9c7be06ad066c0abaea7001ba460/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e03137039bc25ca7df58dcb7c244001cfc8278bd/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e03137039bc25ca7df58dcb7c244001cfc8278bd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e03137039bc25ca7df58dcb7c244001cfc8278bd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,14 +69,14 @@ manubot-clear-requests-cache: false
 ## Description of the course
 
 Welcome to CEE Data Science!
-This semester, you  will learn to leverage data to study civil and environmental engineering problems, identify patterns, and make actionable insights.
-This course combines training in digital and computer tools—including signal processing, exploratory data analysis, and statistical modeling and deep learning—with application of those tools to civil and environmental engineering issues.
+This semester, you will learn to leverage data to study civil and environmental engineering problems, identify patterns, and make actionable insights.
+This course includes training in computational thinking and exploratory data analysis; data processing techniques including singular value decomposition, principal component analysis, and fourier and wavelet transforms; and machine learning techniques including k-means, classification trees, neural networks, and neural differential equations.
 
-This course differs from other available machine learning and data science courses in that it focuses on civil and environmental engineering problems and the methods used to solve them. In particular, this course emphasizes working with dynamical systems, which are common in physical science but less common in data science when applied to other disciplines.
+This course differs from other available machine learning and data science courses in that it focuses on civil and environmental engineering problems and the methods used to solve them. In particular, this course emphasizes working with dynamical systems that generate spatiotemporal data, which are common in physical science but less common in data science when applied to other disciplines.
 
 By the end of the semester, you will be able to:
 
-1. Use software tools for data processing and visualization, machine learning, and deep learning to
+1. Use software tools for data processing and visualization, signal processing, and machine learning to
 2. Retrieve, manipulate, and analyze data; and
 3. Make inferences and predictions about the built and natural environment.
 

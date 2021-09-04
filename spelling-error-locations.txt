@@ -12,6 +12,7 @@ content/01.basic_information.md:21:cee
 content/01.basic_information.md:22:Guo
 content/01.basic_information.md:22:Shiyuan
 content/01.basic_information.md:26:CEE
+content/01.basic_information.md:30:spatiotemporal
 content/01.basic_information.md:46:CEE
 content/01.basic_information.md:53:worsheets
 content/01.basic_information.md:54:worsheets
