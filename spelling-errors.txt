@@ -9,7 +9,7 @@ Chuq
 CITL
 Convolutional
 Courville
-deliverables
+Deliverables
 DRES
 DS
 ebook
