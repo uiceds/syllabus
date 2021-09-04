@@ -7,7 +7,7 @@
 ### Modules
 
 | Module | Start Date | Contact Hours |
-| -- | -- | -- |
+| ---------- | --- | -- |
 {{- range .Modules}}
 | {{.Number}}. [{{.Title}}](#module-{{.Number}}-{{ModuleLink .}}) | {{StartDate .}} | {{ContactHours .}} |
 {{- end}}
