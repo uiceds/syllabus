@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e03137039bc25ca7df58dcb7c244001cfc8278bd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e03137039bc25ca7df58dcb7c244001cfc8278bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e03137039bc25ca7df58dcb7c244001cfc8278bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e8fda168c740ed15143a4828d85a0c5619ae84cf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e8fda168c740ed15143a4828d85a0c5619ae84cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e8fda168c740ed15143a4828d85a0c5619ae84cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -274,20 +274,20 @@ The University of Illinois strives to promote student success through the suppor
 
 ### Modules
 
-| Module | Title | Start Date |
-| -- | -- | -- |
-| 0 | [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/24/2021
-| 1 | [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/26/2021
-| 2 | [Open reproducible science](#module-2-open-reproducible-science) | 9/7/2021
-| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/16/2021
-| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/23/2021
-| 5 | [Regression](#module-5-regression) | 10/7/2021
-| 6 | [Machine learning](#module-6-machine-learning) | 10/21/2021
-| 7 | [Neural networks](#module-7-neural-networks) | 10/28/2021
-| 8 | [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/9/2021
-| 9 | [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/16/2021
-| -1 | [Fall break](#module--1-fall-break) | 11/23/2021
-| 10 | [Final projects](#module-10-final-projects) | 11/30/2021
+| Module | Title | Start Date | Contact Hours |
+| -- | -- | -- | -- |
+| 0 | [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/24/2021 | 1.3 |
+| 1 | [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/26/2021 | 4.0 |
+| 2 | [Open reproducible science](#module-2-open-reproducible-science) | 9/7/2021 | 4.0 |
+| 3 | [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/16/2021 | 2.7 |
+| 4 | [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/23/2021 | 4.0 |
+| 5 | [Regression](#module-5-regression) | 10/7/2021 | 4.0 |
+| 6 | [Machine learning](#module-6-machine-learning) | 10/21/2021 | 2.7 |
+| 7 | [Neural networks](#module-7-neural-networks) | 10/28/2021 | 4.0 |
+| 8 | [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/9/2021 | 2.7 |
+| 9 | [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/16/2021 | 1.3 |
+| -1 | [Fall break](#module--1-fall-break) | 11/23/2021 | 2.7 |
+| 10 | [Final projects](#module-10-final-projects) | 11/30/2021 | 4.0 |
 
 <!-- ### Discussions
 

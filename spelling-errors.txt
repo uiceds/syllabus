@@ -9,7 +9,7 @@ Chuq
 CITL
 Convolutional
 Courville
-Deliverables
+deliverables
 DRES
 DS
 ebook
@@ -22,7 +22,7 @@ Hydrosystems
 Kutz
 Newmark
 PrairieLearn
-pre
+Pre
 REPL
 repost
 Rospach
