@@ -6,10 +6,10 @@
 
 ### Modules
 
-| Module | Title | Start Date |
-| -- | -- | -- |
+| Module | Title | Start Date | Contact Hours |
+| -- | -- | -- | -- |
 {{- range .Modules}}
-| {{.Number}} | [{{.Title}}](#module-{{.Number}}-{{ModuleLink .}}) | {{StartDate .}}
+| {{.Number}} | [{{.Title}}](#module-{{.Number}}-{{ModuleLink .}}) | {{StartDate .}} | {{ContactHours .}} |
 {{- end}}
 
 <!-- ### Discussions

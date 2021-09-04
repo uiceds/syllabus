@@ -719,6 +719,15 @@ func classSession(m module, dates map[int64]time.Time, num int) time.Time {
 	}
 	return d
 }
+func contactHours(m module) float64 {
+	h := 0.0
+	for _, c := range m.ClassNames {
+		if !strings.Contains(strings.ToLower(c), "exam") {
+			h += classDuration.Hours()
+		}
+	}
+	return h
+}
 
 type nameDate struct {
 	Name string
@@ -780,6 +789,9 @@ func main() {
 		},
 		"DiscussionAssigned": func(m module) string {
 			return discussionAssigned(m, dates).Format(dayFormat)
+		},
+		"ContactHours": func(m module) string {
+			return fmt.Sprintf("%.1f", contactHours(m))
 		},
 		"DiscussionInitialDeadline": func(m module) string {
 			return discussionInitialDeadline(m, dates).Format(dateFormat)
