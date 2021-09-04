@@ -22,7 +22,7 @@ Hydrosystems
 Kutz
 Newmark
 PrairieLearn
-Pre
+pre
 REPL
 repost
 Rospach

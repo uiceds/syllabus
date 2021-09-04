@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/11e4f419d7364043ab575206f940524cfbf1bdcc/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/11e4f419d7364043ab575206f940524cfbf1bdcc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/11e4f419d7364043ab575206f940524cfbf1bdcc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4889296d12b720c22c6f2e9af4d11f2eb962fcf2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4889296d12b720c22c6f2e9af4d11f2eb962fcf2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4889296d12b720c22c6f2e9af4d11f2eb962fcf2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -275,7 +275,7 @@ The University of Illinois strives to promote student success through the suppor
 ### Modules
 
 | Module | Start Date | Contact Hours |
-| -- | -- | -- |
+| -------------------------- | -- | -- |
 | 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/24/2021 | 1.3 |
 | 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/26/2021 | 4.0 |
 | 2. [Open reproducible science](#module-2-open-reproducible-science) | 9/7/2021 | 4.0 |
