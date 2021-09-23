@@ -168,8 +168,14 @@ var modules = []module{
 		Number:   2,
 		Parents:  []int64{1},
 		Title:    "Open reproducible science",
-		Overview: "This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. ",
-		PLName:   "reproducible",
+		Overview: "This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.",
+		Objectives: []string{
+			"Apply the theory of ['tidy data'](https://r4ds.had.co.nz/tidy-data.html) to wrangle a tabular dataset into tidy format, using for example the `groupby`, and `combine`  functions in DataFrames.jl",
+			"Evaluate an unfamiliar dataset with exploratory statistical analysis, using for example the `filter` and `select` functions in DataFrames.jl as well as array indexing and basic descriptive statistics",
+			"Create exploratory visualizations for tabular, array, and image data using Plots.jl and StatsPlots.jl",
+			"Apply git and GitHub.com for distributed version control and collaboration on group projects",
+		},
+		PLName: "reproducible",
 		ClassNames: []string{
 			"git",
 			"viz",
@@ -177,10 +183,15 @@ var modules = []module{
 		},
 	},
 	{
-		Number:  3,
-		Parents: []int64{2},
-		Title:   "Singular value decomposition and principle component analysis",
-		PLName:  "svd_pca",
+		Number:   3,
+		Parents:  []int64{2},
+		Title:    "Singular value decomposition and principle component analysis",
+		Overview: "SVD and PCA fundamental algorithms for data processing and analysis. We will learn how they work and how they can be applied to gain insight from data.",
+		Objectives: []string{
+			"Apply the SVD and PCA algorithms to create a low-rank approximation of a dataset",
+			"Interpret the results of the algorithms in a given context, including the significance of the resulting values and how much of the variance in the original dataset is represented in the low-rank approximation",
+		},
+		PLName: "svd_pca",
 		ClassNames: []string{
 			"svd",
 			"pca",
