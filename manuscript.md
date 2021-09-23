@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-09-04'
+date-meta: '2021-09-23'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-09-04" />
-  <meta name="citation_publication_date" content="2021-09-04" />
+  <meta name="dc.date" content="2021-09-23" />
+  <meta name="citation_publication_date" content="2021-09-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a7f0f2df0f5bca7a9e56891f135c8a60e1a9a878/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a7f0f2df0f5bca7a9e56891f135c8a60e1a9a878/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a7f0f2df0f5bca7a9e56891f135c8a60e1a9a878/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/61f70d0c213c27b6a1fffdb838dba9f424509cd8/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/61f70d0c213c27b6a1fffdb838dba9f424509cd8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/61f70d0c213c27b6a1fffdb838dba9f424509cd8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -388,8 +388,15 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 <!---->
 ### Module 2: Open reproducible science
 
-**Module 2 Overview:** This module covers tools and methods for ensuring your work is correct, understandable, and reproducible. 
+**Module 2 Overview:** This module covers tools and methods for ensuring your work is correct, understandable, and reproducible.
 
+**Module 2 Learning Objectives:** By the end of this module, you should be able to:
+
+
+* Apply the theory of ['tidy data'](https://r4ds.had.co.nz/tidy-data.html) to wrangle a tabular dataset into tidy format, using for example the `groupby`, and `combine`  functions in DataFrames.jl
+* Evaluate an unfamiliar dataset with exploratory statistical analysis, using for example the `filter` and `select` functions in DataFrames.jl as well as array indexing and basic descriptive statistics
+* Create exploratory visualizations for tabular, array, and image data using Plots.jl and StatsPlots.jl
+* Apply git and GitHub.com for distributed version control and collaboration on group projects
 
 
 
@@ -401,17 +408,22 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 2 Class sessions:**
 
 
-* Tue 9/7/2021, 12:00 CDT: Module 2.1: Git and Github
-* Thu 9/9/2021, 12:00 CDT: Module 2.2: Visualization
-* Tue 9/14/2021, 12:00 CDT: Module 2.3: Data Wrangling
+* Tue 9/7/2021, 12:00 CDT: Git and Github
+* Thu 9/9/2021, 12:00 CDT: Visualization
+* Tue 9/14/2021, 12:00 CDT: Data Wrangling
 
 
 
 <!---->
 ### Module 3: Singular value decomposition and principle component analysis
 
+**Module 3 Overview:** SVD and PCA fundamental algorithms for data processing and analysis. We will learn how they work and how they can be applied to gain insight from data.
+
+**Module 3 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Apply the SVD and PCA algorithms to create a low-rank approximation of a dataset
+* Interpret the results of the algorithms in a given context, including the significance of the resulting values and how much of the variance in the original dataset is represented in the low-rank approximation
 
 
 

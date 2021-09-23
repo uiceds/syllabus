@@ -9,6 +9,8 @@ Chuq
 CITL
 Convolutional
 Courville
+DataFrames
+dataset
 deliverables
 DRES
 DS
@@ -16,11 +18,13 @@ ebook
 else’s
 Goodfellow
 Guo
-Homeworks
+homeworks
 HW
 Hydrosystems
+jl
 Kutz
 Newmark
+PCA
 PrairieLearn
 Pre
 REPL
@@ -30,6 +34,8 @@ Shiyuan
 Spafford
 spatiotemporal
 Spectrograms
+StatsPlots
+SVD
 Tessum
 transphobia
 UIUC
