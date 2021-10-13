@@ -715,8 +715,7 @@ func discussionAssigned(m module, dates map[int64]time.Time) time.Time {
 	return d
 }
 func preclassAssigned(m module, dates map[int64]time.Time, n int) time.Time {
-	t := classSession(m, dates, n)
-	return t.Add(-7 * 24 * time.Hour)
+	return homeworkAssigned(m, dates)
 }
 func discussionInitialDeadline(m module, dates map[int64]time.Time) time.Time {
 	d := nextLecture(dates[m.ID()])
