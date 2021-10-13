@@ -16,6 +16,8 @@ DRES
 DS
 ebook
 else’s
+FFT
+Gabor
 Goodfellow
 Guo
 Homeworks

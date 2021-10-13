@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fb108680c96ab0c94d466441a03fbff39a0fc325/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fb108680c96ab0c94d466441a03fbff39a0fc325/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fb108680c96ab0c94d466441a03fbff39a0fc325/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a1db9008e98bd58ca406270ce7e61300ac0708c3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a1db9008e98bd58ca406270ce7e61300ac0708c3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a1db9008e98bd58ca406270ce7e61300ac0708c3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -302,7 +302,6 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/24/2021 | Thu 8/26/2021, 12:00 CDT | Fri 9/10/2021, 17:00 CDT | Fri 9/24/2021, 17:00 CDT |
 | HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/31/2021 | Tue 9/7/2021, 12:00 CDT | Fri 9/24/2021, 17:00 CDT | Fri 10/8/2021, 17:00 CDT |
 | HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/9/2021 | Thu 9/16/2021, 12:00 CDT | Fri 10/1/2021, 17:00 CDT | Fri 10/15/2021, 17:00 CDT |
-| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/16/2021 | Thu 9/23/2021, 12:00 CDT | Fri 10/15/2021, 17:00 CDT | Fri 10/29/2021, 17:00 CDT |
 | HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/30/2021 | Thu 10/7/2021, 12:00 CDT | Fri 10/29/2021, 17:00 CDT | Fri 11/12/2021, 16:00 CST |
 | HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/14/2021 | Thu 10/21/2021, 12:00 CDT | Fri 11/5/2021, 17:00 CDT | Fri 11/19/2021, 16:00 CST |
 | HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/21/2021 | Thu 10/28/2021, 12:00 CDT | Fri 11/12/2021, 17:00 CST | Fri 11/26/2021, 17:00 CST |
@@ -323,7 +322,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 * Exam 1: Computational thinking: Tue 9/28/2021, 12:00 CDT
 
-* Exam 2: Signal processing: Tue 10/19/2021, 12:00 CDT
+* Exam 2: Coordinate transforms: Tue 10/19/2021, 12:00 CDT
 
 * Exam 3: Machine learning: Thu 11/18/2021, 12:00 CST
 
@@ -443,8 +442,13 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 <!---->
 ### Module 4: Fourier and wavelet transforms
 
+**Module 4 Overview:** Fourier and wavelet transforms are powerful methods for coordinate transformation, data compression, and feature engineering and are used in almost every field of science and engineering.
+
+**Module 4 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Apply the FFT, Gabor transform, and Wavelet transform algorithms to determine the frequency spectra of a dataset
+* Interpret the results of the algorithms in a given context, including the significance of the resulting values
 
 
 
@@ -485,7 +489,7 @@ project/selection
 * Thu 10/7/2021, 12:00 CDT: Regression
 * Tue 10/12/2021, 12:00 CDT: Regularization
 * Thu 10/14/2021, 12:00 CDT: Model and feature selection
-* Tue 10/19/2021, 12:00 CDT: Exam 2: Signal processing
+* Tue 10/19/2021, 12:00 CDT: Exam 2: Coordinate transforms
 
 
 
