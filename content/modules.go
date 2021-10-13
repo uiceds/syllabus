@@ -92,12 +92,21 @@ func projects(modules []module) []project {
 		} else {
 			assigned = proj[i-1].Due
 		}
-		proj = append(proj, project{
-			ID:       m.ProjectAssignment,
-			Number:   i + 1,
-			Assigned: assigned,
-			Due:      projectAssignmentDue(m, startDates(modules)),
-		})
+		if strings.Contains(m.ProjectAssignment, "exploratory") {
+			proj = append(proj, project{
+				ID:       m.ProjectAssignment,
+				Number:   i + 1,
+				Assigned: assigned,
+				Due:      nextFridayNight(projectAssignmentDue(m, startDates(modules))), // Avoid conflict with exam. TODO: Fix
+			})
+		} else {
+			proj = append(proj, project{
+				ID:       m.ProjectAssignment,
+				Number:   i + 1,
+				Assigned: assigned,
+				Due:      projectAssignmentDue(m, startDates(modules)),
+			})
+		}
 		i++
 	}
 	return proj
