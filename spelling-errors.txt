@@ -18,7 +18,7 @@ ebook
 else’s
 Goodfellow
 Guo
-homeworks
+Homeworks
 HW
 Hydrosystems
 jl
@@ -26,7 +26,7 @@ Kutz
 Newmark
 PCA
 PrairieLearn
-Pre
+pre
 REPL
 repost
 Rospach

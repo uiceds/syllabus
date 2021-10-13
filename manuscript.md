@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-09-23'
+date-meta: '2021-10-13'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-09-23" />
-  <meta name="citation_publication_date" content="2021-09-23" />
+  <meta name="dc.date" content="2021-10-13" />
+  <meta name="citation_publication_date" content="2021-10-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/61f70d0c213c27b6a1fffdb838dba9f424509cd8/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/61f70d0c213c27b6a1fffdb838dba9f424509cd8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/61f70d0c213c27b6a1fffdb838dba9f424509cd8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fb108680c96ab0c94d466441a03fbff39a0fc325/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fb108680c96ab0c94d466441a03fbff39a0fc325/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fb108680c96ab0c94d466441a03fbff39a0fc325/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -314,8 +314,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | Title | Assigned | Due |
 | -- | -- | -- |
 | 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-08-24 12:00:00 -0500 CDT | 2021-09-24 17:00:00 -0500 CDT
-| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-09-24 17:00:00 -0500 CDT | 2021-10-22 17:00:00 -0500 CDT
-| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-10-22 17:00:00 -0500 CDT | 2021-11-12 17:00:00 -0600 CST
+| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-09-24 17:00:00 -0500 CDT | 2021-10-29 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-10-29 17:00:00 -0500 CDT | 2021-11-12 17:00:00 -0600 CST
 | 4. [Report rough draft](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-11-12 17:00:00 -0600 CST | 2021-11-19 17:00:00 -0600 CST
 | 5. [Final report and presentation](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2021-11-19 17:00:00 -0600 CST | 2021-12-03 17:00:00 -0600 CST
 
