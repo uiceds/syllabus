@@ -207,10 +207,15 @@ var modules = []module{
 		},
 	},
 	{
-		Number:  4,
-		Parents: []int64{3},
-		Title:   "Fourier and wavelet transforms",
-		PLName:  "fourier",
+		Number:   4,
+		Parents:  []int64{3},
+		Title:    "Fourier and wavelet transforms",
+		Overview: `Fourier and wavelet transforms are powerful methods for coordinate transformation, data compression, and feature engineering and are used in almost every field of science and engineering.`,
+		Objectives: []string{
+			"Apply the FFT, Gabor transform, and Wavelet transform algorithms to determine the frequency spectra of a dataset",
+			"Interpret the results of the algorithms in a given context, including the significance of the resulting values",
+		},
+		PLName: "fourier",
 		ClassNames: []string{
 			"fourier",
 			"Exam 1: Computational thinking",
@@ -228,7 +233,7 @@ var modules = []module{
 			"regression",
 			"regularization",
 			"model_selection",
-			"Exam 2: Signal processing",
+			"Exam 2: Coordinate transforms",
 		},
 	},
 	{
