@@ -225,10 +225,17 @@ var modules = []module{
 		ProjectAssignment: "project/selection",
 	},
 	{
-		Number:  5,
-		Parents: []int64{4},
-		Title:   "Regression",
-		PLName:  "regression",
+		Number:   5,
+		Parents:  []int64{4},
+		Title:    "Regression",
+		Overview: `In this module, we will learn how to use regression to predict the value of a dependent variable given a set of independent variables.`,
+		Objectives: []string{
+			"Apply the gradient descent algorithm to mimimize error between a model prediction and observations",
+			"Design and implement a linear regression model to predict a dependent variable in a dataset when given independent variables",
+			"Apply regularization to the model to avoid overfitting",
+			"Apply feature selection and engineering and coordinate transformation to a dataset to improve regression performance",
+		},
+		PLName: "regression",
 		ClassNames: []string{
 			"regression",
 			"regularization",
@@ -237,10 +244,15 @@ var modules = []module{
 		},
 	},
 	{
-		Number:  6,
-		Parents: []int64{5},
-		Title:   "Machine learning",
-		PLName:  "machine_learning",
+		Number:   6,
+		Parents:  []int64{5},
+		Title:    "Machine learning",
+		Overview: `In this module, we learn about two popular machine learning algorithms: k-means and decision trees.`,
+		Objectives: []string{
+			"Implement the k-means algorithm to divide a dataset into clusters",
+			"Design and implement a decision tree model to predict a dependent variable in a dataset when given independent variables",
+		},
+		PLName: "machine_learning",
 		ClassNames: []string{
 			"k-means",
 			"classification_trees",
@@ -248,10 +260,15 @@ var modules = []module{
 		ProjectAssignment: "project/exploratory",
 	},
 	{
-		Number:  7,
-		Parents: []int64{6},
-		Title:   "Neural networks",
-		PLName:  "neural_nets",
+		Number:   7,
+		Parents:  []int64{6},
+		Title:    "Neural networks",
+		Overview: `In this module, we will learn how to implement and use both fully-connected and convolutional neural networks.`,
+		Objectives: []string{
+			"Train a neural network to for regression and classification",
+			"Identify and debug common problems with neural network training",
+		},
+		PLName: "neural_nets",
 		ClassNames: []string{
 			"neural_nets1",
 			"neural_nets2",
@@ -259,10 +276,15 @@ var modules = []module{
 		},
 	},
 	{
-		Number:  8,
-		Parents: []int64{7},
-		Title:   "Data-driven dynamical systems",
-		PLName:  "data_driven_dynamics",
+		Number:   8,
+		Parents:  []int64{7},
+		Title:    "Data-driven dynamical systems",
+		PLName:   "data_driven_dynamics",
+		Overview: `In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.`,
+		Objectives: []string{
+			"Apply gradient descent to fit the parameters of a system of differential equations to observed data",
+			"Implement a Neural ODE to make data-driven predictions of the evolution of a dynamical system",
+		},
 		ClassNames: []string{
 			"param_fitting",
 			"neural_odes",
@@ -273,7 +295,13 @@ var modules = []module{
 		Number:  9,
 		Parents: []int64{8},
 		Title:   "Fairness in machine learning",
-		PLName:  "fairness",
+		Overview: `Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
+		We will learn how to detect and minimize this bias.`,
+		Objectives: []string{
+			"Use disaggregated testing to detect bias in machine learning models",
+			"Design and construct models to minimize any detected bias",
+		},
+		PLName: "fairness",
 		ClassNames: []string{
 			"fairness",
 			"Exam 3: Machine learning",
@@ -290,9 +318,10 @@ var modules = []module{
 		},
 	},
 	{
-		Number:  10,
-		Parents: []int64{-1},
-		Title:   "Final projects",
+		Number:   10,
+		Parents:  []int64{-1},
+		Title:    "Final projects",
+		Overview: `In this module we will present the results of our semester projects.`,
 		ClassNames: []string{
 			"Project workshop",
 			"Final project presentations",
