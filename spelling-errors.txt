@@ -12,6 +12,7 @@ Courville
 DataFrames
 dataset
 deliverables
+disaggregated
 DRES
 DS
 ebook
@@ -25,10 +26,12 @@ HW
 Hydrosystems
 jl
 Kutz
+mimimize
 Newmark
+overfitting
 PCA
 PrairieLearn
-pre
+Pre
 REPL
 repost
 Rospach

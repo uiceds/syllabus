@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-10-13'
+date-meta: '2021-12-01'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-10-13" />
-  <meta name="citation_publication_date" content="2021-10-13" />
+  <meta name="dc.date" content="2021-12-01" />
+  <meta name="citation_publication_date" content="2021-12-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a1db9008e98bd58ca406270ce7e61300ac0708c3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a1db9008e98bd58ca406270ce7e61300ac0708c3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a1db9008e98bd58ca406270ce7e61300ac0708c3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d81b489bca43bd32a291d23cca4288ab94b0bd2b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d81b489bca43bd32a291d23cca4288ab94b0bd2b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d81b489bca43bd32a291d23cca4288ab94b0bd2b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,6 +79,16 @@ By the end of the semester, you will be able to:
 1. Use software tools for data processing and visualization, signal processing, and machine learning to
 2. Retrieve, manipulate, and analyze data; and
 3. Make inferences and predictions about the built and natural environment.
+
+Specifically, upon completion of this course, you should be proficient in the following **course learning objectives**:
+
+1. When given a mathematical equation or the description of an algorithm, using computational thinking to create a software implementation of that equation or algorithm..
+2. Carrying out exploratory data analysis to visualize, summarize, and explain an unfamiliar dataset.
+3. Using a distributed version control system to collaborate on a project.
+3. Choosing and executing coordinate transforms represent and interpret the underlying patterns in a dataset.
+4. Applying the gradient descent algorithm to mimimize error between a model prediction and observations.
+5. Designing and implementing machine learning models to cluster or predict a dependent variable in a dataset when given independent variables.
+6. Monitoring machine-learned models for bias using disaggregated testing.
 
 This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of data related to civil and environmental engineering that is being collected and stored.
 
@@ -302,11 +312,11 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/24/2021 | Thu 8/26/2021, 12:00 CDT | Fri 9/10/2021, 17:00 CDT | Fri 9/24/2021, 17:00 CDT |
 | HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/31/2021 | Tue 9/7/2021, 12:00 CDT | Fri 9/24/2021, 17:00 CDT | Fri 10/8/2021, 17:00 CDT |
 | HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/9/2021 | Thu 9/16/2021, 12:00 CDT | Fri 10/1/2021, 17:00 CDT | Fri 10/15/2021, 17:00 CDT |
+| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/16/2021 | Thu 9/23/2021, 12:00 CDT | Fri 10/15/2021, 17:00 CDT | Fri 10/29/2021, 17:00 CDT |
 | HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/30/2021 | Thu 10/7/2021, 12:00 CDT | Fri 10/29/2021, 17:00 CDT | Fri 11/12/2021, 16:00 CST |
 | HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/14/2021 | Thu 10/21/2021, 12:00 CDT | Fri 11/5/2021, 17:00 CDT | Fri 11/19/2021, 16:00 CST |
 | HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/21/2021 | Thu 10/28/2021, 12:00 CDT | Fri 11/12/2021, 17:00 CST | Fri 11/26/2021, 17:00 CST |
 | HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/2/2021 | Tue 11/9/2021, 12:00 CST | Fri 11/19/2021, 17:00 CST | Fri 12/3/2021, 17:00 CST |
-| HW9: [Fairness in machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/9/2021 | Tue 11/16/2021, 12:00 CST | Fri 11/26/2021, 17:00 CST | Fri 12/10/2021, 17:00 CST |
 
 ### Project Deliverables
 
@@ -473,8 +483,15 @@ project/selection
 -->
 ### Module 5: Regression
 
+**Module 5 Overview:** In this module, we will learn how to use regression to predict the value of a dependent variable given a set of independent variables.
+
+**Module 5 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Apply the gradient descent algorithm to mimimize error between a model prediction and observations
+* Design and implement a linear regression model to predict a dependent variable in a dataset when given independent variables
+* Apply regularization to the model to avoid overfitting
+* Apply feature selection and engineering and coordinate transformation to a dataset to improve regression performance
 
 
 
@@ -496,8 +513,13 @@ project/selection
 <!---->
 ### Module 6: Machine learning
 
+**Module 6 Overview:** In this module, we learn about two popular machine learning algorithms: k-means and decision trees.
+
+**Module 6 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Implement the k-means algorithm to divide a dataset into clusters
+* Design and implement a decision tree model to predict a dependent variable in a dataset when given independent variables
 
 
 
@@ -520,8 +542,13 @@ project/exploratory
 -->
 ### Module 7: Neural networks
 
+**Module 7 Overview:** In this module, we will learn how to implement and use both fully-connected and convolutional neural networks.
+
+**Module 7 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Train a neural network to for regression and classification
+* Identify and debug common problems with neural network training
 
 
 
@@ -542,8 +569,13 @@ project/exploratory
 <!---->
 ### Module 8: Data-driven dynamical systems
 
+**Module 8 Overview:** In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.
+
+**Module 8 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Apply gradient descent to fit the parameters of a system of differential equations to observed data
+* Implement a Neural ODE to make data-driven predictions of the evolution of a dynamical system
 
 
 
@@ -566,8 +598,14 @@ project/modeling
 -->
 ### Module 9: Fairness in machine learning
 
+**Module 9 Overview:** Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
+		We will learn how to detect and minimize this bias.
+
+**Module 9 Learning Objectives:** By the end of this module, you should be able to:
 
 
+* Use disaggregated testing to detect bias in machine learning models
+* Design and construct models to minimize any detected bias
 
 
 
@@ -611,7 +649,7 @@ project/rough_draft
 <!---->
 ### Module 10: Final projects
 
-
+**Module 10 Overview:** In this module we will present the results of our semester projects.
 
 
 
