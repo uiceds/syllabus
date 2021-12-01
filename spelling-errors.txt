@@ -11,7 +11,7 @@ Convolutional
 Courville
 DataFrames
 dataset
-deliverables
+Deliverables
 disaggregated
 DRES
 DS
@@ -21,7 +21,7 @@ FFT
 Gabor
 Goodfellow
 Guo
-Homeworks
+homeworks
 HW
 Hydrosystems
 jl
@@ -31,7 +31,7 @@ Newmark
 overfitting
 PCA
 PrairieLearn
-Pre
+pre
 REPL
 repost
 Rospach

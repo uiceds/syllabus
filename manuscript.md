@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d81b489bca43bd32a291d23cca4288ab94b0bd2b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d81b489bca43bd32a291d23cca4288ab94b0bd2b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d81b489bca43bd32a291d23cca4288ab94b0bd2b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f832fa98bcd50acb3df635efb2c8782696b21fd3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f832fa98bcd50acb3df635efb2c8782696b21fd3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f832fa98bcd50acb3df635efb2c8782696b21fd3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,13 +82,13 @@ By the end of the semester, you will be able to:
 
 Specifically, upon completion of this course, you should be proficient in the following **course learning objectives**:
 
-1. When given a mathematical equation or the description of an algorithm, using computational thinking to create a software implementation of that equation or algorithm..
-2. Carrying out exploratory data analysis to visualize, summarize, and explain an unfamiliar dataset.
-3. Using a distributed version control system to collaborate on a project.
-3. Choosing and executing coordinate transforms represent and interpret the underlying patterns in a dataset.
-4. Applying the gradient descent algorithm to mimimize error between a model prediction and observations.
-5. Designing and implementing machine learning models to cluster or predict a dependent variable in a dataset when given independent variables.
-6. Monitoring machine-learned models for bias using disaggregated testing.
+1. When given a mathematical equation or the description of an algorithm, to use computational thinking to create a software implementation of that equation or algorithm.
+2. To carry out exploratory data analysis to visualize, summarize, and explain an unfamiliar dataset.
+3. To use a distributed version control system to collaborate on a project.
+3. To choose and execute coordinate transforms represent and interpret the underlying patterns in a dataset.
+4. To apply the gradient descent algorithm to mimimize error between a model prediction and observations.
+5. To design and implement machine learning models to cluster or predict a dependent variable in a dataset when given independent variables.
+6. To monitor machine-learned models for bias using disaggregated testing.
 
 This course will help you to gain the skills and tools necessary to make the most of the great increases in the amount and quality of data related to civil and environmental engineering that is being collected and stored.
 
