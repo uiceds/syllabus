@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2021-12-01'
+date-meta: '2021-12-15'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2021-12-01" />
-  <meta name="citation_publication_date" content="2021-12-01" />
+  <meta name="dc.date" content="2021-12-15" />
+  <meta name="citation_publication_date" content="2021-12-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f832fa98bcd50acb3df635efb2c8782696b21fd3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f832fa98bcd50acb3df635efb2c8782696b21fd3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f832fa98bcd50acb3df635efb2c8782696b21fd3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4c234dd11c8c65a7a34949639830e8ae08a24998/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4c234dd11c8c65a7a34949639830e8ae08a24998/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4c234dd11c8c65a7a34949639830e8ae08a24998/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />

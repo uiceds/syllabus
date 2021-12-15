@@ -11,7 +11,7 @@ Convolutional
 Courville
 DataFrames
 dataset
-Deliverables
+deliverables
 disaggregated
 DRES
 DS
@@ -31,7 +31,7 @@ Newmark
 overfitting
 PCA
 PrairieLearn
-pre
+Pre
 REPL
 repost
 Rospach
