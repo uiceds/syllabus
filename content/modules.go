@@ -1438,7 +1438,7 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 			},
 			{
 				StartDate: classSession(m, dates, i).Format("2006-01-02T15:04:05"),
-				EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+				EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    true,
 			},
@@ -1495,7 +1495,7 @@ func setupInClass(m module, dates map[int64]time.Time) {
 			},
 			{
 				StartDate: classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
-				EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+				EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    true,
 			},
@@ -1545,7 +1545,7 @@ func setupHomework(m module, dates map[int64]time.Time) {
 		},
 		{
 			StartDate: homeworkDeadline3(m, dates).Format("2006-01-02T15:04:05"),
-			EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+			EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 			Credit:    0,
 			Active:    true,
 		},
@@ -1581,7 +1581,7 @@ func setupProject(p project) {
 		},
 		{
 			StartDate: p.Due.Format("2006-01-02T15:04:05"),
-			EndDate:   finalExamEnd.Format("2006-01-02T15:04:05"),
+			EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 			Credit:    0,
 			Active:    true,
 		},
