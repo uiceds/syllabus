@@ -121,14 +121,3 @@ content/modules_template.md:26:Homeworks
 content/modules_template.md:32:HW
 content/modules_template.md:36:Deliverables
 content/modules_template.md:98:homeworks
-content/x07.project.md:34:dataset
-content/x07.project.md:35:dataset
-content/x07.project.md:37:dataset
-content/x07.project.md:39:dataset
-content/x07.project.md:39:dataset
-content/x07.project.md:40:dataset
-content/x07.project.md:40:dataset
-content/x07.project.md:55:dataset
-content/x07.project.md:65:dataset
-content/x07.project.md:66:overfitting
-content/x07.project.md:89:overfitting
