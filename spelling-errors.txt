@@ -7,7 +7,7 @@ CEE
 Champaign
 Chuq
 CITL
-Convolutional
+convolutional
 Courville
 DataFrames
 dataset
@@ -21,7 +21,7 @@ FFT
 Gabor
 Goodfellow
 Guo
-homeworks
+Homeworks
 HW
 Hydrosystems
 jl

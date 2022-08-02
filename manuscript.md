@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fab80e14dc56f11d3a3c77118b54534df0e42f72/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fab80e14dc56f11d3a3c77118b54534df0e42f72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fab80e14dc56f11d3a3c77118b54534df0e42f72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -294,8 +294,8 @@ The University of Illinois strives to promote student success through the suppor
 | 5. [Regression](#module-5-regression) | 10/6/2022 | 4.0 |
 | 6. [Machine learning](#module-6-machine-learning) | 10/20/2022 | 2.7 |
 | 7. [Neural networks](#module-7-neural-networks) | 10/27/2022 | 4.0 |
-| 8. [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/8/2022 | 2.7 |
-| 9. [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/15/2022 | 1.3 |
+| 8. [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/8/2022 | 4.0 |
+| 9. [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/17/2022 | 1.3 |
 | -1. [Fall break](#module--1-fall-break) | 11/22/2022 | 2.7 |
 | 10. [Final projects](#module-10-final-projects) | 11/29/2022 | 4.0 |
 
@@ -316,7 +316,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/29/2022 | Thu 10/6/2022, 12:00 CDT | Fri 10/28/2022, 17:00 CDT | Fri 11/11/2022, 16:00 CST |
 | HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/13/2022 | Thu 10/20/2022, 12:00 CDT | Fri 11/4/2022, 17:00 CDT | Fri 11/18/2022, 16:00 CST |
 | HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/20/2022 | Thu 10/27/2022, 12:00 CDT | Fri 11/11/2022, 17:00 CST | Fri 11/25/2022, 17:00 CST |
-| HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/1/2022 | Tue 11/8/2022, 12:00 CST | Fri 11/18/2022, 17:00 CST | Fri 12/2/2022, 17:00 CST |
+| HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/1/2022 | Tue 11/8/2022, 12:00 CST | Fri 11/25/2022, 17:00 CST | Fri 12/9/2022, 17:00 CST |
 
 ### Project Deliverables
 
@@ -333,8 +333,6 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 * Exam 1: Computational thinking: Tue 9/27/2022, 12:00 CDT
 
 * Exam 2: Coordinate transforms: Tue 10/18/2022, 12:00 CDT
-
-* Exam 3: Machine learning: Thu 11/17/2022, 12:00 CST
 
 * Final Exam: Tue 12/13/2022, 08:00 CST—Wed 12/14/2022, 08:00 CST
 
@@ -587,8 +585,9 @@ project/exploratory
 **Module 8 Class sessions:**
 
 
-* Tue 11/8/2022, 12:00 CST: Parameter fitting for dynamical systems
-* Thu 11/10/2022, 12:00 CST: Neural ordinary differential equations
+* Tue 11/8/2022, 12:00 CST: Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.
+* Thu 11/10/2022, 12:00 CST: Parameter fitting for dynamical systems
+* Tue 11/15/2022, 12:00 CST: Neural ordinary differential equations
 
 
 
@@ -617,8 +616,7 @@ project/modeling
 **Module 9 Class sessions:**
 
 
-* Tue 11/15/2022, 12:00 CST: Fairness in machine learning
-* Thu 11/17/2022, 12:00 CST: Exam 3: Machine learning
+* Thu 11/17/2022, 12:00 CST: Fairness in machine learning
 
 
 
@@ -662,7 +660,7 @@ project/rough_draft
 **Module 10 Class sessions:**
 
 
-* Tue 11/29/2022, 12:00 CST: Project workshop
+* Tue 11/29/2022, 12:00 CST: Project workshop (or presentations?)
 * Thu 12/1/2022, 12:00 CST: Final project presentations
 * Tue 12/6/2022, 12:00 CST: Final project presentations
 
