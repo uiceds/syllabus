@@ -286,6 +286,7 @@ var modules = []module{
 			"Implement a Neural ODE to make data-driven predictions of the evolution of a dynamical system",
 		},
 		ClassNames: []string{
+			"Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.",
 			"param_fitting",
 			"neural_odes",
 		},
@@ -304,7 +305,6 @@ var modules = []module{
 		PLName: "fairness",
 		ClassNames: []string{
 			"fairness",
-			"Exam 3: Machine learning",
 		},
 		ProjectAssignment: "project/rough_draft",
 	},
@@ -323,7 +323,7 @@ var modules = []module{
 		Title:    "Final projects",
 		Overview: `In this module we will present the results of our semester projects.`,
 		ClassNames: []string{
-			"Project workshop",
+			"Project workshop (or presentations?)",
 			"Final project presentations",
 			"Final project presentations",
 		},
