@@ -168,8 +168,8 @@ var modules = []module{
 		},
 		PLName: "intro_julia_la",
 		ClassNames: []string{
-			"julia_basics",
-			"julia_numerics",
+			"julia_basics_1",
+			"julia_basics_2",
 			"linalg",
 		},
 	},
@@ -593,7 +593,8 @@ func main() {
 }
 
 func createCalendar(modules []module, proj []project, startDates map[int64]time.Time, funcs template.FuncMap) {
-	b, err := ioutil.ReadFile("credentials.json")
+	b, err := ioutil.ReadFile("client_secret_28501454573-amktdv82kcnrosm55muahjr2rbmr9nkr.apps.googleusercontent.com.json")
+	//b, err := ioutil.ReadFile("credentials.json")
 	if err != nil {
 		log.Fatalf("Unable to read client secret file: %v", err)
 	}
@@ -605,6 +606,9 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 	}
 	client := getClient(config)
 
+	// export GOOGLE_APPLICATION_CREDENTIALS=$PWD/class-calendar-1598027004004-259ee97255bd.json
+	//ctx := context.Background()
+	//srv, err := calendar.NewService(ctx)
 	srv, err := calendar.NewService(context.Background(), option.WithHTTPClient(client))
 	if err != nil {
 		log.Fatalf("Unable to retrieve Calendar client: %v", err)
