@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/253381503d2516b391c80532a752b32c466b7224/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/253381503d2516b391c80532a752b32c466b7224/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/253381503d2516b391c80532a752b32c466b7224/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,7 +59,7 @@ manubot-clear-requests-cache: false
 
 * Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
-* Office hours (Zoom links on [Canvas](https://canvas.illinois.edu/courses/14635/pages/course-information?module_item_id=1227132)): 
+* Office hours: 
   * Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems
   * Liu: ?
 * Website: [https://cee.illinois.edu/directory/profile/ctessum](https://cee.illinois.edu/directory/profile/ctessum)
