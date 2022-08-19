@@ -1,7 +1,7 @@
 ---
 title: 'CEE 498DS: Data Science for CEE, Fall 2021'
 lang: en-US
-date-meta: '2022-08-02'
+date-meta: '2022-08-19'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2022-08-02" />
-  <meta name="citation_publication_date" content="2022-08-02" />
+  <meta name="dc.date" content="2022-08-19" />
+  <meta name="citation_publication_date" content="2022-08-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -48,23 +48,22 @@ manubot-clear-requests-cache: false
 ## Basic Course Information
 
 * Department: Civil and Environmental Engineering
-* Title: CEE 498DS: Data Science for Civil and Environmental Engineering
+* Title: CEE 492: Data Science for Civil and Environmental Engineering
 * Credits: 3 for Undergraduates, 4 for Graduate Students
-* Semester: Fall 2021
-* Meeting time and location: 12-1:20 on Tuesdays and Thursdays in Room 1017 CEE Hydrosystems and on Zoom.
-* First day of instruction: 8/24/2021
-* Last day of instruction: 12/7/2021 (final exam on 12/10/2021)
+* Semester: Fall 2022
+* Meeting time and location: 12-1:20 on Tuesdays and Thursdays in Room 1017 CEE Hydrosystems.
+* First day of instruction: 8/23/2022
+* Last day of instruction: 12/6/2021 (final exam on 12/13/2021)
 
 ## Basic Instructor Information
 
 * Instructor: Prof. Christopher Tessum, PhD
 * Office: 3213 Newmark Civil Engineering Laboratory
 * Office hours (Zoom links on [Canvas](https://canvas.illinois.edu/courses/14635/pages/course-information?module_item_id=1227132)): 
-  * Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems and on Zoom
-  * Guo: 9:00-10:00 on Mondays on Zoom
-  * Wang: 12:00-1:00 on Wednesday on Zoom
+  * Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems
+  * Liu: ?
 * Website: [https://cee.illinois.edu/directory/profile/ctessum](https://cee.illinois.edu/directory/profile/ctessum)
-* Teaching assistants: Lin Guo and Shiyuan Wang
+* Teaching assistant: Jialin Liu
 
 ## Description of the course
 
@@ -86,7 +85,7 @@ Specifically, upon completion of this course, you should be proficient in the fo
 2. To carry out exploratory data analysis to visualize, summarize, and explain an unfamiliar dataset.
 3. To use a distributed version control system to collaborate on a project.
 3. To choose and execute coordinate transforms represent and interpret the underlying patterns in a dataset.
-4. To apply the gradient descent algorithm to mimimize error between a model prediction and observations.
+4. To apply the gradient descent algorithm to minimize error between a model prediction and observations.
 5. To design and implement machine learning models to cluster or predict a dependent variable in a dataset when given independent variables.
 6. To monitor machine-learned models for bias using disaggregated testing.
 
@@ -105,17 +104,17 @@ For students taking the class for four credits, it will include semester-long gr
 ## Course Structure
 
 This course is structured as a series of modules, with each module containing recorded lectures, readings, and quizzes to be completed before each class meeting.
-Class meetings will be hybrid in-person and on Zoom, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worsheets.
-The in-class worsheets will be graded, but will not count toward the final grade. Instead, students who have an average worksheet score of at least 90% (averaged among all worksheets) will be allowed to drop their lowest-scoring midterm exam.
+Class meetings will be hybrid in-person and on Zoom, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worksheets.
+The in-class worksheets will be graded, but will not count toward the final grade. Instead, students who have an average worksheet score of at least 90% (averaged among all worksheets) will be allowed to drop their lowest-scoring midterm exam.
 Near the beginning or the semester, 4-credit students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
 Additionally, students will complete homework assignments, 3 midterms and a final exam.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Pre-lecture quizzes: 5% of final grade
+  * In-class worksheets: 11% of final grade (70% of points can be made up by completing the worksheet after class)
   * Homeworks: 20% of final grade
-  * Midterm exams: 30% of final grade (10% each). 
-  * Final exam: 20% of final grade
+  * Midterm exams: 39% of final grade (13% each).
   * Course project (4-credit students only): 25% of final grade: 
     * 3% for project selection and introduction, 
     * 3% for exploratory analysis, 
@@ -124,7 +123,8 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
     * and 13% for final report and presentation.
 * Graduate students are expected to register for 4 credits and undergraduates can choose between 3 and 4 credits. For 3-credit students, there will be no course project and the weights of the other assessments will be scaled accordingly.
 * Letter grades will be assigned according to the following scale:
-  * 93-100:	A
+  * 97-100: A+
+  * 93-96.9:	A
   * 90-92.9:	A-
   * 87-89.9:	B+
   * 83-86.9:	B
@@ -197,15 +197,15 @@ Requests for regrading homeworks, exams, and project deliverables must be submit
 
 #### Instructor Responses
 ##### Instructor Feedback Turnaround Time
-Questions posted to [CampusWire](https://campuswire.com/c/G51A12F7E) generally will be answered within 24 hours.
+Questions posted to [CampusWire](https://campuswire.com/c/GDD06864A/) generally will be answered within 24 hours.
 Questions may be answered on weekends but this should not be expected.
 
 Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Exams, essays, and term papers will generally be graded within 10 business days.
 
 ##### Contacting the instructor
-For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/G51A12F7E).
+For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/GDD06864A/).
 
-The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don't be offended if you are asked to repost your question on [CampusWire](https://campuswire.com/c/G51A12F7E) to allow the instructional team to efficiently answer all questions.
+The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don't be offended if you are asked to repost your question on [CampusWire](https://campuswire.com/c/GDD06864A/) to allow the instructional team to efficiently answer all questions.
 
 #### Academic Integrity
 Academic dishonesty will not be tolerated. Examples of academic dishonesty include the following:
@@ -260,7 +260,7 @@ In any social interaction, certain rules of etiquette are expected and contribut
 Your daily contact should be in class or on Zoom, in office hours, or on CampusWire.
 
 ##### Course Questions
-Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/G51A12F7E/feed). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/G51A12F7E/feed). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
+Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/GDD06864A/). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/GDD06864A/). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
 
 ##### Personal and Grade-Related Questions
 Questions of a personal nature can be sent as a direct message on CampusWire, or if desired may be sent to the instructor's email address. If you need to send an email, include a subject that identifies the course number and nature of your question.
@@ -386,8 +386,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 1 Class sessions:**
 
 
-* Thu 8/25/2022, 12:00 CDT: Julia basics
-* Tue 8/30/2022, 12:00 CDT: Julia basics 2
+* Thu 8/25/2022, 12:00 CDT: julia_basics_1
+* Tue 8/30/2022, 12:00 CDT: julia_basics_2
 * Thu 9/1/2022, 12:00 CDT: Linear algebra review
 
 

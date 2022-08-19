@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="dcterms.date" content="2022-08-02" />
+  <meta name="dcterms.date" content="2022-08-19" />
   <title>CEE 498DS: Data Science for CEE, Fall 2021</title>
   <style>
     code{white-space: pre-wrap;}
@@ -26,8 +26,8 @@
   <meta name="citation_title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="og:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
   <meta property="twitter:title" content="CEE 498DS: Data Science for CEE, Fall 2021" />
-  <meta name="dc.date" content="2022-08-02" />
-  <meta name="citation_publication_date" content="2022-08-02" />
+  <meta name="dc.date" content="2022-08-19" />
+  <meta name="citation_publication_date" content="2022-08-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,9 +40,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/4190c2c8d1a8d74021551425c62f70d8f5eda5d4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d12970320a35007375b8863d14960651a1a17aeb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -58,12 +58,12 @@
 <h2 id="basic-course-information">Basic Course Information</h2>
 <ul>
 <li>Department: Civil and Environmental Engineering</li>
-<li>Title: CEE 498DS: Data Science for Civil and Environmental Engineering</li>
+<li>Title: CEE 492: Data Science for Civil and Environmental Engineering</li>
 <li>Credits: 3 for Undergraduates, 4 for Graduate Students</li>
-<li>Semester: Fall 2021</li>
-<li>Meeting time and location: 12-1:20 on Tuesdays and Thursdays in Room 1017 CEE Hydrosystems and on Zoom.</li>
-<li>First day of instruction: 8/24/2021</li>
-<li>Last day of instruction: 12/7/2021 (final exam on 12/10/2021)</li>
+<li>Semester: Fall 2022</li>
+<li>Meeting time and location: 12-1:20 on Tuesdays and Thursdays in Room 1017 CEE Hydrosystems.</li>
+<li>First day of instruction: 8/23/2022</li>
+<li>Last day of instruction: 12/6/2021 (final exam on 12/13/2021)</li>
 </ul>
 <h2 id="basic-instructor-information">Basic Instructor Information</h2>
 <ul>
@@ -71,12 +71,11 @@
 <li>Office: 3213 Newmark Civil Engineering Laboratory</li>
 <li>Office hours (Zoom links on <a href="https://canvas.illinois.edu/courses/14635/pages/course-information?module_item_id=1227132">Canvas</a>):
 <ul>
-<li>Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems and on Zoom</li>
-<li>Guo: 9:00-10:00 on Mondays on Zoom</li>
-<li>Wang: 12:00-1:00 on Wednesday on Zoom</li>
+<li>Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems</li>
+<li>Liu: ?</li>
 </ul></li>
 <li>Website: <a href="https://cee.illinois.edu/directory/profile/ctessum">https://cee.illinois.edu/directory/profile/ctessum</a></li>
-<li>Teaching assistants: Lin Guo and Shiyuan Wang</li>
+<li>Teaching assistant: Jialin Liu</li>
 </ul>
 <h2 id="description-of-the-course">Description of the course</h2>
 <p>Welcome to CEE Data Science!
@@ -95,7 +94,7 @@ This course includes training in computational thinking and exploratory data ana
 <li>To carry out exploratory data analysis to visualize, summarize, and explain an unfamiliar dataset.</li>
 <li>To use a distributed version control system to collaborate on a project.</li>
 <li>To choose and execute coordinate transforms represent and interpret the underlying patterns in a dataset.</li>
-<li>To apply the gradient descent algorithm to mimimize error between a model prediction and observations.</li>
+<li>To apply the gradient descent algorithm to minimize error between a model prediction and observations.</li>
 <li>To design and implement machine learning models to cluster or predict a dependent variable in a dataset when given independent variables.</li>
 <li>To monitor machine-learned models for bias using disaggregated testing.</li>
 </ol>
@@ -111,8 +110,8 @@ For students taking the class for four credits, it will include semester-long gr
 </ul>
 <h2 id="course-structure">Course Structure</h2>
 <p>This course is structured as a series of modules, with each module containing recorded lectures, readings, and quizzes to be completed before each class meeting.
-Class meetings will be hybrid in-person and on Zoom, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worsheets.
-The in-class worsheets will be graded, but will not count toward the final grade. Instead, students who have an average worksheet score of at least 90% (averaged among all worksheets) will be allowed to drop their lowest-scoring midterm exam.
+Class meetings will be hybrid in-person and on Zoom, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worksheets.
+The in-class worksheets will be graded, but will not count toward the final grade. Instead, students who have an average worksheet score of at least 90% (averaged among all worksheets) will be allowed to drop their lowest-scoring midterm exam.
 Near the beginning or the semester, 4-credit students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
 Additionally, students will complete homework assignments, 3 midterms and a final exam.</p>
 <h2 id="course-requirements-and-assessment-overview">Course Requirements and Assessment Overview</h2>
@@ -120,9 +119,9 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
 <li>Grades will be assigned based on several types of deliverables:
 <ul>
 <li>Pre-lecture quizzes: 5% of final grade</li>
+<li>In-class worksheets: 11% of final grade (70% of points can be made up by completing the worksheet after class)</li>
 <li>Homeworks: 20% of final grade</li>
-<li>Midterm exams: 30% of final grade (10% each).</li>
-<li>Final exam: 20% of final grade</li>
+<li>Midterm exams: 39% of final grade (13% each).</li>
 <li>Course project (4-credit students only): 25% of final grade:
 <ul>
 <li>3% for project selection and introduction,</li>
@@ -135,7 +134,8 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
 <li>Graduate students are expected to register for 4 credits and undergraduates can choose between 3 and 4 credits. For 3-credit students, there will be no course project and the weights of the other assessments will be scaled accordingly.</li>
 <li>Letter grades will be assigned according to the following scale:
 <ul>
-<li>93-100: A</li>
+<li>97-100: A+</li>
+<li>93-96.9: A</li>
 <li>90-92.9: A-</li>
 <li>87-89.9: B+</li>
 <li>83-86.9: B</li>
@@ -188,12 +188,12 @@ In summary, students in a 3-credit class are expected spend at least 6 hours per
 <p>Requests for regrading homeworks, exams, and project deliverables must be submitted in writing within one week of receiving the initial grade, and must include a written explanation of the reason for the regrade request.</p>
 <h4 id="instructor-responses">Instructor Responses</h4>
 <h5 id="instructor-feedback-turnaround-time">Instructor Feedback Turnaround Time</h5>
-<p>Questions posted to <a href="https://campuswire.com/c/G51A12F7E">CampusWire</a> generally will be answered within 24 hours.
+<p>Questions posted to <a href="https://campuswire.com/c/GDD06864A/">CampusWire</a> generally will be answered within 24 hours.
 Questions may be answered on weekends but this should not be expected.</p>
 <p>Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Exams, essays, and term papers will generally be graded within 10 business days.</p>
 <h5 id="contacting-the-instructor">Contacting the instructor</h5>
-<p>For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the <a href="https://campuswire.com/c/G51A12F7E">CampusWire</a>.</p>
-<p>The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don’t be offended if you are asked to repost your question on <a href="https://campuswire.com/c/G51A12F7E">CampusWire</a> to allow the instructional team to efficiently answer all questions.</p>
+<p>For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the <a href="https://campuswire.com/c/GDD06864A/">CampusWire</a>.</p>
+<p>The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don’t be offended if you are asked to repost your question on <a href="https://campuswire.com/c/GDD06864A/">CampusWire</a> to allow the instructional team to efficiently answer all questions.</p>
 <h4 id="academic-integrity">Academic Integrity</h4>
 <p>Academic dishonesty will not be tolerated. Examples of academic dishonesty include the following:</p>
 <ul>
@@ -241,7 +241,7 @@ Questions may be answered on weekends but this should not be expected.</p>
 <h5 id="daily-contact">Daily Contact</h5>
 <p>Your daily contact should be in class or on Zoom, in office hours, or on CampusWire.</p>
 <h5 id="course-questions">Course Questions</h5>
-<p>Questions pertaining to the course should be posted on <a href="https://campuswire.com/c/G51A12F7E/feed">CampusWire</a>. You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the <a href="https://campuswire.com/c/G51A12F7E/feed">CampusWire</a>. Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.</p>
+<p>Questions pertaining to the course should be posted on <a href="https://campuswire.com/c/GDD06864A/">CampusWire</a>. You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the <a href="https://campuswire.com/c/GDD06864A/">CampusWire</a>. Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.</p>
 <h5 id="personal-and-grade-related-questions">Personal and Grade-Related Questions</h5>
 <p>Questions of a personal nature can be sent as a direct message on CampusWire, or if desired may be sent to the instructor’s email address. If you need to send an email, include a subject that identifies the course number and nature of your question.</p>
 <h5 id="emergencies">Emergencies</h5>
@@ -485,8 +485,8 @@ expected to have completed a basic computer programming class (similar to CS101)
 </ul>
 <p><strong>Module 1 Class sessions:</strong></p>
 <ul>
-<li>Thu 8/25/2022, 12:00 CDT: Julia basics</li>
-<li>Tue 8/30/2022, 12:00 CDT: Julia basics 2</li>
+<li>Thu 8/25/2022, 12:00 CDT: julia_basics_1</li>
+<li>Tue 8/30/2022, 12:00 CDT: julia_basics_2</li>
 <li>Thu 9/1/2022, 12:00 CDT: Linear algebra review</li>
 </ul>
 <!---->
