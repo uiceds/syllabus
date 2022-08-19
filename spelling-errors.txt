@@ -7,7 +7,7 @@ CEE
 Champaign
 Chuq
 CITL
-Convolutional
+convolutional
 Courville
 DataFrames
 dataset
