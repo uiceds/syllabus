@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -15,9 +14,7 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
 	calendar "google.golang.org/api/calendar/v3"
-	"google.golang.org/api/option"
 )
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
@@ -27,7 +24,7 @@ var courseInstance string
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
-const plWebsite = "https://www.prairielearn.org/pl/course_instance/128749/assessments"
+const plWebsite = "https://www.prairielearn.org/pl/course_instance/129396"
 
 var startDate, finalExamStart, finalExamEnd time.Time
 
@@ -593,23 +590,9 @@ func main() {
 }
 
 func createCalendar(modules []module, proj []project, startDates map[int64]time.Time, funcs template.FuncMap) {
-	b, err := ioutil.ReadFile("client_secret_28501454573-amktdv82kcnrosm55muahjr2rbmr9nkr.apps.googleusercontent.com.json")
-	//b, err := ioutil.ReadFile("credentials.json")
-	if err != nil {
-		log.Fatalf("Unable to read client secret file: %v", err)
-	}
-
-	// If modifying these scopes, delete your previously saved token.json.
-	config, err := google.ConfigFromJSON(b, calendar.CalendarEventsScope)
-	if err != nil {
-		log.Fatalf("Unable to parse client secret file to config: %v", err)
-	}
-	client := getClient(config)
-
-	// export GOOGLE_APPLICATION_CREDENTIALS=$PWD/class-calendar-1598027004004-259ee97255bd.json
-	//ctx := context.Background()
-	//srv, err := calendar.NewService(ctx)
-	srv, err := calendar.NewService(context.Background(), option.WithHTTPClient(client))
+	// export GOOGLE_APPLICATION_CREDENTIALS=class-calendar-1598027004004-ee3067aa11ec.json
+	// Make sure service account has edit access to the calendar, which is owned by ctessum@illinois.edu.
+	srv, err := calendar.NewService(context.Background())
 	if err != nil {
 		log.Fatalf("Unable to retrieve Calendar client: %v", err)
 	}
@@ -629,12 +612,12 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 	for d := startDate; d.Before(finalExamStart); d = nextTessumOfficeHour(d) {
 		tessumOfficeHoursToCalendar(srv, d)
 	}
-	for d := startDate; d.Before(finalExamStart); d = nextGuoOfficeHour(d) {
-		guoOfficeHoursToCalendar(srv, d)
-	}
-	for d := startDate; d.Before(finalExamStart); d = nextWangOfficeHour(d) {
-		wangOfficeHoursToCalendar(srv, d)
-	}
+	//for d := startDate; d.Before(finalExamStart); d = nextGuoOfficeHour(d) {
+	//	guoOfficeHoursToCalendar(srv, d)
+	//}
+	//for d := startDate; d.Before(finalExamStart); d = nextWangOfficeHour(d) {
+	//	wangOfficeHoursToCalendar(srv, d)
+	//}
 
 	for _, m := range modules {
 		d := startDates[m.Number]
@@ -670,7 +653,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     fmt.Sprintf("Class meeting: %s", classTitle(m, i)),
 				Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
-				Description: "Also on Zoom (see Canvas site for link).",
+				Description: "https://www.prairielearn.org/pl/course_instance/129396",
 				Status:      "confirmed",
 				Start: &calendar.EventDateTime{
 					DateTime: d.Format(time.RFC3339),
@@ -691,7 +674,7 @@ func tessumOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Tessum office hours",
 		Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
-		Description: "Also on Zoom (see Canvas site for link).",
+		Description: "Also see campuswire: https://campuswire.com/c/GDD06864A/",
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			DateTime: d.Format(time.RFC3339),
