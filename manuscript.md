@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/65af5dfadd248c91767677a065aba2c83ac44ec9/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/65af5dfadd248c91767677a065aba2c83ac44ec9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/65af5dfadd248c91767677a065aba2c83ac44ec9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/15fff761e31234be4164713fc563b8d24de8db21/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/15fff761e31234be4164713fc563b8d24de8db21/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/15fff761e31234be4164713fc563b8d24de8db21/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -309,24 +309,24 @@ The University of Illinois strives to promote student success through the suppor
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/23/2022 | Thu 8/25/2022, 12:00 CDT | Fri 9/9/2022, 17:00 CDT | Fri 9/23/2022, 17:00 CDT |
-| HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 8/30/2022 | Tue 9/6/2022, 12:00 CDT | Fri 9/23/2022, 17:00 CDT | Fri 10/7/2022, 17:00 CDT |
-| HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/8/2022 | Thu 9/15/2022, 12:00 CDT | Fri 9/30/2022, 17:00 CDT | Fri 10/14/2022, 17:00 CDT |
-| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/15/2022 | Thu 9/22/2022, 12:00 CDT | Fri 10/14/2022, 17:00 CDT | Fri 10/28/2022, 17:00 CDT |
-| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 9/29/2022 | Thu 10/6/2022, 12:00 CDT | Fri 10/28/2022, 17:00 CDT | Fri 11/11/2022, 16:00 CST |
-| HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/13/2022 | Thu 10/20/2022, 12:00 CDT | Fri 11/4/2022, 17:00 CDT | Fri 11/18/2022, 16:00 CST |
-| HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 10/20/2022 | Thu 10/27/2022, 12:00 CDT | Fri 11/11/2022, 17:00 CST | Fri 11/25/2022, 17:00 CST |
-| HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 11/1/2022 | Tue 11/8/2022, 12:00 CST | Fri 11/25/2022, 17:00 CST | Fri 12/9/2022, 17:00 CST |
+| HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/129396) | 8/23/2022 | Thu 8/25/2022, 12:00 CDT | Fri 9/9/2022, 17:00 CDT | Fri 9/23/2022, 17:00 CDT |
+| HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/129396) | 8/30/2022 | Tue 9/6/2022, 12:00 CDT | Fri 9/23/2022, 17:00 CDT | Fri 10/7/2022, 17:00 CDT |
+| HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/129396) | 9/8/2022 | Thu 9/15/2022, 12:00 CDT | Fri 9/30/2022, 17:00 CDT | Fri 10/14/2022, 17:00 CDT |
+| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/129396) | 9/15/2022 | Thu 9/22/2022, 12:00 CDT | Fri 10/14/2022, 17:00 CDT | Fri 10/28/2022, 17:00 CDT |
+| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/129396) | 9/29/2022 | Thu 10/6/2022, 12:00 CDT | Fri 10/28/2022, 17:00 CDT | Fri 11/11/2022, 16:00 CST |
+| HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/129396) | 10/13/2022 | Thu 10/20/2022, 12:00 CDT | Fri 11/4/2022, 17:00 CDT | Fri 11/18/2022, 16:00 CST |
+| HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/129396) | 10/20/2022 | Thu 10/27/2022, 12:00 CDT | Fri 11/11/2022, 17:00 CST | Fri 11/25/2022, 17:00 CST |
+| HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/129396) | 11/1/2022 | Tue 11/8/2022, 12:00 CST | Fri 11/25/2022, 17:00 CST | Fri 12/9/2022, 17:00 CST |
 
 ### Project Deliverables
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2022-08-23 12:00:00 -0500 CDT | 2022-09-23 17:00:00 -0500 CDT
-| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2022-09-23 17:00:00 -0500 CDT | 2022-10-28 17:00:00 -0500 CDT
-| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2022-10-28 17:00:00 -0500 CDT | 2022-11-11 17:00:00 -0600 CST
-| 4. [Report rough draft](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2022-11-11 17:00:00 -0600 CST | 2022-11-18 17:00:00 -0600 CST
-| 5. [Final report and presentation](https://www.prairielearn.org/pl/course_instance/128749/assessments) | 2022-11-18 17:00:00 -0600 CST | 2022-12-02 17:00:00 -0600 CST
+| 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/129396) | 2022-08-23 12:00:00 -0500 CDT | 2022-09-23 17:00:00 -0500 CDT
+| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/129396) | 2022-09-23 17:00:00 -0500 CDT | 2022-10-28 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/129396) | 2022-10-28 17:00:00 -0500 CDT | 2022-11-11 17:00:00 -0600 CST
+| 4. [Report rough draft](https://www.prairielearn.org/pl/course_instance/129396) | 2022-11-11 17:00:00 -0600 CST | 2022-11-18 17:00:00 -0600 CST
+| 5. [Final report and presentation](https://www.prairielearn.org/pl/course_instance/129396) | 2022-11-18 17:00:00 -0600 CST | 2022-12-02 17:00:00 -0600 CST
 
 ### Exams
 

@@ -11,7 +11,7 @@ Convolutional
 Courville
 DataFrames
 dataset
-Deliverables
+deliverables
 disaggregated
 DRES
 ebook
