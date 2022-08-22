@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2022-08-19'
+date-meta: '2022-08-22'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2022-08-19" />
-  <meta name="citation_publication_date" content="2022-08-19" />
+  <meta name="dc.date" content="2022-08-22" />
+  <meta name="citation_publication_date" content="2022-08-22" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/b138551be18599c1770a4a744aea8d6cc5a2ea76/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/b138551be18599c1770a4a744aea8d6cc5a2ea76/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/b138551be18599c1770a4a744aea8d6cc5a2ea76/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/11b4c078235f52408417baa70e2e15de9344ff78/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/11b4c078235f52408417baa70e2e15de9344ff78/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/11b4c078235f52408417baa70e2e15de9344ff78/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,7 +112,7 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Pre-lecture quizzes: 5% of final grade
-  * In-class worksheets: 11% of final grade (70% of points can be made up by completing the worksheet after class)
+  * In-class worksheets: 11% of final grade. (70% of points can be made up by completing the post-class worksheet review. Online students can get 100% of points by completing the post-class worksheet review.)
   * Homeworks: 20% of final grade
   * Midterm exams: 39% of final grade (13% each).
   * Course project (4-credit students only): 25% of final grade: 
@@ -121,6 +121,7 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
     * 3% for preliminary modeling, 
     * 3% for report rough draft, 
     * and 13% for final report and presentation.
+  * Extra credit: Students can create "Tiktok-style" videos explaining or reviewing the concepts covered in the course. For each module in the course, the creator of best video (as judged by the instructor) will receive **1% extra credit** toward their overall grade for the class. Videos with multiple authors can split the extra credit among the authors.
 * Graduate students are expected to register for 4 credits and undergraduates can choose between 3 and 4 credits. For 3-credit students, there will be no course project and the weights of the other assessments will be scaled accordingly.
 * Letter grades will be assigned according to the following scale:
   * 97-100: A+
