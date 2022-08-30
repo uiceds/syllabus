@@ -215,8 +215,8 @@ var modules = []module{
 		PLName: "fourier",
 		ClassNames: []string{
 			"fourier",
-			"Exam 1: Computational thinking",
 			"fft",
+			"Exam 1: Computational thinking",
 			"wavelet",
 		},
 		ProjectAssignment: "project/selection",
