@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2022-08-29'
+date-meta: '2022-08-30'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2022-08-29" />
-  <meta name="citation_publication_date" content="2022-08-29" />
+  <meta name="dc.date" content="2022-08-30" />
+  <meta name="citation_publication_date" content="2022-08-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3354972313ca89fc85dd00d2051293086e9daf0a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3354972313ca89fc85dd00d2051293086e9daf0a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3354972313ca89fc85dd00d2051293086e9daf0a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/32df77ed5b0e034ccb70d3db9c9312f8268e4db0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/32df77ed5b0e034ccb70d3db9c9312f8268e4db0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/32df77ed5b0e034ccb70d3db9c9312f8268e4db0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -331,7 +331,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 ### Exams
 
-* Exam 1: Computational thinking: Tue 9/27/2022, 12:00 CDT
+* Exam 1: Computational thinking: Thu 9/29/2022, 12:00 CDT
 
 * Exam 2: Coordinate transforms: Tue 10/18/2022, 12:00 CDT
 
@@ -470,8 +470,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 
 * Thu 9/22/2022, 12:00 CDT: Fourier Series
-* Tue 9/27/2022, 12:00 CDT: Exam 1: Computational thinking
-* Thu 9/29/2022, 12:00 CDT: Fourier Transforms
+* Tue 9/27/2022, 12:00 CDT: Fourier Transforms
+* Thu 9/29/2022, 12:00 CDT: Exam 1: Computational thinking
 * Tue 10/4/2022, 12:00 CDT: Spectrograms and Wavelets
 
 

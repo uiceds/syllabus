@@ -7,11 +7,11 @@ CEE
 Champaign
 Chuq
 CITL
-Convolutional
+convolutional
 Courville
 DataFrames
 dataset
-deliverables
+Deliverables
 disaggregated
 DRES
 ebook
@@ -19,7 +19,7 @@ else’s
 FFT
 Gabor
 Goodfellow
-homeworks
+Homeworks
 HW
 Hydrosystems
 Jialin
