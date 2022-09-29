@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2022-08-30'
+date-meta: '2022-09-29'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2022-08-30" />
-  <meta name="citation_publication_date" content="2022-08-30" />
+  <meta name="dc.date" content="2022-09-29" />
+  <meta name="citation_publication_date" content="2022-09-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/32df77ed5b0e034ccb70d3db9c9312f8268e4db0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/32df77ed5b0e034ccb70d3db9c9312f8268e4db0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/32df77ed5b0e034ccb70d3db9c9312f8268e4db0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a476f217e55f3d15d03d0ad8e9c8c6b7f6b078eb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a476f217e55f3d15d03d0ad8e9c8c6b7f6b078eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a476f217e55f3d15d03d0ad8e9c8c6b7f6b078eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -104,10 +104,12 @@ For students taking the class for four credits, it will include semester-long gr
 ## Course Structure
 
 This course is structured as a series of modules, with each module containing recorded lectures, readings, and quizzes to be completed before each class meeting.
-Class meetings will be hybrid in-person and on Zoom, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worksheets.
-The in-class worksheets will be graded, but will not count toward the final grade. Instead, students who have an average worksheet score of at least 90% (averaged among all worksheets) will be allowed to drop their lowest-scoring midterm exam.
+Class meetings will be in-person, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worksheets.
+The in-class worksheets will be completed in groups and will be graded. 
+If students do not finish the worksheet during class or are absent, up to 70% of points can be made up by completing the post-class worksheet review. 
+Online students can get 100% of points by completing the post-class worksheet review.
 Near the beginning or the semester, 4-credit students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
-Additionally, students will complete homework assignments, 3 midterms and a final exam.
+Additionally, students will complete homework assignments and 3 exams.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
@@ -138,6 +140,17 @@ Additionally, students will complete homework assignments, 3 midterms and a fina
   * 60-62.9:	D-
   * Below 59.5:	F
 
+## Absence Policy
+
+Occasionally you may need to miss class owing to illness, conference travel, family emergencies, or other reasons. If the absence is deemed to be for a worthy reason, it can be considered an excused absence. Here is how we will handle excused absences:
+
+1. Once you know you will be missing class, send me a message letting me know how long (if you know). It will work best if you also provide some documentation, e.g. test result, conference registration, etc.
+
+2. On days that you miss class, instead of completing the in-class "worksheet" assignment, instead complete the "post-class worksheet review" that will be available immediately after class ends. It's the same worksheet but you can do it individually and it comes with a video that walks you through it. (If you prefer to organize a zoom session with your groupmates and participate in class remotely, that's great and strongly encouraged, but we won't be having a central zoom session because it just doesn't work well.)
+
+3. By default, up to 70% of the points you get on the "worksheet-review" will count toward the worksheet score. So if you get 50% on the worksheet and 100% on the worksheet review, then your final worksheet score will be 50 + (100-50)*0.7 = 85%. However, for an excused absence (e.g. one registered in the manner above) 100% of worksheet-review points count toward the worksheet. (Note that there is not a huge difference in points between an excused absence and an unexcused one.)
+
+4. The deadline for the worksheet review is usually a couple of weeks after class, so it is okay to wait until you're feeling better to complete it. However, we do have a pretty hard end of the semester at the beginning of December, and things can start to pile up if you fall behind. Come talk to me if that becomes an issue.
 
 ## Homeworks and Exams
 
