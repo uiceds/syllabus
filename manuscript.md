@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2022-09-29'
+date-meta: '2022-10-12'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2022-09-29" />
-  <meta name="citation_publication_date" content="2022-09-29" />
+  <meta name="dc.date" content="2022-10-12" />
+  <meta name="citation_publication_date" content="2022-10-12" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/a476f217e55f3d15d03d0ad8e9c8c6b7f6b078eb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/a476f217e55f3d15d03d0ad8e9c8c6b7f6b078eb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/a476f217e55f3d15d03d0ad8e9c8c6b7f6b078eb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d02ababf7667693d41a70735f71f7327696230cf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d02ababf7667693d41a70735f71f7327696230cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d02ababf7667693d41a70735f71f7327696230cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -306,7 +306,7 @@ The University of Illinois strives to promote student success through the suppor
 | 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/15/2022 | 2.7 |
 | 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/22/2022 | 4.0 |
 | 5. [Regression](#module-5-regression) | 10/6/2022 | 4.0 |
-| 6. [Machine learning](#module-6-machine-learning) | 10/20/2022 | 2.7 |
+| 6. [Machine learning](#module-6-machine-learning) | 10/18/2022 | 2.7 |
 | 7. [Neural networks](#module-7-neural-networks) | 10/27/2022 | 4.0 |
 | 8. [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/8/2022 | 4.0 |
 | 9. [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/17/2022 | 1.3 |
@@ -327,8 +327,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/129396) | 8/30/2022 | Tue 9/6/2022, 12:00 CDT | Fri 9/23/2022, 17:00 CDT | Fri 10/7/2022, 17:00 CDT |
 | HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/129396) | 9/8/2022 | Thu 9/15/2022, 12:00 CDT | Fri 9/30/2022, 17:00 CDT | Fri 10/14/2022, 17:00 CDT |
 | HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/129396) | 9/15/2022 | Thu 9/22/2022, 12:00 CDT | Fri 10/14/2022, 17:00 CDT | Fri 10/28/2022, 17:00 CDT |
-| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/129396) | 9/29/2022 | Thu 10/6/2022, 12:00 CDT | Fri 10/28/2022, 17:00 CDT | Fri 11/11/2022, 16:00 CST |
-| HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/129396) | 10/13/2022 | Thu 10/20/2022, 12:00 CDT | Fri 11/4/2022, 17:00 CDT | Fri 11/18/2022, 16:00 CST |
+| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/129396) | 9/29/2022 | Thu 10/6/2022, 12:00 CDT | Fri 10/21/2022, 17:00 CDT | Fri 11/4/2022, 17:00 CDT |
+| HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/129396) | 10/11/2022 | Tue 10/18/2022, 12:00 CDT | Fri 11/4/2022, 17:00 CDT | Fri 11/18/2022, 16:00 CST |
 | HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/129396) | 10/20/2022 | Thu 10/27/2022, 12:00 CDT | Fri 11/11/2022, 17:00 CST | Fri 11/25/2022, 17:00 CST |
 | HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/129396) | 11/1/2022 | Tue 11/8/2022, 12:00 CST | Fri 11/25/2022, 17:00 CST | Fri 12/9/2022, 17:00 CST |
 
@@ -346,7 +346,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 * Exam 1: Computational thinking: Thu 9/29/2022, 12:00 CDT
 
-* Exam 2: Coordinate transforms: Tue 10/18/2022, 12:00 CDT
+* Exam 2: Coordinate transforms: Thu 10/20/2022, 12:00 CDT
 
 * Final Exam: Tue 12/13/2022, 08:00 CST—Wed 12/14/2022, 08:00 CST
 
@@ -518,7 +518,6 @@ project/selection
 * Thu 10/6/2022, 12:00 CDT: Regression
 * Tue 10/11/2022, 12:00 CDT: Regularization
 * Thu 10/13/2022, 12:00 CDT: Model and feature selection
-* Tue 10/18/2022, 12:00 CDT: Exam 2: Coordinate transforms
 
 
 
@@ -543,7 +542,8 @@ project/selection
 **Module 6 Class sessions:**
 
 
-* Thu 10/20/2022, 12:00 CDT: k-Means clustering
+* Tue 10/18/2022, 12:00 CDT: k-Means clustering
+* Thu 10/20/2022, 12:00 CDT: Exam 2: Coordinate transforms
 * Tue 10/25/2022, 12:00 CDT: Classification trees
 
 

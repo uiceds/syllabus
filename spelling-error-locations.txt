@@ -113,8 +113,8 @@ content/04.modules.md:211:mimimize
 content/04.modules.md:212:dataset
 content/04.modules.md:213:overfitting
 content/04.modules.md:214:dataset
+content/04.modules.md:240:dataset
 content/04.modules.md:241:dataset
-content/04.modules.md:242:dataset
 content/04.modules.md:265:convolutional
 content/04.modules.md:285:Convolutional
 content/04.modules.md:328:disaggregated
