@@ -237,7 +237,6 @@ var modules = []module{
 			"regression",
 			"regularization",
 			"model_selection",
-			"Exam 2: Coordinate transforms",
 		},
 	},
 	{
@@ -252,6 +251,7 @@ var modules = []module{
 		PLName: "machine_learning",
 		ClassNames: []string{
 			"k-means",
+			"Exam 2: Coordinate transforms",
 			"classification_trees",
 		},
 		ProjectAssignment: "project/exploratory",
