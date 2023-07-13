@@ -18,13 +18,13 @@ import (
 )
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
-var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2022", "Path to PrairieLearn course repository")
+var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2023", "Path to PrairieLearn course repository")
 
 var courseInstance string
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
-const plWebsite = "https://www.prairielearn.org/pl/course_instance/129396"
+const plWebsite = "https://us.prairielearn.com/pl/course_instance/137035"
 
 var startDate, finalExamStart, finalExamEnd time.Time
 
@@ -42,10 +42,10 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	startDate = time.Date(2022, time.August, 23, 12, 0, 0, 0, loc)
+	startDate = time.Date(2023, time.August, 21, 12, 0, 0, 0, loc)
 
-	finalExamStart = time.Date(2022, time.December, 13, 8, 00, 0, 0, loc)
-	finalExamEnd = time.Date(2022, time.December, 14, 8, 00, 0, 0, loc)
+	finalExamStart = time.Date(2023, time.December, 13, 8, 00, 0, 0, loc)
+	finalExamEnd = time.Date(2023, time.December, 14, 8, 00, 0, 0, loc)
 }
 
 func startDates(modules []module) map[int64]time.Time {
@@ -260,7 +260,7 @@ var modules = []module{
 		Number:   7,
 		Parents:  []int64{6},
 		Title:    "Neural networks",
-		Overview: `In this module, we will learn how to implement and use both fully-connected and convolutional neural networks.`,
+		Overview: `In this module, we will learn how to implement and use fully-connected neural networks.`,
 		Objectives: []string{
 			"Train a neural network to for regression and classification",
 			"Identify and debug common problems with neural network training",
@@ -269,12 +269,27 @@ var modules = []module{
 		ClassNames: []string{
 			"neural_nets1",
 			"neural_nets2",
-			"conv_nets",
 		},
 	},
 	{
 		Number:   8,
 		Parents:  []int64{7},
+		Title:    "Convolutional neural networks",
+		Overview: `In this module, we will learn how to implement and use convolutional neural networks.`,
+		Objectives: []string{
+			"Train a neural network to for regression and classification",
+			"Identify and debug common problems with neural network training",
+		},
+		PLName: "conv_nets",
+		ClassNames: []string{
+			"conv_nets",
+			"Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.",
+			"conv_nets2",
+		},
+	},
+	{
+		Number:   9,
+		Parents:  []int64{8},
 		Title:    "Data-driven dynamical systems",
 		PLName:   "data_driven_dynamics",
 		Overview: `In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.`,
@@ -283,15 +298,23 @@ var modules = []module{
 			"Implement a Neural ODE to make data-driven predictions of the evolution of a dynamical system",
 		},
 		ClassNames: []string{
-			"Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.",
 			"param_fitting",
 			"neural_odes",
 		},
 		ProjectAssignment: "project/modeling",
 	},
 	{
-		Number:  9,
-		Parents: []int64{8},
+		Number:  -1,
+		Parents: []int64{9},
+		Title:   "Fall break",
+		ClassNames: []string{
+			"Fall break",
+			"Fall break",
+		},
+	},
+	{
+		Number:  10,
+		Parents: []int64{9},
 		Title:   "Fairness in machine learning",
 		Overview: `Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
 		We will learn how to detect and minimize this bias.`,
@@ -306,21 +329,11 @@ var modules = []module{
 		ProjectAssignment: "project/rough_draft",
 	},
 	{
-		Number:  -1,
-		Parents: []int64{9},
-		Title:   "Fall break",
-		ClassNames: []string{
-			"Fall break",
-			"Fall break",
-		},
-	},
-	{
-		Number:   10,
-		Parents:  []int64{-1},
+		Number:   11,
+		Parents:  []int64{10},
 		Title:    "Final projects",
 		Overview: `In this module we will present the results of our semester projects.`,
 		ClassNames: []string{
-			"Project workshop (or presentations?)",
 			"Final project presentations",
 			"Final project presentations",
 		},
