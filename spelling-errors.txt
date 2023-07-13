@@ -7,7 +7,8 @@ CEE
 Champaign
 Chuq
 CITL
-Convolutional
+conv
+convolutional
 Courville
 DataFrames
 dataset
@@ -20,7 +21,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-homeworks
+Homeworks
 HW
 Hydrosystems
 Jialin
@@ -32,7 +33,7 @@ Newmark
 overfitting
 PCA
 PrairieLearn
-pre
+Pre
 REPL
 repost
 Rospach

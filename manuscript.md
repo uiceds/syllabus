@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2022-10-12'
+date-meta: '2023-07-13'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2022-10-12" />
-  <meta name="citation_publication_date" content="2022-10-12" />
+  <meta name="dc.date" content="2023-07-13" />
+  <meta name="citation_publication_date" content="2023-07-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/d02ababf7667693d41a70735f71f7327696230cf/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/d02ababf7667693d41a70735f71f7327696230cf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/d02ababf7667693d41a70735f71f7327696230cf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/f02aadf31f09864be56be97dc6615f34af2c0ed3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/f02aadf31f09864be56be97dc6615f34af2c0ed3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/f02aadf31f09864be56be97dc6615f34af2c0ed3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -300,18 +300,19 @@ The University of Illinois strives to promote student success through the suppor
 
 | Module | Start Date | Contact Hours |
 | ---------- | --- | -- |
-| 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/23/2022 | 1.3 |
-| 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/25/2022 | 4.0 |
-| 2. [Open reproducible science](#module-2-open-reproducible-science) | 9/6/2022 | 4.0 |
-| 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/15/2022 | 2.7 |
-| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/22/2022 | 4.0 |
-| 5. [Regression](#module-5-regression) | 10/6/2022 | 4.0 |
-| 6. [Machine learning](#module-6-machine-learning) | 10/18/2022 | 2.7 |
-| 7. [Neural networks](#module-7-neural-networks) | 10/27/2022 | 4.0 |
-| 8. [Data-driven dynamical systems](#module-8-data-driven-dynamical-systems) | 11/8/2022 | 4.0 |
-| 9. [Fairness in machine learning](#module-9-fairness-in-machine-learning) | 11/17/2022 | 1.3 |
-| -1. [Fall break](#module--1-fall-break) | 11/22/2022 | 2.7 |
-| 10. [Final projects](#module-10-final-projects) | 11/29/2022 | 4.0 |
+| 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/21/2023 | 1.3 |
+| 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/22/2023 | 4.0 |
+| 2. [Open reproducible science](#module-2-open-reproducible-science) | 8/31/2023 | 4.0 |
+| 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/12/2023 | 2.7 |
+| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/19/2023 | 4.0 |
+| 5. [Regression](#module-5-regression) | 10/3/2023 | 4.0 |
+| 6. [Machine learning](#module-6-machine-learning) | 10/12/2023 | 2.7 |
+| 7. [Neural networks](#module-7-neural-networks) | 10/24/2023 | 2.7 |
+| 8. [Convolutional neural networks](#module-8-convolutional-neural-networks) | 10/31/2023 | 4.0 |
+| 9. [Data-driven dynamical systems](#module-9-data-driven-dynamical-systems) | 11/9/2023 | 2.7 |
+| -1. [Fall break](#module--1-fall-break) | 11/16/2023 | 2.7 |
+| 10. [Fairness in machine learning](#module-10-fairness-in-machine-learning) | 11/16/2023 | 1.3 |
+| 11. [Final projects](#module-11-final-projects) | 11/21/2023 | 2.7 |
 
 <!-- ### Discussions
 
@@ -323,32 +324,32 @@ The University of Illinois strives to promote student success through the suppor
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| HW1: [Linear algebra review and intro to the Julia Language](https://www.prairielearn.org/pl/course_instance/129396) | 8/23/2022 | Thu 8/25/2022, 12:00 CDT | Fri 9/9/2022, 17:00 CDT | Fri 9/23/2022, 17:00 CDT |
-| HW2: [Open reproducible science](https://www.prairielearn.org/pl/course_instance/129396) | 8/30/2022 | Tue 9/6/2022, 12:00 CDT | Fri 9/23/2022, 17:00 CDT | Fri 10/7/2022, 17:00 CDT |
-| HW3: [Singular value decomposition and principle component analysis](https://www.prairielearn.org/pl/course_instance/129396) | 9/8/2022 | Thu 9/15/2022, 12:00 CDT | Fri 9/30/2022, 17:00 CDT | Fri 10/14/2022, 17:00 CDT |
-| HW4: [Fourier and wavelet transforms](https://www.prairielearn.org/pl/course_instance/129396) | 9/15/2022 | Thu 9/22/2022, 12:00 CDT | Fri 10/14/2022, 17:00 CDT | Fri 10/28/2022, 17:00 CDT |
-| HW5: [Regression](https://www.prairielearn.org/pl/course_instance/129396) | 9/29/2022 | Thu 10/6/2022, 12:00 CDT | Fri 10/21/2022, 17:00 CDT | Fri 11/4/2022, 17:00 CDT |
-| HW6: [Machine learning](https://www.prairielearn.org/pl/course_instance/129396) | 10/11/2022 | Tue 10/18/2022, 12:00 CDT | Fri 11/4/2022, 17:00 CDT | Fri 11/18/2022, 16:00 CST |
-| HW7: [Neural networks](https://www.prairielearn.org/pl/course_instance/129396) | 10/20/2022 | Thu 10/27/2022, 12:00 CDT | Fri 11/11/2022, 17:00 CST | Fri 11/25/2022, 17:00 CST |
-| HW8: [Data-driven dynamical systems](https://www.prairielearn.org/pl/course_instance/129396) | 11/1/2022 | Tue 11/8/2022, 12:00 CST | Fri 11/25/2022, 17:00 CST | Fri 12/9/2022, 17:00 CST |
+| HW1: [Linear algebra review and intro to the Julia Language](https://us.prairielearn.com/pl/course_instance/137035) | 8/21/2023 | Tue 8/22/2023, 12:00 CDT | Fri 9/8/2023, 17:00 CDT | Fri 9/22/2023, 17:00 CDT |
+| HW2: [Open reproducible science](https://us.prairielearn.com/pl/course_instance/137035) | 8/24/2023 | Thu 8/31/2023, 12:00 CDT | Fri 9/15/2023, 17:00 CDT | Fri 9/29/2023, 17:00 CDT |
+| HW3: [Singular value decomposition and principle component analysis](https://us.prairielearn.com/pl/course_instance/137035) | 9/5/2023 | Tue 9/12/2023, 12:00 CDT | Fri 9/22/2023, 17:00 CDT | Fri 10/6/2023, 17:00 CDT |
+| HW4: [Fourier and wavelet transforms](https://us.prairielearn.com/pl/course_instance/137035) | 9/12/2023 | Tue 9/19/2023, 12:00 CDT | Fri 10/6/2023, 17:00 CDT | Fri 10/20/2023, 17:00 CDT |
+| HW5: [Regression](https://us.prairielearn.com/pl/course_instance/137035) | 9/26/2023 | Tue 10/3/2023, 12:00 CDT | Fri 10/20/2023, 17:00 CDT | Fri 11/3/2023, 17:00 CDT |
+| HW6: [Machine learning](https://us.prairielearn.com/pl/course_instance/137035) | 10/5/2023 | Thu 10/12/2023, 12:00 CDT | Fri 10/27/2023, 17:00 CDT | Fri 11/10/2023, 16:00 CST |
+| HW7: [Neural networks](https://us.prairielearn.com/pl/course_instance/137035) | 10/17/2023 | Tue 10/24/2023, 12:00 CDT | Fri 11/3/2023, 17:00 CDT | Fri 11/17/2023, 16:00 CST |
+| HW9: [Data-driven dynamical systems](https://us.prairielearn.com/pl/course_instance/137035) | 11/2/2023 | Thu 11/9/2023, 12:00 CST | Fri 11/24/2023, 17:00 CST | Fri 12/8/2023, 17:00 CST |
 
 ### Project Deliverables
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| 1. [Project selection and introduction](https://www.prairielearn.org/pl/course_instance/129396) | 2022-08-23 12:00:00 -0500 CDT | 2022-09-23 17:00:00 -0500 CDT
-| 2. [Exploratory analysis](https://www.prairielearn.org/pl/course_instance/129396) | 2022-09-23 17:00:00 -0500 CDT | 2022-10-28 17:00:00 -0500 CDT
-| 3. [Preliminary modeling](https://www.prairielearn.org/pl/course_instance/129396) | 2022-10-28 17:00:00 -0500 CDT | 2022-11-11 17:00:00 -0600 CST
-| 4. [Report rough draft](https://www.prairielearn.org/pl/course_instance/129396) | 2022-11-11 17:00:00 -0600 CST | 2022-11-18 17:00:00 -0600 CST
-| 5. [Final report and presentation](https://www.prairielearn.org/pl/course_instance/129396) | 2022-11-18 17:00:00 -0600 CST | 2022-12-02 17:00:00 -0600 CST
+| 1. [Project selection and introduction](https://us.prairielearn.com/pl/course_instance/137035) | 2023-08-21 12:00:00 -0500 CDT | 2023-09-22 17:00:00 -0500 CDT
+| 2. [Exploratory analysis](https://us.prairielearn.com/pl/course_instance/137035) | 2023-09-22 17:00:00 -0500 CDT | 2023-10-20 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://us.prairielearn.com/pl/course_instance/137035) | 2023-10-20 17:00:00 -0500 CDT | 2023-11-10 17:00:00 -0600 CST
+| 4. [Report rough draft](https://us.prairielearn.com/pl/course_instance/137035) | 2023-11-10 17:00:00 -0600 CST | 2023-11-17 17:00:00 -0600 CST
+| 5. [Final report and presentation](https://us.prairielearn.com/pl/course_instance/137035) | 2023-11-17 17:00:00 -0600 CST | 2023-11-24 17:00:00 -0600 CST
 
 ### Exams
 
-* Exam 1: Computational thinking: Thu 9/29/2022, 12:00 CDT
+* Exam 1: Computational thinking: Tue 9/26/2023, 12:00 CDT
 
-* Exam 2: Coordinate transforms: Thu 10/20/2022, 12:00 CDT
+* Exam 2: Coordinate transforms: Tue 10/17/2023, 12:00 CDT
 
-* Final Exam: Tue 12/13/2022, 08:00 CST—Wed 12/14/2022, 08:00 CST
+* Final Exam: Wed 12/13/2023, 08:00 CST—Thu 12/14/2023, 08:00 CST
 
 
 ## Modules
@@ -369,7 +370,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 0 Class sessions:**
 
 
-* Tue 8/23/2022, 12:00 CDT: Introduction
+* Mon 8/21/2023, 12:00 CDT: Introduction
 
 
 
@@ -400,9 +401,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 1 Class sessions:**
 
 
-* Thu 8/25/2022, 12:00 CDT: julia_basics_1
-* Tue 8/30/2022, 12:00 CDT: julia_basics_2
-* Thu 9/1/2022, 12:00 CDT: Linear algebra review
+* Tue 8/22/2023, 12:00 CDT: julia_basics_1
+* Thu 8/24/2023, 12:00 CDT: julia_basics_2
+* Tue 8/29/2023, 12:00 CDT: Linear algebra review
 
 
 
@@ -429,9 +430,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 2 Class sessions:**
 
 
-* Tue 9/6/2022, 12:00 CDT: Git and Github
-* Thu 9/8/2022, 12:00 CDT: Visualization
-* Tue 9/13/2022, 12:00 CDT: Data Wrangling
+* Thu 8/31/2023, 12:00 CDT: Git and Github
+* Tue 9/5/2023, 12:00 CDT: Visualization
+* Thu 9/7/2023, 12:00 CDT: Data Wrangling
 
 
 
@@ -456,8 +457,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 3 Class sessions:**
 
 
-* Thu 9/15/2022, 12:00 CDT: Singular Value Decomposition
-* Tue 9/20/2022, 12:00 CDT: Principal Components Analysis
+* Tue 9/12/2023, 12:00 CDT: Singular Value Decomposition
+* Thu 9/14/2023, 12:00 CDT: Principal Components Analysis
 
 
 
@@ -482,10 +483,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 4 Class sessions:**
 
 
-* Thu 9/22/2022, 12:00 CDT: Fourier Series
-* Tue 9/27/2022, 12:00 CDT: Fourier Transforms
-* Thu 9/29/2022, 12:00 CDT: Exam 1: Computational thinking
-* Tue 10/4/2022, 12:00 CDT: Spectrograms and Wavelets
+* Tue 9/19/2023, 12:00 CDT: Fourier Series
+* Thu 9/21/2023, 12:00 CDT: Fourier Transforms
+* Tue 9/26/2023, 12:00 CDT: Exam 1: Computational thinking
+* Thu 9/28/2023, 12:00 CDT: Spectrograms and Wavelets
 
 
 
@@ -515,9 +516,9 @@ project/selection
 **Module 5 Class sessions:**
 
 
-* Thu 10/6/2022, 12:00 CDT: Regression
-* Tue 10/11/2022, 12:00 CDT: Regularization
-* Thu 10/13/2022, 12:00 CDT: Model and feature selection
+* Tue 10/3/2023, 12:00 CDT: Regression
+* Thu 10/5/2023, 12:00 CDT: Regularization
+* Tue 10/10/2023, 12:00 CDT: Model and feature selection
 
 
 
@@ -542,9 +543,9 @@ project/selection
 **Module 6 Class sessions:**
 
 
-* Tue 10/18/2022, 12:00 CDT: k-Means clustering
-* Thu 10/20/2022, 12:00 CDT: Exam 2: Coordinate transforms
-* Tue 10/25/2022, 12:00 CDT: Classification trees
+* Thu 10/12/2023, 12:00 CDT: k-Means clustering
+* Tue 10/17/2023, 12:00 CDT: Exam 2: Coordinate transforms
+* Thu 10/19/2023, 12:00 CDT: Classification trees
 
 
 
@@ -554,7 +555,7 @@ project/exploratory
 -->
 ### Module 7: Neural networks
 
-**Module 7 Overview:** In this module, we will learn how to implement and use both fully-connected and convolutional neural networks.
+**Module 7 Overview:** In this module, we will learn how to implement and use fully-connected neural networks.
 
 **Module 7 Learning Objectives:** By the end of this module, you should be able to:
 
@@ -572,18 +573,44 @@ project/exploratory
 **Module 7 Class sessions:**
 
 
-* Thu 10/27/2022, 12:00 CDT: Neural networks 1
-* Tue 11/1/2022, 12:00 CDT: Neural networks 2
-* Thu 11/3/2022, 12:00 CDT: Convolutional neural networks
+* Tue 10/24/2023, 12:00 CDT: Neural networks 1
+* Thu 10/26/2023, 12:00 CDT: Neural networks 2
 
 
 
 <!---->
-### Module 8: Data-driven dynamical systems
+### Module 8: Convolutional neural networks
 
-**Module 8 Overview:** In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.
+**Module 8 Overview:** In this module, we will learn how to implement and use convolutional neural networks.
 
 **Module 8 Learning Objectives:** By the end of this module, you should be able to:
+
+
+* Train a neural network to for regression and classification
+* Identify and debug common problems with neural network training
+
+
+
+
+
+
+
+
+**Module 8 Class sessions:**
+
+
+* Tue 10/31/2023, 12:00 CDT: conv_nets
+* Thu 11/2/2023, 12:00 CDT: Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.
+* Tue 11/7/2023, 12:00 CST: conv_nets2
+
+
+
+<!---->
+### Module 9: Data-driven dynamical systems
+
+**Module 9 Overview:** In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.
+
+**Module 9 Learning Objectives:** By the end of this module, you should be able to:
 
 
 * Apply gradient descent to fit the parameters of a system of differential equations to observed data
@@ -596,47 +623,17 @@ project/exploratory
 
 
 
-**Module 8 Class sessions:**
-
-
-* Tue 11/8/2022, 12:00 CST: Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.
-* Thu 11/10/2022, 12:00 CST: Parameter fitting for dynamical systems
-* Tue 11/15/2022, 12:00 CST: Neural ordinary differential equations
-
-
-
-<!--
-#### Module 8 Project Assignment
-project/modeling
--->
-### Module 9: Fairness in machine learning
-
-**Module 9 Overview:** Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
-		We will learn how to detect and minimize this bias.
-
-**Module 9 Learning Objectives:** By the end of this module, you should be able to:
-
-
-* Use disaggregated testing to detect bias in machine learning models
-* Design and construct models to minimize any detected bias
-
-
-
-
-
-
-
-
 **Module 9 Class sessions:**
 
 
-* Thu 11/17/2022, 12:00 CST: Fairness in machine learning
+* Thu 11/9/2023, 12:00 CST: Parameter fitting for dynamical systems
+* Tue 11/14/2023, 12:00 CST: Neural ordinary differential equations
 
 
 
 <!--
 #### Module 9 Project Assignment
-project/rough_draft
+project/modeling
 -->
 ### Module -1: Fall break
 
@@ -653,16 +650,22 @@ project/rough_draft
 **Module -1 Class sessions:**
 
 
-* Tue 11/22/2022, 12:00 CST: Fall break
-* Thu 11/24/2022, 12:00 CST: Fall break
+* Thu 11/16/2023, 12:00 CST: Fall break
+* Tue 11/21/2023, 12:00 CST: Fall break
 
 
 
 <!---->
-### Module 10: Final projects
+### Module 10: Fairness in machine learning
 
-**Module 10 Overview:** In this module we will present the results of our semester projects.
+**Module 10 Overview:** Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
+		We will learn how to detect and minimize this bias.
 
+**Module 10 Learning Objectives:** By the end of this module, you should be able to:
+
+
+* Use disaggregated testing to detect bias in machine learning models
+* Design and construct models to minimize any detected bias
 
 
 
@@ -674,13 +677,35 @@ project/rough_draft
 **Module 10 Class sessions:**
 
 
-* Tue 11/29/2022, 12:00 CST: Project workshop (or presentations?)
-* Thu 12/1/2022, 12:00 CST: Final project presentations
-* Tue 12/6/2022, 12:00 CST: Final project presentations
+* Thu 11/16/2023, 12:00 CST: Fairness in machine learning
 
 
 
 <!--
 #### Module 10 Project Assignment
+project/rough_draft
+-->
+### Module 11: Final projects
+
+**Module 11 Overview:** In this module we will present the results of our semester projects.
+
+
+
+
+
+
+
+
+
+**Module 11 Class sessions:**
+
+
+* Tue 11/21/2023, 12:00 CST: Final project presentations
+* Thu 11/23/2023, 12:00 CST: Final project presentations
+
+
+
+<!--
+#### Module 11 Project Assignment
 project/final
 -->
