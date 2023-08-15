@@ -1,5 +1,4 @@
 aggressions
-avilable
 Bengio
 Brunton
 CampusWire
@@ -12,7 +11,7 @@ convolutional
 Courville
 DataFrames
 dataset
-deliverables
+Deliverables
 disaggregated
 DRES
 ebook
@@ -40,6 +39,7 @@ Rospach
 Spafford
 spatiotemporal
 Spectrograms
+StackOverflow
 StatsPlots
 SVD
 Tessum

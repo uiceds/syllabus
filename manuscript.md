@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2023-07-13'
+date-meta: '2023-08-15'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2023-07-13" />
-  <meta name="citation_publication_date" content="2023-07-13" />
+  <meta name="dc.date" content="2023-08-15" />
+  <meta name="citation_publication_date" content="2023-08-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/c211243ef612e26834daa28d99623fe111982673/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/c211243ef612e26834daa28d99623fe111982673/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/c211243ef612e26834daa28d99623fe111982673/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1c23238f4fdac4a2fc4940b1a318738792affdf7/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1c23238f4fdac4a2fc4940b1a318738792affdf7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1c23238f4fdac4a2fc4940b1a318738792affdf7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -50,24 +50,23 @@ manubot-clear-requests-cache: false
 * Department: Civil and Environmental Engineering
 * Title: CEE 492: Data Science for Civil and Environmental Engineering
 * Credits: 3 for Undergraduates, 4 for Graduate Students
-* Semester: Fall 2022
+* Semester: Fall 2023
 * Meeting time and location: 12-1:20 on Tuesdays and Thursdays in Room 1017 CEE Hydrosystems.
-* First day of instruction: 8/23/2022
-* Last day of instruction: 12/6/2021 (final exam on 12/13/2021)
+* First day of instruction: 8/22/2023
+* Last day of instruction: 12/5/2023 (final exam on 12/12/2023)
 
 ## Basic Instructor Information
 
-* Instructor: Prof. Christopher Tessum, PhD
+* Instructor: [Prof. Christopher Tessum](https://cee.illinois.edu/directory/profile/ctessum)
 * Office: 3213 Newmark Civil Engineering Laboratory
+* Teaching assistant: [Jialin Liu](https://ctessum.cee.illinois.edu/author/jialin-liu/)
 * Office hours: 
   * Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems
   * Liu: 13:20-14:20 on Tuesdays in Room 1017 CEE Hydrosystems or the common area outside of it.
-* Website: [https://cee.illinois.edu/directory/profile/ctessum](https://cee.illinois.edu/directory/profile/ctessum)
-* Teaching assistant: Jialin Liu
 
 ## Description of the course
 
-Welcome to CEE Data Science!
+Welcome to CEE 492: Data Science for Civil and Environmental Engineering!
 This semester, you will learn to leverage data to study civil and environmental engineering problems, identify patterns, and make actionable insights.
 This course includes training in computational thinking and exploratory data analysis; data processing techniques including singular value decomposition, principal component analysis, and fourier and wavelet transforms; and machine learning techniques including k-means, classification trees, neural networks, and neural differential equations.
 
@@ -97,9 +96,9 @@ For students taking the class for four credits, it will include semester-long gr
 
 ## Prerequisites
 
-* CEE 202;
-* CEE300, 330 or 360; and
-* CS 101 or equivalent.
+* [CEE 202](https://cee.illinois.edu/academics/courses/cee202), or equivalent introduction to probability and statistics;
+* CEE [300](https://cee.illinois.edu/academics/courses/cee300), [330](https://cee.illinois.edu/academics/courses/cee330) or [360](https://cee.illinois.edu/academics/courses/cee360-120208), or equivalent grounding in physical science and differential equations; and
+* [CS 101](https://cs.illinois.edu/academics/courses/cs101) or equivalent introduction to computer science.
 
 ## Course Structure
 
@@ -109,7 +108,7 @@ The in-class worksheets will be completed in groups and will be graded.
 If students do not finish the worksheet during class or are absent, up to 70% of points can be made up by completing the post-class worksheet review. 
 Online students can get 100% of points by completing the post-class worksheet review.
 Near the beginning or the semester, 4-credit students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
-Additionally, students will complete homework assignments and 3 exams.
+Additionally, students will complete homework assignments and exams.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
@@ -124,7 +123,7 @@ Additionally, students will complete homework assignments and 3 exams.
     * 3% for report rough draft, 
     * and 13% for final report and presentation.
   * Extra credit: Students can create "Tiktok-style" videos explaining or reviewing the concepts covered in the course. For each module in the course, the creator of best video (as judged by the instructor) will receive **1% extra credit** toward their overall grade for the class. Videos with multiple authors can split the extra credit among the authors.
-* Graduate students are expected to register for 4 credits and undergraduates can choose between 3 and 4 credits. For 3-credit students, there will be no course project and the weights of the other assessments will be scaled accordingly.
+* The general expectation is that graduate students will register for 4 credits and undergraduates can choose between 3 and 4 credits, but this is not a requirement. For 3-credit students, there will be no course project and the weights of the other assessments will be scaled accordingly.
 * Letter grades will be assigned according to the following scale:
   * 97-100: A+
   * 93-96.9:	A
@@ -146,7 +145,7 @@ Occasionally you may need to miss class owing to illness, conference travel, fam
 
 1. Once you know you will be missing class, send me a message letting me know how long (if you know). It will work best if you also provide some documentation, e.g. test result, conference registration, etc.
 
-2. On days that you miss class, instead of completing the in-class "worksheet" assignment, instead complete the "post-class worksheet review" that will be available immediately after class ends. It's the same worksheet but you can do it individually and it comes with a video that walks you through it. (If you prefer to organize a zoom session with your groupmates and participate in class remotely, that's great and strongly encouraged, but we won't be having a central zoom session because it just doesn't work well.)
+2. For days that you miss class, instead of completing the in-class "worksheet" assignment, instead complete the "post-class worksheet review" that will be available immediately after class ends. It's the same worksheet but you can do it individually and it comes with a video that walks you through it. (If you prefer to organize a zoom session with your groupmates and participate in class remotely, that's great and strongly encouraged, but we won't be having a central zoom session because it just doesn't work well.)
 
 3. By default, up to 70% of the points you get on the "worksheet-review" will count toward the worksheet score. So if you get 50% on the worksheet and 100% on the worksheet review, then your final worksheet score will be 50 + (100-50)*0.7 = 85%. However, for an excused absence (e.g. one registered in the manner above) 100% of worksheet-review points count toward the worksheet. (Note that there is not a huge difference in points between an excused absence and an unexcused one.)
 
@@ -154,7 +153,7 @@ Occasionally you may need to miss class owing to illness, conference travel, fam
 
 ## Homeworks and Exams
 
-Homeworks and Exams will be done through [PrairieLearn](https://www.prairielearn.org/pl/course_instance/128749/).
+Homeworks and Exams will be done through [PrairieLearn](https://us.prairielearn.com/pl/course_instance/137035/).
 In assigning these types of homeworks and exams, I'm placing emphasis on **mastery**.
 The idea is to keep doing questions until you master the underlying concept or method. Once you do, you should be able to answer these questions very quickly.
 
@@ -171,11 +170,11 @@ Note that new homeworks are assigned most weeks, so if you don't stay ahead, it 
 ### Exams
 
 Exams are also administered using PrairieLearn. 
-For exams, partial credit usually isn't given, but you can try each problem more than once, with a decreasing number of points possible for each try.
+For exams, partial credit usually isn't given for individual problems, but you can try each problem more than once, with a decreasing number of points possible for each try.
 
 ## Learning Resources
 * Students are expected to bring a laptop to class, and have use of one and an internet connection for homeworks and pre-class activities.
-* There is no required textbook to purchase. However, much of the course follows the book *[Data Driven Science and Engineering](http://www.databookuw.com/)* by Brunton and Kutz. The book includes a freely avilable [pdf version](http://www.databookuw.com/databook.pdf) and lecture videos, is also available for sale in hardcover and ebook formats.
+* There is no required textbook to purchase. However, much of the course follows the book *[Data Driven Science and Engineering](http://www.databookuw.com/)* by Brunton and Kutz. The book includes a freely available [pdf version](http://www.databookuw.com/databook.pdf) and lecture videos, is also available for sale in hardcover and ebook formats.
 * The course also includes content from the [Julia learning resources](https://julialang.org/learning/), which is also a good resource for learning Julia in general. The free course *[Introduction to Computational thinking](https://computationalthinking.mit.edu/Spring21/)* from MIT is particularly well done.
 * For students that want to continue beyond the material covered in this course, there is [*Parallel Computing and Scientific Machine Learning*](https://github.com/mitmath/18337) (another course from MIT) and [*Deep Learning*](https://www.deeplearningbook.org/) by Goodfellow, Bengio, and Courville.
 
@@ -211,15 +210,15 @@ Requests for regrading homeworks, exams, and project deliverables must be submit
 
 #### Instructor Responses
 ##### Instructor Feedback Turnaround Time
-Questions posted to [CampusWire](https://campuswire.com/c/GDD06864A/) generally will be answered within 24 hours.
+Questions posted to [CampusWire](https://campuswire.com/c/G87945CC6/) generally will be answered within 24 hours.
 Questions may be answered on weekends but this should not be expected.
 
 Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Exams, essays, and term papers will generally be graded within 10 business days.
 
 ##### Contacting the instructor
-For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/GDD06864A/).
+For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/G87945CC6/).
 
-The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don't be offended if you are asked to repost your question on [CampusWire](https://campuswire.com/c/GDD06864A/) to allow the instructional team to efficiently answer all questions.
+The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don't be offended if you are asked to repost your question on [CampusWire](https://campuswire.com/c/G87945CC6/) to allow the instructional team to efficiently answer all questions.
 
 #### Academic Integrity
 Academic dishonesty will not be tolerated. Examples of academic dishonesty include the following:
@@ -236,7 +235,10 @@ Academic dishonesty will not be tolerated. Examples of academic dishonesty inclu
 
 Should an incident arise in which a student is thought to have violated academic integrity, the student will be processed under the disciplinary policy set forth in the Illinois Academic Integrity Policy. If you do not understand relevant definitions of academic infractions, contact your instructor for an explanation within the first week of class.
 
-Giving and receiving advice on projects and homework assignments is acceptable and encouraged. However, it is expected that help be given in general terms and in the form of natural language sentences (for example, English) rather than in the form of mathematical equations, algorithms, computer code, or anything else that could be copied and pasted into the recipient's answer. Similarly, students are encouraged to consult the Internet, but copying and pasting code from the Internet and submitting it for the class is not acceptable. The work that each student submits is expected to be their own, written with their own hand or typed on their own keyboard. For group work, work can be submitted by a single member but must include substantial contributions of all group members. Please contact the instructor to discuss instances of non-contributing group members.
+Giving and receiving advice on projects and homework assignments is acceptable and encouraged. However, it is expected that help be given in general terms and in the form of natural language sentences (for example, English) rather than in the form of mathematical equations, algorithms, computer code, or anything else that could be copied and pasted into the recipient's answer. Similarly, students are allowed to consult the Internet (including StackOverflow etc.), but copying and pasting code from the Internet and submitting it for the class is not acceptable. The work that each student submits is expected to be their own, written with their own hand or typed on their own keyboard. For group work, work can be submitted by a single member but must include substantial contributions of all group members. Please contact the instructor to discuss instances of non-contributing group members.
+
+**Note regarding AI**: Norms and practices related to the use of AI in academic settings are not well defined, and the capabilities of such systems are rapidly evolving. 
+As such, the use of AI in this course will be allowed or disallowed on a case-by-case basis, at the discretion of the instructor, but in general we will treat AI assistance similarly to assistance from another classmate as described above—using it to get general suggestions is okay but using it to get specific answers is not. Using AI to generate a written report is especially not okay. Please contact me if you are considering using AI for a particular assignment.
 
 #### Copyright
 ##### Student Content
@@ -274,7 +276,9 @@ In any social interaction, certain rules of etiquette are expected and contribut
 Your daily contact should be in class or on Zoom, in office hours, or on CampusWire.
 
 ##### Course Questions
-Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/GDD06864A/). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/GDD06864A/). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
+Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/G87945CC6/). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/G87945CC6/). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
+
+We will not answer questions related to the content covered by an exam once the exam has started. We may, however, answer questions aimed at clarifying what is meant by the exam questions.
 
 ##### Personal and Grade-Related Questions
 Questions of a personal nature can be sent as a direct message on CampusWire, or if desired may be sent to the instructor's email address. If you need to send an email, include a subject that identifies the course number and nature of your question.
@@ -300,19 +304,19 @@ The University of Illinois strives to promote student success through the suppor
 
 | Module | Start Date | Contact Hours |
 | ---------- | --- | -- |
-| 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/21/2023 | 1.3 |
-| 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/22/2023 | 4.0 |
-| 2. [Open reproducible science](#module-2-open-reproducible-science) | 8/31/2023 | 4.0 |
-| 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/12/2023 | 2.7 |
-| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/19/2023 | 4.0 |
-| 5. [Regression](#module-5-regression) | 10/3/2023 | 4.0 |
-| 6. [Machine learning](#module-6-machine-learning) | 10/12/2023 | 2.7 |
-| 7. [Neural networks](#module-7-neural-networks) | 10/24/2023 | 2.7 |
-| 8. [Convolutional neural networks](#module-8-convolutional-neural-networks) | 10/31/2023 | 4.0 |
+| 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/22/2023 | 1.3 |
+| 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/24/2023 | 4.0 |
+| 2. [Open reproducible science](#module-2-open-reproducible-science) | 9/5/2023 | 4.0 |
+| 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/14/2023 | 2.7 |
+| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/21/2023 | 4.0 |
+| 5. [Regression](#module-5-regression) | 10/5/2023 | 4.0 |
+| 6. [Machine learning](#module-6-machine-learning) | 10/17/2023 | 2.7 |
+| 7. [Neural networks](#module-7-neural-networks) | 10/26/2023 | 2.7 |
+| 8. [Convolutional neural networks](#module-8-convolutional-neural-networks) | 11/2/2023 | 2.7 |
 | 9. [Data-driven dynamical systems](#module-9-data-driven-dynamical-systems) | 11/9/2023 | 2.7 |
 | -1. [Fall break](#module--1-fall-break) | 11/16/2023 | 2.7 |
-| 10. [Fairness in machine learning](#module-10-fairness-in-machine-learning) | 11/16/2023 | 1.3 |
-| 11. [Final projects](#module-11-final-projects) | 11/21/2023 | 2.7 |
+| 10. [Fairness in machine learning](#module-10-fairness-in-machine-learning) | 11/23/2023 | 1.3 |
+| 11. [Final projects](#module-11-final-projects) | 11/28/2023 | 4.0 |
 
 <!-- ### Discussions
 
@@ -324,30 +328,30 @@ The University of Illinois strives to promote student success through the suppor
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| HW1: [Linear algebra review and intro to the Julia Language](https://us.prairielearn.com/pl/course_instance/137035) | 8/21/2023 | Tue 8/22/2023, 12:00 CDT | Fri 9/8/2023, 17:00 CDT | Fri 9/22/2023, 17:00 CDT |
-| HW2: [Open reproducible science](https://us.prairielearn.com/pl/course_instance/137035) | 8/24/2023 | Thu 8/31/2023, 12:00 CDT | Fri 9/15/2023, 17:00 CDT | Fri 9/29/2023, 17:00 CDT |
-| HW3: [Singular value decomposition and principle component analysis](https://us.prairielearn.com/pl/course_instance/137035) | 9/5/2023 | Tue 9/12/2023, 12:00 CDT | Fri 9/22/2023, 17:00 CDT | Fri 10/6/2023, 17:00 CDT |
-| HW4: [Fourier and wavelet transforms](https://us.prairielearn.com/pl/course_instance/137035) | 9/12/2023 | Tue 9/19/2023, 12:00 CDT | Fri 10/6/2023, 17:00 CDT | Fri 10/20/2023, 17:00 CDT |
-| HW5: [Regression](https://us.prairielearn.com/pl/course_instance/137035) | 9/26/2023 | Tue 10/3/2023, 12:00 CDT | Fri 10/20/2023, 17:00 CDT | Fri 11/3/2023, 17:00 CDT |
-| HW6: [Machine learning](https://us.prairielearn.com/pl/course_instance/137035) | 10/5/2023 | Thu 10/12/2023, 12:00 CDT | Fri 10/27/2023, 17:00 CDT | Fri 11/10/2023, 16:00 CST |
-| HW7: [Neural networks](https://us.prairielearn.com/pl/course_instance/137035) | 10/17/2023 | Tue 10/24/2023, 12:00 CDT | Fri 11/3/2023, 17:00 CDT | Fri 11/17/2023, 16:00 CST |
+| HW1: [Linear algebra review and intro to the Julia Language](https://us.prairielearn.com/pl/course_instance/137035) | 8/17/2023 | Thu 8/24/2023, 12:00 CDT | Fri 9/8/2023, 17:00 CDT | Fri 9/22/2023, 17:00 CDT |
+| HW2: [Open reproducible science](https://us.prairielearn.com/pl/course_instance/137035) | 8/29/2023 | Tue 9/5/2023, 12:00 CDT | Fri 9/22/2023, 17:00 CDT | Fri 10/6/2023, 17:00 CDT |
+| HW3: [Singular value decomposition and principle component analysis](https://us.prairielearn.com/pl/course_instance/137035) | 9/7/2023 | Thu 9/14/2023, 12:00 CDT | Fri 9/29/2023, 17:00 CDT | Fri 10/13/2023, 17:00 CDT |
+| HW4: [Fourier and wavelet transforms](https://us.prairielearn.com/pl/course_instance/137035) | 9/14/2023 | Thu 9/21/2023, 12:00 CDT | Fri 10/13/2023, 17:00 CDT | Fri 10/27/2023, 17:00 CDT |
+| HW5: [Regression](https://us.prairielearn.com/pl/course_instance/137035) | 9/28/2023 | Thu 10/5/2023, 12:00 CDT | Fri 10/20/2023, 17:00 CDT | Fri 11/3/2023, 17:00 CDT |
+| HW6: [Machine learning](https://us.prairielearn.com/pl/course_instance/137035) | 10/10/2023 | Tue 10/17/2023, 12:00 CDT | Fri 11/3/2023, 17:00 CDT | Fri 11/17/2023, 16:00 CST |
+| HW7: [Neural networks](https://us.prairielearn.com/pl/course_instance/137035) | 10/19/2023 | Thu 10/26/2023, 12:00 CDT | Fri 11/10/2023, 17:00 CST | Fri 11/24/2023, 17:00 CST |
 | HW9: [Data-driven dynamical systems](https://us.prairielearn.com/pl/course_instance/137035) | 11/2/2023 | Thu 11/9/2023, 12:00 CST | Fri 11/24/2023, 17:00 CST | Fri 12/8/2023, 17:00 CST |
 
 ### Project Deliverables
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| 1. [Project selection and introduction](https://us.prairielearn.com/pl/course_instance/137035) | 2023-08-21 12:00:00 -0500 CDT | 2023-09-22 17:00:00 -0500 CDT
-| 2. [Exploratory analysis](https://us.prairielearn.com/pl/course_instance/137035) | 2023-09-22 17:00:00 -0500 CDT | 2023-10-20 17:00:00 -0500 CDT
-| 3. [Preliminary modeling](https://us.prairielearn.com/pl/course_instance/137035) | 2023-10-20 17:00:00 -0500 CDT | 2023-11-10 17:00:00 -0600 CST
-| 4. [Report rough draft](https://us.prairielearn.com/pl/course_instance/137035) | 2023-11-10 17:00:00 -0600 CST | 2023-11-17 17:00:00 -0600 CST
-| 5. [Final report and presentation](https://us.prairielearn.com/pl/course_instance/137035) | 2023-11-17 17:00:00 -0600 CST | 2023-11-24 17:00:00 -0600 CST
+| 1. [Project selection and introduction](https://us.prairielearn.com/pl/course_instance/137035) | 2023-08-22 12:00:00 -0500 CDT | 2023-09-22 17:00:00 -0500 CDT
+| 2. [Exploratory analysis](https://us.prairielearn.com/pl/course_instance/137035) | 2023-09-22 17:00:00 -0500 CDT | 2023-10-27 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://us.prairielearn.com/pl/course_instance/137035) | 2023-10-27 17:00:00 -0500 CDT | 2023-11-10 17:00:00 -0600 CST
+| 4. [Report rough draft](https://us.prairielearn.com/pl/course_instance/137035) | 2023-11-10 17:00:00 -0600 CST | 2023-11-24 17:00:00 -0600 CST
+| 5. [Final report and presentation](https://us.prairielearn.com/pl/course_instance/137035) | 2023-11-24 17:00:00 -0600 CST | 2023-12-01 17:00:00 -0600 CST
 
 ### Exams
 
-* Exam 1: Computational thinking: Tue 9/26/2023, 12:00 CDT
+* Exam 1: Computational thinking: Thu 9/28/2023, 12:00 CDT
 
-* Exam 2: Coordinate transforms: Tue 10/17/2023, 12:00 CDT
+* Exam 2: Coordinate transforms: Thu 10/19/2023, 12:00 CDT
 
 * Final Exam: Wed 12/13/2023, 08:00 CST—Thu 12/14/2023, 08:00 CST
 
@@ -370,7 +374,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 0 Class sessions:**
 
 
-* Mon 8/21/2023, 12:00 CDT: Introduction
+* Tue 8/22/2023, 12:00 CDT: Introduction
 
 
 
@@ -401,9 +405,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 1 Class sessions:**
 
 
-* Tue 8/22/2023, 12:00 CDT: julia_basics_1
-* Thu 8/24/2023, 12:00 CDT: julia_basics_2
-* Tue 8/29/2023, 12:00 CDT: Linear algebra review
+* Thu 8/24/2023, 12:00 CDT: julia_basics_1
+* Tue 8/29/2023, 12:00 CDT: julia_basics_2
+* Thu 8/31/2023, 12:00 CDT: Linear algebra review
 
 
 
@@ -430,9 +434,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 2 Class sessions:**
 
 
-* Thu 8/31/2023, 12:00 CDT: Git and Github
-* Tue 9/5/2023, 12:00 CDT: Visualization
-* Thu 9/7/2023, 12:00 CDT: Data Wrangling
+* Tue 9/5/2023, 12:00 CDT: Git and Github
+* Thu 9/7/2023, 12:00 CDT: Visualization
+* Tue 9/12/2023, 12:00 CDT: Data Wrangling
 
 
 
@@ -457,8 +461,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 3 Class sessions:**
 
 
-* Tue 9/12/2023, 12:00 CDT: Singular Value Decomposition
-* Thu 9/14/2023, 12:00 CDT: Principal Components Analysis
+* Thu 9/14/2023, 12:00 CDT: Singular Value Decomposition
+* Tue 9/19/2023, 12:00 CDT: Principal Components Analysis
 
 
 
@@ -483,10 +487,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 4 Class sessions:**
 
 
-* Tue 9/19/2023, 12:00 CDT: Fourier Series
-* Thu 9/21/2023, 12:00 CDT: Fourier Transforms
-* Tue 9/26/2023, 12:00 CDT: Exam 1: Computational thinking
-* Thu 9/28/2023, 12:00 CDT: Spectrograms and Wavelets
+* Thu 9/21/2023, 12:00 CDT: Fourier Series
+* Tue 9/26/2023, 12:00 CDT: Fourier Transforms
+* Thu 9/28/2023, 12:00 CDT: Exam 1: Computational thinking
+* Tue 10/3/2023, 12:00 CDT: Spectrograms and Wavelets
 
 
 
@@ -516,9 +520,9 @@ project/selection
 **Module 5 Class sessions:**
 
 
-* Tue 10/3/2023, 12:00 CDT: Regression
-* Thu 10/5/2023, 12:00 CDT: Regularization
-* Tue 10/10/2023, 12:00 CDT: Model and feature selection
+* Thu 10/5/2023, 12:00 CDT: Regression
+* Tue 10/10/2023, 12:00 CDT: Regularization
+* Thu 10/12/2023, 12:00 CDT: Model and feature selection
 
 
 
@@ -543,9 +547,9 @@ project/selection
 **Module 6 Class sessions:**
 
 
-* Thu 10/12/2023, 12:00 CDT: k-Means clustering
-* Tue 10/17/2023, 12:00 CDT: Exam 2: Coordinate transforms
-* Thu 10/19/2023, 12:00 CDT: Classification trees
+* Tue 10/17/2023, 12:00 CDT: k-Means clustering
+* Thu 10/19/2023, 12:00 CDT: Exam 2: Coordinate transforms
+* Tue 10/24/2023, 12:00 CDT: Classification trees
 
 
 
@@ -573,8 +577,8 @@ project/exploratory
 **Module 7 Class sessions:**
 
 
-* Tue 10/24/2023, 12:00 CDT: Neural networks 1
-* Thu 10/26/2023, 12:00 CDT: Neural networks 2
+* Thu 10/26/2023, 12:00 CDT: Neural networks 1
+* Tue 10/31/2023, 12:00 CDT: Neural networks 2
 
 
 
@@ -599,8 +603,7 @@ project/exploratory
 **Module 8 Class sessions:**
 
 
-* Tue 10/31/2023, 12:00 CDT: conv_nets
-* Thu 11/2/2023, 12:00 CDT: Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.
+* Thu 11/2/2023, 12:00 CDT: conv_nets
 * Tue 11/7/2023, 12:00 CST: conv_nets2
 
 
@@ -677,7 +680,7 @@ project/modeling
 **Module 10 Class sessions:**
 
 
-* Thu 11/16/2023, 12:00 CST: Fairness in machine learning
+* Thu 11/23/2023, 12:00 CST: Fairness in machine learning
 
 
 
@@ -700,8 +703,9 @@ project/rough_draft
 **Module 11 Class sessions:**
 
 
-* Tue 11/21/2023, 12:00 CST: Final project presentations
-* Thu 11/23/2023, 12:00 CST: Final project presentations
+* Tue 11/28/2023, 12:00 CST: Q&A / Review
+* Thu 11/30/2023, 12:00 CST: Final project presentations
+* Tue 12/5/2023, 12:00 CST: Final project presentations
 
 
 
