@@ -42,7 +42,7 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	startDate = time.Date(2023, time.August, 21, 12, 0, 0, 0, loc)
+	startDate = time.Date(2023, time.August, 22, 12, 0, 0, 0, loc)
 
 	finalExamStart = time.Date(2023, time.December, 13, 8, 00, 0, 0, loc)
 	finalExamEnd = time.Date(2023, time.December, 14, 8, 00, 0, 0, loc)
@@ -283,7 +283,6 @@ var modules = []module{
 		PLName: "conv_nets",
 		ClassNames: []string{
 			"conv_nets",
-			"Voting Day! Check [here](https://champaigncountyclerk.com/elections/my-voting-information/my-polling-place) for where to vote.",
 			"conv_nets2",
 		},
 	},
@@ -314,7 +313,7 @@ var modules = []module{
 	},
 	{
 		Number:  10,
-		Parents: []int64{9},
+		Parents: []int64{-1},
 		Title:   "Fairness in machine learning",
 		Overview: `Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
 		We will learn how to detect and minimize this bias.`,
@@ -334,6 +333,7 @@ var modules = []module{
 		Title:    "Final projects",
 		Overview: `In this module we will present the results of our semester projects.`,
 		ClassNames: []string{
+			"Q&A / Review",
 			"Final project presentations",
 			"Final project presentations",
 		},
@@ -417,9 +417,9 @@ func projectAssignmentDue(m module, dates map[int64]time.Time) time.Time {
 }
 func discussionAssigned(m module, dates map[int64]time.Time) time.Time {
 	d := dates[m.ID()].Add(-7 * 24 * time.Hour)
-	if d.Before(startDate) {
-		return startDate
-	}
+	// if d.Before(startDate) {
+	// 	return startDate
+	// }
 	return d
 }
 func preclassAssigned(m module, dates map[int64]time.Time, n int) time.Time {
@@ -477,9 +477,9 @@ func exams(mods []module, dates map[int64]time.Time) []nameDate {
 }
 func homeworkAssigned(m module, dates map[int64]time.Time) time.Time {
 	d := dates[m.ID()].Add(-7 * 24 * time.Hour)
-	if d.Before(startDate) {
-		return startDate
-	}
+	// if d.Before(startDate) {
+	// 	return startDate
+	// }
 	return d
 }
 func homeworkDeadline1(m module, dates map[int64]time.Time) time.Time {
