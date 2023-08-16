@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fef687ff856218eff566fde97381fea1c5819fda/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fef687ff856218eff566fde97381fea1c5819fda/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fef687ff856218eff566fde97381fea1c5819fda/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1e11b267e37ad257872defb879259ba9172a916b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1e11b267e37ad257872defb879259ba9172a916b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1e11b267e37ad257872defb879259ba9172a916b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -338,6 +338,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | HW5: [Regression](https://us.prairielearn.com/pl/course_instance/137035) | 9/28/2023 | Thu 10/5/2023, 12:00 CDT | Fri 10/20/2023, 17:00 CDT | Fri 11/3/2023, 17:00 CDT |
 | HW6: [Machine learning](https://us.prairielearn.com/pl/course_instance/137035) | 10/10/2023 | Tue 10/17/2023, 12:00 CDT | Fri 11/3/2023, 17:00 CDT | Fri 11/17/2023, 16:00 CST |
 | HW7: [Neural networks](https://us.prairielearn.com/pl/course_instance/137035) | 10/19/2023 | Thu 10/26/2023, 12:00 CDT | Fri 11/10/2023, 17:00 CST | Fri 11/24/2023, 17:00 CST |
+| HW8: [Convolutional neural networks](https://us.prairielearn.com/pl/course_instance/137035) | 10/26/2023 | Thu 11/2/2023, 12:00 CDT | Fri 11/17/2023, 17:00 CST | Fri 12/1/2023, 17:00 CST |
 | HW9: [Data-driven dynamical systems](https://us.prairielearn.com/pl/course_instance/137035) | 11/2/2023 | Thu 11/9/2023, 12:00 CST | Fri 11/24/2023, 17:00 CST | Fri 12/8/2023, 17:00 CST |
 
 ### Project Deliverables
@@ -408,8 +409,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 1 Class sessions:**
 
 
-* Thu 8/24/2023, 12:00 CDT: julia_basics_1
-* Tue 8/29/2023, 12:00 CDT: julia_basics_2
+* Thu 8/24/2023, 12:00 CDT: Julia basics
+* Tue 8/29/2023, 12:00 CDT: Julia basics 2
 * Thu 8/31/2023, 12:00 CDT: Linear algebra review
 
 
@@ -606,7 +607,7 @@ project/exploratory
 **Module 8 Class sessions:**
 
 
-* Thu 11/2/2023, 12:00 CDT: conv_nets
+* Thu 11/2/2023, 12:00 CDT: Convolutional neural networks
 * Tue 11/7/2023, 12:00 CST: conv_nets2
 
 

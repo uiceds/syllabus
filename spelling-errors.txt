@@ -20,7 +20,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-homeworks
+Homeworks
 HW
 Hydrosystems
 Jialin
