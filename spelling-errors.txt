@@ -7,7 +7,7 @@ Champaign
 Chuq
 CITL
 conv
-Convolutional
+convolutional
 Courville
 DataFrames
 dataset
@@ -32,7 +32,7 @@ Newmark
 overfitting
 PCA
 PrairieLearn
-Pre
+pre
 REPL
 repost
 Rospach
