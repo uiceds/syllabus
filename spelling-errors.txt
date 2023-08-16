@@ -11,7 +11,7 @@ convolutional
 Courville
 DataFrames
 dataset
-deliverables
+Deliverables
 disaggregated
 DRES
 ebook
@@ -20,7 +20,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-Homeworks
+homeworks
 HW
 Hydrosystems
 Jialin
