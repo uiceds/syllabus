@@ -50,7 +50,7 @@ jobs:
         run: |
           cd content/ 
           go get
-          go run modules.go -pl-path=../pl-cee498ds/courseInstances/Fa2021 
+          go run modules.go -pl-path=../pl-cee498ds/courseInstances/Fa2023
           cd ../
       - name: Install Environment
         uses: conda-incubator/setup-miniconda@v2
