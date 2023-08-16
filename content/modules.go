@@ -5,7 +5,6 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
@@ -13,7 +12,6 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
 	calendar "google.golang.org/api/calendar/v3"
 )
 
@@ -134,6 +132,9 @@ type module struct {
 	// ClassNames holds the PraireLearn class names for this module.
 	ClassNames []string
 
+	// URLs to videos for post-worksheet reviews.
+	ClassVideos []string
+
 	ProjectAssignment     string
 	ProjectAssignmentDays int
 }
@@ -169,6 +170,11 @@ var modules = []module{
 			"julia_basics_2",
 			"linalg",
 		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_4zfiknz9/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_hhfatagk/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_9k17i0n4/uiConfId/26883701/st/0",
+		},
 	},
 	{
 		Number:   2,
@@ -187,6 +193,11 @@ var modules = []module{
 			"viz",
 			"wrangle",
 		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_ii4qwjk8/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_iwknq0p5/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_ummczmvd/uiConfId/26883701/st/0",
+		},
 	},
 	{
 		Number:   3,
@@ -201,6 +212,10 @@ var modules = []module{
 		ClassNames: []string{
 			"svd",
 			"pca",
+		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_wc3t3uvo/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_8pwyed7l/uiConfId/26883701/st/0",
 		},
 	},
 	{
@@ -218,6 +233,12 @@ var modules = []module{
 			"fft",
 			"Exam 1: Computational thinking",
 			"wavelet",
+		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_0humutkz/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_e94r5ina/uiConfId/26883701/st/0",
+			"",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_fo7d1mac/uiConfId/26883701/st/0",
 		},
 		ProjectAssignment: "project/selection",
 	},
@@ -238,6 +259,11 @@ var modules = []module{
 			"regularization",
 			"model_selection",
 		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_0kpib7fh/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_vm8s1u90/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_1j1pruhy/uiConfId/26883701/st/0",
+		},
 	},
 	{
 		Number:   6,
@@ -253,6 +279,11 @@ var modules = []module{
 			"k-means",
 			"Exam 2: Coordinate transforms",
 			"classification_trees",
+		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_eklcjbu9/uiConfId/26883701/st/0",
+			"",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_wr4mjts9/uiConfId/26883701/st/0",
 		},
 		ProjectAssignment: "project/exploratory",
 	},
@@ -270,6 +301,10 @@ var modules = []module{
 			"neural_nets1",
 			"neural_nets2",
 		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_d4c85x9s/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_fjoia5fi/uiConfId/26883701/st/0",
+		},
 	},
 	{
 		Number:   8,
@@ -285,6 +320,10 @@ var modules = []module{
 			"conv_nets",
 			"conv_nets2",
 		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_w6xzu3ef/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_9auzitjw/uiConfId/26883701/st/0",
+		},
 	},
 	{
 		Number:   9,
@@ -299,6 +338,10 @@ var modules = []module{
 		ClassNames: []string{
 			"param_fitting",
 			"neural_odes",
+		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_va17wzzh/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_xtn8r0a7/uiConfId/26883701/st/0",
 		},
 		ProjectAssignment: "project/modeling",
 	},
@@ -324,6 +367,9 @@ var modules = []module{
 		PLName: "fairness",
 		ClassNames: []string{
 			"fairness",
+		},
+		ClassVideos: []string{
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_cxewm7yq/uiConfId/26883701/st/0",
 		},
 		ProjectAssignment: "project/rough_draft",
 	},
@@ -386,15 +432,6 @@ func nextTAOfficeHour(t time.Time) time.Time {
 		d = d.Add(24 * time.Hour)
 		if w := d.Weekday(); w == time.Tuesday {
 			return time.Date(d.Year(), d.Month(), d.Day(), 13, 20, 0, 0, d.Location())
-		}
-	}
-}
-func nextWangOfficeHour(t time.Time) time.Time {
-	d := t
-	for {
-		d = d.Add(24 * time.Hour)
-		if w := d.Weekday(); w == time.Wednesday {
-			return time.Date(d.Year(), d.Month(), d.Day(), 12, 00, 0, 0, d.Location())
 		}
 	}
 }
@@ -569,6 +606,8 @@ func main() {
 		setupPreclass(mod, dates)
 		setupHomework(mod, dates)
 		setupInClass(mod, dates)
+		setupPostClass(mod, dates)
+		setupExtraCredit(mod, dates)
 	}
 	proj := projects(modules)
 	for _, p := range proj {
@@ -628,9 +667,6 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 	for d := startDate; d.Before(finalExamStart); d = nextTAOfficeHour(d) {
 		taOfficeHoursToCalendar(srv, d)
 	}
-	//for d := startDate; d.Before(finalExamStart); d = nextWangOfficeHour(d) {
-	//	wangOfficeHoursToCalendar(srv, d)
-	//}
 
 	for _, m := range modules {
 		d := startDates[m.Number]
@@ -704,22 +740,6 @@ func taOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 		Summary:     "TA office hours",
 		Location:    "Room 1017 CEE Hydrosystems Laboratory (or common area outside), 301 N Mathews Ave, Urbana, IL 61801",
 		Description: "",
-		Status:      "confirmed",
-		Start: &calendar.EventDateTime{
-			DateTime: d.Format(time.RFC3339),
-		},
-		End: &calendar.EventDateTime{
-			DateTime: d.Add(60 * time.Minute).Format(time.RFC3339),
-		},
-	}).Do()
-	check(err)
-}
-
-func wangOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
-	_, err := srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     "Wang office hours",
-		Location:    "Zoom",
-		Description: "See Canvas site for link.",
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			DateTime: d.Format(time.RFC3339),
@@ -918,61 +938,6 @@ func finalExamToCalendar(srv *calendar.Service) {
 	check(err)
 }
 
-// Retrieve a token, saves the token, then returns the generated client.
-func getClient(config *oauth2.Config) *http.Client {
-	// The file token.json stores the user's access and refresh tokens, and is
-	// created automatically when the authorization flow completes for the first
-	// time.
-	tokFile := "token.json"
-	tok, err := tokenFromFile(tokFile)
-	if err != nil {
-		tok = getTokenFromWeb(config)
-		saveToken(tokFile, tok)
-	}
-	return config.Client(context.Background(), tok)
-}
-
-// Request a token from the web, then returns the retrieved token.
-func getTokenFromWeb(config *oauth2.Config) *oauth2.Token {
-	authURL := config.AuthCodeURL("state-token", oauth2.AccessTypeOffline)
-	fmt.Printf("Go to the following link in your browser then type the "+
-		"authorization code: \n%v\n", authURL)
-
-	var authCode string
-	if _, err := fmt.Scan(&authCode); err != nil {
-		log.Fatalf("Unable to read authorization code: %v", err)
-	}
-
-	tok, err := config.Exchange(context.TODO(), authCode)
-	if err != nil {
-		log.Fatalf("Unable to retrieve token from web: %v", err)
-	}
-	return tok
-}
-
-// Retrieves a token from a local file.
-func tokenFromFile(file string) (*oauth2.Token, error) {
-	f, err := os.Open(file)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-	tok := &oauth2.Token{}
-	err = json.NewDecoder(f).Decode(tok)
-	return tok, err
-}
-
-// Saves a token to a file path.
-func saveToken(path string, token *oauth2.Token) {
-	fmt.Printf("Saving credential file to: %s\n", path)
-	f, err := os.OpenFile(path, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0600)
-	if err != nil {
-		log.Fatalf("Unable to cache oauth token: %v", err)
-	}
-	defer f.Close()
-	json.NewEncoder(f).Encode(token)
-}
-
 func check(err error) {
 	if err != nil {
 		panic(err)
@@ -1009,6 +974,29 @@ func writeHomework(assess *infoAssessment, m module) {
 	modPath := filepath.Join(courseInstance, "assessments", m.PLName, "homework")
 	w, err := os.Create(filepath.Join(modPath, "infoAssessment.json"))
 	check(err)
+	b, err := json.MarshalIndent(assess, "", "  ")
+	check(err)
+	_, err = w.Write(b)
+	check(err)
+	w.Close()
+}
+
+func getExtraCredit(m module) *infoAssessment {
+	modPath := filepath.Join(courseInstance, "assessments", "extra_credit", m.PLName)
+	f, err := os.Open(filepath.Join(modPath, "infoAssessment.json"))
+	if err != nil {
+		return nil
+	}
+	d := json.NewDecoder(f)
+	assess := new(infoAssessment)
+	check(d.Decode(assess))
+	f.Close()
+	return assess
+}
+
+func writeExtraCredit(assess *infoAssessment, m module) {
+	modPath := filepath.Join(courseInstance, "assessments", "extra_credit", m.PLName)
+	w, err := os.Create(filepath.Join(modPath, "infoAssessment.json"))
 	check(err)
 	b, err := json.MarshalIndent(assess, "", "  ")
 	check(err)
@@ -1060,9 +1048,10 @@ func writeInfoAssessment(assess *infoAssessment, m module, i int, typ string) {
 	//os.MkdirAll(filepath.Join(modPath, m.ClassNames[i]), 0755)
 	w, err := os.Create(filepath.Join(modPath, m.ClassNames[i], "infoAssessment.json"))
 	check(err)
-	b, err := json.MarshalIndent(assess, "", "  ")
-	check(err)
-	_, err = w.Write(b)
+	enc := json.NewEncoder(w)
+	enc.SetEscapeHTML(false)
+	enc.SetIndent("", "    ")
+	err = enc.Encode(assess)
 	check(err)
 	w.Close()
 }
@@ -1080,6 +1069,7 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 		}
 		assess.Type = "Homework"
 		assess.Set = "Pre-class"
+		assess.Module = m.PLName
 
 		if len(m.ClassNames) > 1 {
 			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
@@ -1130,6 +1120,7 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		}
 		assess.Type = "Homework"
 		assess.Set = "Worksheet"
+		assess.Module = m.PLName
 
 		assess.GroupWork = true
 		assess.StudentGroupCreate = true
@@ -1174,6 +1165,78 @@ func setupInClass(m module, dates map[int64]time.Time) {
 	}
 }
 
+func setupPostClass(m module, dates map[int64]time.Time) {
+	if m.PLName == "" {
+		return
+	}
+	j := 1
+	for i, className := range m.ClassNames {
+		assess, err := getInfoAssessment(m, i, "postclass")
+		if err != nil {
+			fmt.Println("no in-class for ", className)
+			continue
+		}
+		assess.Type = "Homework"
+		assess.Set = "Post-class"
+		assess.Module = m.PLName
+		if i < len(m.ClassVideos) {
+			assess.Text = `<p>Try the worksheet again, this time following along with this lecture video. Points you get on this worksheet can ` +
+				`partially count toward your grade on the in-class version.</p><div class="embed-responsive embed-responsive-16by9">` +
+				`<iframe id="kmsembed-1_4zfiknz9" width="720" height="439" src="` +
+				m.ClassVideos[i] +
+				`" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" ` +
+				`referrerPolicy="no-referrer-when-downgrade" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation ` +
+				`allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation ` +
+				`allow-top-navigation-by-user-activation" frameborder="0" title="CEE 492: Worksheet ` +
+				fmt.Sprintf("%d.%d", m.Number, j) +
+				`"></iframe></div>"`
+		} else {
+			fmt.Println("no video for ", className)
+			continue
+		}
+
+		assess.GroupWork = false
+
+		if len(m.ClassNames) > 1 {
+			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
+			j++
+		} else {
+			assess.Number = fmt.Sprintf("%d", m.Number)
+		}
+		closeDate := classSession(m, dates, i).Add(classDuration).Add(time.Hour * 24 * 21)
+		if finalExamEnd.Before(closeDate) {
+			closeDate = finalExamEnd
+		}
+		assess.AllowAccess = []allowAccess{
+			{
+				StartDate: classSession(m, dates, i).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
+				Credit:    0,
+				Active:    false,
+			},
+			{
+				StartDate: classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
+				EndDate:   closeDate.Format("2006-01-02T15:04:05"),
+				Credit:    100,
+				Active:    true,
+			},
+			{
+				StartDate: closeDate.Format("2006-01-02T15:04:05"),
+				EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+				Credit:    0,
+				Active:    true,
+			},
+		}
+		for i := range assess.Zones {
+			assess.Zones[i].GradeRateMinutes = 1
+		}
+		if len(assess.Zones) == 1 {
+			assess.Zones[0].Title = assess.Title
+		}
+		writeInfoAssessment(assess, m, i, "postclass")
+	}
+}
+
 func setupHomework(m module, dates map[int64]time.Time) {
 	hw := getHomework(m)
 	if hw == nil {
@@ -1181,6 +1244,7 @@ func setupHomework(m module, dates map[int64]time.Time) {
 	}
 	hw.Title = m.Title
 	hw.Number = fmt.Sprint(m.Number)
+	hw.Module = m.PLName
 
 	hw.AllowAccess = []allowAccess{
 		{
@@ -1217,10 +1281,49 @@ func setupHomework(m module, dates map[int64]time.Time) {
 	writeHomework(hw, m)
 }
 
+func setupExtraCredit(m module, dates map[int64]time.Time) {
+	xc := getExtraCredit(m)
+	if xc == nil {
+		return
+	}
+	xc.Title = m.Title
+	xc.Number = fmt.Sprint(m.Number)
+	xc.Module = m.PLName
+
+	start := moduleStart(m, dates)
+	end := nextModuleStart(m, start).Add(7 * 24 * time.Hour)
+	if end.After(finalExamEnd) {
+		end = finalExamEnd
+	}
+
+	xc.AllowAccess = []allowAccess{
+		{
+			StartDate: start.Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+			EndDate:   start.Format("2006-01-02T15:04:05"),
+			Credit:    0,
+			Active:    false,
+		},
+		{
+			StartDate: start.Format("2006-01-02T15:04:05"),
+			EndDate:   end.Format("2006-01-02T15:04:05"),
+			Credit:    100,
+			Active:    true,
+		},
+		{
+			StartDate: end.Format("2006-01-02T15:04:05"),
+			EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+			Credit:    0,
+			Active:    true,
+		},
+	}
+	writeExtraCredit(xc, m)
+}
+
 func setupProject(p project) {
 	assess := getProject(p)
 	assess.Type = "Homework"
 	assess.Set = "Project"
+	assess.Module = "project"
 	assess.Number = fmt.Sprintf("%d", p.Number)
 
 	assess.GroupWork = true
@@ -1260,6 +1363,7 @@ type infoAssessment struct {
 	UUID               string        `json:"uuid"`
 	Type               string        `json:"type"`
 	Title              string        `json:"title"`
+	Module             string        `json:"module"`
 	Set                string        `json:"set"`
 	Number             string        `json:"number"`
 	GroupWork          bool          `json:"groupWork"`
@@ -1268,6 +1372,7 @@ type infoAssessment struct {
 	StudentGroupCreate bool          `json:"studentGroupCreate"`
 	StudentGroupJoin   bool          `json:"studentGroupJoin"`
 	StudentGroupLeave  bool          `json:"studentGroupLeave"`
+	Text               string        `json:"text,omitempty"`
 	AllowAccess        []allowAccess `json:"allowAccess"`
 	Zones              []zone        `json:"zones"`
 }
