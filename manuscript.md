@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/c0f31d1f8a59e65bfa1a9cce23ea0c0feab9b037/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/c0f31d1f8a59e65bfa1a9cce23ea0c0feab9b037/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/c0f31d1f8a59e65bfa1a9cce23ea0c0feab9b037/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fef687ff856218eff566fde97381fea1c5819fda/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fef687ff856218eff566fde97381fea1c5819fda/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fef687ff856218eff566fde97381fea1c5819fda/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -54,6 +54,9 @@ manubot-clear-requests-cache: false
 * Meeting time and location: 12-1:20 on Tuesdays and Thursdays in Room 1017 CEE Hydrosystems.
 * First day of instruction: 8/22/2023
 * Last day of instruction: 12/5/2023 (final exam on 12/12/2023)
+* Important links: 
+  * [PrairieLearn](https://us.prairielearn.com/pl/course_instance/137035/assessments) (for assignments)
+  * [CampusWire](https://campuswire.com/c/G87945CC6/feed) (for announcements and discussion)
 
 ## Basic Instructor Information
 
