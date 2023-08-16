@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2022'
 lang: en-US
-date-meta: '2023-08-15'
+date-meta: '2023-08-16'
 author-meta: []
 header-includes: |-
   <!--
@@ -13,8 +13,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2022" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2022" />
-  <meta name="dc.date" content="2023-08-15" />
-  <meta name="citation_publication_date" content="2023-08-15" />
+  <meta name="dc.date" content="2023-08-16" />
+  <meta name="citation_publication_date" content="2023-08-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +27,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1c23238f4fdac4a2fc4940b1a318738792affdf7/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1c23238f4fdac4a2fc4940b1a318738792affdf7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1c23238f4fdac4a2fc4940b1a318738792affdf7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ee6b9a3b05909b8f18aec3a12c3bd9fab1b537c9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ee6b9a3b05909b8f18aec3a12c3bd9fab1b537c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ee6b9a3b05909b8f18aec3a12c3bd9fab1b537c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
