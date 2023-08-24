@@ -1127,7 +1127,7 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		assess.StudentGroupJoin = true
 		assess.StudentGroupLeave = true
 		assess.GroupMaxSize = 4
-		assess.GroupMinSize = 3
+		assess.GroupMinSize = 2
 
 		if len(m.ClassNames) > 1 {
 			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
@@ -1144,12 +1144,12 @@ func setupInClass(m module, dates map[int64]time.Time) {
 			},
 			{
 				StartDate: classSession(m, dates, i).Format("2006-01-02T15:04:05"),
-				EndDate:   classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Add(3 * time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    100,
 				Active:    true,
 			},
 			{
-				StartDate: classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
+				StartDate: classSession(m, dates, i).Add(3 * time.Hour).Format("2006-01-02T15:04:05"),
 				EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    true,
@@ -1210,12 +1210,12 @@ func setupPostClass(m module, dates map[int64]time.Time) {
 		assess.AllowAccess = []allowAccess{
 			{
 				StartDate: classSession(m, dates, i).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
-				EndDate:   classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Add(3 * time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    false,
 			},
 			{
-				StartDate: classSession(m, dates, i).Add(classDuration).Add(time.Hour).Format("2006-01-02T15:04:05"),
+				StartDate: classSession(m, dates, i).Add(3 * time.Hour).Format("2006-01-02T15:04:05"),
 				EndDate:   closeDate.Format("2006-01-02T15:04:05"),
 				Credit:    100,
 				Active:    true,
@@ -1391,6 +1391,7 @@ type zone struct {
 }
 
 type question struct {
-	ID     string `json:"id"`
-	Points int    `json:"points"`
+	ID           string `json:"id"`
+	Points       int    `json:"points,omitempty"`
+	ManualPoints int    `json:"manualPoints,omitempty"`
 }
