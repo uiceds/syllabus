@@ -1138,12 +1138,12 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		assess.AllowAccess = []allowAccess{
 			{
 				StartDate: classSession(m, dates, i).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
-				EndDate:   classSession(m, dates, i).Format("2006-01-02T15:04:05"),
+				EndDate:   classSession(m, dates, i).Add(-5 * time.Minute).Format("2006-01-02T15:04:05"),
 				Credit:    0,
 				Active:    false,
 			},
 			{
-				StartDate: classSession(m, dates, i).Format("2006-01-02T15:04:05"),
+				StartDate: classSession(m, dates, i).Add(-5 * time.Minute).Format("2006-01-02T15:04:05"),
 				EndDate:   classSession(m, dates, i).Add(3 * time.Hour).Format("2006-01-02T15:04:05"),
 				Credit:    100,
 				Active:    true,
