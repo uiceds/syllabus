@@ -1,20 +1,24 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2023'
 lang: en-US
-date-meta: '2023-08-16'
+date-meta: '2023-09-12'
 author-meta: []
-header-includes: |-
+header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="CEE 492: Data Science for CEE, Fall 2023" />
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2023" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2023" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2023" />
-  <meta name="dc.date" content="2023-08-16" />
-  <meta name="citation_publication_date" content="2023-08-16" />
+  <meta name="dc.date" content="2023-09-12" />
+  <meta name="citation_publication_date" content="2023-09-12" />
+  <meta property="article:published_time" content="2023-09-12" />
+  <meta name="dc.modified" content="2023-09-12T13:43:59+00:00" />
+  <meta property="article:modified_time" content="2023-09-12T13:43:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,9 +31,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/1e11b267e37ad257872defb879259ba9172a916b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/1e11b267e37ad257872defb879259ba9172a916b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/1e11b267e37ad257872defb879259ba9172a916b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/58c69dc421e4900d816b9f53ea6eda6252d0d40b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/58c69dc421e4900d816b9f53ea6eda6252d0d40b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/58c69dc421e4900d816b9f53ea6eda6252d0d40b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -717,3 +721,4 @@ project/rough_draft
 #### Module 11 Project Assignment
 project/final
 -->
+

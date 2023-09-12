@@ -32,7 +32,7 @@ Newmark
 overfitting
 PCA
 PrairieLearn
-pre
+Pre
 REPL
 repost
 Rospach
