@@ -42,8 +42,8 @@ func init() {
 	}
 	startDate = time.Date(2024, time.August, 26, 12, 0, 0, 0, loc)
 
-	finalExamStart = time.Date(2023, time.December, 13, 8, 00, 0, 0, loc)
-	finalExamEnd = time.Date(2023, time.December, 14, 8, 00, 0, 0, loc)
+	finalExamStart = time.Date(2024, time.December, 13, 8, 00, 0, 0, loc)
+	finalExamEnd = time.Date(2024, time.December, 14, 8, 00, 0, 0, loc)
 }
 
 func startDates(modules []module) map[int64]time.Time {
