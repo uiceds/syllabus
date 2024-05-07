@@ -17,8 +17,8 @@ header-includes: |
   <meta name="dc.date" content="2024-05-07" />
   <meta name="citation_publication_date" content="2024-05-07" />
   <meta property="article:published_time" content="2024-05-07" />
-  <meta name="dc.modified" content="2024-05-07T22:42:11+00:00" />
-  <meta property="article:modified_time" content="2024-05-07T22:42:11+00:00" />
+  <meta name="dc.modified" content="2024-05-07T23:36:57+00:00" />
+  <meta property="article:modified_time" content="2024-05-07T23:36:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/508e61ebca32995ea66016f1e00c81c9b2e6279e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/508e61ebca32995ea66016f1e00c81c9b2e6279e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/508e61ebca32995ea66016f1e00c81c9b2e6279e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/caf49937a6188c96488831ad256f166ff6dc7b01/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/caf49937a6188c96488831ad256f166ff6dc7b01/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/caf49937a6188c96488831ad256f166ff6dc7b01/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,14 +113,15 @@ The in-class worksheets will be completed in groups and will be graded.
 If students do not finish the worksheet during class or are absent, up to 70% of points can be made up by completing the post-class worksheet review. 
 Online students can get 100% of points by completing the post-class worksheet review.
 Near the beginning or the semester, 4-credit students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
-Additionally, students will complete homework assignments and exams.
+Additionally, students will complete homework assignments, quizzes, and mini-projects.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Pre-lecture quizzes: 5% of final grade
-  * In-class worksheets: 11% of final grade. (70% of points can be made up by completing the post-class worksheet review. Online students can get 100% of points by completing the post-class worksheet review.)
-  * Homeworks: 20% of final grade
-  * Midterm exams: 39% of final grade (13% each).
+  * In-class worksheets: 10% of final grade. (70% of points can be made up by completing the post-class worksheet review. Online students can get 100% of points by completing the post-class worksheet review.)
+  * Homeworks: 20% of final grade (2.22% each)
+  * Quizzes in [CBTF](https://cbtf.illinois.edu/): 30% of final grade (3.33% each)
+  * Mini-projects: 10% of final grade (3.33% each)
   * Course project (4-credit students only): 25% of final grade: 
     * 3% for project selection and introduction, 
     * 3% for exploratory analysis, 
@@ -156,14 +157,19 @@ Occasionally you may need to miss class owing to illness, conference travel, fam
 
 4. The deadline for the worksheet review is usually a couple of weeks after class, so it is okay to wait until you're feeling better to complete it. However, we do have a pretty hard end of the semester at the beginning of December, and things can start to pile up if you fall behind. Come talk to me if that becomes an issue.
 
-## Homeworks and Exams
+## Homeworks and Quizzes
 
-Homeworks and Exams will be done through [PrairieLearn](https://us.prairielearn.com/pl/course_instance/137035/).
-In assigning these types of homeworks and exams, I'm placing emphasis on **mastery**.
+Homeworks and Quizzes will be done through [PrairieLearn](https://us.prairielearn.com/pl/course_instance/137035/).
+The quizzes will be administered through the [Computer-Based Testing Facility (CBTF)](https://cbtf.illinois.edu/), which is a set of computer labs with access to PrairieLearn but not to the internet, and in particular not to resources such as Chegg or ChatGPT.
+There will be a quiz for each module, which will occur during the week following the 100% deadline for the homework for that module.
+
+In assigning these types of homeworks and quizzes, I'm placing emphasis on **mastery**.
 The idea is to keep doing questions until you master the underlying concept or method. Once you do, you should be able to answer these questions very quickly.
 
 **Important**: When you log in to PrairieLearn, choose "Log in with Illinois" rather than "Log in with Google" or "Log in with Microsoft".
 The UIUC login is the only one that will work.
+
+You will be receiving emails from CBTF throughout the semester with instructions on how to sign up for quizzes.
 
 ### Homeworks
 
@@ -172,10 +178,12 @@ Questions finished between the first and second meeting times of the module rece
 
 Note that new homeworks are assigned most weeks, so if you don't stay ahead, it can be easy to fall behind.
 
-### Exams
+### Mini-Projects
 
-Exams are also administered using PrairieLearn. 
-For exams, partial credit usually isn't given for individual problems, but you can try each problem more than once, with a decreasing number of points possible for each try.
+Mini-projects are also administered using PrairieLearn. 
+There are a total of 3 mini-projects, one at the end of each section of the course.
+Mini-projects will be completed in teams, with randomly assigned team members which will be different for each project.
+The goal of the projects are allow you to apply the concepts learned in the course to a (relatively) real-world dataset and to practice working in a team.
 
 ## Learning Resources
 * Students are expected to bring a laptop to class, and have use of one and an internet connection for homeworks and pre-class activities.
@@ -211,14 +219,14 @@ If you are unable to meet a particular deadline, it is your responsibility to ma
 
 #### Regrades
 
-Requests for regrading homeworks, exams, and project deliverables must be submitted in writing within one week of receiving the initial grade, and must include a written explanation of the reason for the regrade request.
+Requests for regrading homeworks, quizzes, mini-projects, and project deliverables must be submitted in writing within one week of receiving the initial grade, and must include a written explanation of the reason for the regrade request.
 
 #### Instructor Responses
 ##### Instructor Feedback Turnaround Time
 Questions posted to [CampusWire](https://campuswire.com/c/G87945CC6/) generally will be answered within 24 hours.
 Questions may be answered on weekends but this should not be expected.
 
-Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Exams, essays, and term papers will generally be graded within 10 business days.
+Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Project deliverables will generally be graded within 10 business days.
 
 ##### Contacting the instructor
 For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/G87945CC6/).
@@ -283,8 +291,6 @@ Your daily contact should be in class or on Zoom, in office hours, or on CampusW
 ##### Course Questions
 Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/G87945CC6/). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/G87945CC6/). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
 
-We will not answer questions related to the content covered by an exam once the exam has started. We may, however, answer questions aimed at clarifying what is meant by the exam questions.
-
 ##### Personal and Grade-Related Questions
 Questions of a personal nature can be sent as a direct message on CampusWire, or if desired may be sent to the instructor's email address. If you need to send an email, include a subject that identifies the course number and nature of your question.
 
@@ -313,9 +319,9 @@ The University of Illinois strives to promote student success through the suppor
 | 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/27/2024 | 4.0 |
 | 2. [Open reproducible science](#module-2-open-reproducible-science) | 9/5/2024 | 4.0 |
 | 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/17/2024 | 2.7 |
-| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/24/2024 | 4.0 |
+| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/24/2024 | 5.3 |
 | 5. [Regression](#module-5-regression) | 10/8/2024 | 4.0 |
-| 6. [Machine learning](#module-6-machine-learning) | 10/17/2024 | 2.7 |
+| 6. [Machine learning](#module-6-machine-learning) | 10/17/2024 | 4.0 |
 | 7. [Neural networks](#module-7-neural-networks) | 10/29/2024 | 2.7 |
 | 8. [Convolutional neural networks](#module-8-convolutional-neural-networks) | 11/5/2024 | 2.7 |
 | 9. [Data-driven dynamical systems](#module-9-data-driven-dynamical-systems) | 11/12/2024 | 2.7 |
@@ -353,13 +359,15 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | 4. [Report rough draft](https://us.prairielearn.com/pl/course_instance/153867) | 2024-11-15 17:00:00 -0600 CST | 2024-11-22 17:00:00 -0600 CST
 | 5. [Final report and presentation](https://us.prairielearn.com/pl/course_instance/153867) | 2024-11-22 17:00:00 -0600 CST | 2024-12-06 17:00:00 -0600 CST
 
-### Exams
+### Mini-Projects
 
-* Exam 1: Computational thinking: Tue 10/1/2024, 12:00 CDT
+* Mini-Project 1: Computational thinking: Tue 10/1/2024, 12:00 CDT
 
-* Exam 2: Coordinate transforms: Tue 10/22/2024, 12:00 CDT
+* Mini-Project 2: Coordinate transforms: Tue 10/22/2024, 12:00 CDT
 
-* Final Exam: Fri 12/13/2024, 08:00 CST—Sat 12/14/2024, 08:00 CST
+* Mini-Project 3: Machine Learning: Thu 11/21/2024, 12:00 CST
+
+<!-- * Final Exam: Fri 12/13/2024, 08:00 CST—Sat 12/14/2024, 08:00 CST-->
 
 
 ## Modules
@@ -495,7 +503,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 * Tue 9/24/2024, 12:00 CDT: Fourier Series
 * Thu 9/26/2024, 12:00 CDT: Fourier Transforms
-* Tue 10/1/2024, 12:00 CDT: Exam 1: Computational thinking
+* Tue 10/1/2024, 12:00 CDT: Mini-Project 1: Computational thinking
 * Thu 10/3/2024, 12:00 CDT: Spectrograms and Wavelets
 
 
@@ -554,7 +562,7 @@ project/selection
 
 
 * Thu 10/17/2024, 12:00 CDT: k-Means clustering
-* Tue 10/22/2024, 12:00 CDT: Exam 2: Coordinate transforms
+* Tue 10/22/2024, 12:00 CDT: Mini-Project 2: Coordinate transforms
 * Thu 10/24/2024, 12:00 CDT: Classification trees
 
 
@@ -666,7 +674,7 @@ project/modeling
 
 
 * Tue 11/19/2024, 12:00 CST: Fairness in machine learning
-* Thu 11/21/2024, 12:00 CST: Q&A / Review
+* Thu 11/21/2024, 12:00 CST: Mini-Project 3: Machine Learning
 
 
 
