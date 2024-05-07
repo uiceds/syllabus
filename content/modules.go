@@ -16,13 +16,13 @@ import (
 )
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
-var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2023", "Path to PrairieLearn course repository")
+var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2024", "Path to PrairieLearn course repository")
 
 var courseInstance string
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
-const plWebsite = "https://us.prairielearn.com/pl/course_instance/137035"
+const plWebsite = "https://us.prairielearn.com/pl/course_instance/153867"
 
 var startDate, finalExamStart, finalExamEnd time.Time
 
@@ -40,7 +40,7 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	startDate = time.Date(2023, time.August, 22, 12, 0, 0, 0, loc)
+	startDate = time.Date(2024, time.August, 26, 12, 0, 0, 0, loc)
 
 	finalExamStart = time.Date(2023, time.December, 13, 8, 00, 0, 0, loc)
 	finalExamEnd = time.Date(2023, time.December, 14, 8, 00, 0, 0, loc)
@@ -87,21 +87,21 @@ func projects(modules []module) []project {
 		} else {
 			assigned = proj[i-1].Due
 		}
-		if strings.Contains(m.ProjectAssignment, "exploratory") {
-			proj = append(proj, project{
-				ID:       m.ProjectAssignment,
-				Number:   i + 1,
-				Assigned: assigned,
-				Due:      nextFridayNight(projectAssignmentDue(m, startDates(modules))), // Avoid conflict with exam. TODO: Fix
-			})
-		} else {
-			proj = append(proj, project{
-				ID:       m.ProjectAssignment,
-				Number:   i + 1,
-				Assigned: assigned,
-				Due:      projectAssignmentDue(m, startDates(modules)),
-			})
-		}
+		// if strings.Contains(m.ProjectAssignment, "exploratory") {
+		// 	proj = append(proj, project{
+		// 		ID:       m.ProjectAssignment,
+		// 		Number:   i + 1,
+		// 		Assigned: assigned,
+		// 		Due:      nextFridayNight(projectAssignmentDue(m, startDates(modules))), // Avoid conflict with exam. TODO: Fix
+		// 	})
+		// } else {
+		proj = append(proj, project{
+			ID:       m.ProjectAssignment,
+			Number:   i + 1,
+			Assigned: assigned,
+			Due:      projectAssignmentDue(m, startDates(modules)),
+		})
+		// }
 		i++
 	}
 	return proj
@@ -346,17 +346,8 @@ var modules = []module{
 		ProjectAssignment: "project/modeling",
 	},
 	{
-		Number:  -1,
-		Parents: []int64{9},
-		Title:   "Fall break",
-		ClassNames: []string{
-			"Fall break",
-			"Fall break",
-		},
-	},
-	{
 		Number:  10,
-		Parents: []int64{-1},
+		Parents: []int64{9},
 		Title:   "Fairness in machine learning",
 		Overview: `Machine learning models can contain bias, which is especially important as these models become more integrated in to human society.
 		We will learn how to detect and minimize this bias.`,
@@ -367,6 +358,7 @@ var modules = []module{
 		PLName: "fairness",
 		ClassNames: []string{
 			"fairness",
+			"Q&A / Review",
 		},
 		ClassVideos: []string{
 			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_cxewm7yq/uiConfId/26883701/st/0",
@@ -374,12 +366,20 @@ var modules = []module{
 		ProjectAssignment: "project/rough_draft",
 	},
 	{
+		Number:  -1,
+		Parents: []int64{10},
+		Title:   "Fall break",
+		ClassNames: []string{
+			"Fall break",
+			"Fall break",
+		},
+	},
+	{
 		Number:   11,
-		Parents:  []int64{10},
+		Parents:  []int64{-1},
 		Title:    "Final projects",
 		Overview: `In this module we will present the results of our semester projects.`,
 		ClassNames: []string{
-			"Q&A / Review",
 			"Final project presentations",
 			"Final project presentations",
 		},
