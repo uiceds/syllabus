@@ -27,7 +27,7 @@ const plWebsite = "https://us.prairielearn.com/pl/course_instance/153867"
 var startDate, finalExamStart, finalExamEnd time.Time
 
 var classDuration = 80 * time.Minute
-var examDuration = 24 * time.Hour
+var examDuration = 24 * 5 * time.Hour
 
 var loc *time.Location
 
@@ -231,7 +231,7 @@ var modules = []module{
 		ClassNames: []string{
 			"fourier",
 			"fft",
-			"Exam 1: Computational thinking",
+			"Mini-Project 1: Computational thinking",
 			"wavelet",
 		},
 		ClassVideos: []string{
@@ -277,7 +277,7 @@ var modules = []module{
 		PLName: "machine_learning",
 		ClassNames: []string{
 			"k-means",
-			"Exam 2: Coordinate transforms",
+			"Mini-Project 2: Coordinate transforms",
 			"classification_trees",
 		},
 		ClassVideos: []string{
@@ -358,7 +358,7 @@ var modules = []module{
 		PLName: "fairness",
 		ClassNames: []string{
 			"fairness",
-			"Q&A / Review",
+			"Mini-Project 3: Machine Learning",
 		},
 		ClassVideos: []string{
 			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_cxewm7yq/uiConfId/26883701/st/0",
@@ -502,7 +502,7 @@ func exams(mods []module, dates map[int64]time.Time) []nameDate {
 	var o []nameDate
 	for _, m := range mods {
 		for i, name := range m.ClassNames {
-			if strings.Contains(strings.ToLower(name), "exam") {
+			if strings.Contains(strings.ToLower(name), "mini-project") {
 				o = append(o, nameDate{
 					Name: name,
 					Date: classSession(m, dates, i).Format(dateFormat),
@@ -677,14 +677,14 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 		m.preclassToCalendar(srv, startDates)
 		time.Sleep(5 * time.Second)
 	}
-	finalExamToCalendar(srv)
+	//finalExamToCalendar(srv)
 }
 
 func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, startDate time.Time) {
 	d := startDate
 	for i, class := range m.ClassNames {
 
-		if strings.Contains(strings.ToLower(class), "exam") {
+		if strings.Contains(strings.ToLower(class), "mini-project") {
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     class,
 				Description: "On Prairielearn (https://www.prairielearn.org/pl/)",

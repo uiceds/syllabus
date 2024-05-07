@@ -41,11 +41,11 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | {{.Number}}. [{{ProjectTitle .}}]({{PLWebsite}}) | {{.Assigned}} | {{.Due}}
 {{- end}}
 
-### Exams
+### Mini-Projects
 {{range .Exams}}
 * {{.Name}}: {{.Date}}
 {{end}}
-* Final Exam: {{.FinalExamStart}}—{{.FinalExamEnd}}
+<!-- * Final Exam: {{.FinalExamStart}}—{{.FinalExamEnd}}-->
 
 
 ## Modules
