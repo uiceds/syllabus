@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2024'
 lang: en-US
-date-meta: '2024-05-07'
+date-meta: '2024-07-31'
 author-meta: []
 header-includes: |
   <!--
@@ -14,11 +14,11 @@ header-includes: |
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2024" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2024" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2024" />
-  <meta name="dc.date" content="2024-05-07" />
-  <meta name="citation_publication_date" content="2024-05-07" />
-  <meta property="article:published_time" content="2024-05-07" />
-  <meta name="dc.modified" content="2024-05-07T23:36:57+00:00" />
-  <meta property="article:modified_time" content="2024-05-07T23:36:57+00:00" />
+  <meta name="dc.date" content="2024-07-31" />
+  <meta name="citation_publication_date" content="2024-07-31" />
+  <meta property="article:published_time" content="2024-07-31" />
+  <meta name="dc.modified" content="2024-07-31T14:08:13+00:00" />
+  <meta property="article:modified_time" content="2024-07-31T14:08:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/caf49937a6188c96488831ad256f166ff6dc7b01/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/caf49937a6188c96488831ad256f166ff6dc7b01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/caf49937a6188c96488831ad256f166ff6dc7b01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3fbdf4d13cb065c3a5d11cd4bb9f89bf85c31f96/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3fbdf4d13cb065c3a5d11cd4bb9f89bf85c31f96/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3fbdf4d13cb065c3a5d11cd4bb9f89bf85c31f96/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -315,19 +315,18 @@ The University of Illinois strives to promote student success through the suppor
 
 | Module | Start Date | Contact Hours |
 | ---------- | --- | -- |
-| 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/26/2024 | 1.3 |
-| 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/27/2024 | 4.0 |
-| 2. [Open reproducible science](#module-2-open-reproducible-science) | 9/5/2024 | 4.0 |
-| 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/17/2024 | 2.7 |
-| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/24/2024 | 5.3 |
-| 5. [Regression](#module-5-regression) | 10/8/2024 | 4.0 |
-| 6. [Machine learning](#module-6-machine-learning) | 10/17/2024 | 4.0 |
-| 7. [Neural networks](#module-7-neural-networks) | 10/29/2024 | 2.7 |
-| 8. [Convolutional neural networks](#module-8-convolutional-neural-networks) | 11/5/2024 | 2.7 |
-| 9. [Data-driven dynamical systems](#module-9-data-driven-dynamical-systems) | 11/12/2024 | 2.7 |
-| 10. [Fairness in machine learning](#module-10-fairness-in-machine-learning) | 11/19/2024 | 2.7 |
-| -1. [Fall break](#module--1-fall-break) | 11/26/2024 | 2.7 |
-| 11. [Final projects](#module-11-final-projects) | 12/3/2024 | 2.7 |
+| 0. [Introduction and motivating problems](#module-0-introduction-and-motivating-problems) | 8/27/2024 | 1.3 |
+| 1. [Linear algebra review and intro to the Julia Language](#module-1-linear-algebra-review-and-intro-to-the-julia-language) | 8/29/2024 | 4.0 |
+| 2. [Open reproducible science](#module-2-open-reproducible-science) | 9/10/2024 | 4.0 |
+| 3. [Singular value decomposition and principle component analysis](#module-3-singular-value-decomposition-and-principle-component-analysis) | 9/19/2024 | 2.7 |
+| 4. [Fourier and wavelet transforms](#module-4-fourier-and-wavelet-transforms) | 9/26/2024 | 5.3 |
+| 5. [Regression](#module-5-regression) | 10/10/2024 | 4.0 |
+| 6. [Machine learning](#module-6-machine-learning) | 10/22/2024 | 4.0 |
+| 7. [Neural networks](#module-7-neural-networks) | 10/31/2024 | 2.7 |
+| 8. [Convolutional neural networks](#module-8-convolutional-neural-networks) | 11/7/2024 | 2.7 |
+| 9. [Data-driven dynamical systems](#module-9-data-driven-dynamical-systems) | 11/14/2024 | 2.7 |
+| 10. [Fairness in machine learning](#module-10-fairness-in-machine-learning) | 11/21/2024 | 5.3 |
+| 11. [Final projects](#module-11-final-projects) | 12/5/2024 | 2.7 |
 
 <!-- ### Discussions
 
@@ -339,33 +338,46 @@ The University of Illinois strives to promote student success through the suppor
 
 Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
 | -- | -- | -- | -- | -- |
-| HW1: [Linear algebra review and intro to the Julia Language](https://us.prairielearn.com/pl/course_instance/153867) | 8/20/2024 | Tue 8/27/2024, 12:00 CDT | Fri 9/13/2024, 17:00 CDT | Fri 9/27/2024, 17:00 CDT |
-| HW2: [Open reproducible science](https://us.prairielearn.com/pl/course_instance/153867) | 8/29/2024 | Thu 9/5/2024, 12:00 CDT | Fri 9/20/2024, 17:00 CDT | Fri 10/4/2024, 17:00 CDT |
-| HW3: [Singular value decomposition and principle component analysis](https://us.prairielearn.com/pl/course_instance/153867) | 9/10/2024 | Tue 9/17/2024, 12:00 CDT | Fri 9/27/2024, 17:00 CDT | Fri 10/11/2024, 17:00 CDT |
-| HW4: [Fourier and wavelet transforms](https://us.prairielearn.com/pl/course_instance/153867) | 9/17/2024 | Tue 9/24/2024, 12:00 CDT | Fri 10/11/2024, 17:00 CDT | Fri 10/25/2024, 17:00 CDT |
-| HW5: [Regression](https://us.prairielearn.com/pl/course_instance/153867) | 10/1/2024 | Tue 10/8/2024, 12:00 CDT | Fri 10/25/2024, 17:00 CDT | Fri 11/8/2024, 16:00 CST |
-| HW6: [Machine learning](https://us.prairielearn.com/pl/course_instance/153867) | 10/10/2024 | Thu 10/17/2024, 12:00 CDT | Fri 11/1/2024, 17:00 CDT | Fri 11/15/2024, 16:00 CST |
-| HW7: [Neural networks](https://us.prairielearn.com/pl/course_instance/153867) | 10/22/2024 | Tue 10/29/2024, 12:00 CDT | Fri 11/8/2024, 17:00 CST | Fri 11/22/2024, 17:00 CST |
-| HW8: [Convolutional neural networks](https://us.prairielearn.com/pl/course_instance/153867) | 10/29/2024 | Tue 11/5/2024, 12:00 CST | Fri 11/15/2024, 17:00 CST | Fri 11/29/2024, 17:00 CST |
-| HW9: [Data-driven dynamical systems](https://us.prairielearn.com/pl/course_instance/153867) | 11/5/2024 | Tue 11/12/2024, 12:00 CST | Fri 11/22/2024, 17:00 CST | Fri 12/6/2024, 17:00 CST |
+| HW1: [Linear algebra review and intro to the Julia Language](https://us.prairielearn.com/pl/course_instance/153867) | 8/22/2024 | Thu 8/29/2024, 12:00 CDT | Mon 9/16/2024, 04:59 CDT | Mon 9/30/2024, 04:59 CDT |
+| HW2: [Open reproducible science](https://us.prairielearn.com/pl/course_instance/153867) | 9/3/2024 | Tue 9/10/2024, 12:00 CDT | Mon 9/30/2024, 04:59 CDT | Mon 10/14/2024, 04:59 CDT |
+| HW3: [Singular value decomposition and principle component analysis](https://us.prairielearn.com/pl/course_instance/153867) | 9/12/2024 | Thu 9/19/2024, 12:00 CDT | Mon 10/7/2024, 04:59 CDT | Mon 10/21/2024, 04:59 CDT |
+| HW4: [Fourier and wavelet transforms](https://us.prairielearn.com/pl/course_instance/153867) | 9/19/2024 | Thu 9/26/2024, 12:00 CDT | Mon 10/21/2024, 04:59 CDT | Mon 11/4/2024, 03:59 CST |
+| HW5: [Regression](https://us.prairielearn.com/pl/course_instance/153867) | 10/3/2024 | Thu 10/10/2024, 12:00 CDT | Mon 10/28/2024, 04:59 CDT | Mon 11/11/2024, 03:59 CST |
+| HW6: [Machine learning](https://us.prairielearn.com/pl/course_instance/153867) | 10/15/2024 | Tue 10/22/2024, 12:00 CDT | Mon 11/11/2024, 04:59 CST | Mon 11/25/2024, 04:59 CST |
+| HW7: [Neural networks](https://us.prairielearn.com/pl/course_instance/153867) | 10/24/2024 | Thu 10/31/2024, 12:00 CDT | Mon 11/18/2024, 04:59 CST | Mon 12/2/2024, 04:59 CST |
+| HW8: [Convolutional neural networks](https://us.prairielearn.com/pl/course_instance/153867) | 10/31/2024 | Thu 11/7/2024, 12:00 CST | Mon 11/25/2024, 04:59 CST | Mon 12/9/2024, 04:59 CST |
+| HW9: [Data-driven dynamical systems](https://us.prairielearn.com/pl/course_instance/153867) | 11/7/2024 | Thu 11/14/2024, 12:00 CST | Mon 12/2/2024, 04:59 CST | Mon 12/16/2024, 04:59 CST |
 
 ### Project Deliverables
 
 | Title | Assigned | Due |
 | -- | -- | -- |
-| 1. [Project selection and introduction](https://us.prairielearn.com/pl/course_instance/153867) | 2024-08-26 12:00:00 -0500 CDT | 2024-09-27 17:00:00 -0500 CDT
-| 2. [Exploratory analysis](https://us.prairielearn.com/pl/course_instance/153867) | 2024-09-27 17:00:00 -0500 CDT | 2024-10-18 17:00:00 -0500 CDT
-| 3. [Preliminary modeling](https://us.prairielearn.com/pl/course_instance/153867) | 2024-10-18 17:00:00 -0500 CDT | 2024-11-15 17:00:00 -0600 CST
+| 1. [Project selection and introduction](https://us.prairielearn.com/pl/course_instance/153867) | 2024-08-27 12:00:00 -0500 CDT | 2024-09-27 17:00:00 -0500 CDT
+| 2. [Exploratory analysis](https://us.prairielearn.com/pl/course_instance/153867) | 2024-09-27 17:00:00 -0500 CDT | 2024-10-25 17:00:00 -0500 CDT
+| 3. [Preliminary modeling](https://us.prairielearn.com/pl/course_instance/153867) | 2024-10-25 17:00:00 -0500 CDT | 2024-11-15 17:00:00 -0600 CST
 | 4. [Report rough draft](https://us.prairielearn.com/pl/course_instance/153867) | 2024-11-15 17:00:00 -0600 CST | 2024-11-22 17:00:00 -0600 CST
 | 5. [Final report and presentation](https://us.prairielearn.com/pl/course_instance/153867) | 2024-11-22 17:00:00 -0600 CST | 2024-12-06 17:00:00 -0600 CST
 
+### Quizzes
+
+Each quiz covers the content in the corresponding module, e.g. Quiz 1 covers Module 1.
+
+* Quiz 1: 2024-09-18 – 2024-09-20
+* Quiz 2: 2024-10-09 – 2024-10-11
+* Quiz 3: 2024-10-16 – 2024-10-18
+* Quiz 4: 2024-10-23 – 2024-10-25
+* Quiz 5: 2024-11-06 – 2024-11-08
+* Quiz 6: 2024-11-13 – 2024-11-15
+* Quiz 7: 2024-11-20 – 2024-11-22
+* Quiz 8: 2024-12-04 – 2024-12-06
+
 ### Mini-Projects
 
-* Mini-Project 1: Computational thinking: Tue 10/1/2024, 12:00 CDT
+* Mini-Project 1: Computational thinking: Thu 10/3/2024, 12:00 CDT
 
-* Mini-Project 2: Coordinate transforms: Tue 10/22/2024, 12:00 CDT
+* Mini-Project 2: Coordinate transforms: Thu 10/24/2024, 12:00 CDT
 
-* Mini-Project 3: Machine Learning: Thu 11/21/2024, 12:00 CST
+* Mini-Project 3: Machine Learning: Tue 12/3/2024, 12:00 CST
 
 <!-- * Final Exam: Fri 12/13/2024, 08:00 CST—Sat 12/14/2024, 08:00 CST-->
 
@@ -388,7 +400,7 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 0 Class sessions:**
 
 
-* Mon 8/26/2024, 12:00 CDT: Introduction
+* Tue 8/27/2024, 12:00 CDT: Introduction
 
 
 
@@ -419,9 +431,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 1 Class sessions:**
 
 
-* Tue 8/27/2024, 12:00 CDT: Julia basics
-* Thu 8/29/2024, 12:00 CDT: Julia basics 2
-* Tue 9/3/2024, 12:00 CDT: Linear algebra review
+* Thu 8/29/2024, 12:00 CDT: Julia basics
+* Tue 9/3/2024, 12:00 CDT: Julia basics 2
+* Thu 9/5/2024, 12:00 CDT: Linear algebra review
 
 
 
@@ -448,9 +460,9 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 2 Class sessions:**
 
 
-* Thu 9/5/2024, 12:00 CDT: Git and Github
-* Tue 9/10/2024, 12:00 CDT: Visualization
-* Thu 9/12/2024, 12:00 CDT: Data Wrangling
+* Tue 9/10/2024, 12:00 CDT: Git and Github
+* Thu 9/12/2024, 12:00 CDT: Visualization
+* Tue 9/17/2024, 12:00 CDT: Data Wrangling
 
 
 
@@ -475,8 +487,8 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 3 Class sessions:**
 
 
-* Tue 9/17/2024, 12:00 CDT: Singular Value Decomposition
-* Thu 9/19/2024, 12:00 CDT: Principal Components Analysis
+* Thu 9/19/2024, 12:00 CDT: Singular Value Decomposition
+* Tue 9/24/2024, 12:00 CDT: Principal Components Analysis
 
 
 
@@ -501,10 +513,10 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 **Module 4 Class sessions:**
 
 
-* Tue 9/24/2024, 12:00 CDT: Fourier Series
-* Thu 9/26/2024, 12:00 CDT: Fourier Transforms
-* Tue 10/1/2024, 12:00 CDT: Mini-Project 1: Computational thinking
-* Thu 10/3/2024, 12:00 CDT: Spectrograms and Wavelets
+* Thu 9/26/2024, 12:00 CDT: Fourier Series
+* Tue 10/1/2024, 12:00 CDT: Fourier Transforms
+* Thu 10/3/2024, 12:00 CDT: Mini-Project 1: Computational thinking
+* Tue 10/8/2024, 12:00 CDT: Spectrograms and Wavelets
 
 
 
@@ -534,9 +546,9 @@ project/selection
 **Module 5 Class sessions:**
 
 
-* Tue 10/8/2024, 12:00 CDT: Regression
-* Thu 10/10/2024, 12:00 CDT: Regularization
-* Tue 10/15/2024, 12:00 CDT: Model and feature selection
+* Thu 10/10/2024, 12:00 CDT: Regression
+* Tue 10/15/2024, 12:00 CDT: Regularization
+* Thu 10/17/2024, 12:00 CDT: Model and feature selection
 
 
 
@@ -561,9 +573,9 @@ project/selection
 **Module 6 Class sessions:**
 
 
-* Thu 10/17/2024, 12:00 CDT: k-Means clustering
-* Tue 10/22/2024, 12:00 CDT: Mini-Project 2: Coordinate transforms
-* Thu 10/24/2024, 12:00 CDT: Classification trees
+* Tue 10/22/2024, 12:00 CDT: k-Means clustering
+* Thu 10/24/2024, 12:00 CDT: Mini-Project 2: Coordinate transforms
+* Tue 10/29/2024, 12:00 CDT: Classification trees
 
 
 
@@ -591,8 +603,8 @@ project/exploratory
 **Module 7 Class sessions:**
 
 
-* Tue 10/29/2024, 12:00 CDT: Neural networks 1
-* Thu 10/31/2024, 12:00 CDT: Neural networks 2
+* Thu 10/31/2024, 12:00 CDT: Neural networks 1
+* Tue 11/5/2024, 12:00 CST: Neural networks 2
 
 
 
@@ -617,8 +629,8 @@ project/exploratory
 **Module 8 Class sessions:**
 
 
-* Tue 11/5/2024, 12:00 CST: Convolutional neural networks
-* Thu 11/7/2024, 12:00 CST: conv_nets2
+* Thu 11/7/2024, 12:00 CST: Convolutional neural networks
+* Tue 11/12/2024, 12:00 CST: conv_nets2
 
 
 
@@ -643,8 +655,8 @@ project/exploratory
 **Module 9 Class sessions:**
 
 
-* Tue 11/12/2024, 12:00 CST: Parameter fitting for dynamical systems
-* Thu 11/14/2024, 12:00 CST: Neural ordinary differential equations
+* Thu 11/14/2024, 12:00 CST: Parameter fitting for dynamical systems
+* Tue 11/19/2024, 12:00 CST: Neural ordinary differential equations
 
 
 
@@ -673,8 +685,10 @@ project/modeling
 **Module 10 Class sessions:**
 
 
-* Tue 11/19/2024, 12:00 CST: Fairness in machine learning
-* Thu 11/21/2024, 12:00 CST: Mini-Project 3: Machine Learning
+* Thu 11/21/2024, 12:00 CST: Fairness in machine learning
+* Tue 11/26/2024, 12:00 CST: Fall break
+* Thu 11/28/2024, 12:00 CST: Fall break
+* Tue 12/3/2024, 12:00 CST: Mini-Project 3: Machine Learning
 
 
 
@@ -682,30 +696,9 @@ project/modeling
 #### Module 10 Project Assignment
 project/rough_draft
 -->
-### Module -1: Fall break
-
-
-
-
-
-
-
-
-
-
-
-**Module -1 Class sessions:**
-
-
-* Tue 11/26/2024, 12:00 CST: Fall break
-* Thu 11/28/2024, 12:00 CST: Fall break
-
-
-
-<!---->
 ### Module 11: Final projects
 
-**Module 11 Overview:** In this module we will present the results of our semester projects.
+**Module 11 Overview:** This week we will not be meeting as a class to give time to finish your remaining coursework.
 
 
 
@@ -718,8 +711,8 @@ project/rough_draft
 **Module 11 Class sessions:**
 
 
-* Tue 12/3/2024, 12:00 CST: Final project presentations
-* Thu 12/5/2024, 12:00 CST: Final project presentations
+* Thu 12/5/2024, 12:00 CST: No class
+* Tue 12/10/2024, 12:00 CST: No class
 
 
 
