@@ -41,6 +41,19 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 | {{.Number}}. [{{ProjectTitle .}}]({{PLWebsite}}) | {{.Assigned}} | {{.Due}}
 {{- end}}
 
+### Quizzes
+
+Each quiz covers the content in the corresponding module, e.g. Quiz 1 covers Module 1.
+
+* Quiz 1: 2024-09-18 – 2024-09-20
+* Quiz 2: 2024-10-09 – 2024-10-11
+* Quiz 3: 2024-10-16 – 2024-10-18
+* Quiz 4: 2024-10-23 – 2024-10-25
+* Quiz 5: 2024-11-06 – 2024-11-08
+* Quiz 6: 2024-11-13 – 2024-11-15
+* Quiz 7: 2024-11-20 – 2024-11-22
+* Quiz 8: 2024-12-04 – 2024-12-06
+
 ### Mini-Projects
 {{range .Exams}}
 * {{.Name}}: {{.Date}}

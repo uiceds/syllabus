@@ -40,7 +40,7 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	startDate = time.Date(2024, time.August, 26, 12, 0, 0, 0, loc)
+	startDate = time.Date(2024, time.August, 27, 12, 0, 0, 0, loc)
 
 	finalExamStart = time.Date(2024, time.December, 13, 8, 00, 0, 0, loc)
 	finalExamEnd = time.Date(2024, time.December, 14, 8, 00, 0, 0, loc)
@@ -358,6 +358,8 @@ var modules = []module{
 		PLName: "fairness",
 		ClassNames: []string{
 			"fairness",
+			"Fall break",
+			"Fall break",
 			"Mini-Project 3: Machine Learning",
 		},
 		ClassVideos: []string{
@@ -366,22 +368,13 @@ var modules = []module{
 		ProjectAssignment: "project/rough_draft",
 	},
 	{
-		Number:  -1,
-		Parents: []int64{10},
-		Title:   "Fall break",
-		ClassNames: []string{
-			"Fall break",
-			"Fall break",
-		},
-	},
-	{
 		Number:   11,
-		Parents:  []int64{-1},
+		Parents:  []int64{10},
 		Title:    "Final projects",
-		Overview: `In this module we will present the results of our semester projects.`,
+		Overview: `This week we will not be meeting as a class to give time to finish your remaining coursework.`,
 		ClassNames: []string{
-			"Final project presentations",
-			"Final project presentations",
+			"No class",
+			"No class",
 		},
 		ProjectAssignment: "project/final",
 	},
@@ -402,7 +395,7 @@ func nextSundayNight(t time.Time) time.Time {
 	for {
 		d = d.Add(24 * time.Hour)
 		if w := d.Weekday(); w == time.Sunday {
-			return time.Date(d.Year(), d.Month(), d.Day(), 23, 59, 59, 0, d.Location())
+			return time.Date(d.Year(), d.Month(), d.Day(), 23, 59, 59, 0, d.Location()).Add(5 * time.Hour)
 		}
 	}
 }
@@ -527,9 +520,9 @@ func homeworkDeadline1(m module, dates map[int64]time.Time) time.Time {
 	return d
 }
 func homeworkDeadline2(m module, dates map[int64]time.Time) time.Time {
-	d := nextFridayNight(nextLecture(nextModuleStart(m, dates[m.ID()])))
+	d := nextSundayNight(nextLecture(nextModuleStart(m, dates[m.ID()])))
 	for i := 0; i < m.HomeworkDelay; i++ {
-		d = nextFridayNight(d)
+		d = nextSundayNight(d)
 	}
 	return d
 }
@@ -669,9 +662,8 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 	}
 
 	for _, m := range modules {
-		d := startDates[m.Number]
 		fmt.Println("Adding events to calendar for module:", m.Number)
-		m.lecturesAssignmentsMidtermsToCalendar(srv, d)
+		m.lecturesAssignmentsMidtermsToCalendar(srv, startDates)
 		m.discussionToCalendar(srv, startDates)
 		m.homeworkToCalendar(srv, startDates)
 		m.preclassToCalendar(srv, startDates)
@@ -680,10 +672,9 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 	//finalExamToCalendar(srv)
 }
 
-func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, startDate time.Time) {
-	d := startDate
+func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
 	for i, class := range m.ClassNames {
-
+		d := classSession(m, dates, i)
 		if strings.Contains(strings.ToLower(class), "mini-project") {
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     class,
@@ -698,7 +689,6 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 			}).Do()
 			check(err)
 		} else {
-
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     fmt.Sprintf("Class meeting: %s", classTitle(m, i)),
 				Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
@@ -713,9 +703,6 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, sta
 			}).Do()
 			check(err)
 		}
-
-		d = nextLecture(d)
-
 	}
 }
 
