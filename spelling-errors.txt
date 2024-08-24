@@ -26,10 +26,8 @@ groupmates
 homeworks
 HW
 Hydrosystems
-Jialin
 jl
 Kutz
-Liu
 mimimize
 Newmark
 overfitting
@@ -39,12 +37,14 @@ pre
 REPL
 repost
 Rospach
+SciML
 Spafford
 spatiotemporal
 Spectrograms
 StackOverflow
 StatsPlots
 SVD
+TBD
 Tessum
 Tiktok
 transphobia

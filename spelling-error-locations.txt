@@ -8,17 +8,11 @@ content/01.basic_information.md:12:CampusWire
 content/01.basic_information.md:16:cee
 content/01.basic_information.md:16:Tessum
 content/01.basic_information.md:17:Newmark
-content/01.basic_information.md:18:cee
-content/01.basic_information.md:18:jialin
-content/01.basic_information.md:18:Jialin
-content/01.basic_information.md:18:liu
-content/01.basic_information.md:18:Liu
+content/01.basic_information.md:18:TBD
 content/01.basic_information.md:20:CEE
 content/01.basic_information.md:20:Hydrosystems
 content/01.basic_information.md:20:Tessum
-content/01.basic_information.md:21:CEE
-content/01.basic_information.md:21:Hydrosystems
-content/01.basic_information.md:21:Liu
+content/01.basic_information.md:21:TBD
 content/01.basic_information.md:25:CEE
 content/01.basic_information.md:29:spatiotemporal
 content/01.basic_information.md:40:dataset
@@ -31,6 +25,7 @@ content/01.basic_information.md:56:cee
 content/01.basic_information.md:56:cee
 content/01.basic_information.md:56:cee
 content/01.basic_information.md:56:CEE
+content/01.basic_information.md:61:pre
 content/01.basic_information.md:70:deliverables
 content/01.basic_information.md:71:Pre
 content/01.basic_information.md:73:Homeworks
@@ -49,6 +44,7 @@ content/01.basic_information.md:114:Chegg
 content/01.basic_information.md:114:PrairieLearn
 content/01.basic_information.md:117:homeworks
 content/01.basic_information.md:120:PrairieLearn
+content/01.basic_information.md:120:UIUC
 content/01.basic_information.md:121:UIUC
 content/01.basic_information.md:123:CBTF
 content/01.basic_information.md:125:Homeworks
@@ -64,6 +60,8 @@ content/01.basic_information.md:141:Kutz
 content/01.basic_information.md:143:Bengio
 content/01.basic_information.md:143:Courville
 content/01.basic_information.md:143:Goodfellow
+content/01.basic_information.md:143:sciml
+content/01.basic_information.md:143:SciML
 content/02.policies.md:5:transphobia
 content/02.policies.md:7:aggressions
 content/02.policies.md:10:Champaign

@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2024'
 lang: en-US
-date-meta: '2024-07-31'
+date-meta: '2024-08-24'
 author-meta: []
 header-includes: |
   <!--
@@ -14,11 +14,11 @@ header-includes: |
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2024" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2024" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2024" />
-  <meta name="dc.date" content="2024-07-31" />
-  <meta name="citation_publication_date" content="2024-07-31" />
-  <meta property="article:published_time" content="2024-07-31" />
-  <meta name="dc.modified" content="2024-07-31T14:08:13+00:00" />
-  <meta property="article:modified_time" content="2024-07-31T14:08:13+00:00" />
+  <meta name="dc.date" content="2024-08-24" />
+  <meta name="citation_publication_date" content="2024-08-24" />
+  <meta property="article:published_time" content="2024-08-24" />
+  <meta name="dc.modified" content="2024-08-24T19:06:29+00:00" />
+  <meta property="article:modified_time" content="2024-08-24T19:06:29+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/3fbdf4d13cb065c3a5d11cd4bb9f89bf85c31f96/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/3fbdf4d13cb065c3a5d11cd4bb9f89bf85c31f96/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/3fbdf4d13cb065c3a5d11cd4bb9f89bf85c31f96/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ca06da0f35c4ccc9171ade7f302c210091672244/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ca06da0f35c4ccc9171ade7f302c210091672244/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ca06da0f35c4ccc9171ade7f302c210091672244/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -57,17 +57,17 @@ manubot-clear-requests-cache: false
 * First day of instruction: 8/26/2024
 * Last day of instruction: 12/11/2024
 * Important links: 
-  * [PrairieLearn](https://us.prairielearn.com/pl/course_instance/137035/assessments) (for assignments)
-  * [CampusWire](https://campuswire.com/c/G87945CC6/feed) (for announcements and discussion)
+  * [PrairieLearn](https://us.prairielearn.com/pl/course_instance/153867) (for assignments)
+  * [CampusWire](https://campuswire.com/c/GBD667040/feed) (for announcements and discussion)
 
 ## Basic Instructor Information
 
 * Instructor: [Prof. Christopher Tessum](https://cee.illinois.edu/directory/profile/ctessum)
 * Office: 3213 Newmark Civil Engineering Laboratory
-* Teaching assistant: [Jialin Liu](https://ctessum.cee.illinois.edu/author/jialin-liu/)
+* Teaching assistant: TBD
 * Office hours: 
-  * Tessum: 11:00-12:00 on Thursdays in Room 1017 CEE Hydrosystems
-  * Liu: 13:20-14:20 on Tuesdays in Room 1017 CEE Hydrosystems or the common area outside of it.
+  * Tessum: 11:00-12:00 on Thursdays in common area outside Room 1017 CEE Hydrosystems
+  * TA: TBD
 
 ## Description of the course
 
@@ -107,20 +107,20 @@ For students taking the class for four credits, it will include semester-long gr
 
 ## Course Structure
 
-This course is structured as a series of modules, with each module containing recorded lectures, readings, and quizzes to be completed before each class meeting.
+This course is structured as a series of modules, with each module containing recorded lectures, readings, and pre-class quizzes to be completed before each class meeting.
 Class meetings will be in-person, and will focus on hands-on application of the material that was covered in recorded lectures and readings through the use of in-class worksheets.
 The in-class worksheets will be completed in groups and will be graded. 
 If students do not finish the worksheet during class or are absent, up to 70% of points can be made up by completing the post-class worksheet review. 
 Online students can get 100% of points by completing the post-class worksheet review.
 Near the beginning or the semester, 4-credit students will choose a topic for a project, which they will work on throughout the semester, applying the concepts that we learn in class.
-Additionally, students will complete homework assignments, quizzes, and mini-projects.
+Additionally, students will complete homework assignments, module quizzes, and mini-projects.
 
 ## Course Requirements and Assessment Overview
 * Grades will be assigned based on several types of deliverables:
   * Pre-lecture quizzes: 5% of final grade
   * In-class worksheets: 10% of final grade. (70% of points can be made up by completing the post-class worksheet review. Online students can get 100% of points by completing the post-class worksheet review.)
   * Homeworks: 20% of final grade (2.22% each)
-  * Quizzes in [CBTF](https://cbtf.illinois.edu/): 30% of final grade (3.33% each)
+  * Module quizzes in [CBTF](https://cbtf.illinois.edu/): 30% of final grade (3.33% each)
   * Mini-projects: 10% of final grade (3.33% each)
   * Course project (4-credit students only): 25% of final grade: 
     * 3% for project selection and introduction, 
@@ -128,7 +128,7 @@ Additionally, students will complete homework assignments, quizzes, and mini-pro
     * 3% for preliminary modeling, 
     * 3% for report rough draft, 
     * and 13% for final report and presentation.
-  * Extra credit: Students can create "Tiktok-style" videos explaining or reviewing the concepts covered in the course. For each module in the course, the creator of best video (as judged by the instructor) will receive **1% extra credit** toward their overall grade for the class. Videos with multiple authors can split the extra credit among the authors.
+  * Extra credit: Students can create "Tiktok-style" videos explaining or reviewing the concepts covered in the course. For each module in the course, the creator of best video (as judged by the instructor) will receive **1% extra credit** toward their overall grade for the class. For videos with multiple authors, extra credit will be divided equally among the authors.
 * The general expectation is that graduate students will register for 4 credits and undergraduates can choose between 3 and 4 credits, but this is not a requirement. For 3-credit students, there will be no course project and the weights of the other assessments will be scaled accordingly.
 * Letter grades will be assigned according to the following scale:
   * 97-100: A+
@@ -159,17 +159,17 @@ Occasionally you may need to miss class owing to illness, conference travel, fam
 
 ## Homeworks and Quizzes
 
-Homeworks and Quizzes will be done through [PrairieLearn](https://us.prairielearn.com/pl/course_instance/137035/).
-The quizzes will be administered through the [Computer-Based Testing Facility (CBTF)](https://cbtf.illinois.edu/), which is a set of computer labs with access to PrairieLearn but not to the internet, and in particular not to resources such as Chegg or ChatGPT.
-There will be a quiz for each module, which will occur during the week following the 100% deadline for the homework for that module.
+Homeworks and Quizzes will be done through [PrairieLearn](https://us.prairielearn.com/pl/course_instance/153867).
+The module quizzes will be administered through the [Computer-Based Testing Facility (CBTF)](https://cbtf.illinois.edu/), which is a set of computer labs with access to PrairieLearn but not to the internet, and in particular not to resources such as Chegg or ChatGPT.
+There will be a quiz for each module, which will occur approximately during the week following the 100% deadline for the homework for that module.
 
 In assigning these types of homeworks and quizzes, I'm placing emphasis on **mastery**.
 The idea is to keep doing questions until you master the underlying concept or method. Once you do, you should be able to answer these questions very quickly.
 
-**Important**: When you log in to PrairieLearn, choose "Log in with Illinois" rather than "Log in with Google" or "Log in with Microsoft".
-The UIUC login is the only one that will work.
+**Important**: When you log in to PrairieLearn, choose "Sign in with UIUC" rather than "Sign in with Google" or "Sign in with Microsoft".
+The UIUC login is the only one that will allow you to access the materials for this class.
 
-You will be receiving emails from CBTF throughout the semester with instructions on how to sign up for quizzes.
+You will be receiving emails from CBTF throughout the semester with instructions on how to sign up for module quizzes.
 
 ### Homeworks
 
@@ -188,15 +188,15 @@ The goal of the projects are allow you to apply the concepts learned in the cour
 ## Learning Resources
 * Students are expected to bring a laptop to class, and have use of one and an internet connection for homeworks and pre-class activities.
 * There is no required textbook to purchase. However, much of the course follows the book *[Data Driven Science and Engineering](http://www.databookuw.com/)* by Brunton and Kutz. The book includes a freely available [pdf version](http://www.databookuw.com/databook.pdf) and lecture videos, is also available for sale in hardcover and ebook formats.
-* The course also includes content from the [Julia learning resources](https://julialang.org/learning/), which is also a good resource for learning Julia in general. The free course *[Introduction to Computational thinking](https://computationalthinking.mit.edu/Spring21/)* from MIT is particularly well done.
-* For students that want to continue beyond the material covered in this course, there is [*Parallel Computing and Scientific Machine Learning*](https://github.com/mitmath/18337) (another course from MIT) and [*Deep Learning*](https://www.deeplearningbook.org/) by Goodfellow, Bengio, and Courville.
+* The course also includes content from the [Julia learning resources](https://julialang.org/learning/), which is also a good resource for learning Julia in general. The free course *[Introduction to Computational thinking](https://computationalthinking.mit.edu/Fall24/)* from MIT is particularly well done.
+* For students that want to continue beyond the material covered in this course, there is [*Parallel Computing and Scientific Machine Learning*](https://github.com/mitmath/18337) (another course from MIT), the associated [SciML Book](https://book.sciml.ai/) and [*Deep Learning*](https://www.deeplearningbook.org/) by Goodfellow, Bengio, and Courville.
 
 
 ### Policies
 
 #### Inclusive Environment
 
-The effectiveness of this course is dependent upon the creation of an encouraging and safe classroom environment. Exclusionary, offensive or harmful speech (such as racism, sexism, homophobia, transphobia, etc.) will not be tolerated and in some cases subject to University harassment procedures. We are all responsible for creating a positive and safe environment that allows all students equal respect and comfort. I expect each of you to help establish and maintain and environment where you and your peers can contribute without fear of ridicule or intolerant or offensive language.
+The effectiveness of this course is dependent upon the creation of an encouraging and safe classroom environment. Exclusionary, offensive or harmful speech (such as racism, sexism, homophobia, transphobia, etc.) will not be tolerated and is in some cases subject to University harassment procedures. We are all responsible for creating a positive and safe environment that allows all students equal respect and comfort. I expect each of you to help establish and maintain and environment where you and your peers can contribute without fear of ridicule or intolerant or offensive language.
 
 If you witness or experience racism, discrimination, micro-aggressions, or other offensive behavior, you are encouraged to bring this to the attention of the course director if you feel comfortable. You can also report these behaviors to the Bias Assessment and Response Team (BART) (https://bart.illinois.edu/). Based on your report, BART members will follow up and reach out to students to make sure they have the support they need to be healthy and safe. If the reported behavior also violates university policy, staff in the Office for Student Conflict Resolution may respond as well and will take appropriate action. 
 
@@ -223,15 +223,15 @@ Requests for regrading homeworks, quizzes, mini-projects, and project deliverabl
 
 #### Instructor Responses
 ##### Instructor Feedback Turnaround Time
-Questions posted to [CampusWire](https://campuswire.com/c/G87945CC6/) generally will be answered within 24 hours.
-Questions may be answered on weekends but this should not be expected.
+Questions posted to [CampusWire](https://campuswire.com/c/GBD667040/feed) generally will be answered within 24 hours.
+Questions may be answered on weekends or university holidays but this should not be expected.
 
 Assignments submitted online will generally be reviewed and graded by the course instructor within 5 business days. Project deliverables will generally be graded within 10 business days.
 
 ##### Contacting the instructor
-For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/G87945CC6/).
+For the fastest response response, the best way to contact the instructor is by attending office hours or posting questions to the [CampusWire](https://campuswire.com/c/GBD667040/feed).
 
-The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don't be offended if you are asked to repost your question on [CampusWire](https://campuswire.com/c/G87945CC6/) to allow the instructional team to efficiently answer all questions.
+The instructor will not respond to phone calls and may not respond to emails. If you must send an email, include a subject line that identifies the course number and nature of your question. Please don't be offended if you are asked to repost your question on [CampusWire](https://campuswire.com/c/GBD667040/feed) to allow the instructional team to efficiently answer all questions.
 
 #### Academic Integrity
 Academic dishonesty will not be tolerated. Examples of academic dishonesty include the following:
@@ -289,7 +289,7 @@ In any social interaction, certain rules of etiquette are expected and contribut
 Your daily contact should be in class or on Zoom, in office hours, or on CampusWire.
 
 ##### Course Questions
-Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/G87945CC6/). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/G87945CC6/). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
+Questions pertaining to the course should be posted on [CampusWire](https://campuswire.com/c/GBD667040/feed). You can get to this forum from the course home page. Posting questions here allows everyone to benefit from the answers. If you have a question, someone else is probably wondering the same thing. Anyone submitting a question via email will be directed to resubmit the question to the [CampusWire](https://campuswire.com/c/GBD667040/feed). Also, participants should not hesitate to answer questions posed by peers if they know the answers and the instructor has not yet responded. This not only expedites the process but also encourages peer interaction and support.
 
 ##### Personal and Grade-Related Questions
 Questions of a personal nature can be sent as a direct message on CampusWire, or if desired may be sent to the instructor's email address. If you need to send an email, include a subject that identifies the course number and nature of your question.
