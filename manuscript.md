@@ -17,8 +17,8 @@ header-includes: |
   <meta name="dc.date" content="2024-08-25" />
   <meta name="citation_publication_date" content="2024-08-25" />
   <meta property="article:published_time" content="2024-08-25" />
-  <meta name="dc.modified" content="2024-08-25T00:49:36+00:00" />
-  <meta property="article:modified_time" content="2024-08-25T00:49:36+00:00" />
+  <meta name="dc.modified" content="2024-08-25T01:04:58+00:00" />
+  <meta property="article:modified_time" content="2024-08-25T01:04:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/965525d1329c0558017d01259254c45849755f73/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/965525d1329c0558017d01259254c45849755f73/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/965525d1329c0558017d01259254c45849755f73/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/e74818d84e0de319907ac62648999166eaf5f4a2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/e74818d84e0de319907ac62648999166eaf5f4a2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/e74818d84e0de319907ac62648999166eaf5f4a2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
