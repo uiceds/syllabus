@@ -10,11 +10,11 @@ Chegg
 Chuq
 CITL
 conv
-convolutional
+Convolutional
 Courville
 DataFrames
 dataset
-deliverables
+Deliverables
 disaggregated
 DRES
 ebook
@@ -23,7 +23,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-homeworks
+Homeworks
 HW
 Hydrosystems
 jl
@@ -44,9 +44,9 @@ Spectrograms
 StackOverflow
 StatsPlots
 SVD
-TBD
 Tessum
 Tiktok
 transphobia
 UIUC
 Von
+Xiaokai

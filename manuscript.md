@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2024'
 lang: en-US
-date-meta: '2024-08-24'
+date-meta: '2024-08-25'
 author-meta: []
 header-includes: |
   <!--
@@ -14,11 +14,11 @@ header-includes: |
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2024" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2024" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2024" />
-  <meta name="dc.date" content="2024-08-24" />
-  <meta name="citation_publication_date" content="2024-08-24" />
-  <meta property="article:published_time" content="2024-08-24" />
-  <meta name="dc.modified" content="2024-08-24T19:06:29+00:00" />
-  <meta property="article:modified_time" content="2024-08-24T19:06:29+00:00" />
+  <meta name="dc.date" content="2024-08-25" />
+  <meta name="citation_publication_date" content="2024-08-25" />
+  <meta property="article:published_time" content="2024-08-25" />
+  <meta name="dc.modified" content="2024-08-25T00:49:36+00:00" />
+  <meta property="article:modified_time" content="2024-08-25T00:49:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/ca06da0f35c4ccc9171ade7f302c210091672244/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/ca06da0f35c4ccc9171ade7f302c210091672244/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/ca06da0f35c4ccc9171ade7f302c210091672244/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/965525d1329c0558017d01259254c45849755f73/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/965525d1329c0558017d01259254c45849755f73/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/965525d1329c0558017d01259254c45849755f73/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -64,10 +64,10 @@ manubot-clear-requests-cache: false
 
 * Instructor: [Prof. Christopher Tessum](https://cee.illinois.edu/directory/profile/ctessum)
 * Office: 3213 Newmark Civil Engineering Laboratory
-* Teaching assistant: TBD
+* Teaching assistant: [Xiaokai Yang](https://ctessum.cee.illinois.edu/author/xiaokai-yang/)
 * Office hours: 
   * Tessum: 11:00-12:00 on Thursdays in common area outside Room 1017 CEE Hydrosystems
-  * TA: TBD
+  * Yang: 3pm on Fridays in common area outside Room 1017 CEE Hydrosystems
 
 ## Description of the course
 

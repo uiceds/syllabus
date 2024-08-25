@@ -8,11 +8,14 @@ content/01.basic_information.md:12:CampusWire
 content/01.basic_information.md:16:cee
 content/01.basic_information.md:16:Tessum
 content/01.basic_information.md:17:Newmark
-content/01.basic_information.md:18:TBD
+content/01.basic_information.md:18:cee
+content/01.basic_information.md:18:xiaokai
+content/01.basic_information.md:18:Xiaokai
 content/01.basic_information.md:20:CEE
 content/01.basic_information.md:20:Hydrosystems
 content/01.basic_information.md:20:Tessum
-content/01.basic_information.md:21:TBD
+content/01.basic_information.md:21:CEE
+content/01.basic_information.md:21:Hydrosystems
 content/01.basic_information.md:25:CEE
 content/01.basic_information.md:29:spatiotemporal
 content/01.basic_information.md:40:dataset
