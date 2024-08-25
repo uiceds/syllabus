@@ -423,8 +423,8 @@ func nextTAOfficeHour(t time.Time) time.Time {
 	d := t
 	for {
 		d = d.Add(24 * time.Hour)
-		if w := d.Weekday(); w == time.Tuesday {
-			return time.Date(d.Year(), d.Month(), d.Day(), 13, 20, 0, 0, d.Location())
+		if w := d.Weekday(); w == time.Friday {
+			return time.Date(d.Year(), d.Month(), d.Day(), 15, 0, 0, 0, d.Location())
 		}
 	}
 }
@@ -692,7 +692,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, dat
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     fmt.Sprintf("Class meeting: %s", classTitle(m, i)),
 				Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
-				Description: "https://www.prairielearn.org/pl/course_instance/129396",
+				Description: "https://www.prairielearn.org/pl/",
 				Status:      "confirmed",
 				Start: &calendar.EventDateTime{
 					DateTime: d.Format(time.RFC3339),
@@ -709,8 +709,8 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, dat
 func tessumOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Tessum office hours",
-		Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
-		Description: "Also see campuswire: https://campuswire.com/c/GDD06864A/",
+		Location:    "Common area outside room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
+		Description: "",
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
 			DateTime: d.Format(time.RFC3339),
@@ -725,7 +725,7 @@ func tessumOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 func taOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "TA office hours",
-		Location:    "Room 1017 CEE Hydrosystems Laboratory (or common area outside), 301 N Mathews Ave, Urbana, IL 61801",
+		Location:    "Common area outside CEE Building room 1017, 301 N Mathews Ave, Urbana, IL 61801",
 		Description: "",
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
