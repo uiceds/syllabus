@@ -17,12 +17,12 @@ jobs:
       SPELLCHECK: true
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           # fetch entire commit history to support get_rootstock_commit
           fetch-depth: 0
       - name: Checkout PrairieLearn Course
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: PrairieLearn/pl-cee498ds
           token: ${{ secrets.ACCESS_TOKEN }}
@@ -38,14 +38,14 @@ jobs:
           echo "DEFAULT_BRANCH_REF=refs/heads/$DEFAULT_BRANCH" >> $GITHUB_ENV
           echo "DEFAULT_BRANCH=$DEFAULT_BRANCH"
       - name: Cache
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ci/cache
           key: ci-cache-${{ github.ref }}
           restore-keys: |
             ci-cache-${{ env.DEFAULT_BRANCH_REF }}
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
       - name: Render modules
         run: |
           cd content/ 
