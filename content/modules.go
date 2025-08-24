@@ -16,13 +16,13 @@ import (
 )
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
-var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2024", "Path to PrairieLearn course repository")
+var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2025", "Path to PrairieLearn course repository")
 
 var courseInstance string
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
-const plWebsite = "https://us.prairielearn.com/pl/course_instance/153867"
+const plWebsite = "https://us.prairielearn.com/pl/course_instance/191683"
 
 var startDate, finalExamStart, finalExamEnd time.Time
 
@@ -40,10 +40,10 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	startDate = time.Date(2024, time.August, 27, 12, 0, 0, 0, loc)
+	startDate = time.Date(2025, time.August, 26, 12, 0, 0, 0, loc)
 
-	finalExamStart = time.Date(2024, time.December, 13, 8, 00, 0, 0, loc)
-	finalExamEnd = time.Date(2024, time.December, 14, 8, 00, 0, 0, loc)
+	finalExamStart = time.Date(2025, time.December, 13, 8, 00, 0, 0, loc)
+	finalExamEnd = time.Date(2025, time.December, 14, 8, 00, 0, 0, loc)
 }
 
 func startDates(modules []module) map[int64]time.Time {
@@ -231,7 +231,7 @@ var modules = []module{
 		ClassNames: []string{
 			"fourier",
 			"fft",
-			"Mini-Project 1: Computational thinking",
+			"Culmination Project 1: Computational thinking",
 			"wavelet",
 		},
 		ClassVideos: []string{
@@ -277,7 +277,7 @@ var modules = []module{
 		PLName: "machine_learning",
 		ClassNames: []string{
 			"k-means",
-			"Mini-Project 2: Coordinate transforms",
+			"Culmination Project 2: Coordinate transforms",
 			"classification_trees",
 		},
 		ClassVideos: []string{
@@ -312,8 +312,8 @@ var modules = []module{
 		Title:    "Convolutional neural networks",
 		Overview: `In this module, we will learn how to implement and use convolutional neural networks.`,
 		Objectives: []string{
-			"Train a neural network to for regression and classification",
-			"Identify and debug common problems with neural network training",
+			"Train a convolutional neural network to for regression and classification",
+			"Identify and debug common problems with convolutional neural network training",
 		},
 		PLName: "conv_nets",
 		ClassNames: []string{
@@ -360,7 +360,7 @@ var modules = []module{
 			"fairness",
 			"Fall break",
 			"Fall break",
-			"Mini-Project 3: Machine Learning",
+			"Culmination Project 3: Machine Learning",
 		},
 		ClassVideos: []string{
 			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_cxewm7yq/uiConfId/26883701/st/0",
@@ -495,7 +495,7 @@ func exams(mods []module, dates map[int64]time.Time) []nameDate {
 	var o []nameDate
 	for _, m := range mods {
 		for i, name := range m.ClassNames {
-			if strings.Contains(strings.ToLower(name), "mini-project") {
+			if strings.Contains(strings.ToLower(name), "culmination project") {
 				o = append(o, nameDate{
 					Name: name,
 					Date: classSession(m, dates, i).Format(dateFormat),
@@ -675,7 +675,7 @@ func createCalendar(modules []module, proj []project, startDates map[int64]time.
 func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, dates map[int64]time.Time) {
 	for i, class := range m.ClassNames {
 		d := classSession(m, dates, i)
-		if strings.Contains(strings.ToLower(class), "mini-project") {
+		if strings.Contains(strings.ToLower(class), "culmination project") {
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     class,
 				Description: "On Prairielearn (https://www.prairielearn.org/pl/)",
@@ -691,7 +691,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, dat
 		} else {
 			_, err := srv.Events.Insert(calendarID, &calendar.Event{
 				Summary:     fmt.Sprintf("Class meeting: %s", classTitle(m, i)),
-				Location:    "Room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
+				Location:    "Room 3019 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
 				Description: "https://www.prairielearn.org/pl/",
 				Status:      "confirmed",
 				Start: &calendar.EventDateTime{
@@ -709,7 +709,7 @@ func (m module) lecturesAssignmentsMidtermsToCalendar(srv *calendar.Service, dat
 func tessumOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "Tessum office hours",
-		Location:    "Common area outside room 1017 CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
+		Location:    "Common area in the Smart Bridge, CEE Hydrosystems Laboratory, 301 N Mathews Ave, Urbana, IL 61801",
 		Description: "",
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
@@ -725,7 +725,7 @@ func tessumOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 func taOfficeHoursToCalendar(srv *calendar.Service, d time.Time) {
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     "TA office hours",
-		Location:    "Common area outside CEE Building room 1017, 301 N Mathews Ave, Urbana, IL 61801",
+		Location:    "Common area in the Smart Bridge, 301 N Mathews Ave, Urbana, IL 61801",
 		Description: "",
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
@@ -1084,6 +1084,7 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 				Active:    true,
 			},
 		}
+		assess.GroupRoles = []grouprole{}
 		if len(assess.Zones) == 1 {
 			assess.Zones[0].Title = assess.Title
 		}
@@ -1114,7 +1115,31 @@ func setupInClass(m module, dates map[int64]time.Time) {
 		assess.StudentGroupJoin = true
 		assess.StudentGroupLeave = true
 		assess.GroupMaxSize = 4
-		assess.GroupMinSize = 2
+		assess.GroupMinSize = 3
+
+		assess.GroupRoles = []grouprole{
+			{
+				Name:           "Manager",
+				Minimum:        1,
+				Maximum:        1,
+				CanAssignRoles: true,
+			},
+			{
+				Name:    "Recorder",
+				Minimum: 1,
+				Maximum: 1,
+			},
+			{
+				Name:    "Reflector",
+				Minimum: 1,
+				Maximum: 1,
+			},
+			{
+				Name:    "Spokesperson",
+				Minimum: 1,
+				Maximum: 1,
+			},
+		}
 
 		if len(m.ClassNames) > 1 {
 			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
@@ -1141,9 +1166,6 @@ func setupInClass(m module, dates map[int64]time.Time) {
 				Credit:    0,
 				Active:    true,
 			},
-		}
-		for i := range assess.Zones {
-			assess.Zones[i].GradeRateMinutes = 1
 		}
 		if len(assess.Zones) == 1 {
 			assess.Zones[0].Title = assess.Title
@@ -1183,6 +1205,7 @@ func setupPostClass(m module, dates map[int64]time.Time) {
 		}
 
 		assess.GroupWork = false
+		assess.GroupRoles = []grouprole{}
 
 		if len(m.ClassNames) > 1 {
 			assess.Number = fmt.Sprintf("%d.%d", m.Number, j)
@@ -1265,6 +1288,7 @@ func setupHomework(m module, dates map[int64]time.Time) {
 			Active:    true,
 		},
 	}
+	hw.GroupRoles = []grouprole{}
 	writeHomework(hw, m)
 }
 
@@ -1303,6 +1327,7 @@ func setupExtraCredit(m module, dates map[int64]time.Time) {
 			Active:    true,
 		},
 	}
+	xc.GroupRoles = []grouprole{}
 	writeExtraCredit(xc, m)
 }
 
@@ -1319,6 +1344,7 @@ func setupProject(p project) {
 	assess.StudentGroupLeave = true
 	assess.GroupMaxSize = 4
 	assess.GroupMinSize = 3
+	assess.GroupRoles = []grouprole{}
 
 	assess.AllowAccess = []allowAccess{
 		{
@@ -1354,6 +1380,7 @@ type infoAssessment struct {
 	Set                string        `json:"set"`
 	Number             string        `json:"number"`
 	GroupWork          bool          `json:"groupWork"`
+	GroupRoles         []grouprole   `json:"groupRoles,omitempty"`
 	GroupMaxSize       int           `json:"groupMaxSize"`
 	GroupMinSize       int           `json:"groupMinSize"`
 	StudentGroupCreate bool          `json:"studentGroupCreate"`
@@ -1373,12 +1400,27 @@ type allowAccess struct {
 
 type zone struct {
 	Title            string     `json:"title"`
-	GradeRateMinutes int        `json:"gradeRateMinutes"`
+	GradeRateMinutes int        `json:"gradeRateMinutes,omitempty"`
 	Questions        []question `json:"questions"`
+	CanView          []string   `json:"canView,omitempty"`
+	CanSubmit        []string   `json:"canSubmit,omitempty"`
 }
 
 type question struct {
-	ID           string `json:"id"`
-	Points       int    `json:"points,omitempty"`
-	ManualPoints int    `json:"manualPoints,omitempty"`
+	ID           string  `json:"id,omitempty"`
+	Alternatives []alt   `json:"alternatives,omitempty"`
+	Points       float64 `json:"points,omitempty"`
+	ManualPoints float64 `json:"manualPoints,omitempty"`
+	NumberChoose int     `json:"numberChoose,omitempty"`
+}
+
+type alt struct {
+	ID string `json:"id"`
+}
+
+type grouprole struct {
+	Name           string `json:"name"`
+	Minimum        int    `json:"minimum"`
+	Maximum        int    `json:"maximum"`
+	CanAssignRoles bool   `json:"canAssignRoles"`
 }
