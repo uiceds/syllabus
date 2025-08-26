@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2025'
 lang: en-US
-date-meta: '2025-08-24'
+date-meta: '2025-08-26'
 author-meta: []
 header-includes: |
   <!--
@@ -14,11 +14,11 @@ header-includes: |
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2025" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2025" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2025" />
-  <meta name="dc.date" content="2025-08-24" />
-  <meta name="citation_publication_date" content="2025-08-24" />
-  <meta property="article:published_time" content="2025-08-24" />
-  <meta name="dc.modified" content="2025-08-24T00:18:27+00:00" />
-  <meta property="article:modified_time" content="2025-08-24T00:18:27+00:00" />
+  <meta name="dc.date" content="2025-08-26" />
+  <meta name="citation_publication_date" content="2025-08-26" />
+  <meta property="article:published_time" content="2025-08-26" />
+  <meta name="dc.modified" content="2025-08-26T16:48:01+00:00" />
+  <meta property="article:modified_time" content="2025-08-26T16:48:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/2c62d96c3d5f4b78d1fe4a5e2962c91705985968/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/2c62d96c3d5f4b78d1fe4a5e2962c91705985968/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/2c62d96c3d5f4b78d1fe4a5e2962c91705985968/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8631e50b75acfd04a346fa211fbba598716ef1e4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8631e50b75acfd04a346fa211fbba598716ef1e4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8631e50b75acfd04a346fa211fbba598716ef1e4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -66,8 +66,8 @@ manubot-clear-requests-cache: false
 * Office: 3213 Newmark Civil Engineering Laboratory
 * Teaching assistant: [Manho Park](https://ctessum.cee.illinois.edu/author/manho-park/)
 * Office hours: 
-  * Tessum: 11:00-12:00 on Thursdays in common area in the Smart Bridge
-  * Park: TBD
+  * Tessum: 11:00-12:00 on Thursdays in the common area in the Smart Bridge
+  * Park: 1:00–2:00 on Fridays in the common area in the Smart Bridge
 
 ## Description of the course
 

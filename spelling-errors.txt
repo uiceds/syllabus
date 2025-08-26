@@ -9,7 +9,7 @@ Chegg
 Chuq
 CITL
 conv
-Convolutional
+convolutional
 Courville
 DataFrames
 disaggregated
@@ -20,7 +20,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-Homeworks
+homeworks
 HW
 Hydrosystems
 jl
@@ -31,7 +31,7 @@ Newmark
 overfitting
 PCA
 PrairieLearn
-Pre
+pre
 REPL
 repost
 Rospach
@@ -42,7 +42,6 @@ Spectrograms
 StackOverflow
 StatsPlots
 SVD
-TBD
 Tessum
 UIUC
 Von
