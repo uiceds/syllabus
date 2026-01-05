@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2025'
 lang: en-US
-date-meta: '2025-08-26'
+date-meta: '2026-01-05'
 author-meta: []
 header-includes: |
   <!--
@@ -14,11 +14,11 @@ header-includes: |
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2025" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2025" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2025" />
-  <meta name="dc.date" content="2025-08-26" />
-  <meta name="citation_publication_date" content="2025-08-26" />
-  <meta property="article:published_time" content="2025-08-26" />
-  <meta name="dc.modified" content="2025-08-26T16:48:01+00:00" />
-  <meta property="article:modified_time" content="2025-08-26T16:48:01+00:00" />
+  <meta name="dc.date" content="2026-01-05" />
+  <meta name="citation_publication_date" content="2026-01-05" />
+  <meta property="article:published_time" content="2026-01-05" />
+  <meta name="dc.modified" content="2026-01-05T12:07:18+00:00" />
+  <meta property="article:modified_time" content="2026-01-05T12:07:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/8631e50b75acfd04a346fa211fbba598716ef1e4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/8631e50b75acfd04a346fa211fbba598716ef1e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/8631e50b75acfd04a346fa211fbba598716ef1e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/fa3b2b61f221d66c564a85a840619d94a7bf498e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/fa3b2b61f221d66c564a85a840619d94a7bf498e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/fa3b2b61f221d66c564a85a840619d94a7bf498e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -119,6 +119,7 @@ Additionally, students will complete homework assignments, module quizzes, and m
 * Grades will be assigned based on several types of deliverables:
   * Pre-lecture quizzes: 5% of final grade
   * In-class worksheets: 10% of final grade. (70% of points can be made up by completing the post-class worksheet review. Online students can get 100% of points by completing the post-class worksheet review.)
+  * (Prelecture quiz zero and worksheet zero will not be counted toward the final grade.)
   * Homeworks: 20% of final grade (2.22% each)
   * Module quizzes in [CBTF](https://cbtf.illinois.edu/): 30% of final grade (3.33% each)
   * Culmination projects: 10% of final grade (3.33% each)

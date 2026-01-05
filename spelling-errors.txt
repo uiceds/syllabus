@@ -20,7 +20,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-homeworks
+Homeworks
 HW
 Hydrosystems
 jl
@@ -32,6 +32,7 @@ overfitting
 PCA
 PrairieLearn
 pre
+Prelecture
 REPL
 repost
 Rospach
