@@ -23,15 +23,16 @@ groupmates
 Homeworks
 HW
 Hydrosystems
+Jialin
 jl
 Kutz
-Manho
+Liu
 mimimize
 Newmark
 overfitting
 PCA
 PrairieLearn
-pre
+Pre
 Prelecture
 REPL
 repost
@@ -43,6 +44,7 @@ Spectrograms
 StackOverflow
 StatsPlots
 SVD
+TBD
 Tessum
 UIUC
 Von
