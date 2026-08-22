@@ -25,7 +25,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: PrairieLearn/pl-cee498ds
-          token: ${{ secrets.ACCESS_TOKEN }}
+          ssh-key: ${{ secrets.PL_DEPLOY_KEY }}
+          # Naming the ref is required: without it, checkout looks the default
+          # branch up through the REST API using the `token` input, which for a
+          # private repo in another org has no access.
+          ref: master
           fetch-depth: 1
           path: ./pl-cee498ds
       - name: Set Environment Variables
@@ -50,7 +54,7 @@ jobs:
         run: |
           cd content/ 
           go get
-          go run modules.go -pl-path=../pl-cee498ds/courseInstances/Fa2024
+          go run modules.go -pl-path=../pl-cee498ds/courseInstances/Fa2026
           cd ../
       - name: Install Environment
         uses: conda-incubator/setup-miniconda@v2
