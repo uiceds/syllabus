@@ -25,11 +25,11 @@
 
 ### Homeworks
 
-Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadline for 80% Credit |
-| -- | -- | -- | -- | -- |
+Title | Opens | Deadline for 100% Credit | Deadline for 80% Credit |
+| -- | -- | -- | -- |
 {{- range .Modules}}
 {{- if HasHomework .}}
-| HW{{.Number}}: [{{.Title}}]({{PLWebsite}}) | {{HomeworkAssigned .}} | {{HomeworkDeadline1 .}} | {{HomeworkDeadline2 .}} | {{HomeworkDeadline3 .}} |
+| HW{{.Number}}: [{{.Title}}]({{PLWebsite}}) | {{HomeworkDeadline1 .}} | {{Homework100Deadline .}} | {{Homework80Deadline .}} |
 {{- end -}}
 {{- end}}
 
@@ -45,14 +45,14 @@ Title | Assigned | Deadline for 110% Credit | Deadline for 100% Credit | Deadlin
 
 Each quiz covers the content in the corresponding module, e.g. Quiz 1 covers Module 1.
 
-* Quiz 1: 2025-09-17 – 2025-09-19
-* Quiz 2: 2025-10-08 – 2025-10-10
-* Quiz 3: 2025-10-15 – 2025-10-17
-* Quiz 4: 2025-10-22 – 2025-10-24
-* Quiz 5: 2025-11-05 – 2025-11-07
-* Quiz 6: 2025-11-12 – 2025-11-14
-* Quiz 7: 2025-11-19 – 2025-11-21
-* Quiz 8: 2025-12-03 – 2025-12-05
+* Quiz 1: 2026-09-16 – 2026-09-18
+* Quiz 2: 2026-10-07 – 2026-10-09
+* Quiz 3: 2026-10-14 – 2026-10-16
+* Quiz 4: 2026-10-21 – 2026-10-23
+* Quiz 5: 2026-11-04 – 2026-11-06
+* Quiz 6: 2026-11-11 – 2026-11-13
+* Quiz 7: 2026-11-18 – 2026-11-20
+* Quiz 8: 2026-12-02 – 2026-12-04
 
 ### Mini-Projects
 {{range .Exams}}
@@ -110,7 +110,7 @@ Refer to the [Discussion Forum Instructions and Rubric](#discussion-forum-instru
 The homework for Module {{.Number}} covers the required readings and lectures and is available [here]({{.HomeworkURL}}).
 General information about homework assignments is [here](#homeworks-and-exams).
 
-**The homework for this module is due by {{HomeworkDeadline1 .}} for 110% credit, by {{HomeworkDeadline2 .}} for 100% credit, and by {{HomeworkDeadline3 .}} for 80% credit.**
+**The homework for this module opens {{HomeworkDeadline1 .}} and is due by {{Homework100Deadline .}} for 100% credit and by {{Homework80Deadline .}} for 80% credit.**
 {{- end}}
 
 {{if .ClassNames -}}

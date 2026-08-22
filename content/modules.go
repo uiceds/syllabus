@@ -16,15 +16,22 @@ import (
 )
 
 var cal = flag.Bool("cal", false, "Whether to create calendar events")
-var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2025", "Path to PrairieLearn course repository")
+var plPath = flag.String("pl-path", "../../pl-cee498ds/courseInstances/Fa2026", "Path to PrairieLearn course repository")
 
 var courseInstance string
 
 const calendarID = "c_fqvrphqptlccpp6pubokjsraj0@group.calendar.google.com"
 
-const plWebsite = "https://us.prairielearn.com/pl/course_instance/191683"
+const plWebsite = "https://us.prairielearn.com/pl/course_instance/227818"
 
 var startDate, finalExamStart, finalExamEnd time.Time
+
+// fallBreakStart is the first day of fall (Thanksgiving) break and fallBreakEnd is
+// the first day of instruction after it. No assignment deadline should land inside
+// that window; avoidFallBreak moves any that otherwise would. Class sessions are
+// handled separately, by the "Fall break" placeholders in the ClassNames of the
+// module that spans the break.
+var fallBreakStart, fallBreakEnd time.Time
 
 var classDuration = 80 * time.Minute
 var examDuration = 24 * 5 * time.Hour
@@ -40,10 +47,13 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	startDate = time.Date(2025, time.August, 26, 12, 0, 0, 0, loc)
+	startDate = time.Date(2026, time.August, 25, 12, 0, 0, 0, loc)
 
-	finalExamStart = time.Date(2025, time.December, 13, 8, 00, 0, 0, loc)
-	finalExamEnd = time.Date(2025, time.December, 14, 8, 00, 0, 0, loc)
+	fallBreakStart = time.Date(2026, time.November, 21, 0, 0, 0, 0, loc)
+	fallBreakEnd = time.Date(2026, time.November, 30, 0, 0, 0, 0, loc)
+
+	finalExamStart = time.Date(2026, time.December, 13, 8, 00, 0, 0, loc)
+	finalExamEnd = time.Date(2026, time.December, 14, 8, 00, 0, 0, loc)
 }
 
 func startDates(modules []module) map[int64]time.Time {
@@ -126,6 +136,12 @@ type module struct {
 	// homework due date by.
 	HomeworkDelay int
 
+	// HomeworkNoLateCredit removes the 80%-credit window from this module's
+	// homework; the 100% window instead runs through what would have been the
+	// 80% deadline. Used for the last homework of the semester, which has no
+	// room for a late window before grades are due.
+	HomeworkNoLateCredit bool
+
 	// PLName is the name of the module in PrairieLearn.
 	PLName string
 
@@ -137,6 +153,10 @@ type module struct {
 
 	ProjectAssignment     string
 	ProjectAssignmentDays int
+
+	// ProjectAssignmentDelayWeeks pushes this module's project deliverable past
+	// the Friday it would otherwise be due, by whole weeks.
+	ProjectAssignmentDelayWeeks int
 }
 
 func (m module) ID() int64 { return m.Number }
@@ -215,7 +235,7 @@ var modules = []module{
 		},
 		ClassVideos: []string{
 			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_wc3t3uvo/uiConfId/26883701/st/0",
-			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_8pwyed7l/uiConfId/26883701/st/0",
+			"https://mediaspace.illinois.edu/embed/secure/iframe/entryId/1_b619j8nt/uiConfId/55779922/st/0",
 		},
 	},
 	{
@@ -326,11 +346,12 @@ var modules = []module{
 		},
 	},
 	{
-		Number:   9,
-		Parents:  []int64{8},
-		Title:    "Data-driven dynamical systems",
-		PLName:   "data_driven_dynamics",
-		Overview: `In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.`,
+		Number:               9,
+		Parents:              []int64{8},
+		Title:                "Data-driven dynamical systems",
+		PLName:               "data_driven_dynamics",
+		HomeworkNoLateCredit: true,
+		Overview:             `In this module, we will apply the machine learning techniques we have learned so far to dynamical systems and the differential equations that describe them.`,
 		Objectives: []string{
 			"Apply gradient descent to fit the parameters of a system of differential equations to observed data",
 			"Implement a Neural ODE to make data-driven predictions of the evolution of a dynamical system",
@@ -376,7 +397,8 @@ var modules = []module{
 			"No class",
 			"No class",
 		},
-		ProjectAssignment: "project/final",
+		ProjectAssignment:           "project/final",
+		ProjectAssignmentDelayWeeks: 1,
 	},
 }
 
@@ -429,6 +451,19 @@ func nextTAOfficeHour(t time.Time) time.Time {
 	}
 }
 
+// avoidFallBreak moves a deadline that lands during fall break to the same time
+// of day on the first day of instruction after the break. Deadlines tied to a
+// class meeting (worksheets, pre-class assignments) are left alone: the meeting
+// schedule already accounts for the break through the "Fall break" entries in
+// ClassNames.
+func avoidFallBreak(t time.Time) time.Time {
+	if t.Before(fallBreakStart) || !t.Before(fallBreakEnd) {
+		return t
+	}
+	return time.Date(fallBreakEnd.Year(), fallBreakEnd.Month(), fallBreakEnd.Day(),
+		t.Hour(), t.Minute(), t.Second(), t.Nanosecond(), t.Location())
+}
+
 const dateFormat = "Mon 1/2/2006, 15:04 MST"
 const dayFormat = "1/2/2006"
 
@@ -443,7 +478,9 @@ func nextModuleStart(m module, startDate time.Time) time.Time {
 	return d
 }
 func projectAssignmentDue(m module, dates map[int64]time.Time) time.Time {
-	return nextFridayNight(moduleStart(m, dates))
+	d := nextFridayNight(moduleStart(m, dates))
+	d = d.AddDate(0, 0, 7*m.ProjectAssignmentDelayWeeks)
+	return avoidFallBreak(d)
 }
 func discussionAssigned(m module, dates map[int64]time.Time) time.Time {
 	d := dates[m.ID()].Add(-7 * 24 * time.Hour)
@@ -519,18 +556,36 @@ func homeworkDeadline1(m module, dates map[int64]time.Time) time.Time {
 	}
 	return d
 }
-func homeworkDeadline2(m module, dates map[int64]time.Time) time.Time {
+
+// homeworkDeadline2Unadjusted is the 100%-credit deadline before the fall-break
+// adjustment. The 80%-credit deadline is two weeks after it, measured from here
+// so that moving one deadline out of the break doesn't drag the other along.
+func homeworkDeadline2Unadjusted(m module, dates map[int64]time.Time) time.Time {
 	d := nextSundayNight(nextLecture(nextModuleStart(m, dates[m.ID()])))
 	for i := 0; i < m.HomeworkDelay; i++ {
 		d = nextSundayNight(d)
 	}
 	return d
 }
-func homeworkDeadline3(m module, dates map[int64]time.Time) time.Time {
-	return homeworkDeadline2(m, dates).Add(14 * 24 * time.Hour)
+func homeworkDeadline2(m module, dates map[int64]time.Time) time.Time {
+	return avoidFallBreak(homeworkDeadline2Unadjusted(m, dates))
 }
+func homeworkDeadline3(m module, dates map[int64]time.Time) time.Time {
+	return avoidFallBreak(homeworkDeadline2Unadjusted(m, dates).Add(14 * 24 * time.Hour))
+}
+
+// homework100Deadline is the full-credit deadline as students see it. Modules
+// flagged HomeworkNoLateCredit have no 80% window, so their full credit instead
+// runs through what would otherwise be the 80% deadline.
+func homework100Deadline(m module, dates map[int64]time.Time) time.Time {
+	if m.HomeworkNoLateCredit {
+		return homeworkDeadline3(m, dates)
+	}
+	return homeworkDeadline2(m, dates)
+}
+
 func assignmentDeadline(m module, dates map[int64]time.Time) time.Time {
-	return nextSundayNight(dates[m.ID()].Add(time.Duration(m.ProjectAssignmentDays) * 24 * time.Hour))
+	return avoidFallBreak(nextSundayNight(dates[m.ID()].Add(time.Duration(m.ProjectAssignmentDays) * 24 * time.Hour)))
 }
 
 func stringToLink(s string) string {
@@ -569,6 +624,18 @@ func main() {
 			return homeworkDeadline2(m, dates).Format(dateFormat)
 		},
 		"HomeworkDeadline3": func(m module) string {
+			return homeworkDeadline3(m, dates).Format(dateFormat)
+		},
+		// Homework100Deadline and Homework80Deadline are the deadlines as the
+		// students see them, accounting for modules whose homework has no
+		// 80%-credit window.
+		"Homework100Deadline": func(m module) string {
+			return homework100Deadline(m, dates).Format(dateFormat)
+		},
+		"Homework80Deadline": func(m module) string {
+			if m.HomeworkNoLateCredit {
+				return "none"
+			}
 			return homeworkDeadline3(m, dates).Format(dateFormat)
 		},
 		"AssignmentDeadline": func(m module) string {
@@ -839,29 +906,15 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 		return
 	}
 	_, err := srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("HW%d Assigned: %s", m.Number, m.Title),
+		Summary:     fmt.Sprintf("HW%d Opens: %s", m.Number, m.Title),
 		Location:    plWebsite,
 		Description: m.Title,
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
-			Date: homeworkAssigned(m, dates).Format("2006-01-02"),
+			Date: homeworkDeadline1(m, dates).Format("2006-01-02"),
 		},
 		End: &calendar.EventDateTime{
-			Date: homeworkAssigned(m, dates).Format("2006-01-02"),
-		},
-	}).Do()
-	check(err)
-
-	_, err = srv.Events.Insert(calendarID, &calendar.Event{
-		Summary:     fmt.Sprintf("110%% credit HW%d deadline", m.Number),
-		Location:    plWebsite,
-		Description: m.Title,
-		Status:      "confirmed",
-		Start: &calendar.EventDateTime{
-			DateTime: homeworkDeadline1(m, dates).Add(-15 * time.Minute).Format(time.RFC3339),
-		},
-		End: &calendar.EventDateTime{
-			DateTime: homeworkDeadline1(m, dates).Format(time.RFC3339),
+			Date: homeworkDeadline1(m, dates).Format("2006-01-02"),
 		},
 	}).Do()
 	check(err)
@@ -872,13 +925,17 @@ func (m module) homeworkToCalendar(srv *calendar.Service, dates map[int64]time.T
 		Description: m.Title,
 		Status:      "confirmed",
 		Start: &calendar.EventDateTime{
-			DateTime: homeworkDeadline2(m, dates).Add(-15 * time.Minute).Format(time.RFC3339),
+			DateTime: homework100Deadline(m, dates).Add(-15 * time.Minute).Format(time.RFC3339),
 		},
 		End: &calendar.EventDateTime{
-			DateTime: homeworkDeadline2(m, dates).Format(time.RFC3339),
+			DateTime: homework100Deadline(m, dates).Format(time.RFC3339),
 		},
 	}).Do()
 	check(err)
+
+	if m.HomeworkNoLateCredit {
+		return
+	}
 
 	_, err = srv.Events.Insert(calendarID, &calendar.Event{
 		Summary:     fmt.Sprintf("80%% credit HW%d deadline", m.Number),
@@ -1095,6 +1152,33 @@ func setupPreclass(m module, dates map[int64]time.Time) {
 	}
 }
 
+// inClassGroupOverride records a per-worksheet deviation from the default in-class
+// group settings. These accumulate over a semester to accommodate sections that
+// don't divide evenly into groups of 3-4, and are recorded here so that re-running
+// this program doesn't undo them. A zero size or an absent role entry keeps the
+// default. Clear entries that no longer apply once the new roster is set.
+type inClassGroupOverride struct {
+	MinSize, MaxSize int
+	RoleMin, RoleMax map[string]int
+}
+
+// inClassGroupOverrides is keyed by "<module PLName>/<class name>".
+var inClassGroupOverrides = map[string]inClassGroupOverride{
+	"data_driven_dynamics/param_fitting": {MaxSize: 5, RoleMax: map[string]int{"Spokesperson": 2}},
+	"fairness/fairness":                  {MaxSize: 5, RoleMax: map[string]int{"Spokesperson": 2}},
+	"fourier/fourier":                    {MaxSize: 5, RoleMax: map[string]int{"Spokesperson": 2}},
+	"machine_learning/classification_trees": {
+		MaxSize: 5,
+		MinSize: 2,
+		RoleMin: map[string]int{"Recorder": 0, "Reflector": 0},
+		RoleMax: map[string]int{"Recorder": 2},
+	},
+	"regression/model_selection": {MaxSize: 5, RoleMax: map[string]int{"Spokesperson": 2}},
+	"reproducible/git":           {MinSize: 1},
+	"reproducible/wrangle":       {MaxSize: 5, RoleMax: map[string]int{"Spokesperson": 2}},
+	"svd_pca/pca":                {MaxSize: 5, RoleMax: map[string]int{"Spokesperson": 2}},
+}
+
 func setupInClass(m module, dates map[int64]time.Time) {
 	if m.PLName == "" {
 		return
@@ -1139,6 +1223,23 @@ func setupInClass(m module, dates map[int64]time.Time) {
 				Minimum: 1,
 				Maximum: 1,
 			},
+		}
+
+		if o, ok := inClassGroupOverrides[m.PLName+"/"+className]; ok {
+			if o.MaxSize != 0 {
+				assess.GroupMaxSize = o.MaxSize
+			}
+			if o.MinSize != 0 {
+				assess.GroupMinSize = o.MinSize
+			}
+			for k, r := range assess.GroupRoles {
+				if v, ok := o.RoleMin[r.Name]; ok {
+					assess.GroupRoles[k].Minimum = v
+				}
+				if v, ok := o.RoleMax[r.Name]; ok {
+					assess.GroupRoles[k].Maximum = v
+				}
+			}
 		}
 
 		if len(m.ClassNames) > 1 {
@@ -1213,7 +1314,7 @@ func setupPostClass(m module, dates map[int64]time.Time) {
 		} else {
 			assess.Number = fmt.Sprintf("%d", m.Number)
 		}
-		closeDate := classSession(m, dates, i).Add(classDuration).Add(time.Hour * 24 * 21)
+		closeDate := avoidFallBreak(classSession(m, dates, i).Add(classDuration).Add(time.Hour * 24 * 21))
 		if finalExamEnd.Before(closeDate) {
 			closeDate = finalExamEnd
 		}
@@ -1256,38 +1357,39 @@ func setupHomework(m module, dates map[int64]time.Time) {
 	hw.Number = fmt.Sprint(m.Number)
 	hw.Module = m.PLName
 
+	// The homework opens at the first meeting of the module, is worth full credit
+	// until deadline 2 and 80% until deadline 3, and stays open for no credit
+	// after that. (Through Fall 2025 it opened a week earlier, with a 110% window
+	// for finishing before the module started.) Modules flagged
+	// HomeworkNoLateCredit skip the 80% window.
 	hw.AllowAccess = []allowAccess{
 		{
 			StartDate: homeworkAssigned(m, dates).Add(-14 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
-			EndDate:   homeworkAssigned(m, dates).Format("2006-01-02T15:04:05"),
+			EndDate:   homeworkDeadline1(m, dates).Format("2006-01-02T15:04:05"),
 			Credit:    0,
 			Active:    false,
 		},
 		{
-			StartDate: homeworkAssigned(m, dates).Format("2006-01-02T15:04:05"),
-			EndDate:   homeworkDeadline1(m, dates).Format("2006-01-02T15:04:05"),
-			Credit:    110,
-			Active:    true,
-		},
-		{
 			StartDate: homeworkDeadline1(m, dates).Format("2006-01-02T15:04:05"),
-			EndDate:   homeworkDeadline2(m, dates).Format("2006-01-02T15:04:05"),
+			EndDate:   homework100Deadline(m, dates).Format("2006-01-02T15:04:05"),
 			Credit:    100,
 			Active:    true,
 		},
-		{
+	}
+	if !m.HomeworkNoLateCredit {
+		hw.AllowAccess = append(hw.AllowAccess, allowAccess{
 			StartDate: homeworkDeadline2(m, dates).Format("2006-01-02T15:04:05"),
 			EndDate:   homeworkDeadline3(m, dates).Format("2006-01-02T15:04:05"),
 			Credit:    80,
 			Active:    true,
-		},
-		{
-			StartDate: homeworkDeadline3(m, dates).Format("2006-01-02T15:04:05"),
-			EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
-			Credit:    0,
-			Active:    true,
-		},
+		})
 	}
+	hw.AllowAccess = append(hw.AllowAccess, allowAccess{
+		StartDate: homeworkDeadline3(m, dates).Format("2006-01-02T15:04:05"),
+		EndDate:   finalExamEnd.Add(30 * 24 * time.Hour).Format("2006-01-02T15:04:05"),
+		Credit:    0,
+		Active:    true,
+	})
 	hw.GroupRoles = []grouprole{}
 	writeHomework(hw, m)
 }
@@ -1302,7 +1404,7 @@ func setupExtraCredit(m module, dates map[int64]time.Time) {
 	xc.Module = m.PLName
 
 	start := moduleStart(m, dates)
-	end := nextModuleStart(m, start).Add(7 * 24 * time.Hour)
+	end := avoidFallBreak(nextModuleStart(m, start).Add(7 * 24 * time.Hour))
 	if end.After(finalExamEnd) {
 		end = finalExamEnd
 	}
@@ -1407,11 +1509,11 @@ type zone struct {
 }
 
 type question struct {
-	ID           string  `json:"id,omitempty"`
-	Alternatives []alt   `json:"alternatives,omitempty"`
-	Points       float64 `json:"points,omitempty"`
-	ManualPoints float64 `json:"manualPoints,omitempty"`
-	NumberChoose int     `json:"numberChoose,omitempty"`
+	ID           string   `json:"id,omitempty"`
+	Alternatives []alt    `json:"alternatives,omitempty"`
+	Points       *float64 `json:"points,omitempty"`
+	ManualPoints *float64 `json:"manualPoints,omitempty"`
+	NumberChoose int      `json:"numberChoose,omitempty"`
 }
 
 type alt struct {
