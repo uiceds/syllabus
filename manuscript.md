@@ -1,7 +1,7 @@
 ---
 title: 'CEE 492: Data Science for CEE, Fall 2026'
 lang: en-US
-date-meta: '2026-08-22'
+date-meta: '2026-08-25'
 author-meta: []
 header-includes: |
   <!--
@@ -14,11 +14,11 @@ header-includes: |
   <meta name="citation_title" content="CEE 492: Data Science for CEE, Fall 2026" />
   <meta property="og:title" content="CEE 492: Data Science for CEE, Fall 2026" />
   <meta property="twitter:title" content="CEE 492: Data Science for CEE, Fall 2026" />
-  <meta name="dc.date" content="2026-08-22" />
-  <meta name="citation_publication_date" content="2026-08-22" />
-  <meta property="article:published_time" content="2026-08-22" />
-  <meta name="dc.modified" content="2026-08-22T01:49:09+00:00" />
-  <meta property="article:modified_time" content="2026-08-22T01:49:09+00:00" />
+  <meta name="dc.date" content="2026-08-25" />
+  <meta name="citation_publication_date" content="2026-08-25" />
+  <meta property="article:published_time" content="2026-08-25" />
+  <meta name="dc.modified" content="2026-08-25T19:00:21+00:00" />
+  <meta property="article:modified_time" content="2026-08-25T19:00:21+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -31,9 +31,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/syllabus/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/syllabus/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/syllabus/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/abe20f7df7f35c912072662fab843dbf1d9cc4a5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/abe20f7df7f35c912072662fab843dbf1d9cc4a5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/abe20f7df7f35c912072662fab843dbf1d9cc4a5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/syllabus/v/0ed89af6596bf0e914dee6261ba85fe276509058/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/syllabus/v/0ed89af6596bf0e914dee6261ba85fe276509058/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/syllabus/v/0ed89af6596bf0e914dee6261ba85fe276509058/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,7 +67,10 @@ manubot-clear-requests-cache: false
 * Teaching assistant: [Jialin Liu](https://ctessum.cee.illinois.edu/author/jialin-liu/)
 * Office hours: 
   * Tessum: 11:00-12:00 on Thursdays in the common area in the Smart Bridge
-  * Liu: TBD
+  * Liu: 13:20-14:20 on Thursdays in the common area in the Smart Bridge
+    Zoom option: https://illinois.zoom.us/j/89374104770?pwd=UMRvzdLteWRUYu0TfzkHOa6U64kruq.1
+    Meeting ID: 893 7410 4770
+    Passcode: 252684
 
 ## Description of the course
 

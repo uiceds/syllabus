@@ -20,7 +20,7 @@ FFT
 Gabor
 Goodfellow
 groupmates
-Homeworks
+homeworks
 HW
 Hydrosystems
 Jialin
@@ -30,6 +30,7 @@ Liu
 mimimize
 Newmark
 overfitting
+Passcode
 PCA
 PrairieLearn
 Pre
@@ -44,7 +45,6 @@ Spectrograms
 StackOverflow
 StatsPlots
 SVD
-TBD
 Tessum
 UIUC
 Von
