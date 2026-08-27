@@ -33,7 +33,7 @@ overfitting
 Passcode
 PCA
 PrairieLearn
-Pre
+pre
 Prelecture
 REPL
 repost
